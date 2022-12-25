@@ -1,0 +1,502 @@
+,sr,nsecode,name,bsecode,per_chg,close,volume,ScreenerName,TimeOfDay
+12,13,HINDPETRO,Hindustan Petroleum Corporation Limited,500104,-0.91,228.0,2064736,SELL OPEN=HIGH,23/12/2022 14:30:42
+7,8,MCX,Multi Commodity Exchange Of India Limited,534091,-2.07,1545.0,263211,SELL OPEN=HIGH,23/12/2022 14:30:42
+1,2,SHREECEM,Shree Cements Limited,500387,-2.14,23305.95,18569,SELL OPEN=HIGH,23/12/2022 14:30:42
+0,1,MRF,Mrf Limited,500290,-2.37,86101.7,5070,SELL OPEN=HIGH,23/12/2022 14:30:42
+2,3,BOSCHLTD,Bosch Limited,500530,-2.4,16830.0,20695,SELL OPEN=HIGH,23/12/2022 14:30:42
+3,4,ATUL,Atul Limited,500027,-2.64,7899.25,21210,SELL OPEN=HIGH,23/12/2022 14:30:42
+8,9,PEL,Piramal Enterprises Limited,500302,-3.32,800.1,627478,SELL OPEN=HIGH,23/12/2022 14:30:42
+5,6,MPHASIS,Mphasis Limited,526299,-3.33,1922.95,209208,SELL OPEN=HIGH,23/12/2022 14:30:42
+11,12,CROMPTON,Crompton Greaves Consumer Electricals Limited,539876,-3.5,340.85,434489,SELL OPEN=HIGH,23/12/2022 14:30:42
+10,11,TATAMOTORS,Tata Motors Limited,500570,-3.64,380.1,15070295,SELL OPEN=HIGH,23/12/2022 14:30:42
+6,7,ASTRAL,Astral Poly Technik Limited,532830,-4.19,1883.85,273656,SELL OPEN=HIGH,23/12/2022 14:30:42
+9,10,HINDALCO,Hindalco Industries Limited,500440,-4.6,434.55,5156089,SELL OPEN=HIGH,23/12/2022 14:30:42
+4,5,NAUKRI,Info Edge (india) Limited,532777,-4.89,3894.95,297252,SELL OPEN=HIGH,23/12/2022 14:30:42
+13,14,IBULHSGFIN,Indiabulls Housing Finance Limited,535789,-9.37,130.15,13924476,SELL OPEN=HIGH,23/12/2022 14:30:42
+432,433,VISESHINFO,Visesh Infotecnics Limited,532411,0.0,0.55,9125523,Day Short Trade,23/12/2022 14:35:45
+3,4,IVZINGOLD,Invesco India Gold ETF,533172,0.0,4880.1,29,Day Short Trade,23/12/2022 14:35:45
+39,40,LIQUIDETF,DSP BlackRock Liquid ETF,541097,0.0,999.99,35318,Day Short Trade,23/12/2022 14:35:45
+178,179,SDL24BEES,Nippon India ETF Nifty CPSE Bond Plus SDL-2024 Mat,535370,-0.02,110.0,167,Day Short Trade,23/12/2022 14:35:45
+127,128,ICICI10GS,ICICI10GS,,-0.22,206.55,2,Day Short Trade,23/12/2022 14:35:45
+282,283,HDFCQUAL,HDFCQUAL,,-0.94,38.14,4250,Day Short Trade,23/12/2022 14:35:45
+185,186,SINTERCOM,Sintercom India Ltd,535047,-0.98,101.0,7132,Day Short Trade,23/12/2022 14:35:45
+18,19,HESTERBIO,Hester Biosciences Limited,524669,-1.14,1776.1,2655,Day Short Trade,23/12/2022 14:35:45
+323,324,MOHEALTH,MOHEALTH,,-1.14,23.42,860,Day Short Trade,23/12/2022 14:35:45
+22,23,COLPAL,Colgate Palmolive (india) Limited,500830,-1.21,1566.85,325805,Day Short Trade,23/12/2022 14:35:45
+21,22,VESUVIUS,Vesuvius India Limited,520113,-1.24,1585.5,18280,Day Short Trade,23/12/2022 14:35:45
+4,5,APOLLOHOSP,Apollo Hospitals Enterprise Limited,508869,-1.27,4720.9,385169,Day Short Trade,23/12/2022 14:35:45
+332,333,BSLNIFTY,BSLNIFTY,,-1.42,20.09,34630,Day Short Trade,23/12/2022 14:35:45
+11,12,UTINIFTETF,UTI Nifty ETF,539313,-1.45,1899.01,10188,Day Short Trade,23/12/2022 14:35:45
+13,14,QNIFTY,QNIFTY,,-1.54,1890.0,622,Day Short Trade,23/12/2022 14:35:45
+172,173,MOQUALITY,Motilal Oswal S&P BSE Quality ETF Fund,543577,-1.57,117.86,187,Day Short Trade,23/12/2022 14:35:45
+124,125,ICICIBANKP,ICICI Prudential Private Banks ETF,542758,-1.59,210.08,6549,Day Short Trade,23/12/2022 14:35:45
+122,123,HDFCPVTBAN,HDFCPVTBAN,,-1.67,212.6,259,Day Short Trade,23/12/2022 14:35:45
+123,124,SBIETFPB,SBI ETF PRIVATE BANK,535368,-1.69,212.3,1627,Day Short Trade,23/12/2022 14:35:45
+75,76,KOTAKBKETF,Kotak Banking ETF,590136,-1.7,422.71,335989,Day Short Trade,23/12/2022 14:35:45
+71,72,MEDANTA,Global Health Ltd,543654,-1.71,439.25,650597,Day Short Trade,23/12/2022 14:35:45
+241,242,BSLSENETFG,Birla Sun Life Sensex ETF,540008,-1.72,57.72,1403,Day Short Trade,23/12/2022 14:35:45
+9,10,IVZINNIFTY,IVZINNIFTY,,-1.75,1975.3,3,Day Short Trade,23/12/2022 14:35:45
+274,275,ABSLBANETF,Aditya Birla Sun Life Banking ETF,542863,-1.76,41.75,5008,Day Short Trade,23/12/2022 14:35:45
+137,138,HDFCMOMENT,HDFC Nifty 200 Momentum 30 ETF,543628,-1.76,190.0,228,Day Short Trade,23/12/2022 14:35:45
+23,24,ZYDUSWELL,Zydus Wellness Limited,531335,-1.79,1514.9,9433,Day Short Trade,23/12/2022 14:35:45
+33,34,INDUSINDBK,Indusind Bank Limited,532187,-1.81,1158.8,1947792,Day Short Trade,23/12/2022 14:35:45
+344,345,ATLANTA,Atlanta  Limited,532759,-1.81,16.3,320,Day Short Trade,23/12/2022 14:35:45
+56,57,HDFCLIFE,HDFC Life Insurance Company Ltd,540777,-1.85,567.15,2420276,Day Short Trade,23/12/2022 14:35:45
+167,168,CONSOFINVT,Consolidated Finvest & Holdings Limited,500226,-1.87,123.0,2516,Day Short Trade,23/12/2022 14:35:45
+187,188,KOTAKNV20,Kotak NV 20 ETF - Dividend Payout Option,532598,-1.88,99.43,22793,Day Short Trade,23/12/2022 14:35:45
+325,326,21STCENMGM,Twenty First Century Management Services Ltd,526921,-1.94,22.75,1262,Day Short Trade,23/12/2022 14:35:45
+223,224,AKSHAR,Akshar Spintex Ltd,541303,-1.99,66.6,15,Day Short Trade,23/12/2022 14:35:45
+10,11,JBCHEPHARM,Jb Chemicals & Pharmaceuticals Limited,506943,-2.01,1952.85,36842,Day Short Trade,23/12/2022 14:35:45
+138,139,NIF100BEES,Nippon India ETF NIFTY 100,537483,-2.02,186.51,14196,Day Short Trade,23/12/2022 14:35:45
+386,387,TNTELE,Tamilnadu Telecommunication Limited,523419,-2.03,7.25,7222,Day Short Trade,23/12/2022 14:35:45
+335,336,ICICIMOM30,ICICI Prudential Nifty 200 Momentum 30 ETF,543568,-2.14,19.2,3985,Day Short Trade,23/12/2022 14:35:45
+235,236,ARIHANTCAP,Arihant Capital Markets Ltd,511605,-2.27,62.35,133841,Day Short Trade,23/12/2022 14:35:45
+208,209,MAMFGETF,Mirae Asset Nifty India Manufacturing ETF,543454,-2.28,81.4,4503,Day Short Trade,23/12/2022 14:35:45
+49,50,IMPAL,India Motor Parts And Accessories Limited,590065,-2.28,720.4,412,Day Short Trade,23/12/2022 14:35:45
+201,202,KOTAKMID50,Kotak Midcap 50 ETF,535430,-2.3,85.23,4673,Day Short Trade,23/12/2022 14:35:45
+70,71,AHLUCONT,Ahluwalia Contracts (india) Limited,532811,-2.37,447.85,19623,Day Short Trade,23/12/2022 14:35:45
+80,81,DOLLAR,Dollar Industries,,-2.43,401.75,37296,Day Short Trade,23/12/2022 14:35:45
+72,73,ICICIPRULI,Icici Prudential Life Insurance Company Limited,540133,-2.44,439.2,984034,Day Short Trade,23/12/2022 14:35:45
+189,190,ICICIMCAP,ICICI Prudential Midcap Select ETF,539980,-2.45,98.3,17700,Day Short Trade,23/12/2022 14:35:45
+53,54,LICI,Life Insurance Corporation of India,543526,-2.5,664.55,2809835,Day Short Trade,23/12/2022 14:35:45
+281,282,MOMOMENTUM,Motilal Oswal Nifty 200 Momentum 30 ETF,543465,-2.53,38.2,22548,Day Short Trade,23/12/2022 14:35:45
+51,52,MFSL,Max Financial Services Limited,500271,-2.53,671.85,418511,Day Short Trade,23/12/2022 14:35:45
+47,48,CYIENT,Cyient Limited,532175,-2.54,794.25,99609,Day Short Trade,23/12/2022 14:35:45
+424,425,SITINET,Siti Networks Limited,532795,-2.7,1.8,562374,Day Short Trade,23/12/2022 14:35:45
+423,424,VIKASWSP,Vikas Wsp Ltd,519307,-2.7,1.8,41320,Day Short Trade,23/12/2022 14:35:45
+422,423,UNITECH,Unitech Limited,507878,-2.7,1.8,3296402,Day Short Trade,23/12/2022 14:35:45
+29,30,MFL,Meghmani Finechem Ltd,543332,-2.75,1187.0,85779,Day Short Trade,23/12/2022 14:35:45
+14,15,AMBER,Amber Enterprises India Ltd,540902,-2.78,1875.2,73150,Day Short Trade,23/12/2022 14:35:45
+121,122,HITECHCORP,Hitech Corporation,526217,-2.82,214.0,8718,Day Short Trade,23/12/2022 14:35:45
+2,3,SUNCLAYLTD,Sundaram Clayton Limited,520056,-2.82,5020.0,2521,Day Short Trade,23/12/2022 14:35:45
+97,98,SHYAMMETL,Shyam Metalics & Energy Ltd,543299,-2.85,284.65,212927,Day Short Trade,23/12/2022 14:35:45
+55,56,AARTIIND,Aarti Industries Limited,524208,-2.85,594.0,478050,Day Short Trade,23/12/2022 14:35:45
+0,1,HONAUT,Honeywell Automation India Limited,517174,-2.88,40563.1,3956,Day Short Trade,23/12/2022 14:35:45
+8,9,ESCORTS,Escorts Limited,500495,-2.92,2025.0,216589,Day Short Trade,23/12/2022 14:35:45
+425,426,SETUINFRA,Setubandhan Infrastructure Ltd,533605,-2.94,1.65,191566,Day Short Trade,23/12/2022 14:35:45
+54,55,MAZDA,Mazda Limited,523792,-2.99,631.0,4773,Day Short Trade,23/12/2022 14:35:45
+193,194,MUNJALSHOW,Munjal Showa Limited,520043,-3.0,93.9,56058,Day Short Trade,23/12/2022 14:35:45
+272,273,ABSLNN50ET,Aditya Birla Sun Life Nifty Next 50 ETF,542230,-3.0,42.04,9373,Day Short Trade,23/12/2022 14:35:45
+44,45,PEL,Piramal Enterprises Limited,500302,-3.08,802.1,643240,Day Short Trade,23/12/2022 14:35:45
+95,96,APTECHT,Aptech Limited,532475,-3.09,298.15,388881,Day Short Trade,23/12/2022 14:35:45
+63,64,UNIVPHOTO,Universus Photo Imagings Ltd,542933,-3.11,506.0,902,Day Short Trade,23/12/2022 14:35:45
+426,427,ROLLT,Rollatainers Limited,502448,-3.13,1.55,61961,Day Short Trade,23/12/2022 14:35:45
+160,161,HDFCLOWVOL,HDFC Nifty 100 Low Volatility 30 ETF,543627,-3.14,130.32,354,Day Short Trade,23/12/2022 14:35:45
+242,243,STEELCITY,Steel City Securities Ltd,538404,-3.14,57.0,23312,Day Short Trade,23/12/2022 14:35:45
+412,413,PREMIER,Premier Limited,500540,-3.17,3.05,5968,Day Short Trade,23/12/2022 14:35:45
+427,428,GOENKA,Goenka Diamond And Jewels Limited,533189,-3.23,1.5,105461,Day Short Trade,23/12/2022 14:35:45
+90,91,GANESHHOUC,Ganesh Housing Corporation Limited,526367,-3.29,320.15,102422,Day Short Trade,23/12/2022 14:35:45
+239,240,SHRADHA,Shradha Infraprojects (Nagpur) Ltd,535035,-3.3,60.0,864,Day Short Trade,23/12/2022 14:35:45
+140,141,NITINSPIN,Nitin Spinners Limited,532698,-3.3,184.35,79271,Day Short Trade,23/12/2022 14:35:45
+27,28,BHAGCHEM,Bhagiradha Chemicals & Industries Ltd,531719,-3.41,1250.0,2335,Day Short Trade,23/12/2022 14:35:45
+212,213,PTC,Ptc India Limited,532524,-3.44,75.8,212619,Day Short Trade,23/12/2022 14:35:45
+30,31,GODREJPROP,Godrej Properties Limited,533150,-3.44,1185.2,569188,Day Short Trade,23/12/2022 14:35:45
+428,429,AJRINFRA,AJR Infra & Tolling Ltd,532959,-3.45,1.4,961075,Day Short Trade,23/12/2022 14:35:45
+416,417,UJAAS,Ujaas Energy Limited,533644,-3.45,2.8,427770,Day Short Trade,23/12/2022 14:35:45
+415,416,SPTL,Sintex Plastics Technology,540653,-3.45,2.8,1858710,Day Short Trade,23/12/2022 14:35:45
+315,316,MOTOGENFIN,The Motor & General Finance Limited,501343,-3.45,25.15,4008,Day Short Trade,23/12/2022 14:35:45
+36,37,CHEVIOT,Cheviot Company Ltd,526817,-3.52,1110.0,1582,Day Short Trade,23/12/2022 14:35:45
+82,83,RUSHIL,Rushil Decor Limited,533470,-3.52,393.85,75886,Day Short Trade,23/12/2022 14:35:45
+236,237,ABMINTLLTD,A B M International Ltd,,-3.53,61.5,19,Day Short Trade,23/12/2022 14:35:45
+263,264,MOVALUE,Motilal Oswal S&P BSE Enhanced Value ETF Fund,543576,-3.54,45.8,581,Day Short Trade,23/12/2022 14:35:45
+86,87,HPAL,HP Adhesives Ltd,543433,-3.56,362.0,48351,Day Short Trade,23/12/2022 14:35:45
+229,230,NETWORK18,Network18 Media & Investments Limited,532798,-3.59,63.2,1096952,Day Short Trade,23/12/2022 14:35:45
+220,221,BANKA,Banka Bioloo Ltd,535051,-3.62,70.55,9280,Day Short Trade,23/12/2022 14:35:45
+111,112,RKFORGE,Ramkrishna Forgings Limited,532527,-3.63,241.75,687393,Day Short Trade,23/12/2022 14:35:45
+158,159,HARRMALAYA,Harrisons  Malayalam Limited,500467,-3.63,131.6,16063,Day Short Trade,23/12/2022 14:35:45
+184,185,BEPL,Bhansali Engineering Polymers Limited,500052,-3.65,101.75,167560,Day Short Trade,23/12/2022 14:35:45
+177,178,GANGESSECU,Ganges Securities Ltd,540647,-3.68,112.45,8460,Day Short Trade,23/12/2022 14:35:45
+1,2,TATAELXSI,Tata Elxsi Limited,500408,-3.71,5826.5,296295,Day Short Trade,23/12/2022 14:35:45
+12,13,ASTRAL,Astral Poly Technik Limited,532830,-3.77,1891.95,280810,Day Short Trade,23/12/2022 14:35:45
+404,405,WINPRO,Winpro Industries Ltd,531337,-3.8,3.8,85980,Day Short Trade,23/12/2022 14:35:45
+165,166,ANDHRSUGAR,The Andhra Sugars Limited,590062,-3.8,123.95,151419,Day Short Trade,23/12/2022 14:35:45
+245,246,BEDMUTHA,Bedmutha Industries Limited,533270,-3.82,54.1,5143,Day Short Trade,23/12/2022 14:35:45
+6,7,BALAMINES,Balaji Amines Limited,530999,-3.83,2650.0,51314,Day Short Trade,23/12/2022 14:35:45
+218,219,MANINDS,Man Industries (india) Limited,513269,-3.84,73.85,83795,Day Short Trade,23/12/2022 14:35:45
+405,406,RTNPOWER,Rattanindia Power Limited,533122,-3.85,3.75,9778434,Day Short Trade,23/12/2022 14:35:45
+164,165,CYBERTECH,Cybertech Systems And Software Limited,532173,-3.87,124.05,44703,Day Short Trade,23/12/2022 14:35:45
+319,320,KARMAENG,Karma Energy Limited,533451,-3.88,24.75,3337,Day Short Trade,23/12/2022 14:35:45
+38,39,EXCELINDUS,Excel Industries Limited,500650,-3.9,1061.7,9292,Day Short Trade,23/12/2022 14:35:45
+406,407,EASTSILK,Eastern Silk Industries Limited,590022,-3.9,3.7,6308,Day Short Trade,23/12/2022 14:35:45
+64,65,KPRMILL,K.p.r. Mill Limited,532889,-3.92,495.0,228909,Day Short Trade,23/12/2022 14:35:45
+52,53,DHANUKA,Dhanuka Agritech Limited,507717,-3.94,668.05,16717,Day Short Trade,23/12/2022 14:35:45
+78,79,HDFCNEXT50,HDFCNEXT50,,-3.95,410.32,1685,Day Short Trade,23/12/2022 14:35:45
+7,8,VADILALIND,Vadilal Industries Limited,519156,-3.97,2460.1,35505,Day Short Trade,23/12/2022 14:35:45
+395,396,SUVIDHAA,Suvidhaa Infoserve Ltd,543281,-4.0,4.8,134992,Day Short Trade,23/12/2022 14:35:45
+89,90,RML,Rane (madras) Limited,532661,-4.02,352.2,9688,Day Short Trade,23/12/2022 14:35:45
+42,43,OBEROIRLTY,Oberoi Realty Limited,533273,-4.05,819.3,448315,Day Short Trade,23/12/2022 14:35:45
+213,214,BANARBEADS,Banaras Beads Limited,526849,-4.07,75.35,7581,Day Short Trade,23/12/2022 14:35:45
+388,389,CCHHL,Country Club Hospitality & Holidays Limited,526550,-4.08,7.05,47158,Day Short Trade,23/12/2022 14:35:45
+397,398,KAUSHALYA,Kaushalya Infrastructure Development Corporation Limited,532925,-4.08,4.7,18633,Day Short Trade,23/12/2022 14:35:45
+58,59,GMBREW,Gm Breweries Limited,507488,-4.09,563.15,28544,Day Short Trade,23/12/2022 14:35:45
+277,278,RTNINDIA,RattanIndia Enterprises Ltd,534597,-4.11,39.7,2175778,Day Short Trade,23/12/2022 14:35:45
+69,70,SURYAROSNI,Surya Roshni Limited,500336,-4.12,458.95,192737,Day Short Trade,23/12/2022 14:35:45
+398,399,COUNCODOS,Country Condo's Limited,531624,-4.17,4.6,29909,Day Short Trade,23/12/2022 14:35:45
+407,408,NILASPACES,Nila Spaces Ltd,542231,-4.17,3.45,131188,Day Short Trade,23/12/2022 14:35:45
+399,400,UMESLTD,Usha Martin Education & Solutions Limited,532398,-4.17,4.6,8269,Day Short Trade,23/12/2022 14:35:45
+166,167,VLSFINANCE,Vls Finance Limited,511333,-4.19,123.5,36754,Day Short Trade,23/12/2022 14:35:45
+268,269,GEOJITFSL,Geojit Financial Services,532285,-4.2,44.5,483321,Day Short Trade,23/12/2022 14:35:45
+171,172,ESTER,Ester Industries Limited,500136,-4.23,120.0,140468,Day Short Trade,23/12/2022 14:35:45
+408,409,MBECL,Mcnally Bharat Engineering Company Limited,532629,-4.23,3.4,76677,Day Short Trade,23/12/2022 14:35:45
+382,383,JBFIND,Jbf Industries Limited,514034,-4.24,7.9,152550,Day Short Trade,23/12/2022 14:35:45
+419,420,LCCINFOTEC,Lcc Infotech Limited,532019,-4.26,2.25,76698,Day Short Trade,23/12/2022 14:35:45
+420,421,EDUCOMP,Educomp Solutions Limited,532696,-4.26,2.25,34408,Day Short Trade,23/12/2022 14:35:45
+249,250,HMVL,Hindustan Media Ventures Limited,533217,-4.28,52.55,50542,Day Short Trade,23/12/2022 14:35:45
+66,67,APOLLOPIPE,Apollo Pipes Ltd,531761,-4.28,476.9,34873,Day Short Trade,23/12/2022 14:35:45
+238,239,DOLATALGO,Dolat Algotech Ltd,505526,-4.29,60.3,124291,Day Short Trade,23/12/2022 14:35:45
+81,82,KSOLVES,Ksolves India Ltd,535356,-4.3,394.75,22387,Day Short Trade,23/12/2022 14:35:45
+224,225,AYMSYNTEX,Aym Syntex Limited,508933,-4.34,66.05,11511,Day Short Trade,23/12/2022 14:35:45
+400,401,HDIL,Housing Development And Infrastructure Limited,532873,-4.35,4.4,325428,Day Short Trade,23/12/2022 14:35:45
+429,430,MERCATOR,Mercator Limited,526235,-4.35,1.1,389213,Day Short Trade,23/12/2022 14:35:45
+157,158,SHALBY,Shalby Ltd,540797,-4.37,132.55,154224,Day Short Trade,23/12/2022 14:35:45
+392,393,SADBHIN,Sadbhav Infrastructure Project Limited,539346,-4.39,5.45,136044,Day Short Trade,23/12/2022 14:35:45
+50,51,TATAMETALI,Tata Metaliks Limited,513434,-4.4,719.7,117101,Day Short Trade,23/12/2022 14:35:45
+19,20,TIPSINDLTD,Tips Industries Limited,532375,-4.4,1706.05,14141,Day Short Trade,23/12/2022 14:35:45
+401,402,IL&FSTRANS,Il&fs Transportation Networks Limited,533177,-4.4,4.35,42888,Day Short Trade,23/12/2022 14:35:45
+409,410,GLFL,Gujarat Lease Financing Limited,500174,-4.41,3.25,7074,Day Short Trade,23/12/2022 14:35:45
+410,411,RHFL,Reliance Home Finance Ltd,540709,-4.41,3.25,969260,Day Short Trade,23/12/2022 14:35:45
+67,68,MANORG,Mangalam Organics Ltd,514418,-4.41,466.1,9173,Day Short Trade,23/12/2022 14:35:45
+329,330,SHANTI,Shanti Overseas (India) Ltd,538443,-4.42,20.55,12838,Day Short Trade,23/12/2022 14:35:45
+393,394,MADHUCON,Madhucon Projects Limited,531497,-4.42,5.4,19560,Day Short Trade,23/12/2022 14:35:45
+99,100,SASTASUNDR,Sastasundar Ventures Limited,533259,-4.42,272.6,15113,Day Short Trade,23/12/2022 14:35:45
+297,298,CUBEXTUB,Cubex Tubings Limited,526027,-4.43,32.35,39243,Day Short Trade,23/12/2022 14:35:45
+32,33,ROUTE,Route Mobile Ltd,543228,-4.43,1158.95,100065,Day Short Trade,23/12/2022 14:35:45
+362,363,DGCONTENT,Digicontent Ltd,542685,-4.44,14.0,38897,Day Short Trade,23/12/2022 14:35:45
+98,99,BSOFT,Birlasoft Ltd,532400,-4.44,283.1,1623631,Day Short Trade,23/12/2022 14:35:45
+379,380,SHYAMTEL,Shyam Telecom Limited,517411,-4.44,8.6,2670,Day Short Trade,23/12/2022 14:35:45
+390,391,NEXTMEDIA,Next Mediaworks Limited,532416,-4.48,6.4,19546,Day Short Trade,23/12/2022 14:35:45
+17,18,PILANIINVS,Pilani Investment And Industries Corporation Limited,539883,-4.5,1795.0,2500,Day Short Trade,23/12/2022 14:35:45
+215,216,IBREALEST,Indiabulls Real Estate Limited,532832,-4.52,75.0,5917597,Day Short Trade,23/12/2022 14:35:45
+384,385,KAVVERITEL,Kavveri Telecom Products Limited,590041,-4.52,7.4,18195,Day Short Trade,23/12/2022 14:35:45
+59,60,UNIPARTS,Uniparts India Ltd,543689,-4.52,537.8,300755,Day Short Trade,23/12/2022 14:35:45
+385,386,SICAL,Sical Logistics Limited,520086,-4.55,7.35,251388,Day Short Trade,23/12/2022 14:35:45
+411,412,DNAMEDIA,Diligent Media Corporation Ltd,540789,-4.55,3.15,27888,Day Short Trade,23/12/2022 14:35:45
+214,215,ASHAPURMIN,Ashapura Minechem Limited,527001,-4.56,75.35,175334,Day Short Trade,23/12/2022 14:35:45
+131,132,MIDHANI,Mishra Dhatu Nigam Ltd,541195,-4.57,195.15,554654,Day Short Trade,23/12/2022 14:35:45
+381,382,GAYAPROJ,Gayatri Projects Limited,532767,-4.6,8.3,510757,Day Short Trade,23/12/2022 14:35:45
+68,69,SRHHYPOLTD,Sree Rayalaseema Hi-strength Hypo Limited,532842,-4.61,463.0,22572,Day Short Trade,23/12/2022 14:35:45
+376,377,SOMATEX,Soma Textiles & Industries Limited,521034,-4.66,9.2,31313,Day Short Trade,23/12/2022 14:35:45
+370,371,TGBHOTELS,Tgb Banquets And Hotels Limited,532845,-4.67,12.25,66458,Day Short Trade,23/12/2022 14:35:45
+252,253,AMDIND,Amd Industries Limited,532828,-4.67,51.0,39627,Day Short Trade,23/12/2022 14:35:45
+387,388,ARSHIYA,Arshiya Limited,506074,-4.67,7.15,1078629,Day Short Trade,23/12/2022 14:35:45
+110,111,SEJALLTD,Sejal Glass Ltd,532993,-4.68,242.15,1482,Day Short Trade,23/12/2022 14:35:45
+304,305,BLKASHYAP,B. L. Kashyap And Sons Limited,532719,-4.68,29.55,395019,Day Short Trade,23/12/2022 14:35:45
+130,131,BIL,Bhartiya International Limited,526666,-4.7,195.55,4684,Day Short Trade,23/12/2022 14:35:45
+26,27,PHOENIXLTD,The Phoenix Mills Limited,503100,-4.7,1290.85,64020,Day Short Trade,23/12/2022 14:35:45
+360,361,ZEEMEDIA,Zee Media Corporation Limited,532794,-4.71,14.15,1998366,Day Short Trade,23/12/2022 14:35:45
+359,360,SBC,SBC Exports Ltd,542725,-4.71,14.15,1029292,Day Short Trade,23/12/2022 14:35:45
+373,374,LGBFORGE,Lgb Forge Limited,533007,-4.72,10.1,112693,Day Short Trade,23/12/2022 14:35:45
+394,395,FMNL,Future Market Networks Limited,533296,-4.72,5.05,91297,Day Short Trade,23/12/2022 14:35:45
+361,362,JYOTISTRUC,Jyoti Structures Limited,513250,-4.73,14.1,54946,Day Short Trade,23/12/2022 14:35:45
+287,288,NHPC,Nhpc Limited,533098,-4.73,37.25,8091871,Day Short Trade,23/12/2022 14:35:45
+40,41,SASKEN,Sasken Communication Technologies Limited,532663,-4.74,877.85,11073,Day Short Trade,23/12/2022 14:35:45
+340,341,MEP,Mep Infrastructure Developers Limited,539126,-4.74,17.1,261239,Day Short Trade,23/12/2022 14:35:45
+355,356,OMKARCHEM,Omkar Speciality Chemicals Limited,533317,-4.75,15.05,25635,Day Short Trade,23/12/2022 14:35:45
+356,357,ONEPOINT,One Point One Solutions Ltd,535039,-4.76,15.0,277758,Day Short Trade,23/12/2022 14:35:45
+414,415,KBCGLOBAL,KBC Global Ltd,541161,-4.76,3.0,1196355,Day Short Trade,23/12/2022 14:35:45
+351,352,SEPOWER,S.e. Power Limited,534598,-4.78,15.95,29350,Day Short Trade,23/12/2022 14:35:45
+349,350,NAGREEKCAP,Nagreeka Capital & Infrastructure Limited,532895,-4.78,15.95,3401,Day Short Trade,23/12/2022 14:35:45
+348,349,HINDMOTORS,Hindustan Motors Limited,500500,-4.78,15.95,611647,Day Short Trade,23/12/2022 14:35:45
+369,370,SALSTEEL,SAL Steel,532604,-4.78,12.95,149106,Day Short Trade,23/12/2022 14:35:45
+368,369,CEREBRAINT,Cerebra Integrated Technologies Limited,532413,-4.78,12.95,574199,Day Short Trade,23/12/2022 14:35:45
+363,364,SADBHAV,Sadbhav Engineering Limited,532710,-4.79,13.9,156556,Day Short Trade,23/12/2022 14:35:45
+364,365,VISASTEEL,Visa Steel Limited,532721,-4.79,13.9,18560,Day Short Trade,23/12/2022 14:35:45
+196,197,TOKYOPLAST,Tokyo Plast International Limited,500418,-4.8,92.15,7429,Day Short Trade,23/12/2022 14:35:45
+312,313,VAKRANGEE,Vakrangee Limited,511431,-4.81,25.7,2725102,Day Short Trade,23/12/2022 14:35:45
+326,327,NECCLTD,North Eastern Carrying Corporation Limited,534615,-4.81,22.75,521372,Day Short Trade,23/12/2022 14:35:45
+327,328,REGENCERAM,Regency Ceramics Limited,515018,-4.82,22.7,10071,Day Short Trade,23/12/2022 14:35:45
+357,358,ALOKINDS,Alok Industries Ltd,521070,-4.84,14.75,2828017,Day Short Trade,23/12/2022 14:35:45
+310,311,PARACABLES,Paramount Communications Limited,530555,-4.85,27.45,171218,Day Short Trade,23/12/2022 14:35:45
+313,314,KSHITIJPOL,Kshitij Polyline Ltd,535114,-4.85,25.5,25197,Day Short Trade,23/12/2022 14:35:45
+328,329,LAXMICOT,Laxmi Cotspin Ltd,538411,-4.85,21.6,35223,Day Short Trade,23/12/2022 14:35:45
+320,321,EROSMEDIA,Eros International Media Limited,533261,-4.85,24.5,464231,Day Short Trade,23/12/2022 14:35:45
+338,339,TREEHOUSE,Tree House Education & Accessories Limited,533540,-4.85,17.65,42589,Day Short Trade,23/12/2022 14:35:45
+371,372,DHARSUGAR,Dharani Sugars & Chemicals Limited,507442,-4.86,11.75,7081,Day Short Trade,23/12/2022 14:35:45
+421,422,SATHAISPAT,Sathavahana Ispat Limited,526093,-4.88,1.95,3000,Day Short Trade,23/12/2022 14:35:45
+383,384,ESSENTIA,Integra Essentia Ltd,535958,-4.88,7.8,241959,Day Short Trade,23/12/2022 14:35:45
+273,274,WEWIN,We Win Ltd,543535,-4.89,41.8,5065,Day Short Trade,23/12/2022 14:35:45
+285,286,SOMICONVEY,Somi Conveyor Beltings Limited,533001,-4.89,37.9,3730,Day Short Trade,23/12/2022 14:35:45
+284,285,GUJRAFFIA,Gujarat Raffia Industries Ltd,523836,-4.89,37.9,2711,Day Short Trade,23/12/2022 14:35:45
+308,309,MCLEODRUSS,Mcleod Russel India Limited,532654,-4.9,28.15,519605,Day Short Trade,23/12/2022 14:35:45
+374,375,TFL,Transwarranty Finance Limited,532812,-4.9,9.7,19835,Day Short Trade,23/12/2022 14:35:45
+321,322,RVHL,Ravinder Heights Ltd,543251,-4.9,24.25,25198,Day Short Trade,23/12/2022 14:35:45
+183,184,NAHARINDUS,Nahar Industrial Enterprises Limited,519136,-4.9,102.95,47018,Day Short Trade,23/12/2022 14:35:45
+271,272,HUBTOWN,Hubtown Limited,532799,-4.9,43.7,116453,Day Short Trade,23/12/2022 14:35:45
+366,367,RPOWER,Reliance Power Limited,532939,-4.91,13.55,13780618,Day Short Trade,23/12/2022 14:35:45
+314,315,SPMLINFRA,Spml Infra Limited,500402,-4.91,25.2,19465,Day Short Trade,23/12/2022 14:35:45
+343,344,RKDL,Ravi Kumar Distilleries Limited,533294,-4.91,16.45,35145,Day Short Trade,23/12/2022 14:35:45
+365,366,INDOWIND,Indowind Energy Limited,532894,-4.91,13.55,132785,Day Short Trade,23/12/2022 14:35:45
+336,337,DHANBANK,Dhanlaxmi Bank Limited,532180,-4.92,18.35,3666427,Day Short Trade,23/12/2022 14:35:45
+290,291,HMT,Hmt Limited,500191,-4.92,34.75,20402,Day Short Trade,23/12/2022 14:35:45
+331,332,ARSSINFRA,Arss Infrastructure Projects Limited,533163,-4.93,20.25,8552,Day Short Trade,23/12/2022 14:35:45
+309,310,SILLYMONKS,Silly Monks Entertainment Ltd,535043,-4.93,27.95,9726,Day Short Trade,23/12/2022 14:35:45
+296,297,KHANDSE,Khandwala Securities Limited,531892,-4.93,32.75,12034,Day Short Trade,23/12/2022 14:35:45
+367,368,STEELXIND,Steel Exchange India Ltd,534748,-4.93,13.5,1162915,Day Short Trade,23/12/2022 14:35:45
+375,376,PVP,Pvp Ventures Limited,517556,-4.93,9.65,224585,Day Short Trade,23/12/2022 14:35:45
+279,280,ARENTERP,Rajdarshan Industries Ltd,526662,-4.94,38.45,4406,Day Short Trade,23/12/2022 14:35:45
+221,222,JETAIRWAYS,Jet Airways (india) Limited,532617,-4.94,70.2,74615,Day Short Trade,23/12/2022 14:35:45
+270,271,VIPCLOTHNG,Vip Clothing Limited,532613,-4.94,44.3,666028,Day Short Trade,23/12/2022 14:35:45
+324,325,BVCL,Barak Valley Cements Limited,532916,-4.94,23.1,7640,Day Short Trade,23/12/2022 14:35:45
+322,323,SAKHTISUG,Sakthi Sugars Limited,507315,-4.94,24.05,880803,Day Short Trade,23/12/2022 14:35:45
+217,218,PCJEWELLER,Pc Jeweller Limited,534809,-4.95,74.0,458659,Day Short Trade,23/12/2022 14:35:45
+301,302,SUMIT,Sumit Woods Ltd,535107,-4.95,29.75,27722,Day Short Trade,23/12/2022 14:35:45
+228,229,KECL,Kirloskar Electric Company Limited,533193,-4.95,63.3,535437,Day Short Trade,23/12/2022 14:35:45
+311,312,SIMBHALS,Simbhaoli Sugars Limited,539742,-4.95,25.9,32909,Day Short Trade,23/12/2022 14:35:45
+207,208,ZENITHEXPO,Zenith Exports Limited,512553,-4.95,82.5,907,Day Short Trade,23/12/2022 14:35:45
+280,281,PNC,Pritish Nandy Communications Limited,532387,-4.96,38.35,13854,Day Short Trade,23/12/2022 14:35:45
+248,249,KELLTONTEC,Kellton Tech Solutions Limited,519602,-4.96,52.7,202257,Day Short Trade,23/12/2022 14:35:45
+299,300,SIL,Standard Industries Limited,530017,-4.96,31.6,20274,Day Short Trade,23/12/2022 14:35:45
+316,317,ADROITINFO,Adroit Infotech Ltd,532172,-4.96,24.9,6687,Day Short Trade,23/12/2022 14:35:45
+182,183,MAHAPEXLTD,Maha Rashtra Apex Corporation Ltd,523384,-4.96,103.5,5949,Day Short Trade,23/12/2022 14:35:45
+103,104,BFINVEST,Bf Investment Limited,533303,-4.96,263.3,12246,Day Short Trade,23/12/2022 14:35:45
+226,227,WALCHANNAG,Walchandnagar Industries Limited,507410,-4.96,64.2,173870,Day Short Trade,23/12/2022 14:35:45
+133,134,TATAMTRDVR,Tata Motors Limited,570001,-4.96,193.5,2077808,Day Short Trade,23/12/2022 14:35:45
+195,196,KAMATHOTEL,Kamat Hotels (i) Limited,526668,-4.96,93.0,9347,Day Short Trade,23/12/2022 14:35:45
+389,390,ZEELEARN,Zee Learn Limited,533287,-4.96,6.7,1040961,Day Short Trade,23/12/2022 14:35:45
+203,204,WIPL,Western India Plywoods Ltd,538415,-4.96,83.35,1318,Day Short Trade,23/12/2022 14:35:45
+179,180,ZODIAC,Zodiac Energy Ltd,535032,-4.97,109.9,22705,Day Short Trade,23/12/2022 14:35:45
+378,379,RUCHINFRA,Ruchi Infrastructure Limited,509020,-4.97,8.6,128088,Day Short Trade,23/12/2022 14:35:45
+345,346,OILCOUNTUB,Oil Country Tubular Limited,500313,-4.97,16.25,33992,Day Short Trade,23/12/2022 14:35:45
+190,191,SIKKO,Sikko Industries Ltd,538419,-4.97,97.6,11187,Day Short Trade,23/12/2022 14:35:45
+162,163,SKMEGGPROD,Skm Egg Products Export (india) Limited,532143,-4.97,128.1,65446,Day Short Trade,23/12/2022 14:35:45
+194,195,MASKINVEST,Mask Investments Limited,,-4.97,93.75,198,Day Short Trade,23/12/2022 14:35:45
+198,199,DBREALTY,D B Realty Limited,533160,-4.97,86.95,315456,Day Short Trade,23/12/2022 14:35:45
+275,276,THOMASCOTT,Thomas Scott (india) Limited,533941,-4.97,41.1,1462,Day Short Trade,23/12/2022 14:35:45
+286,287,EQUIPPP,Equippp Social Impact Technologies Ltd,590057,-4.97,37.3,8519,Day Short Trade,23/12/2022 14:35:45
+230,231,RVNL,Rail Vikas Nigam Ltd,542649,-4.97,63.15,7244509,Day Short Trade,23/12/2022 14:35:45
+231,232,SANGHIIND,Sanghi Industries Limited,526521,-4.97,63.05,300920,Day Short Trade,23/12/2022 14:35:45
+333,334,NIBL,Nrb Industrial Bearings Limited,535458,-4.98,20.05,9805,Day Short Trade,23/12/2022 14:35:45
+136,137,BSHSL,Bombay Super Hybrid Seeds Ltd,535077,-4.98,191.6,10493,Day Short Trade,23/12/2022 14:35:45
+135,136,GLOBAL,Global Education Ltd,538406,-4.98,191.75,56547,Day Short Trade,23/12/2022 14:35:45
+156,157,INDOSTAR,Indostar Capital Finance Ltd,541336,-4.98,134.6,18881,Day Short Trade,23/12/2022 14:35:45
+161,162,RELINFRA,Reliance Infrastructure Limited,500390,-4.98,128.7,1459124,Day Short Trade,23/12/2022 14:35:45
+129,130,PODDARHOUS,Poddar Housing & Development Ltd,523628,-4.98,201.4,648,Day Short Trade,23/12/2022 14:35:45
+170,171,BIGBLOC,Bigbloc Construction Limited,540061,-4.98,122.1,24713,Day Short Trade,23/12/2022 14:35:45
+112,113,KALYANIFRG,Kalyani Forge Limited,513509,-4.98,236.5,549,Day Short Trade,23/12/2022 14:35:45
+300,301,PSB,Punjab & Sind Bank,533295,-4.98,31.45,9505675,Day Short Trade,23/12/2022 14:35:45
+175,176,FOODSIN,Foods & Inns Ltd,507552,-4.98,114.6,151632,Day Short Trade,23/12/2022 14:35:45
+188,189,JAIPURKURT,Nandani Creation Ltd,538375,-4.98,99.25,15607,Day Short Trade,23/12/2022 14:35:45
+227,228,SRPL,Shree Ram Protiens Ltd,532567,-4.98,63.9,64736,Day Short Trade,23/12/2022 14:35:45
+318,319,SPCENET,Spacenet Enterprises India Ltd,513249,-4.98,24.8,161553,Day Short Trade,23/12/2022 14:35:45
+209,210,PANSARI,Pansari Developers Ltd,538381,-4.98,80.2,785,Day Short Trade,23/12/2022 14:35:45
+206,207,TTML,Tata Teleservices (maharashtra) Limited,532371,-4.98,82.95,3008159,Day Short Trade,23/12/2022 14:35:45
+205,206,HINDCON,Hindcon Chemicals Ltd,535053,-4.98,83.0,19834,Day Short Trade,23/12/2022 14:35:45
+108,109,APOLLO,Apollo Micro Systems Ltd,540879,-4.99,244.55,185556,Day Short Trade,23/12/2022 14:35:45
+107,108,LIBERTSHOE,Liberty Shoes Limited,526596,-4.99,254.9,59675,Day Short Trade,23/12/2022 14:35:45
+45,46,PIXTRANS,Pix Transmission Ltd,500333,-4.99,799.4,15729,Day Short Trade,23/12/2022 14:35:45
+346,347,BAJAJHIND,Bajaj Hindusthan Sugar Limited,500032,-4.99,16.2,26963100,Day Short Trade,23/12/2022 14:35:45
+289,290,IMAGICAA,Imagicaaworld Entertainment Ltd,539056,-4.99,35.25,71465,Day Short Trade,23/12/2022 14:35:45
+126,127,VERTOZ,Vertoz Advertising Ltd,535029,-4.99,206.75,14759,Day Short Trade,23/12/2022 14:35:45
+225,226,GOLDENTOBC,Golden Tobacco Limited,500151,-4.99,64.7,5446,Day Short Trade,23/12/2022 14:35:45
+283,284,AGROPHOS,Agro Phos India Ltd,538387,-4.99,38.05,123317,Day Short Trade,23/12/2022 14:35:45
+141,142,ARVEE,Arvee Laboratories (India) Ltd,535050,-4.99,167.45,4409,Day Short Trade,23/12/2022 14:35:45
+144,145,DJML,DJ Mediaprint & Logistics Ltd,543193,-4.99,154.2,2805,Day Short Trade,23/12/2022 14:35:45
+114,115,BCONCEPTS,Brand Concepts Ltd,535042,-4.99,228.3,8404,Day Short Trade,23/12/2022 14:35:45
+96,97,KAMDHENU,Kamdhenu Limited,532741,-4.99,295.3,82993,Day Short Trade,23/12/2022 14:35:45
+94,95,MEDICO,Medico Remedies Ltd,540937,-4.99,306.65,10527,Day Short Trade,23/12/2022 14:35:45
+91,92,INDOTHAI,Indo Thai Securities Limited,533676,-4.99,311.45,4827,Day Short Trade,23/12/2022 14:35:45
+150,151,PRITI,Priti International Ltd,535089,-4.99,144.8,9826,Day Short Trade,23/12/2022 14:35:45
+83,84,JUBLINDS,Jubilant Industries Limited,533320,-4.99,386.25,9740,Day Short Trade,23/12/2022 14:35:45
+197,198,WEBELSOLAR,Websol Energy System Limited,517498,-4.99,88.45,141152,Day Short Trade,23/12/2022 14:35:45
+253,254,RAJSREESUG,Rajshree Sugars & Chemicals Limited,500354,-4.99,50.5,104623,Day Short Trade,23/12/2022 14:35:45
+74,75,JPOLYINVST,Jindal Poly Investment And Finance Company Limited,536773,-4.99,424.45,10902,Day Short Trade,23/12/2022 14:35:45
+163,164,UNITEDPOLY,United Polyfab Gujarat Ltd,533024,-4.99,127.55,1475,Day Short Trade,23/12/2022 14:35:45
+57,58,HNDFDS,Hindustan Foods Ltd,519126,-4.99,566.95,40770,Day Short Trade,23/12/2022 14:35:45
+104,105,ADANIPOWER,Adani Power Limited,533096,-5.0,262.2,3129645,Day Short Trade,23/12/2022 14:35:45
+106,107,CHEMFAB,Chemfab Alkalis Ltd,541269,-5.0,257.7,30311,Day Short Trade,23/12/2022 14:35:45
+73,74,VINYLINDIA,Vinyl Chemicals (india) Limited,524129,-5.0,430.5,23462,Day Short Trade,23/12/2022 14:35:45
+61,62,SPANDANA,Spandana Sphoorty Financial Ltd,542759,-5.0,517.15,39474,Day Short Trade,23/12/2022 14:35:45
+34,35,SHRIPISTON,Shriram Pistons & Rings Limited,,-5.0,1135.3,1972,Day Short Trade,23/12/2022 14:35:45
+232,233,SHAHALLOYS,Shah Alloys Limited,513436,-5.0,62.75,6115,Day Short Trade,23/12/2022 14:35:45
+31,32,APOLSINHOT,Apollo Sindoori Hotels Limited,,-5.0,1179.25,1456,Day Short Trade,23/12/2022 14:35:45
+37,38,PATANJALI,Patanjali Foods Ltd,500368,-5.0,1101.15,270427,Day Short Trade,23/12/2022 14:35:45
+154,155,SERVOTECH,Servotech Power Systems Ltd,535002,-5.0,136.9,4326,Day Short Trade,23/12/2022 14:35:45
+113,114,REFEX,Refex Industries Limited,532884,-5.0,233.85,139707,Day Short Trade,23/12/2022 14:35:45
+146,147,RITCO,Ritco Logistics Ltd,542383,-5.0,152.05,10290,Day Short Trade,23/12/2022 14:35:45
+145,146,SHEMAROO,Shemaroo Entertainment Limited,538685,-5.0,153.9,65141,Day Short Trade,23/12/2022 14:35:45
+403,404,SAMBHAAV,Sambhaav Media Limited,511630,-5.0,3.8,21277,Day Short Trade,23/12/2022 14:35:45
+211,212,DCM,Dcm  Limited,502820,-5.0,77.0,24809,Day Short Trade,23/12/2022 14:35:45
+115,116,ICEMAKE,ICE Make Refrigeration Ltd,535034,-5.0,228.15,45399,Day Short Trade,23/12/2022 14:35:45
+87,88,SBCL,Shivalik Bimetal Controls Ltd,513097,-5.05,360.9,77488,Day Short Trade,23/12/2022 14:35:45
+256,257,GLOBALVECT,Global Vectra Helicorp Limited,532773,-5.06,49.7,15492,Day Short Trade,23/12/2022 14:35:45
+244,245,INDORAMA,Indo Rama Synthetics (india) Limited,500207,-5.08,54.2,90506,Day Short Trade,23/12/2022 14:35:45
+77,78,OAL,Oriental Aromatics Ltd,500078,-5.11,412.25,13530,Day Short Trade,23/12/2022 14:35:45
+307,308,UDAICEMENT,Udaipur Cement Works Ltd,530131,-5.12,28.75,239504,Day Short Trade,23/12/2022 14:35:45
+191,192,MAXIND,Max India Ltd,539981,-5.17,97.2,240819,Day Short Trade,23/12/2022 14:35:45
+298,299,SJVN,Sjvn Limited,533206,-5.18,32.05,11331263,Day Short Trade,23/12/2022 14:35:45
+372,373,SETCO,Setco Automotive Limited,505075,-5.19,10.95,67775,Day Short Trade,23/12/2022 14:35:45
+255,256,TIMESGTY,Times Guaranty Limited,511559,-5.24,49.7,2722,Day Short Trade,23/12/2022 14:35:45
+43,44,AETHER,Aether Industries Ltd,543534,-5.24,813.5,45339,Day Short Trade,23/12/2022 14:35:45
+79,80,VISAKAIND,Visaka Industries Limited,509055,-5.25,405.3,32636,Day Short Trade,23/12/2022 14:35:45
+48,49,GLOBUSSPR,Globus Spirits Limited,533104,-5.27,783.55,80597,Day Short Trade,23/12/2022 14:35:45
+222,223,EMKAY,Emkay Global Financial Services Limited,532737,-5.27,69.2,40123,Day Short Trade,23/12/2022 14:35:45
+216,217,BOMDYEING,Bombay Dyeing & Mfg Company Limited,500020,-5.29,74.35,716790,Day Short Trade,23/12/2022 14:35:45
+24,25,TCPLPACK,TCPL Packaging Ltd,523301,-5.33,1376.2,18690,Day Short Trade,23/12/2022 14:35:45
+192,193,PARAGMILK,Parag Milk Foods Limited,539889,-5.38,95.9,249735,Day Short Trade,23/12/2022 14:35:45
+264,265,ABAN,Aban Offshore Limited,523204,-5.41,45.5,185182,Day Short Trade,23/12/2022 14:35:45
+147,148,NATHBIOGEN,Nath Bio-genes (india) Limited,537291,-5.41,150.3,43309,Day Short Trade,23/12/2022 14:35:45
+173,174,IVP,Ivp Limited,507580,-5.41,117.1,13943,Day Short Trade,23/12/2022 14:35:45
+159,160,IEX,Indian Energy Exchange Ltd,540750,-5.42,130.9,5323723,Day Short Trade,23/12/2022 14:35:45
+233,234,TREJHARA,Trejhara Solutions Ltd,542233,-5.45,62.5,70347,Day Short Trade,23/12/2022 14:35:45
+219,220,EMAMIREAL,Emami Realty Ltd,533218,-5.46,73.6,53509,Day Short Trade,23/12/2022 14:35:45
+151,152,GEECEE,Geecee Ventures Limited,532764,-5.48,143.15,12405,Day Short Trade,23/12/2022 14:35:45
+153,154,EMAMIPAP,Emami Paper Mills Ltd,533208,-5.51,137.95,35689,Day Short Trade,23/12/2022 14:35:45
+46,47,KPIGREEN,KPI Green Energy Ltd,542323,-5.54,795.75,66332,Day Short Trade,23/12/2022 14:35:45
+199,200,JAYSREETEA,Jayshree Tea & Industries Limited,509715,-5.55,86.8,51163,Day Short Trade,23/12/2022 14:35:45
+430,431,GAYAHWS,Gayatri Highways Ltd,541546,-5.56,0.85,592257,Day Short Trade,23/12/2022 14:35:45
+35,36,SHAREINDIA,Share India Securities Ltd,540725,-5.58,1135.0,88613,Day Short Trade,23/12/2022 14:35:45
+261,262,KRITINUT,Kriti Nutrients Ltd,533210,-5.65,46.8,32569,Day Short Trade,23/12/2022 14:35:45
+41,42,RANEHOLDIN,Rane Holdings Limited,505800,-5.69,821.9,27973,Day Short Trade,23/12/2022 14:35:45
+62,63,IFBAGRO,Ifb Agro Industries Limited,507438,-5.71,512.0,9338,Day Short Trade,23/12/2022 14:35:45
+16,17,FOSECOIND,Foseco India Limited,500150,-5.74,1814.0,2761,Day Short Trade,23/12/2022 14:35:45
+102,103,NRAIL,N R Agarwal Industries Ltd,516082,-5.75,268.0,13196,Day Short Trade,23/12/2022 14:35:45
+76,77,ELGIEQUIP,Elgi Equipments Limited,522074,-5.77,421.8,184980,Day Short Trade,23/12/2022 14:35:45
+60,61,GNFC,Gujarat Narmada Valley Fertilizers And Chemicals Limited,500670,-5.77,520.55,1609302,Day Short Trade,23/12/2022 14:35:45
+119,120,DVL,Dhunseri Ventures Ltd,523736,-5.83,221.15,43955,Day Short Trade,23/12/2022 14:35:45
+278,279,TARC,Anant Raj Global Ltd,543249,-5.86,38.55,981056,Day Short Trade,23/12/2022 14:35:45
+247,248,MRPL,Mangalore Refinery And Petrochemicals Limited,500109,-5.88,52.85,1841176,Day Short Trade,23/12/2022 14:35:45
+350,351,HATHWAY,Hathway Cable & Datacom Limited,533162,-5.9,15.95,3439504,Day Short Trade,23/12/2022 14:35:45
+174,175,RAILTEL,Railtel Corporation of India Ltd,543265,-5.93,115.75,2776781,Day Short Trade,23/12/2022 14:35:45
+28,29,CANTABIL,Cantabil Retail India Limited,533267,-5.96,1217.1,10941,Day Short Trade,23/12/2022 14:35:45
+139,140,KIOCL,Kiocl Limited,,-5.98,186.35,41711,Day Short Trade,23/12/2022 14:35:45
+125,126,ARIHANTSUP,Arihant Superstructures Ltd,506194,-6.03,208.0,63847,Day Short Trade,23/12/2022 14:35:45
+168,169,BBOX,Black Box Ltd,500463,-6.05,122.6,34199,Day Short Trade,23/12/2022 14:35:45
+148,149,RADHIKAJWE,Radhika Jeweltech Ltd,540125,-6.06,147.3,7451,Day Short Trade,23/12/2022 14:35:45
+169,170,GSFC,Gujarat State Fertilizers & Chemicals Limited,500690,-6.07,122.35,2547222,Day Short Trade,23/12/2022 14:35:45
+176,177,BHARATGEAR,Bharat Gears Limited,505688,-6.08,112.7,61054,Day Short Trade,23/12/2022 14:35:45
+25,26,ARMANFIN,Arman Financial Services Limited,531179,-6.12,1335.0,15892,Day Short Trade,23/12/2022 14:35:45
+266,267,COFFEEDAY,Coffee Day Enterprises Limited,539436,-6.15,45.0,2315480,Day Short Trade,23/12/2022 14:35:45
+391,392,AJOONI,Ajooni Biotech Ltd,535040,-6.2,6.05,337435,Day Short Trade,23/12/2022 14:35:45
+431,432,ANTGRAPHIC,Antarctica Limited,526715,-6.25,0.75,779301,Day Short Trade,23/12/2022 14:35:45
+234,235,KOTHARIPET,Kothari Petrochemicals Limited,532096,-6.31,62.4,75013,Day Short Trade,23/12/2022 14:35:45
+210,211,NLCINDIA,Nlc India Limited,513683,-6.31,79.4,4337232,Day Short Trade,23/12/2022 14:35:45
+84,85,PGIL,Pearl Global Industries Limited,532808,-6.35,371.0,8423,Day Short Trade,23/12/2022 14:35:45
+92,93,HARIOMPIPE,Hariom Pipe Industries Ltd,543517,-6.35,308.2,226561,Day Short Trade,23/12/2022 14:35:45
+180,181,SECURCRED,SecUR Credentials Ltd,535027,-6.54,109.35,54090,Day Short Trade,23/12/2022 14:35:45
+65,66,WSTCSTPAPR,West Coast Paper Mills Limited,500444,-6.55,485.0,235983,Day Short Trade,23/12/2022 14:35:45
+109,110,JINDRILL,Jindal Drilling And Industries Limited,511034,-6.58,242.6,43583,Day Short Trade,23/12/2022 14:35:45
+143,144,ARIES,Aries Agro Limited,532935,-6.59,157.35,111288,Day Short Trade,23/12/2022 14:35:45
+20,21,LUMAXIND,Lumax Industries Limited,517206,-6.66,1618.9,21177,Day Short Trade,23/12/2022 14:35:45
+251,252,OMAXAUTO,Omax Autos Limited,520021,-6.73,51.3,71886,Day Short Trade,23/12/2022 14:35:45
+120,121,RALLIS,Rallis India Limited,500355,-6.73,219.55,287758,Day Short Trade,23/12/2022 14:35:45
+202,203,STCINDIA,The State Trading Corporation Of India Limited,512531,-6.76,83.5,49957,Day Short Trade,23/12/2022 14:35:45
+134,135,HIRECT,Hind Rectifiers Limited,504036,-6.8,192.6,12267,Day Short Trade,23/12/2022 14:35:45
+330,331,SANGINITA,Sanginita Chemicals Ltd,538408,-6.88,20.3,36356,Day Short Trade,23/12/2022 14:35:45
+402,403,VIKASLIFE,Vikas Lifecare Ltd,,-6.9,4.05,15797193,Day Short Trade,23/12/2022 14:35:45
+100,101,ACE,Action Construction Equipment Limited,532762,-6.91,272.3,540147,Day Short Trade,23/12/2022 14:35:45
+341,342,LIBAS,Libas Designs Ltd,538391,-6.94,16.75,103131,Day Short Trade,23/12/2022 14:35:45
+116,117,SALZERELEC,Salzer Electronics Limited,517059,-6.96,227.3,126704,Day Short Trade,23/12/2022 14:35:45
+132,133,DELTACORP,Delta Corp Limited,532848,-6.97,193.55,3751246,Day Short Trade,23/12/2022 14:35:45
+204,205,INDOAMIN,Indo Amines Ltd,524648,-7.0,83.05,84588,Day Short Trade,23/12/2022 14:35:45
+181,182,NIACL,New India Assurance Company Ltd,540769,-7.1,109.2,3656165,Day Short Trade,23/12/2022 14:35:45
+347,348,MOHITIND,Mohit Industries Limited,531453,-7.2,16.1,24030,Day Short Trade,23/12/2022 14:35:45
+5,6,TVSSRICHAK,Tvs Srichakra Limited,509243,-7.21,2991.4,21042,Day Short Trade,23/12/2022 14:35:45
+303,304,JISLJALEQS,Jain Irrigation Systems Limited,500219,-7.22,29.55,2922408,Day Short Trade,23/12/2022 14:35:45
+155,156,SHREYANIND,Shreyans Industries Limited,516016,-7.27,134.6,35143,Day Short Trade,23/12/2022 14:35:45
+260,261,DAMODARIND,Damodar Industries Limited,521220,-7.27,47.2,19937,Day Short Trade,23/12/2022 14:35:45
+128,129,REPCOHOME,Repco Home Finance Limited,535322,-7.27,204.6,171851,Day Short Trade,23/12/2022 14:35:45
+317,318,MARSHALL,Marshall Machines Ltd,535106,-7.28,24.85,43027,Day Short Trade,23/12/2022 14:35:45
+237,238,BGRENERGY,Bgr Energy Systems Limited,532930,-7.28,61.1,270810,Day Short Trade,23/12/2022 14:35:45
+342,343,VASWANI,Vaswani Industries Limited,533576,-7.3,16.5,81860,Day Short Trade,23/12/2022 14:35:45
+262,263,HUDCO,Housing and Urban Development Corporation,540530,-7.31,46.3,11026934,Day Short Trade,23/12/2022 14:35:45
+105,106,DATAMATICS,Datamatics Global Services Limited,532528,-7.33,260.95,121593,Day Short Trade,23/12/2022 14:35:45
+292,293,NBCC,Nbcc (india) Limited,534309,-7.4,34.4,8650333,Day Short Trade,23/12/2022 14:35:45
+259,260,BASML,Bannari Amman Spinning Mills Limited,532674,-7.41,47.5,92664,Day Short Trade,23/12/2022 14:35:45
+250,251,TEXMOPIPES,Texmo Pipes And Products Limited,533164,-7.55,51.4,96252,Day Short Trade,23/12/2022 14:35:45
+243,244,JAIBALAJI,Jai Balaji Industries Limited,532976,-7.64,55.0,459365,Day Short Trade,23/12/2022 14:35:45
+269,270,AROGRANITE,Aro Granite Industries Limited,513729,-7.68,44.45,44995,Day Short Trade,23/12/2022 14:35:45
+15,16,ADANIGREEN,Adani Green Energy Ltd,541450,-7.69,1828.5,719324,Day Short Trade,23/12/2022 14:35:45
+288,289,RPPINFRA,R.p.p. Infra Projects Limited,533284,-7.75,35.7,116426,Day Short Trade,23/12/2022 14:35:45
+257,258,TARMAT,Tarmat Limited,532869,-7.77,48.7,15042,Day Short Trade,23/12/2022 14:35:45
+200,201,HPL,Hpl Electric & Power Limited,540136,-7.78,85.95,557004,Day Short Trade,23/12/2022 14:35:45
+353,354,3PLAND,3P Land Holdings Ltd,516092,-7.78,15.4,11509,Day Short Trade,23/12/2022 14:35:45
+294,295,MMTC,Mmtc Limited,513377,-7.89,33.85,1950559,Day Short Trade,23/12/2022 14:35:45
+377,378,ESSARSHPNG,Essar Shipping Limited,533704,-7.89,8.75,419904,Day Short Trade,23/12/2022 14:35:45
+186,187,HEMIPROP,Hemisphere Properties India Ltd,543242,-7.93,99.9,1441248,Day Short Trade,23/12/2022 14:35:45
+291,292,SIGIND,Signet Industries Ltd,512131,-8.14,34.4,18309,Day Short Trade,23/12/2022 14:35:45
+152,153,AARVI,Aarvi Encon Ltd,535014,-8.14,141.0,41675,Day Short Trade,23/12/2022 14:35:45
+267,268,RAJTV,Raj Television Network Limited,532826,-8.2,44.8,7861,Day Short Trade,23/12/2022 14:35:45
+101,102,UNICHEMLAB,Unichem Laboratories Limited,506690,-8.23,269.25,130160,Day Short Trade,23/12/2022 14:35:45
+240,241,NFL,National Fertilizers Limited,523630,-8.48,59.35,11700786,Day Short Trade,23/12/2022 14:35:45
+352,353,SAKUMA,Sakuma Exports Limited,532713,-8.48,15.65,1646293,Day Short Trade,23/12/2022 14:35:45
+358,359,PRAENG,Prajay Engineers Syndicate Limited,531746,-8.67,14.75,202319,Day Short Trade,23/12/2022 14:35:45
+417,418,GODHA,Godha Cabcon and Insulation Ltd,535079,-8.77,2.6,2023684,Day Short Trade,23/12/2022 14:35:45
+93,94,GRMOVER,GRM Overseas Ltd,531449,-8.8,307.9,50687,Day Short Trade,23/12/2022 14:35:45
+413,414,VIKASECO,Vikas Ecotech Limited,530961,-8.96,3.05,7656312,Day Short Trade,23/12/2022 14:35:45
+88,89,ELECON,Elecon Engineering Company Limited,505700,-9.21,352.75,381940,Day Short Trade,23/12/2022 14:35:45
+418,419,VIJIFIN,Viji Finance Limited,537820,-9.26,2.45,202819,Day Short Trade,23/12/2022 14:35:45
+380,381,PARSVNATH,Parsvnath Developers Limited,532780,-9.57,8.5,787947,Day Short Trade,23/12/2022 14:35:45
+295,296,BRNL,Bharat Road Network,540700,-9.64,32.8,152520,Day Short Trade,23/12/2022 14:35:45
+246,247,VINEETLAB,Vineet Laboratories Ltd,543298,-9.7,53.55,77261,Day Short Trade,23/12/2022 14:35:45
+302,303,MEGASOFT,Megasoft Limited,532408,-9.89,29.6,195942,Day Short Trade,23/12/2022 14:35:45
+117,118,ROHLTD,Royal Orchid Hotels Limited,532699,-9.9,225.35,140117,Day Short Trade,23/12/2022 14:35:45
+334,335,MORARJEE,Morarjee Textiles Limited,532621,-9.91,19.55,35565,Day Short Trade,23/12/2022 14:35:45
+305,306,UCOBANK,Uco Bank,532505,-9.92,29.5,59805735,Day Short Trade,23/12/2022 14:35:45
+276,277,BALKRISHNA,Balkrishna Paper Mills Limited,539251,-9.94,40.3,152758,Day Short Trade,23/12/2022 14:35:45
+339,340,ENERGYDEV,Energy Development Company Limited,532219,-9.95,17.2,185996,Day Short Trade,23/12/2022 14:35:45
+306,307,CENTRALBK,Central Bank Of India,532885,-9.95,29.4,38134468,Day Short Trade,23/12/2022 14:35:45
+149,150,RAMASTEEL,Rama Steel Tubes Limited,539309,-9.98,145.65,585708,Day Short Trade,23/12/2022 14:35:45
+354,355,HEADSUP,Heads UP Ventures Ltd,540210,-10.0,15.3,156121,Day Short Trade,23/12/2022 14:35:45
+254,255,IRCON,Ircon International Ltd,541956,-10.32,50.4,9863810,Day Short Trade,23/12/2022 14:35:45
+337,338,COMPUSOFT,Compucom Software Limited,532339,-11.03,18.15,147394,Day Short Trade,23/12/2022 14:35:45
+293,294,OSWALAGRO,Oswal Agro Mills Ltd,500317,-11.23,34.0,158111,Day Short Trade,23/12/2022 14:35:45
+118,119,FCL,Fineotex Chemical Limited,533333,-11.24,223.0,936413,Day Short Trade,23/12/2022 14:35:45
+396,397,ZENITHSTL,Zenith Steel Pipes & Industries Ltd,531845,-12.04,4.75,421228,Day Short Trade,23/12/2022 14:35:45
+265,266,HBSL,HB Stockholdings Ltd,532216,-12.07,45.15,24143,Day Short Trade,23/12/2022 14:35:45
+258,259,CTE,Cambridge Technology Enterprises Limited,532801,-12.33,48.0,57505,Day Short Trade,23/12/2022 14:35:45
+85,86,GOODLUCK,Goodluck India Limited,530655,-20.0,362.65,1271132,Day Short Trade,23/12/2022 14:35:45
+142,143,LANCER,Lancer Containers Lines Ltd,539841,-20.0,162.2,583331,Day Short Trade,23/12/2022 14:35:45
+1,2,VESUVIUS,Vesuvius India Limited,520113,-1.24,1585.5,18280,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+7,8,HDFCMOMENT,HDFC Nifty 200 Momentum 30 ETF,543628,-1.76,190.0,228,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+6,7,HITECHCORP,Hitech Corporation,526217,-2.82,214.0,8718,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+0,1,HONAUT,Honeywell Automation India Limited,517174,-2.88,40563.1,3956,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+9,10,HDFCLOWVOL,HDFC Nifty 100 Low Volatility 30 ETF,543627,-3.14,130.32,354,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+14,15,SHRADHA,Shradha Infraprojects (Nagpur) Ltd,535035,-3.3,60.0,864,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+2,3,BHAGCHEM,Bhagiradha Chemicals & Industries Ltd,531719,-3.41,1250.0,2335,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+4,5,HPAL,HP Adhesives Ltd,543433,-3.56,362.0,48351,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+13,14,GANGESSECU,Ganges Securities Ltd,540647,-3.68,112.45,8460,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+19,20,SHANTI,Shanti Overseas (India) Ltd,538443,-4.42,20.55,12838,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+18,19,JHS,Jhs Svendgaard Laboratories Limited,532771,-4.75,21.05,193869,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+21,22,VISASTEEL,Visa Steel Limited,532721,-4.79,13.9,18560,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+17,18,BVCL,Barak Valley Cements Limited,532916,-4.94,23.1,7640,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+3,4,DHUNINV,Dhunseri Investments Limited,533336,-5.08,687.9,3654,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+11,12,IVP,Ivp Limited,507580,-5.41,117.1,13943,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+10,11,BBOX,Black Box Ltd,500463,-6.05,122.6,34199,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+12,13,BHARATGEAR,Bharat Gears Limited,505688,-6.08,112.7,61054,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+5,6,SALZERELEC,Salzer Electronics Limited,517059,-6.96,227.3,126704,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+20,21,VISHAL,Vishal Fabrics Ltd,538598,-7.21,18.65,232364,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+8,9,SHREYANIND,Shreyans Industries Limited,516016,-7.27,134.6,35143,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+16,17,SIGIND,Signet Industries Ltd,512131,-8.14,34.4,18309,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+15,16,HBSL,HB Stockholdings Ltd,532216,-12.07,45.15,24143,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/12/2022 14:36:34
+12,13,CESC,Cesc Limited,500084,-1.31,75.4,1319978,Shot Down,23/12/2022 14:37:28
+10,11,GAIL,Gail (india) Limited,532155,-2.28,92.0,18108280,Shot Down,23/12/2022 14:37:28
+0,1,LICI,Life Insurance Corporation of India,543526,-2.44,665.0,2820887,Shot Down,23/12/2022 14:37:28
+15,16,KESORAMIND,Kesoram Industries Limited,502937,-3.38,55.7,1050733,Shot Down,23/12/2022 14:37:28
+16,17,PARADEEP,Paradeep Phosphates Ltd,543530,-3.63,54.4,4147424,Shot Down,23/12/2022 14:37:28
+7,8,DWARKESH,Dwarikesh Sugar Industries Limited,532610,-4.29,93.7,1715803,Shot Down,23/12/2022 14:37:28
+8,9,JINDALSAW,Jindal Saw Limited,500378,-4.92,92.8,1266155,Shot Down,23/12/2022 14:37:28
+6,7,DAAWAT,Lt Foods Limited,532783,-5.54,107.5,1699614,Shot Down,23/12/2022 14:37:28
+3,4,FINPIPE,Finolex Industries Limited,500940,-6.3,168.7,1042629,Shot Down,23/12/2022 14:37:28
+5,6,NIACL,New India Assurance Company Ltd,540769,-6.59,109.8,3671971,Shot Down,23/12/2022 14:37:28
+13,14,SPIC,Southern Petrochemicals Industries Corporation  Limited,590030,-7.66,62.65,3215085,Shot Down,23/12/2022 14:37:28
+14,15,NFL,National Fertilizers Limited,523630,-7.71,59.85,11850863,Shot Down,23/12/2022 14:37:28
+1,2,JKPAPER,Jk Paper Limited,532162,-8.0,382.4,2145840,Shot Down,23/12/2022 14:37:28
+9,10,ANANTRAJ,Anant Raj Limited,515055,-8.67,92.7,3330119,Shot Down,23/12/2022 14:37:28
+4,5,KALYANKJIL,Kalyan Jewellers India Ltd,543278,-8.72,111.95,5863744,Shot Down,23/12/2022 14:37:28
+11,12,UGARSUGAR,The Ugar Sugar Works Limited,530363,-9.07,87.2,1927876,Shot Down,23/12/2022 14:37:28
+17,18,SALASAR,Salasar Techno Engineering Ltd,540642,-9.96,44.3,2457603,Shot Down,23/12/2022 14:37:28
+2,3,PRICOLLTD,Pricol Ltd.,540293,-10.59,184.4,1172503,Shot Down,23/12/2022 14:37:28
+18,19,IOB,Indian Overseas Bank,532388,-13.19,26.65,116169327,Shot Down,23/12/2022 14:37:28
+3,4,GRANULES,Granules India Limited,532482,0.38,328.5,3624899,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+2,3,LIQUIDETF,DSP BlackRock Liquid ETF,541097,0.0,999.99,35317,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+11,12,HAVISHA,Sri Havisha Hospitality & Infrastructure Ltd,531322,0.0,2.15,103449,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+0,1,EBBETF0430,Bharat Bond ETF - April 2030,542909,-0.1,1236.63,16895,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+6,7,AVROIND,Avro India Ltd,535098,-0.46,108.05,75369,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+9,10,GENCON,Generic Engineering Construction & Projects Ltd,539407,-0.48,31.15,69996,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+1,2,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715,-0.59,1004.65,2975772,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+10,11,VIPULLTD,Vipul Limited,511726,-0.65,15.35,44553,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+8,9,KOTAKSILVE,Kotak Silver ETF,78066,-1.63,66.54,4783,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+5,6,ENIL,Entertainment Network (india) Limited,532700,-1.67,149.8,22120,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+12,13,RMCL,Radha Madhav Corporation Limited,532692,-2.7,1.8,71628,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+4,5,TOTAL,Total Transport Systems Ltd,538444,-4.13,154.5,52036,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
+7,8,JWL,Jupiter Wagons Ltd,533272,-4.97,87.0,310688,Ichimoku Cloud Bottom Crossover,23/12/2022 14:38:26
