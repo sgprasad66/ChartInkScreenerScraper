@@ -44,9 +44,6 @@ screener_filter = st.selectbox("Select the type of screener", screenertypes)
 # creating a single-element container.
 placeholder = st.empty()
 
-# read csv from a github repo
-#df_bullish,df_bearish = processnewfiles()  #= pd.read_csv("https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv")
-# dataframe filter 
 
 import pandas as pd
 from datetime import datetime
@@ -75,9 +72,20 @@ if uploaded_file is not None:
 
 
 uploaded_file_1 = st.file_uploader("Choose a file(Bearish)")
-if uploaded_file is not None:
+if uploaded_file_1 is not None:
     df_bearish = pd.read_csv(uploaded_file_1)
 
+uploaded_file_2 = st.file_uploader("Choose a file(intradayBearish)")
+if uploaded_file_2 is not None:
+    df_intraday_bearish = pd.read_csv(uploaded_file_2)
+
+uploaded_file_3 = st.file_uploader("Choose a file(intradayBullish)")
+if uploaded_file_3 is not None:
+    df_intraday_bullish = pd.read_csv(uploaded_file_3)
+
+uploaded_file_4 = st.file_uploader("Choose a file(mostlovedscreeners)")
+if uploaded_file_4 is not None:
+    df_most_loved_screeners = pd.read_csv(uploaded_file_4)
 
 optionMaxOccurence=30
 result='bearish-screeners'
@@ -88,7 +96,7 @@ optionMaxOccurence = st.selectbox(
 
 actions = {'A': 'bullish-screeners', 'B': 'intraday-bullish-screeners', 'C': 'bearish-screeners', 'D':'intraday-bearish-screeners'}
 
-optionMktDirection = st.selectbox('Choose one:', ['_', 'bullish-screeners', 'intraday-bullish-screeners', 'bearish-screeners','intraday-bearish-screeners'],label_visibility=st.session_state.visibility,
+optionMktDirection = st.selectbox('Choose one:', ['_', 'bullish-screeners', 'intraday-bullish-screeners', 'bearish-screeners','intraday-bearish-screeners','most-loved-screeners'],label_visibility=st.session_state.visibility,
         disabled=st.session_state.disabled,key='marketDirection')
 
 if optionMktDirection != '_':
@@ -113,10 +121,34 @@ grp_bearish =  df_bearish.groupby("nsecode",as_index=False)['OccurInDiffScreener
 grp_bearish = grp_bearish[grp_bearish['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
 #print(grp.head(10))
 
-if optionMktDirection == "bullish-screeners" or optionMktDirection == "intraday-bullish-screeners":
+df_intraday_bearish['OccurInDiffScreeners'] = df_intraday_bearish.groupby(by="nsecode")['nsecode'].transform('count')
+df_intraday_bearish = df_intraday_bearish.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
+df_intraday_bearish.drop(['Unnamed: 0','sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
+grp_intraday_bearish =  df_intraday_bearish.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
+grp_intraday_bearish = grp_intraday_bearish[grp_intraday_bearish['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
+
+df_intraday_bullish['OccurInDiffScreeners'] = df_intraday_bullish.groupby(by="nsecode")['nsecode'].transform('count')
+df_intraday_bullish = df_intraday_bullish.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
+df_intraday_bullish.drop(['Unnamed: 0','sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
+grp_intraday_bullish =  df_intraday_bullish.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
+grp_intraday_bullish = grp_intraday_bullish[grp_intraday_bullish['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
+
+df_most_loved_screeners['OccurInDiffScreeners'] = df_bullish.groupby(by="nsecode")['nsecode'].transform('count')
+df_most_loved_screeners = df_most_loved_screeners.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
+df_most_loved_screeners.drop(['Unnamed: 0','sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
+grp_most_loved_screeners =  df_most_loved_screeners.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
+grp_most_loved_screeners = grp_most_loved_screeners[grp_most_loved_screeners['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
+
+if optionMktDirection == "bullish-screeners":
     df = grp_bullish
-else:
+elif optionMktDirection == "intraday-bullish-screeners":
+    df = grp_intraday_bullish
+elif optionMktDirection == "intraday-bearish-screeners":
+    df = grp_intraday_bearish
+elif optionMktDirection == "bearish-screeners":
     df = grp_bearish
+else:
+    df = grp_most_loved_screeners
 
 placeholder = st.empty()
 

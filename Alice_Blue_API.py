@@ -1,7 +1,7 @@
 from pya3 import *
 
 alice = Aliceblue(user_id='AB067538',api_key='3NCsUCE9N4NIJvfGC4SM7Lof1yHvbaKfCxTkzHnnFzQThjHJjT6rvOTadBBWp7ZYbAJDF34FAkWGuySHfHl3eEfEeXENGQInKg99TNz0UU6Fa41lud8JbOi9mOGlNoKm')
-
+#"3NCsUCE9N4NIJvfGC4SM7Lof1yHvbaKfCxTkzHnnFzQThjHJjT6rvOTadBBWp7ZYbAJDF34FAkWGuySHfHl3eEfEeXENGQInKg99TNz0UU6Fa41lud8JbOi9mOGlNoKm"
 print(alice.get_session_id())
 
 bn_call = alice.get_instrument_for_fno(exch="NFO",symbol = 'BANKNIFTY', expiry_date="2023-01-12", is_fut=False, strike=42000, is_CE = True)
@@ -31,8 +31,8 @@ print(alice.get_instrument_by_symbol('INDICES','NIFTY BANK'))
 print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2023-01-26", is_fut=False,strike=42000, is_CE=True))
 print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2023-01-26", is_fut=False,strike=44000, is_CE=False))
 
-print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2023-01-26", is_fut=False,strike=42000, is_CE=False))
-print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2023-01-26", is_fut=False,strike=44000, is_CE=True))
+print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2023-01-25", is_fut=False,strike=42000, is_CE=False))
+print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2023-01-25", is_fut=False,strike=44000, is_CE=True))
 
 ''' print(alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date="2022-09-04", is_fut=False,strike=37700, is_CE=True))
 print(alice.get_instrument_for_fno(exch="CDS",symbol='USDINR', expiry_date="2022-09-16", is_fut=True,strike=None, is_CE=False))
