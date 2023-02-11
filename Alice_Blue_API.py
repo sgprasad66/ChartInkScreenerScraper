@@ -13,7 +13,7 @@ print(alice.get_daywise_positions()) # get daywise positions
 print(alice.get_netwise_positions()) # get all netwise positions
 print(alice.get_holding_positions()) # get holding positions
 
-
+alice.subscribe()
 alice.get_contract_master("MCX")
 alice.get_contract_master("NFO")
 alice.get_contract_master("NSE")
