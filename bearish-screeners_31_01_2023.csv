@@ -1,0 +1,951 @@
+,sr,nsecode,name,bsecode,per_chg,close,volume,ScreenerName,TimeOfDay
+0,23,IDEA,Idea Cellular Limited,532822.0,1.47,6.9,2169451,PERFECT BEARISH,31/01/2023 09:19:04
+1,9,ASTRAL,Astral Poly Technik Limited,532830.0,1.39,1998.05,1726,PERFECT BEARISH,31/01/2023 09:19:04
+2,7,POLYCAB,Polycab India Ltd,542652.0,0.99,2847.0,836,PERFECT BEARISH,31/01/2023 09:19:04
+3,12,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.79,1354.4,6855,PERFECT BEARISH,31/01/2023 09:19:04
+4,20,NTPC,Ntpc Limited,532555.0,0.59,169.85,26588,PERFECT BEARISH,31/01/2023 09:19:04
+5,19,TATAPOWER,Tata Power Company Limited,500400.0,0.56,205.5,31856,PERFECT BEARISH,31/01/2023 09:19:04
+6,2,SHREECEM,Shree Cements Limited,500387.0,0.53,22704.2,43,PERFECT BEARISH,31/01/2023 09:19:04
+7,10,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,0.52,1556.0,78,PERFECT BEARISH,31/01/2023 09:19:04
+8,21,FEDERALBNK,The Federal Bank  Limited,500469.0,0.49,133.7,12276,PERFECT BEARISH,31/01/2023 09:19:04
+9,16,SBICARD,SBI Cards & Payment Services Ltd,543066.0,0.49,719.9,777,PERFECT BEARISH,31/01/2023 09:19:04
+10,3,BAJFINANCE,Bajaj Finance Limited,500034.0,0.47,6050.0,2308,PERFECT BEARISH,31/01/2023 09:19:04
+11,6,TCS,Tata Consultancy Services Limited,532540.0,0.45,3449.0,9468,PERFECT BEARISH,31/01/2023 09:19:04
+12,15,COROMANDEL,Coromandel International Limited,506395.0,0.42,863.1,244,PERFECT BEARISH,31/01/2023 09:19:04
+13,22,FSL,Firstsource Solutions Limited,532809.0,0.42,107.55,4043,PERFECT BEARISH,31/01/2023 09:19:04
+14,14,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,0.31,1055.0,3221,PERFECT BEARISH,31/01/2023 09:19:04
+15,17,BERGEPAINT,Berger Paints (i) Limited,509480.0,0.3,555.75,371,PERFECT BEARISH,31/01/2023 09:19:04
+16,11,CUMMINSIND,Cummins India Limited,500480.0,0.18,1392.65,101,PERFECT BEARISH,31/01/2023 09:19:04
+17,8,MPHASIS,Mphasis Limited,526299.0,0.15,2119.95,414,PERFECT BEARISH,31/01/2023 09:19:04
+18,4,COFORGE,Coforge (Niit Tech),532541.0,0.14,4425.0,550,PERFECT BEARISH,31/01/2023 09:19:04
+19,13,HCLTECH,Hcl Technologies Limited,532281.0,0.11,1136.0,1909,PERFECT BEARISH,31/01/2023 09:19:04
+20,5,NAVINFLUOR,Navin Fluorine International Limited,532504.0,0.09,3889.95,76,PERFECT BEARISH,31/01/2023 09:19:04
+21,1,PAGEIND,Page Industries Limited,532827.0,0.02,40250.0,8,PERFECT BEARISH,31/01/2023 09:19:04
+22,18,INTELLECT,Intellect Design Arena Limited,538835.0,-1.02,427.1,1838,PERFECT BEARISH,31/01/2023 09:19:04
+23,19,ADFFOODS,Adf Foods Limited,519183.0,7.03,775.0,880,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+24,68,ANTGRAPHIC,Antarctica Limited,526715.0,6.25,0.85,4776,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+25,67,GAYAHWS,Gayatri Highways Ltd,541546.0,5.88,0.9,12566,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+26,64,BCP,B.C. Power Controls Ltd,537766.0,4.26,4.9,85,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+27,44,EIFFL,Euro India Fresh Foods Ltd,538412.0,3.75,159.0,2,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+28,26,JUBLINDS,Jubilant Industries Limited,533320.0,3.71,409.9,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+29,60,RSSOFTWARE,R. S. Software (india) Limited,517447.0,2.95,24.45,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+30,18,MAZDOCK,Mazagon Dock Shipbuilders Ltd,543237.0,2.85,785.0,25855,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+31,8,SRF,Srf Limited,503806.0,2.26,2200.0,3971,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+32,56,SIMPLEXINF,Simplex Infrastructures Limited,523838.0,1.96,54.55,51,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+33,58,HOVS,Hov Services Limited,532761.0,1.82,47.55,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+34,14,FAIRCHEMOR,Fairchem Organics Ltd,543252.0,1.82,1137.95,56,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+35,62,JETFREIGHT,Jet Freight Logistics Ltd,538390.0,1.52,20.05,3011,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+36,36,STERTOOLS,Sterling Tools Limited,530759.0,1.5,327.75,446,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+37,45,DEEPENR,Deep Energy Resources Ltd,532760.0,1.44,127.0,50,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+38,15,MOLDTKPAC,Mold-tek Packaging Limited,533080.0,1.44,1040.0,257,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+39,54,LAGNAM,Lagnam Spintex Ltd,535108.0,1.4,61.65,2,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+40,59,ASTRON,Astron Paper & Board Mill Ltd,540824.0,1.27,31.85,331,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+41,16,JASH,Jash Engineering Ltd,535019.0,1.23,859.95,115,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+42,50,SMCGLOBAL,SMC Global Securities Ltd,543263.0,1.18,77.25,201,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+43,32,KIRLFER,Kirloskar Ferrous Industries Ltd,500245.0,1.18,369.0,816,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+44,20,AGARIND,Agarwal Industrial Corporation Limited,531921.0,0.99,604.35,2,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+45,40,MIRZAINT,Mirza International Limited,526642.0,0.92,224.9,285,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+46,24,BECTORFOOD,Mrs Bectors Food Specialities Ltd,543253.0,0.91,455.8,375,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+47,35,JTLIND,JTL Industries Ltd,534600.0,0.77,329.05,70,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+48,57,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.68,51.45,2614,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+49,46,JINDALSAW,Jindal Saw Limited,500378.0,0.65,124.0,14407,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+50,27,DPWIRES,D P Wires Ltd,535012.0,0.62,403.0,2,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+51,28,ALLCARGO,Allcargo Logistics Limited,532749.0,0.61,401.95,120,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+52,53,TRIL,Transformers And Rectifiers (india) Limited,532928.0,0.49,72.35,7398,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+53,34,AGI,AGI Greenpac Ltd,500187.0,0.36,332.0,2270,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+54,41,POWERGRID,Power Grid Corporation Of India Limited,532898.0,0.35,212.6,9987,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+55,1,CERA,Cera Sanitaryware Limited,532443.0,0.34,5299.0,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+56,10,HDFCBANK,Hdfc Bank Limited,500180.0,0.34,1619.7,111354,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+57,3,NIFTYDIVOPPS50,NIFTYDIVOPPS50,,0.32,3877.1,0,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+58,2,INDIAMART,Indiamart Intermesh Ltd,542726.0,0.23,4428.15,90,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+59,52,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,0.14,73.6,4426,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+60,47,LFIC,Lakshmi Finance & Industrial Corporation Limited,,0.13,118.05,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+61,21,CANFINHOME,Can Fin Homes Limited,511196.0,0.11,541.3,410,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+62,23,KSCL,Kaveri Seed Company Limited,532899.0,0.08,506.0,18,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+63,7,HDFC,Housing Development Finance Corporation Limited,500010.0,0.07,2650.0,10389,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+64,38,INDIANB,Indian Bank,532814.0,0.05,297.0,10864,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+65,25,SOLARA,Solara Active Pharma Sciences Ltd,541540.0,0.0,412.1,129,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+66,4,CRISIL,Crisil Limited,500092.0,0.0,3046.25,37,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+67,6,GARFIBRES,Garware Technical Fibres Ltd,509557.0,0.0,2913.15,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+68,55,GENCON,Generic Engineering Construction & Projects Ltd,539407.0,0.0,59.25,50,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+69,12,EXPLEOSOL,Expleo Solutions Ltd,533121.0,0.0,1237.6,2,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+70,30,PREMEXPLN,Premier Explosives Limited,526247.0,-0.03,390.0,33,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+71,9,360ONE,360 ONE WAM Ltd,542772.0,-0.16,1842.0,3,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+72,42,RPPL,Rajshree Polypack Ltd,535109.0,-0.18,170.25,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+73,11,POLYPLEX,Polyplex Corporation Limited,524051.0,-0.24,1501.0,175,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+74,5,TIMKEN,Timken India Limited,522113.0,-0.29,3040.0,7,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+75,22,CCL,Ccl Products (india) Limited,519600.0,-0.38,527.0,160,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+76,13,SHAREINDIA,Share India Securities Ltd,540725.0,-0.47,1193.0,1,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+77,33,LATENTVIEW,Latent View Analytics Ltd,543398.0,-0.9,368.9,1245,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+78,49,CAPTRUST,Capital Trust Ltd.,511505.0,-0.93,80.0,18,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+79,31,AEGISCHEM,Aegis Logistics Limited,500003.0,-0.96,370.0,10836,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+80,37,CMSINFO,CMS Info Systems Ltd,543441.0,-1.12,300.25,1821,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+81,17,RAJESHEXPO,Rajesh Exports Limited,531500.0,-1.21,826.05,729,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+82,51,NITIRAJ,Nitiraj Engineers Ltd,538407.0,-1.46,74.05,2,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+83,65,VIKASECO,Vikas Ecotech Limited,530961.0,-1.47,3.35,163725,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+84,43,BLS,Bls International Services Limited,540073.0,-1.51,170.1,9143,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+85,29,MAYURUNIQ,Mayur Uniquoters Ltd,522249.0,-1.69,401.65,8,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+86,61,ADROITINFO,Adroit Infotech Ltd,532172.0,-1.97,22.4,830,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+87,63,ENERGYDEV,Energy Development Company Limited,532219.0,-2.03,19.35,120,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+88,39,IMFA,Indian Metals & Ferro Alloys Limited,533047.0,-2.47,288.0,3430,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+89,48,PTC,Ptc India Limited,532524.0,-3.42,94.5,180978,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+90,66,KBCGLOBAL,KBC Global Ltd,541161.0,-4.35,3.3,17906,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:20:17
+91,1,LAURUSLABS,Laurus Labs Limited,540222.0,-2.28,334.0,208349,Chanakya Bearish Scanner - Working,31/01/2023 09:23:13
+92,4,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.31,568.2,30393,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+93,6,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.78,248.15,45646,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+94,2,LT,Larsen & Toubro Limited,500510.0,-1.08,2090.05,269724,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+95,7,RECLTD,Rural Electrification Corporation Limited,532955.0,-1.38,114.35,856052,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+96,1,COFORGE,Coforge (Niit Tech),532541.0,-1.57,4349.3,28744,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+97,3,TECHM,Tech Mahindra Limited,532755.0,-1.77,1017.75,205640,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+98,5,LAURUSLABS,Laurus Labs Limited,540222.0,-2.28,334.0,208349,My-intraday-sell-setup-ADX,31/01/2023 09:24:08
+99,6,TATACOMM,Tata Communications Limited,500483.0,-0.57,1226.65,23494,Sell 15 Min,31/01/2023 09:25:16
+100,2,LTTS,L&t Technology Services Limited,540115.0,-0.6,3282.5,11258,Sell 15 Min,31/01/2023 09:25:16
+101,3,ASIANPAINT,Asian Paints Limited,500820.0,-0.62,2749.0,105483,Sell 15 Min,31/01/2023 09:25:16
+102,8,SYNGENE,Syngene International Limited,539268.0,-0.69,563.5,31545,Sell 15 Min,31/01/2023 09:25:16
+103,10,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.84,248.0,79669,Sell 15 Min,31/01/2023 09:25:16
+104,11,BANDHANBNK,Bandhan Bank Ltd,541153.0,-0.89,239.75,308969,Sell 15 Min,31/01/2023 09:25:16
+105,9,HINDALCO,Hindalco Industries Limited,500440.0,-0.96,467.8,315939,Sell 15 Min,31/01/2023 09:25:16
+106,5,MCX,Multi Commodity Exchange Of India Limited,534091.0,-1.04,1491.65,16612,Sell 15 Min,31/01/2023 09:25:16
+107,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.15,5952.25,86753,Sell 15 Min,31/01/2023 09:25:16
+108,4,LT,Larsen & Toubro Limited,500510.0,-1.51,2081.05,325826,Sell 15 Min,31/01/2023 09:25:16
+109,7,TECHM,Tech Mahindra Limited,532755.0,-1.54,1020.1,263347,Sell 15 Min,31/01/2023 09:25:16
+110,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.18,568.95,48947,Highly Bearish I-day,31/01/2023 09:26:23
+111,1,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.45,1029.0,43295,Bearish RSi-Stoc,31/01/2023 09:27:35
+112,14,BPCL,Bharat Petroleum Corporation Limited,500547.0,4.21,349.2,1465095,Volume Spike in 5 minutes,31/01/2023 09:29:47
+113,5,SRF,Srf Limited,503806.0,3.28,2222.0,281315,Volume Spike in 5 minutes,31/01/2023 09:29:47
+114,6,ASTRAL,Astral Poly Technik Limited,532830.0,2.35,2017.0,45717,Volume Spike in 5 minutes,31/01/2023 09:29:47
+115,2,SHREECEM,Shree Cements Limited,500387.0,2.12,23063.95,5414,Volume Spike in 5 minutes,31/01/2023 09:29:47
+116,4,POLYCAB,Polycab India Ltd,542652.0,1.8,2869.85,43288,Volume Spike in 5 minutes,31/01/2023 09:29:47
+117,18,HINDPETRO,Hindustan Petroleum Corporation Limited,500104.0,1.73,238.4,318926,Volume Spike in 5 minutes,31/01/2023 09:29:47
+118,16,APOLLOTYRE,Apollo Tyres Limited,500877.0,1.62,316.9,193427,Volume Spike in 5 minutes,31/01/2023 09:29:47
+119,3,PIIND,Pi Industries Limited,523642.0,1.52,2990.8,12510,Volume Spike in 5 minutes,31/01/2023 09:29:47
+120,13,JSWSTEEL,Jsw Steel Limited,500228.0,1.46,711.95,153271,Volume Spike in 5 minutes,31/01/2023 09:29:47
+121,19,BANKBARODA,Bank Of Baroda,532134.0,1.38,161.1,2378768,Volume Spike in 5 minutes,31/01/2023 09:29:47
+122,1,HONAUT,Honeywell Automation India Limited,517174.0,1.28,38528.25,208,Volume Spike in 5 minutes,31/01/2023 09:29:47
+123,12,VOLTAS,Voltas Limited,500575.0,1.13,783.7,117684,Volume Spike in 5 minutes,31/01/2023 09:29:47
+124,15,VEDL,Vedanta Limited,500295.0,1.1,325.45,741941,Volume Spike in 5 minutes,31/01/2023 09:29:47
+125,8,GRASIM,Grasim Industries Limited,500300.0,1.07,1615.7,47567,Volume Spike in 5 minutes,31/01/2023 09:29:47
+126,17,CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,500085.0,1.02,292.75,73602,Volume Spike in 5 minutes,31/01/2023 09:29:47
+127,7,DEEPAKNTR,Deepak Nitrite Limited,506401.0,0.98,1857.5,14747,Volume Spike in 5 minutes,31/01/2023 09:29:47
+128,10,MUTHOOTFIN,Muthoot Finance Limited,533398.0,0.98,1033.25,20811,Volume Spike in 5 minutes,31/01/2023 09:29:47
+129,11,BHARATFORG,Bharat Forge Limited,500493.0,0.91,873.0,68249,Volume Spike in 5 minutes,31/01/2023 09:29:47
+130,9,M&M,Mahindra & Mahindra Limited,500520.0,0.9,1343.55,200310,Volume Spike in 5 minutes,31/01/2023 09:29:47
+131,1,ASTEC,Astec Lifesciences Limited,533138.0,-11.39,1349.2,43467,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 09:30:46
+132,2,TATAPOWER,Tata Power Company Limited,500400.0,0.76,205.9,681829,Stocks in Downtrend,31/01/2023 09:31:40
+133,1,RELIANCE,Reliance Industries Limited,500325.0,0.12,2362.5,1033603,Stocks in Downtrend,31/01/2023 09:31:40
+134,3,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-1.53,131.8,1372081,Stocks in Downtrend,31/01/2023 09:31:40
+0,21,IDEA,Idea Cellular Limited,532822.0,0.74,6.85,19726927,PERFECT BEARISH,31/01/2023 09:38:37
+1,1,MRF,Mrf Limited,500290.0,0.56,89766.65,899,PERFECT BEARISH,31/01/2023 09:38:37
+2,5,NAVINFLUOR,Navin Fluorine International Limited,532504.0,0.55,3908.0,3506,PERFECT BEARISH,31/01/2023 09:38:37
+3,7,JKCEMENT,Jk Cement Limited,532644.0,0.36,2692.8,11903,PERFECT BEARISH,31/01/2023 09:38:37
+4,9,DEEPAKNTR,Deepak Nitrite Limited,506401.0,0.36,1846.15,20358,PERFECT BEARISH,31/01/2023 09:38:37
+5,13,METROPOLIS,Metropolis Healthcare Ltd,542650.0,0.24,1320.55,4054,PERFECT BEARISH,31/01/2023 09:38:37
+6,11,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,0.13,1549.95,10180,PERFECT BEARISH,31/01/2023 09:38:37
+7,10,DALBHARAT,Dalmia Bharat Limited,533309.0,0.12,1719.6,16548,PERFECT BEARISH,31/01/2023 09:38:37
+8,17,INDHOTEL,The Indian Hotels Company Limited,500850.0,0.07,291.5,700599,PERFECT BEARISH,31/01/2023 09:38:37
+9,2,PAGEIND,Page Industries Limited,532827.0,-0.44,40066.35,1041,PERFECT BEARISH,31/01/2023 09:38:37
+10,19,FEDERALBNK,The Federal Bank  Limited,500469.0,-0.53,132.35,1523918,PERFECT BEARISH,31/01/2023 09:38:37
+11,18,NTPC,Ntpc Limited,532555.0,-0.53,167.95,1552507,PERFECT BEARISH,31/01/2023 09:38:37
+12,12,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.92,1331.5,292225,PERFECT BEARISH,31/01/2023 09:38:37
+13,8,MPHASIS,Mphasis Limited,526299.0,-1.16,2092.2,32731,PERFECT BEARISH,31/01/2023 09:38:37
+14,14,HCLTECH,Hcl Technologies Limited,532281.0,-1.2,1121.15,360953,PERFECT BEARISH,31/01/2023 09:38:37
+15,6,TCS,Tata Consultancy Services Limited,532540.0,-1.45,3383.85,179541,PERFECT BEARISH,31/01/2023 09:38:37
+16,3,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.52,5930.0,202125,PERFECT BEARISH,31/01/2023 09:38:37
+17,20,FSL,Firstsource Solutions Limited,532809.0,-1.54,105.45,261546,PERFECT BEARISH,31/01/2023 09:38:37
+18,15,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.59,1035.0,253806,PERFECT BEARISH,31/01/2023 09:38:37
+19,16,INTELLECT,Intellect Design Arena Limited,538835.0,-2.12,422.35,88746,PERFECT BEARISH,31/01/2023 09:38:37
+20,4,COFORGE,Coforge (Niit Tech),532541.0,-2.92,4289.7,68776,PERFECT BEARISH,31/01/2023 09:38:37
+21,6,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.8,248.1,195582,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:39:40
+22,5,MARICO,Marico Limited,531642.0,-0.81,500.15,142414,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:39:40
+23,4,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.24,580.65,234500,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:39:40
+24,2,INFY,Infosys Limited,500209.0,-1.44,1516.6,751539,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:39:40
+25,1,TCS,Tata Consultancy Services Limited,532540.0,-1.55,3380.3,181849,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:39:40
+26,3,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.74,1033.4,283817,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:39:40
+27,2,CONCOR,Container Corporation Of India Limited,531344.0,-0.08,624.7,184350,Chanakya Bearish Scanner - Working,31/01/2023 09:42:47
+28,5,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.68,248.4,206635,Chanakya Bearish Scanner - Working,31/01/2023 09:42:47
+29,3,JUBLFOOD,Jubilant Foodworks Limited,533155.0,-1.01,480.4,155333,Chanakya Bearish Scanner - Working,31/01/2023 09:42:47
+30,1,CIPLA,Cipla Limited,500087.0,-1.56,1018.25,231067,Chanakya Bearish Scanner - Working,31/01/2023 09:42:47
+31,4,LAURUSLABS,Laurus Labs Limited,540222.0,-4.99,324.75,1068183,Chanakya Bearish Scanner - Working,31/01/2023 09:42:47
+32,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-1.13,563.5,100743,Highly Bearish I-day,31/01/2023 09:45:51
+33,1,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.55,1028.0,105941,Bearish RSi-Stoc,31/01/2023 09:46:45
+34,2,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-1.07,563.85,102427,Bearish RSi-Stoc,31/01/2023 09:46:45
+35,2,BPCL,Bharat Petroleum Corporation Limited,500547.0,4.04,348.65,2735016,Volume Spike in 5 minutes,31/01/2023 09:48:44
+36,1,HAL,Hindustan Aeronautics Ltd,541154.0,2.93,2543.8,163061,Volume Spike in 5 minutes,31/01/2023 09:48:44
+37,1,ASTEC,Astec Lifesciences Limited,533138.0,-12.4,1333.95,109793,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 09:49:48
+38,4,TATAPOWER,Tata Power Company Limited,500400.0,0.93,206.25,1507649,Stocks in Downtrend,31/01/2023 09:50:55
+39,2,BHARTIARTL,Bharti Airtel Limited,532454.0,0.49,774.0,973315,Stocks in Downtrend,31/01/2023 09:50:55
+40,1,RELIANCE,Reliance Industries Limited,500325.0,0.18,2364.0,1385217,Stocks in Downtrend,31/01/2023 09:50:55
+41,3,INDHOTEL,The Indian Hotels Company Limited,500850.0,0.0,291.3,955086,Stocks in Downtrend,31/01/2023 09:50:55
+42,6,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.0,51.1,636690,Stocks in Downtrend,31/01/2023 09:50:55
+43,5,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.45,133.25,2241752,Stocks in Downtrend,31/01/2023 09:50:55
+0,21,IDEA,Idea Cellular Limited,532822.0,0.74,6.85,23431689,PERFECT BEARISH,31/01/2023 09:52:39
+1,7,JKCEMENT,Jk Cement Limited,532644.0,0.61,2699.65,15358,PERFECT BEARISH,31/01/2023 09:52:39
+2,13,METROPOLIS,Metropolis Healthcare Ltd,542650.0,0.61,1325.35,8049,PERFECT BEARISH,31/01/2023 09:52:39
+3,1,MRF,Mrf Limited,500290.0,0.59,89793.0,1509,PERFECT BEARISH,31/01/2023 09:52:39
+4,9,DEEPAKNTR,Deepak Nitrite Limited,506401.0,0.41,1847.0,35493,PERFECT BEARISH,31/01/2023 09:52:39
+5,5,NAVINFLUOR,Navin Fluorine International Limited,532504.0,0.4,3902.15,4416,PERFECT BEARISH,31/01/2023 09:52:39
+6,10,DALBHARAT,Dalmia Bharat Limited,533309.0,0.34,1723.4,21140,PERFECT BEARISH,31/01/2023 09:52:39
+7,17,INDHOTEL,The Indian Hotels Company Limited,500850.0,0.1,291.6,980778,PERFECT BEARISH,31/01/2023 09:52:39
+8,19,FEDERALBNK,The Federal Bank  Limited,500469.0,-0.19,132.8,1880671,PERFECT BEARISH,31/01/2023 09:52:39
+9,2,PAGEIND,Page Industries Limited,532827.0,-0.37,40093.65,1419,PERFECT BEARISH,31/01/2023 09:52:39
+10,11,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-0.57,1539.05,19756,PERFECT BEARISH,31/01/2023 09:52:39
+11,18,NTPC,Ntpc Limited,532555.0,-0.65,167.75,2141354,PERFECT BEARISH,31/01/2023 09:52:39
+12,12,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.81,1333.0,365396,PERFECT BEARISH,31/01/2023 09:52:39
+13,15,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.99,1041.25,437287,PERFECT BEARISH,31/01/2023 09:52:39
+14,20,FSL,Firstsource Solutions Limited,532809.0,-1.12,105.9,397845,PERFECT BEARISH,31/01/2023 09:52:39
+15,3,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.14,5953.0,247599,PERFECT BEARISH,31/01/2023 09:52:39
+16,6,TCS,Tata Consultancy Services Limited,532540.0,-1.29,3389.3,223461,PERFECT BEARISH,31/01/2023 09:52:39
+17,8,MPHASIS,Mphasis Limited,526299.0,-1.63,2082.3,48381,PERFECT BEARISH,31/01/2023 09:52:39
+18,14,HCLTECH,Hcl Technologies Limited,532281.0,-1.64,1116.15,483608,PERFECT BEARISH,31/01/2023 09:52:39
+19,16,INTELLECT,Intellect Design Arena Limited,538835.0,-2.22,421.9,138867,PERFECT BEARISH,31/01/2023 09:52:39
+20,4,COFORGE,Coforge (Niit Tech),532541.0,-3.25,4275.0,95890,PERFECT BEARISH,31/01/2023 09:52:39
+21,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.32,2639.7,1149924,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+22,8,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.78,248.15,238078,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+23,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.06,1220.35,149837,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+24,3,INFY,Infosys Limited,500209.0,-1.09,1522.0,967175,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+25,6,MARICO,Marico Limited,531642.0,-1.09,498.75,194365,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+26,1,TCS,Tata Consultancy Services Limited,532540.0,-1.3,3389.0,225692,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+27,7,BSOFT,Birlasoft Ltd,532400.0,-1.44,290.55,274870,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+28,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.59,578.6,317043,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 09:53:41
+29,1,BHARTIARTL,Bharti Airtel Limited,532454.0,0.25,772.15,1609626,Intraday Sell,31/01/2023 09:55:44
+30,2,CONCOR,Container Corporation Of India Limited,531344.0,0.02,625.3,271737,Chanakya Bearish Scanner - Working,31/01/2023 09:56:45
+31,4,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.28,249.4,270556,Chanakya Bearish Scanner - Working,31/01/2023 09:56:45
+32,3,JUBLFOOD,Jubilant Foodworks Limited,533155.0,-0.77,481.55,237534,Chanakya Bearish Scanner - Working,31/01/2023 09:56:45
+33,1,CIPLA,Cipla Limited,500087.0,-1.64,1017.4,508281,Chanakya Bearish Scanner - Working,31/01/2023 09:56:45
+34,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.82,565.3,142337,Highly Bearish I-day,31/01/2023 09:59:38
+35,1,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.75,1025.95,132953,Bearish RSi-Stoc,31/01/2023 10:00:27
+36,2,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.87,565.0,144788,Bearish RSi-Stoc,31/01/2023 10:00:27
+37,1,UPL,Upl Limited,512070.0,2.07,760.55,653881,Volume Spike in 5 minutes,31/01/2023 10:02:08
+38,2,CUB,City Union Bank Limited,532210.0,1.38,154.35,393327,Volume Spike in 5 minutes,31/01/2023 10:02:08
+39,2,LAURUSLABS,Laurus Labs Limited,540222.0,-2.76,332.35,1774856,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:03:00
+40,1,ASTEC,Astec Lifesciences Limited,533138.0,-11.34,1350.0,122178,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:03:00
+41,5,TATAPOWER,Tata Power Company Limited,500400.0,1.79,208.0,2120302,Stocks in Downtrend,31/01/2023 10:03:54
+42,3,INDHOTEL,The Indian Hotels Company Limited,500850.0,1.12,294.55,1126466,Stocks in Downtrend,31/01/2023 10:03:54
+43,4,ZEEL,Zee Entertainment Enterprises Limited,505537.0,0.39,220.2,525557,Stocks in Downtrend,31/01/2023 10:03:54
+44,1,RELIANCE,Reliance Industries Limited,500325.0,0.15,2363.3,1584465,Stocks in Downtrend,31/01/2023 10:03:54
+45,2,BHARTIARTL,Bharti Airtel Limited,532454.0,0.06,770.7,1739984,Stocks in Downtrend,31/01/2023 10:03:54
+46,7,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.0,51.1,818839,Stocks in Downtrend,31/01/2023 10:03:54
+47,6,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.3,133.45,2574182,Stocks in Downtrend,31/01/2023 10:03:54
+0,17,INDHOTEL,The Indian Hotels Company Limited,500850.0,1.39,295.35,1186191,PERFECT BEARISH,31/01/2023 10:06:39
+1,10,DALBHARAT,Dalmia Bharat Limited,533309.0,1.3,1739.85,37907,PERFECT BEARISH,31/01/2023 10:06:39
+2,16,BALRAMCHIN,Balrampur Chini Mills Limited,500038.0,1.11,367.5,213286,PERFECT BEARISH,31/01/2023 10:06:39
+3,9,DEEPAKNTR,Deepak Nitrite Limited,506401.0,0.97,1857.25,47051,PERFECT BEARISH,31/01/2023 10:06:39
+4,5,NAVINFLUOR,Navin Fluorine International Limited,532504.0,0.82,3918.65,6661,PERFECT BEARISH,31/01/2023 10:06:39
+5,21,IDEA,Idea Cellular Limited,532822.0,0.74,6.85,28139129,PERFECT BEARISH,31/01/2023 10:06:39
+6,1,MRF,Mrf Limited,500290.0,0.63,89830.0,1801,PERFECT BEARISH,31/01/2023 10:06:39
+7,7,JKCEMENT,Jk Cement Limited,532644.0,0.34,2692.25,19974,PERFECT BEARISH,31/01/2023 10:06:39
+8,19,FEDERALBNK,The Federal Bank  Limited,500469.0,0.04,133.1,2260761,PERFECT BEARISH,31/01/2023 10:06:39
+9,20,FSL,Firstsource Solutions Limited,532809.0,-0.09,107.0,598103,PERFECT BEARISH,31/01/2023 10:06:39
+10,2,PAGEIND,Page Industries Limited,532827.0,-0.45,40061.2,1823,PERFECT BEARISH,31/01/2023 10:06:39
+11,11,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-0.59,1538.7,26231,PERFECT BEARISH,31/01/2023 10:06:39
+12,14,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.64,1045.0,589678,PERFECT BEARISH,31/01/2023 10:06:39
+13,18,NTPC,Ntpc Limited,532555.0,-0.68,167.7,2681383,PERFECT BEARISH,31/01/2023 10:06:39
+14,12,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.88,1332.0,414768,PERFECT BEARISH,31/01/2023 10:06:39
+15,6,TCS,Tata Consultancy Services Limited,532540.0,-1.44,3384.35,253260,PERFECT BEARISH,31/01/2023 10:06:39
+16,13,HCLTECH,Hcl Technologies Limited,532281.0,-1.65,1116.05,614521,PERFECT BEARISH,31/01/2023 10:06:39
+17,15,INTELLECT,Intellect Design Arena Limited,538835.0,-1.65,424.4,182344,PERFECT BEARISH,31/01/2023 10:06:39
+18,3,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.69,5920.0,292985,PERFECT BEARISH,31/01/2023 10:06:39
+19,8,MPHASIS,Mphasis Limited,526299.0,-1.77,2079.4,62708,PERFECT BEARISH,31/01/2023 10:06:39
+20,4,COFORGE,Coforge (Niit Tech),532541.0,-3.23,4276.0,113558,PERFECT BEARISH,31/01/2023 10:06:39
+21,7,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.04,250.0,323999,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+22,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.4,2637.6,1247319,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+23,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.2,1218.65,245350,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+24,3,INFY,Infosys Limited,500209.0,-1.36,1517.8,1095430,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+25,6,MARICO,Marico Limited,531642.0,-1.39,497.25,251619,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+26,1,TCS,Tata Consultancy Services Limited,532540.0,-1.42,3385.05,255087,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+27,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.81,577.3,400762,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:07:35
+28,2,CONCOR,Container Corporation Of India Limited,531344.0,-0.08,624.7,486401,Chanakya Bearish Scanner - Working,31/01/2023 10:10:46
+29,4,ABFRL,Aditya Birla Fashion And Retail Limited,535755.0,-0.14,249.75,328047,Chanakya Bearish Scanner - Working,31/01/2023 10:10:46
+30,3,JUBLFOOD,Jubilant Foodworks Limited,533155.0,-0.86,481.15,298262,Chanakya Bearish Scanner - Working,31/01/2023 10:10:46
+31,1,CIPLA,Cipla Limited,500087.0,-1.46,1019.25,626894,Chanakya Bearish Scanner - Working,31/01/2023 10:10:46
+32,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.11,569.3,185122,Highly Bearish I-day,31/01/2023 10:13:57
+33,3,BHARTIARTL,Bharti Airtel Limited,532454.0,-0.14,769.15,1905923,Bearish RSi-Stoc,31/01/2023 10:15:06
+34,2,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.65,1027.0,204958,Bearish RSi-Stoc,31/01/2023 10:15:06
+35,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.12,1219.6,256819,Bearish RSi-Stoc,31/01/2023 10:15:06
+36,1,COROMANDEL,Coromandel International Limited,506395.0,2.23,878.7,91232,Volume Spike in 5 minutes,31/01/2023 10:17:26
+37,2,LAURUSLABS,Laurus Labs Limited,540222.0,-2.71,332.55,2023095,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:18:31
+38,3,VIKASECO,Vikas Ecotech Limited,530961.0,-4.41,3.25,6795761,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:18:31
+39,1,ASTEC,Astec Lifesciences Limited,533138.0,-11.51,1347.5,150936,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:18:31
+40,5,TATAPOWER,Tata Power Company Limited,500400.0,2.57,209.6,3271613,Stocks in Downtrend,31/01/2023 10:19:31
+41,3,INDHOTEL,The Indian Hotels Company Limited,500850.0,1.25,294.95,1714563,Stocks in Downtrend,31/01/2023 10:19:31
+42,4,ZEEL,Zee Entertainment Enterprises Limited,505537.0,0.84,221.2,716213,Stocks in Downtrend,31/01/2023 10:19:31
+43,7,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.2,51.2,1023244,Stocks in Downtrend,31/01/2023 10:19:31
+44,1,RELIANCE,Reliance Industries Limited,500325.0,-0.06,2358.4,1756684,Stocks in Downtrend,31/01/2023 10:19:31
+45,2,BHARTIARTL,Bharti Airtel Limited,532454.0,-0.1,769.45,2001143,Stocks in Downtrend,31/01/2023 10:19:31
+46,6,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-1.01,132.5,2910571,Stocks in Downtrend,31/01/2023 10:19:31
+0,15,INDHOTEL,The Indian Hotels Company Limited,500850.0,1.94,296.95,1806472,PERFECT BEARISH,31/01/2023 10:21:28
+1,14,BALRAMCHIN,Balrampur Chini Mills Limited,500038.0,1.53,369.0,244729,PERFECT BEARISH,31/01/2023 10:21:28
+2,5,NAVINFLUOR,Navin Fluorine International Limited,532504.0,1.25,3935.0,10154,PERFECT BEARISH,31/01/2023 10:21:28
+3,18,IDEA,Idea Cellular Limited,532822.0,0.74,6.85,29291753,PERFECT BEARISH,31/01/2023 10:21:28
+4,1,MRF,Mrf Limited,500290.0,0.6,89798.35,2036,PERFECT BEARISH,31/01/2023 10:21:28
+5,7,JKCEMENT,Jk Cement Limited,532644.0,0.36,2692.95,26959,PERFECT BEARISH,31/01/2023 10:21:28
+6,17,FSL,Firstsource Solutions Limited,532809.0,0.28,107.4,765727,PERFECT BEARISH,31/01/2023 10:21:28
+7,13,INTELLECT,Intellect Design Arena Limited,538835.0,0.19,432.3,254892,PERFECT BEARISH,31/01/2023 10:21:28
+8,9,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-0.06,1546.9,32802,PERFECT BEARISH,31/01/2023 10:21:28
+9,12,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.21,1049.5,691536,PERFECT BEARISH,31/01/2023 10:21:28
+10,2,PAGEIND,Page Industries Limited,532827.0,-0.36,40098.4,2210,PERFECT BEARISH,31/01/2023 10:21:28
+11,16,NTPC,Ntpc Limited,532555.0,-0.53,167.95,3225298,PERFECT BEARISH,31/01/2023 10:21:28
+12,10,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.66,1335.0,461086,PERFECT BEARISH,31/01/2023 10:21:28
+13,6,TCS,Tata Consultancy Services Limited,532540.0,-1.06,3397.3,319400,PERFECT BEARISH,31/01/2023 10:21:28
+14,11,HCLTECH,Hcl Technologies Limited,532281.0,-1.56,1117.0,747185,PERFECT BEARISH,31/01/2023 10:21:28
+15,3,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.68,5920.85,352770,PERFECT BEARISH,31/01/2023 10:21:28
+16,8,MPHASIS,Mphasis Limited,526299.0,-1.79,2078.9,76342,PERFECT BEARISH,31/01/2023 10:21:28
+17,4,COFORGE,Coforge (Niit Tech),532541.0,-2.58,4304.7,123936,PERFECT BEARISH,31/01/2023 10:21:28
+18,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.76,2628.15,1382168,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:22:36
+19,1,TCS,Tata Consultancy Services Limited,532540.0,-1.1,3396.0,324143,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:22:36
+20,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.17,1219.0,277665,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:22:36
+21,3,INFY,Infosys Limited,500209.0,-1.4,1517.25,1390988,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:22:36
+22,6,MARICO,Marico Limited,531642.0,-1.62,496.1,324833,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:22:36
+23,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-2.29,574.5,531720,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:22:36
+24,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.17,624.15,592626,Chanakya Bearish Scanner - Working,31/01/2023 10:25:32
+25,3,LUPIN,Lupin Limited,500257.0,-0.42,731.65,101562,Chanakya Bearish Scanner - Working,31/01/2023 10:25:32
+26,2,CIPLA,Cipla Limited,500087.0,-1.21,1021.9,706013,Chanakya Bearish Scanner - Working,31/01/2023 10:25:32
+27,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.72,4287.0,132159,Chanakya Bearish Scanner - Working,31/01/2023 10:25:32
+28,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,0.46,572.55,238774,Highly Bearish I-day,31/01/2023 10:28:30
+29,3,BHARTIARTL,Bharti Airtel Limited,532454.0,-0.08,769.55,2167615,Bearish RSi-Stoc,31/01/2023 10:29:46
+30,2,TVSMOTOR,Tvs Motor Company Limited,532343.0,-1.01,1023.25,271678,Bearish RSi-Stoc,31/01/2023 10:29:46
+31,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.12,1219.6,283483,Bearish RSi-Stoc,31/01/2023 10:29:46
+32,2,LAURUSLABS,Laurus Labs Limited,540222.0,-2.43,333.5,2270639,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:32:24
+33,3,VIKASECO,Vikas Ecotech Limited,530961.0,-4.41,3.25,7315844,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:32:24
+34,1,ASTEC,Astec Lifesciences Limited,533138.0,-12.07,1338.85,154178,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:32:24
+35,5,COCHINSHIP,Cochin Shipyard,540678.0,3.79,505.75,517135,Stocks in Downtrend,31/01/2023 10:33:17
+36,8,CUB,City Union Bank Limited,532210.0,2.73,156.4,565304,Stocks in Downtrend,31/01/2023 10:33:17
+37,3,VOLTAS,Voltas Limited,500575.0,2.19,791.95,503294,Stocks in Downtrend,31/01/2023 10:33:17
+38,6,INDHOTEL,The Indian Hotels Company Limited,500850.0,2.15,297.55,4979237,Stocks in Downtrend,31/01/2023 10:33:17
+39,7,ZEEL,Zee Entertainment Enterprises Limited,505537.0,1.57,222.8,875704,Stocks in Downtrend,31/01/2023 10:33:17
+40,10,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.2,51.2,1185758,Stocks in Downtrend,31/01/2023 10:33:17
+41,1,RELIANCE,Reliance Industries Limited,500325.0,0.01,2360.0,1888248,Stocks in Downtrend,31/01/2023 10:33:17
+42,4,BHARTIARTL,Bharti Airtel Limited,532454.0,-0.15,769.05,2217043,Stocks in Downtrend,31/01/2023 10:33:17
+43,2,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.26,1340.3,508744,Stocks in Downtrend,31/01/2023 10:33:17
+44,9,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.49,133.2,3112127,Stocks in Downtrend,31/01/2023 10:33:17
+0,14,IDEA,Idea Cellular Limited,532822.0,1.47,6.9,38056615,PERFECT BEARISH,31/01/2023 10:44:12
+1,1,MRF,Mrf Limited,500290.0,0.6,89800.0,2285,PERFECT BEARISH,31/01/2023 10:44:12
+2,6,JKCEMENT,Jk Cement Limited,532644.0,0.42,2694.55,38418,PERFECT BEARISH,31/01/2023 10:44:12
+3,12,NTPC,Ntpc Limited,532555.0,0.18,169.15,4423360,PERFECT BEARISH,31/01/2023 10:44:12
+4,9,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.09,1345.0,575122,PERFECT BEARISH,31/01/2023 10:44:12
+5,13,FSL,Firstsource Solutions Limited,532809.0,0.09,107.2,869972,PERFECT BEARISH,31/01/2023 10:44:12
+6,2,PAGEIND,Page Industries Limited,532827.0,-0.49,40045.7,2836,PERFECT BEARISH,31/01/2023 10:44:12
+7,11,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.65,1044.85,760742,PERFECT BEARISH,31/01/2023 10:44:12
+8,8,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-0.96,1533.1,39882,PERFECT BEARISH,31/01/2023 10:44:12
+9,5,TCS,Tata Consultancy Services Limited,532540.0,-1.14,3394.45,413761,PERFECT BEARISH,31/01/2023 10:44:12
+10,7,MPHASIS,Mphasis Limited,526299.0,-1.46,2086.0,88094,PERFECT BEARISH,31/01/2023 10:44:12
+11,3,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.52,5930.0,430154,PERFECT BEARISH,31/01/2023 10:44:12
+12,10,HCLTECH,Hcl Technologies Limited,532281.0,-1.8,1114.35,1162147,PERFECT BEARISH,31/01/2023 10:44:12
+13,4,COFORGE,Coforge (Niit Tech),532541.0,-2.96,4288.05,137317,PERFECT BEARISH,31/01/2023 10:44:12
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.68,2630.3,1532590,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:45:23
+15,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.15,1219.3,309640,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:45:23
+16,1,TCS,Tata Consultancy Services Limited,532540.0,-1.21,3391.95,417963,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:45:23
+17,6,MARICO,Marico Limited,531642.0,-1.37,497.35,404742,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:45:23
+18,3,INFY,Infosys Limited,500209.0,-1.52,1515.4,1879739,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:45:23
+19,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-2.01,576.15,769068,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 10:45:23
+20,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.1,624.6,858756,Chanakya Bearish Scanner - Working,31/01/2023 10:48:46
+21,3,LUPIN,Lupin Limited,500257.0,-0.44,731.5,131195,Chanakya Bearish Scanner - Working,31/01/2023 10:48:46
+22,2,CIPLA,Cipla Limited,500087.0,-1.29,1021.05,772381,Chanakya Bearish Scanner - Working,31/01/2023 10:48:46
+23,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.54,4294.6,165290,Chanakya Bearish Scanner - Working,31/01/2023 10:48:46
+24,1,ONGC,Oil & Natural Gas Corporation Limited,500312.0,0.24,145.25,3650617,My-intraday-sell-setup-ADX,31/01/2023 10:49:49
+25,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,0.7,573.95,281226,Highly Bearish I-day,31/01/2023 10:51:56
+26,1,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.23,1031.35,368552,Bearish RSi-Stoc,31/01/2023 10:53:07
+27,4,CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,500085.0,4.24,302.1,602599,Volume Spike in 5 minutes,31/01/2023 10:55:25
+28,2,PEL,Piramal Enterprises Limited,500302.0,3.75,848.0,319970,Volume Spike in 5 minutes,31/01/2023 10:55:25
+29,6,TATAPOWER,Tata Power Company Limited,500400.0,3.21,210.9,6355438,Volume Spike in 5 minutes,31/01/2023 10:55:25
+30,1,MGL,Mahanagar Gas Limited,539957.0,2.83,873.45,84564,Volume Spike in 5 minutes,31/01/2023 10:55:25
+31,5,INDHOTEL,The Indian Hotels Company Limited,500850.0,2.66,299.05,7618734,Volume Spike in 5 minutes,31/01/2023 10:55:25
+32,3,BALRAMCHIN,Balrampur Chini Mills Limited,500038.0,2.12,371.15,396273,Volume Spike in 5 minutes,31/01/2023 10:55:25
+33,7,MELSTAR,Melstar Information Technologies Limited,532307.0,-1.96,2.5,3344,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+34,1,HESTERBIO,Hester Biosciences Limited,524669.0,-2.79,1717.0,2678,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+35,4,LAURUSLABS,Laurus Labs Limited,540222.0,-3.01,331.5,3161870,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+36,6,VIKASECO,Vikas Ecotech Limited,530961.0,-4.41,3.25,7772536,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+37,5,ALPHAGEO,Alphageo (india) Limited,526397.0,-4.69,248.8,13117,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+38,3,BIKAJI,Bikaji Foods International Ltd,543653.0,-5.0,379.85,455798,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+39,2,ASTEC,Astec Lifesciences Limited,533138.0,-13.48,1317.5,190845,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 10:56:30
+40,5,COCHINSHIP,Cochin Shipyard,540678.0,3.11,502.45,556104,Stocks in Downtrend,31/01/2023 10:57:46
+41,6,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.0,300.05,8187758,Stocks in Downtrend,31/01/2023 10:57:46
+42,8,CUB,City Union Bank Limited,532210.0,2.99,156.8,650866,Stocks in Downtrend,31/01/2023 10:57:46
+43,3,VOLTAS,Voltas Limited,500575.0,2.15,791.65,561288,Stocks in Downtrend,31/01/2023 10:57:46
+44,11,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,1.84,74.85,620564,Stocks in Downtrend,31/01/2023 10:57:46
+45,7,ZEEL,Zee Entertainment Enterprises Limited,505537.0,1.55,222.75,1043886,Stocks in Downtrend,31/01/2023 10:57:46
+46,4,BHARTIARTL,Bharti Airtel Limited,532454.0,0.21,771.8,2614027,Stocks in Downtrend,31/01/2023 10:57:46
+47,12,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.2,51.2,1466342,Stocks in Downtrend,31/01/2023 10:57:46
+48,2,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.19,1346.45,705823,Stocks in Downtrend,31/01/2023 10:57:46
+49,1,RELIANCE,Reliance Industries Limited,500325.0,0.01,2359.9,2264842,Stocks in Downtrend,31/01/2023 10:57:46
+50,9,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.52,133.15,3338738,Stocks in Downtrend,31/01/2023 10:57:46
+51,10,NLCINDIA,Nlc India Limited,513683.0,-1.22,77.2,508090,Stocks in Downtrend,31/01/2023 10:57:46
+0,14,IDEA,Idea Cellular Limited,532822.0,2.21,6.95,39321747,PERFECT BEARISH,31/01/2023 11:00:05
+1,1,MRF,Mrf Limited,500290.0,0.97,90129.65,2631,PERFECT BEARISH,31/01/2023 11:00:05
+2,9,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.33,1348.35,720625,PERFECT BEARISH,31/01/2023 11:00:05
+3,6,JKCEMENT,Jk Cement Limited,532644.0,0.28,2690.7,48798,PERFECT BEARISH,31/01/2023 11:00:05
+4,13,FSL,Firstsource Solutions Limited,532809.0,0.14,107.25,923308,PERFECT BEARISH,31/01/2023 11:00:05
+5,12,NTPC,Ntpc Limited,532555.0,0.09,169.0,5253715,PERFECT BEARISH,31/01/2023 11:00:05
+6,2,PAGEIND,Page Industries Limited,532827.0,-0.18,40168.9,3454,PERFECT BEARISH,31/01/2023 11:00:05
+7,11,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.59,1045.5,832701,PERFECT BEARISH,31/01/2023 11:00:05
+8,8,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-0.78,1535.85,43152,PERFECT BEARISH,31/01/2023 11:00:05
+9,7,MPHASIS,Mphasis Limited,526299.0,-0.92,2097.4,99466,PERFECT BEARISH,31/01/2023 11:00:05
+10,5,TCS,Tata Consultancy Services Limited,532540.0,-1.34,3387.8,455853,PERFECT BEARISH,31/01/2023 11:00:05
+11,10,HCLTECH,Hcl Technologies Limited,532281.0,-1.43,1118.55,1386292,PERFECT BEARISH,31/01/2023 11:00:05
+12,3,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.66,5921.95,492360,PERFECT BEARISH,31/01/2023 11:00:05
+13,4,COFORGE,Coforge (Niit Tech),532541.0,-2.48,4308.95,145276,PERFECT BEARISH,31/01/2023 11:00:05
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.47,2635.65,1605580,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:01:14
+15,3,INFY,Infosys Limited,500209.0,-1.1,1521.9,2015614,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:01:14
+16,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.13,1219.5,433330,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:01:14
+17,1,TCS,Tata Consultancy Services Limited,532540.0,-1.31,3388.65,461925,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:01:14
+18,6,MARICO,Marico Limited,531642.0,-1.36,497.4,450059,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:01:14
+19,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.57,578.7,867743,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:01:14
+20,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.35,623.0,962785,Chanakya Bearish Scanner - Working,31/01/2023 11:04:36
+21,3,LUPIN,Lupin Limited,500257.0,-0.6,730.3,146963,Chanakya Bearish Scanner - Working,31/01/2023 11:04:36
+22,2,CIPLA,Cipla Limited,500087.0,-1.39,1020.0,819246,Chanakya Bearish Scanner - Working,31/01/2023 11:04:36
+23,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.52,4295.85,182633,Chanakya Bearish Scanner - Working,31/01/2023 11:04:36
+24,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,0.73,574.1,297617,Highly Bearish I-day,31/01/2023 11:07:54
+25,2,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.26,1031.0,400663,Bearish RSi-Stoc,31/01/2023 11:09:02
+26,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.11,1219.7,458702,Bearish RSi-Stoc,31/01/2023 11:09:02
+27,6,MELSTAR,Melstar Information Technologies Limited,532307.0,-1.96,2.5,3344,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:12:24
+28,5,NECLIFE,Nectar Lifesciences Limited,532649.0,-2.22,19.85,314685,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:12:24
+29,3,LAURUSLABS,Laurus Labs Limited,540222.0,-3.26,330.65,3263633,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:12:24
+30,4,ALPHAGEO,Alphageo (india) Limited,526397.0,-3.47,252.0,14388,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:12:24
+31,2,BIKAJI,Bikaji Foods International Ltd,543653.0,-5.0,379.85,473498,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:12:24
+32,1,ASTEC,Astec Lifesciences Limited,533138.0,-13.25,1320.9,204292,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:12:24
+33,8,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.06,300.2,10039539,Stocks in Downtrend,31/01/2023 11:13:29
+34,7,COCHINSHIP,Cochin Shipyard,540678.0,3.03,502.05,584725,Stocks in Downtrend,31/01/2023 11:13:29
+35,10,CUB,City Union Bank Limited,532210.0,2.96,156.75,683074,Stocks in Downtrend,31/01/2023 11:13:29
+36,5,VOLTAS,Voltas Limited,500575.0,2.12,791.35,581739,Stocks in Downtrend,31/01/2023 11:13:29
+37,13,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,1.7,74.75,745752,Stocks in Downtrend,31/01/2023 11:13:29
+38,9,ZEEL,Zee Entertainment Enterprises Limited,505537.0,1.21,222.0,1291783,Stocks in Downtrend,31/01/2023 11:13:29
+39,6,BHARTIARTL,Bharti Airtel Limited,532454.0,0.23,772.0,2830435,Stocks in Downtrend,31/01/2023 11:13:29
+40,14,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.2,51.2,1624862,Stocks in Downtrend,31/01/2023 11:13:29
+41,4,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.09,1342.7,825618,Stocks in Downtrend,31/01/2023 11:13:29
+42,11,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.45,133.25,3435596,Stocks in Downtrend,31/01/2023 11:13:29
+43,3,RELIANCE,Reliance Industries Limited,500325.0,-0.58,2346.0,2617580,Stocks in Downtrend,31/01/2023 11:13:29
+44,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.92,2740.8,548440,Stocks in Downtrend,31/01/2023 11:13:29
+45,12,NLCINDIA,Nlc India Limited,513683.0,-1.28,77.15,537981,Stocks in Downtrend,31/01/2023 11:13:29
+46,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.85,5910.2,537075,Stocks in Downtrend,31/01/2023 11:13:29
+0,12,NMDC,Nmdc Limited,526371.0,2.41,125.35,1382647,PERFECT BEARISH,31/01/2023 11:21:10
+1,14,IDEA,Idea Cellular Limited,532822.0,2.21,6.95,40344492,PERFECT BEARISH,31/01/2023 11:21:10
+2,11,NTPC,Ntpc Limited,532555.0,0.8,170.2,5998319,PERFECT BEARISH,31/01/2023 11:21:10
+3,5,JKCEMENT,Jk Cement Limited,532644.0,0.48,2695.95,55782,PERFECT BEARISH,31/01/2023 11:21:10
+4,8,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.27,1347.45,844038,PERFECT BEARISH,31/01/2023 11:21:10
+5,13,FSL,Firstsource Solutions Limited,532809.0,0.09,107.2,957558,PERFECT BEARISH,31/01/2023 11:21:10
+6,1,PAGEIND,Page Industries Limited,532827.0,-0.22,40153.5,3864,PERFECT BEARISH,31/01/2023 11:21:10
+7,10,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.41,1047.35,901816,PERFECT BEARISH,31/01/2023 11:21:10
+8,7,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-0.89,1534.1,52970,PERFECT BEARISH,31/01/2023 11:21:10
+9,6,MPHASIS,Mphasis Limited,526299.0,-0.99,2095.8,113816,PERFECT BEARISH,31/01/2023 11:21:10
+10,9,HCLTECH,Hcl Technologies Limited,532281.0,-1.3,1120.0,1549907,PERFECT BEARISH,31/01/2023 11:21:10
+11,4,TCS,Tata Consultancy Services Limited,532540.0,-1.42,3385.0,522533,PERFECT BEARISH,31/01/2023 11:21:10
+12,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.82,5911.95,557853,PERFECT BEARISH,31/01/2023 11:21:10
+13,3,COFORGE,Coforge (Niit Tech),532541.0,-2.24,4319.8,157619,PERFECT BEARISH,31/01/2023 11:21:10
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.67,2630.4,1786675,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:22:17
+15,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.14,1219.4,471702,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:22:17
+16,3,INFY,Infosys Limited,500209.0,-1.47,1516.2,2559740,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:22:17
+17,1,TCS,Tata Consultancy Services Limited,532540.0,-1.49,3382.65,526366,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:22:17
+18,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.62,578.45,1048218,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:22:17
+19,6,MARICO,Marico Limited,531642.0,-1.74,495.5,495044,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:22:17
+20,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.39,622.75,1078232,Chanakya Bearish Scanner - Working,31/01/2023 11:25:41
+21,3,LUPIN,Lupin Limited,500257.0,-0.4,731.75,167400,Chanakya Bearish Scanner - Working,31/01/2023 11:25:41
+22,2,CIPLA,Cipla Limited,500087.0,-1.0,1024.1,915458,Chanakya Bearish Scanner - Working,31/01/2023 11:25:41
+23,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.7,4287.8,200497,Chanakya Bearish Scanner - Working,31/01/2023 11:25:41
+24,4,TRIDENT,Trident Limited,521064.0,7.23,34.1,11646177,Highly Bearish I-day,31/01/2023 11:28:55
+25,3,NFL,National Fertilizers Limited,523630.0,6.82,67.35,6002536,Highly Bearish I-day,31/01/2023 11:28:55
+26,1,RCF,Rashtriya Chemicals And Fertilizers Limited,524230.0,5.66,119.45,5615032,Highly Bearish I-day,31/01/2023 11:28:55
+27,2,SPIC,Southern Petrochemicals Industries Corporation  Limited,590030.0,5.42,73.85,968030,Highly Bearish I-day,31/01/2023 11:28:55
+28,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.09,1220.0,484446,Bearish RSi-Stoc,31/01/2023 11:30:01
+29,1,M&M,Mahindra & Mahindra Limited,500520.0,1.76,1355.0,1573492,Volume Spike in 5 minutes,31/01/2023 11:32:07
+30,4,ALPHAGEO,Alphageo (india) Limited,526397.0,-2.32,255.0,17504,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:33:12
+31,2,BIKAJI,Bikaji Foods International Ltd,543653.0,-3.05,387.65,682203,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:33:12
+32,3,LAURUSLABS,Laurus Labs Limited,540222.0,-3.2,330.85,3364773,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:33:12
+33,6,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3368,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:33:12
+34,5,VIKASECO,Vikas Ecotech Limited,530961.0,-4.41,3.25,8355687,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:33:12
+35,1,ASTEC,Astec Lifesciences Limited,533138.0,-11.54,1347.0,220835,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:33:12
+36,9,CUB,City Union Bank Limited,532210.0,3.48,157.55,871364,Stocks in Downtrend,31/01/2023 11:34:14
+37,6,COCHINSHIP,Cochin Shipyard,540678.0,3.32,503.5,598403,Stocks in Downtrend,31/01/2023 11:34:14
+38,8,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.15,226.25,2080509,Stocks in Downtrend,31/01/2023 11:34:14
+39,7,INDHOTEL,The Indian Hotels Company Limited,500850.0,2.92,299.8,10211028,Stocks in Downtrend,31/01/2023 11:34:14
+40,12,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,2.04,75.0,788254,Stocks in Downtrend,31/01/2023 11:34:14
+41,13,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.59,51.4,1897098,Stocks in Downtrend,31/01/2023 11:34:14
+42,4,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.52,1350.8,947293,Stocks in Downtrend,31/01/2023 11:34:14
+43,5,BHARTIARTL,Bharti Airtel Limited,532454.0,0.46,773.75,3210372,Stocks in Downtrend,31/01/2023 11:34:14
+44,11,NLCINDIA,Nlc India Limited,513683.0,0.0,78.15,699193,Stocks in Downtrend,31/01/2023 11:34:14
+45,3,RELIANCE,Reliance Industries Limited,500325.0,-0.28,2353.15,2894561,Stocks in Downtrend,31/01/2023 11:34:14
+46,10,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.52,133.15,3579389,Stocks in Downtrend,31/01/2023 11:34:14
+47,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.83,2743.3,589848,Stocks in Downtrend,31/01/2023 11:34:14
+48,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.89,5907.85,635265,Stocks in Downtrend,31/01/2023 11:34:14
+0,14,IDEA,Idea Cellular Limited,532822.0,2.21,6.95,41315519,PERFECT BEARISH,31/01/2023 11:35:53
+1,12,NMDC,Nmdc Limited,526371.0,2.08,124.95,1575657,PERFECT BEARISH,31/01/2023 11:35:53
+2,11,NTPC,Ntpc Limited,532555.0,1.42,171.25,7419173,PERFECT BEARISH,31/01/2023 11:35:53
+3,5,JKCEMENT,Jk Cement Limited,532644.0,0.69,2701.75,65847,PERFECT BEARISH,31/01/2023 11:35:53
+4,8,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.46,1350.05,950829,PERFECT BEARISH,31/01/2023 11:35:53
+5,13,FSL,Firstsource Solutions Limited,532809.0,0.23,107.35,997473,PERFECT BEARISH,31/01/2023 11:35:53
+6,1,PAGEIND,Page Industries Limited,532827.0,0.01,40244.9,4480,PERFECT BEARISH,31/01/2023 11:35:53
+7,10,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.92,1042.0,965100,PERFECT BEARISH,31/01/2023 11:35:53
+8,6,MPHASIS,Mphasis Limited,526299.0,-1.08,2093.9,120692,PERFECT BEARISH,31/01/2023 11:35:53
+9,9,HCLTECH,Hcl Technologies Limited,532281.0,-1.19,1121.25,1685056,PERFECT BEARISH,31/01/2023 11:35:53
+10,7,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.22,1529.0,61356,PERFECT BEARISH,31/01/2023 11:35:53
+11,4,TCS,Tata Consultancy Services Limited,532540.0,-1.29,3389.25,557828,PERFECT BEARISH,31/01/2023 11:35:53
+12,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.93,5905.3,638588,PERFECT BEARISH,31/01/2023 11:35:53
+13,3,COFORGE,Coforge (Niit Tech),532541.0,-2.31,4316.8,161116,PERFECT BEARISH,31/01/2023 11:35:53
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.5,2635.05,1914438,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+15,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-0.99,1041.3,967381,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+16,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.09,1219.95,492492,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+17,1,TCS,Tata Consultancy Services Limited,532540.0,-1.38,3386.2,559944,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+18,3,INFY,Infosys Limited,500209.0,-1.39,1517.35,2690406,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+19,7,MARICO,Marico Limited,531642.0,-1.53,496.55,548145,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+20,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.62,578.4,1144933,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 11:36:55
+21,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.34,623.05,1602397,Chanakya Bearish Scanner - Working,31/01/2023 11:40:01
+22,3,LUPIN,Lupin Limited,500257.0,-0.39,731.8,175409,Chanakya Bearish Scanner - Working,31/01/2023 11:40:01
+23,2,CIPLA,Cipla Limited,500087.0,-0.84,1025.75,947427,Chanakya Bearish Scanner - Working,31/01/2023 11:40:01
+24,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.69,4288.15,215459,Chanakya Bearish Scanner - Working,31/01/2023 11:40:01
+25,7,NIBL,Nrb Industrial Bearings Limited,535458.0,3.98,19.6,1824,Highly Bearish I-day,31/01/2023 11:43:12
+26,8,LPDC,Landmark Property Development Company Limited,533012.0,3.62,7.15,31316,Highly Bearish I-day,31/01/2023 11:43:12
+27,2,NBIFIN,N. B. I. Industrial Finance Company Limited,,1.91,1600.0,7,Highly Bearish I-day,31/01/2023 11:43:12
+28,6,ALKALI,Alkali Metals Limited,533029.0,1.29,129.55,4816,Highly Bearish I-day,31/01/2023 11:43:12
+29,3,KSOLVES,Ksolves India Ltd,535356.0,0.29,436.35,4389,Highly Bearish I-day,31/01/2023 11:43:12
+30,1,PAGEIND,Page Industries Limited,532827.0,0.21,40325.3,4797,Highly Bearish I-day,31/01/2023 11:43:12
+31,4,DMCC,DMCC Speciality Chemicals Ltd,506405.0,-0.11,282.55,7703,Highly Bearish I-day,31/01/2023 11:43:12
+32,5,REMSONSIND,Remsons Industries Limited,530919.0,-1.18,239.55,1368,Highly Bearish I-day,31/01/2023 11:43:12
+33,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.11,1219.75,515586,Bearish RSi-Stoc,31/01/2023 11:44:11
+34,4,ALPHAGEO,Alphageo (india) Limited,526397.0,-1.92,256.05,17637,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:47:24
+35,2,BIKAJI,Bikaji Foods International Ltd,543653.0,-2.69,389.1,711961,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:47:24
+36,3,LAURUSLABS,Laurus Labs Limited,540222.0,-3.72,329.1,3503770,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:47:24
+37,5,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3382,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:47:24
+38,1,ASTEC,Astec Lifesciences Limited,533138.0,-10.29,1366.0,234528,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 11:47:24
+39,7,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.33,301.0,10360016,Stocks in Downtrend,31/01/2023 11:48:25
+40,9,CUB,City Union Bank Limited,532210.0,3.28,157.25,901724,Stocks in Downtrend,31/01/2023 11:48:25
+41,6,COCHINSHIP,Cochin Shipyard,540678.0,3.13,502.55,612162,Stocks in Downtrend,31/01/2023 11:48:25
+42,8,ZEEL,Zee Entertainment Enterprises Limited,505537.0,2.76,225.4,2378867,Stocks in Downtrend,31/01/2023 11:48:25
+43,12,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,1.84,74.85,808605,Stocks in Downtrend,31/01/2023 11:48:25
+44,5,BHARTIARTL,Bharti Airtel Limited,532454.0,0.58,774.65,3375573,Stocks in Downtrend,31/01/2023 11:48:25
+45,13,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.49,51.35,2047304,Stocks in Downtrend,31/01/2023 11:48:25
+46,4,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.2,1346.55,1030011,Stocks in Downtrend,31/01/2023 11:48:25
+47,11,NLCINDIA,Nlc India Limited,513683.0,0.0,78.15,905903,Stocks in Downtrend,31/01/2023 11:48:25
+48,10,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.3,133.45,3693660,Stocks in Downtrend,31/01/2023 11:48:25
+49,3,RELIANCE,Reliance Industries Limited,500325.0,-0.44,2349.45,3141923,Stocks in Downtrend,31/01/2023 11:48:25
+50,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.77,2745.0,617937,Stocks in Downtrend,31/01/2023 11:48:25
+51,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.02,5900.0,968725,Stocks in Downtrend,31/01/2023 11:48:25
+0,15,IDEA,Idea Cellular Limited,532822.0,2.21,6.95,42387896,PERFECT BEARISH,31/01/2023 11:58:56
+1,11,DLF,Dlf Limited,532868.0,1.94,360.0,1854196,PERFECT BEARISH,31/01/2023 11:58:56
+2,13,NMDC,Nmdc Limited,526371.0,1.92,124.75,1753979,PERFECT BEARISH,31/01/2023 11:58:56
+3,12,NTPC,Ntpc Limited,532555.0,1.3,171.05,9596785,PERFECT BEARISH,31/01/2023 11:58:56
+4,5,JKCEMENT,Jk Cement Limited,532644.0,0.55,2697.85,71066,PERFECT BEARISH,31/01/2023 11:58:56
+5,8,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.33,1348.3,1063479,PERFECT BEARISH,31/01/2023 11:58:56
+6,14,FSL,Firstsource Solutions Limited,532809.0,0.33,107.45,1088591,PERFECT BEARISH,31/01/2023 11:58:56
+7,1,PAGEIND,Page Industries Limited,532827.0,-0.04,40226.55,5279,PERFECT BEARISH,31/01/2023 11:58:56
+8,9,HCLTECH,Hcl Technologies Limited,532281.0,-0.86,1124.95,1810794,PERFECT BEARISH,31/01/2023 11:58:56
+9,10,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.18,1039.25,1035689,PERFECT BEARISH,31/01/2023 11:58:56
+10,4,TCS,Tata Consultancy Services Limited,532540.0,-1.3,3388.9,607572,PERFECT BEARISH,31/01/2023 11:58:56
+11,6,MPHASIS,Mphasis Limited,526299.0,-1.34,2088.5,133234,PERFECT BEARISH,31/01/2023 11:58:56
+12,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.71,5918.75,1012353,PERFECT BEARISH,31/01/2023 11:58:56
+13,7,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.93,1518.05,76768,PERFECT BEARISH,31/01/2023 11:58:56
+14,3,COFORGE,Coforge (Niit Tech),532541.0,-2.44,4311.0,168523,PERFECT BEARISH,31/01/2023 11:58:56
+15,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.49,2635.3,2103400,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+16,3,INFY,Infosys Limited,500209.0,-1.14,1521.2,3057101,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+17,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.2,1218.65,547846,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+18,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.21,1039.0,1038814,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+19,1,TCS,Tata Consultancy Services Limited,532540.0,-1.25,3390.65,610637,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+20,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.28,580.45,1277898,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+21,7,MARICO,Marico Limited,531642.0,-1.82,495.05,626223,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:00:02
+22,3,CONCOR,Container Corporation Of India Limited,531344.0,-0.23,623.75,2085191,Chanakya Bearish Scanner - Working,31/01/2023 12:02:45
+23,2,CIPLA,Cipla Limited,500087.0,-0.62,1027.95,1021073,Chanakya Bearish Scanner - Working,31/01/2023 12:02:45
+24,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.51,4296.25,238831,Chanakya Bearish Scanner - Working,31/01/2023 12:02:45
+25,1,ABBOTINDIA,Abbott India Limited,500488.0,0.01,20987.15,3542,My-intraday-sell-setup-ADX,31/01/2023 12:03:40
+26,2,LAURUSLABS,Laurus Labs Limited,540222.0,-3.69,329.2,3597341,My-intraday-sell-setup-ADX,31/01/2023 12:03:40
+27,1,WHIRLPOOL,Whirlpool Of India Limited,500238.0,-1.55,1390.8,61615,Sell 15 Min,31/01/2023 12:04:34
+28,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,0.57,573.2,337878,Highly Bearish I-day,31/01/2023 12:05:28
+29,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.21,1218.55,552483,Bearish RSi-Stoc,31/01/2023 12:06:24
+30,1,BALRAMCHIN,Balrampur Chini Mills Limited,500038.0,3.3,375.45,602440,Volume Spike in 5 minutes,31/01/2023 12:08:19
+31,4,ALPHAGEO,Alphageo (india) Limited,526397.0,-1.3,257.65,18179,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:09:16
+32,2,BIKAJI,Bikaji Foods International Ltd,543653.0,-2.36,390.4,741326,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:09:16
+33,3,LAURUSLABS,Laurus Labs Limited,540222.0,-3.42,330.1,3627954,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:09:16
+34,6,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3408,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:09:16
+35,5,STEELXIND,Steel Exchange India Ltd,534748.0,-4.38,13.1,3475532,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:09:16
+36,1,ASTEC,Astec Lifesciences Limited,533138.0,-7.97,1401.35,259688,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:09:16
+37,11,CUB,City Union Bank Limited,532210.0,3.91,158.2,1096905,Stocks in Downtrend,31/01/2023 12:10:17
+38,9,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.5,301.5,10622600,Stocks in Downtrend,31/01/2023 12:10:17
+39,8,COCHINSHIP,Cochin Shipyard,540678.0,3.2,502.9,633017,Stocks in Downtrend,31/01/2023 12:10:17
+40,10,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.12,226.2,2648425,Stocks in Downtrend,31/01/2023 12:10:17
+41,14,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,2.86,75.6,918079,Stocks in Downtrend,31/01/2023 12:10:17
+42,7,SBICARD,SBI Cards & Payment Services Ltd,543066.0,1.07,724.1,573172,Stocks in Downtrend,31/01/2023 12:10:17
+43,6,BHARTIARTL,Bharti Airtel Limited,532454.0,0.56,774.5,4187726,Stocks in Downtrend,31/01/2023 12:10:17
+44,15,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.39,51.3,2198587,Stocks in Downtrend,31/01/2023 12:10:17
+45,5,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.07,1344.85,1184586,Stocks in Downtrend,31/01/2023 12:10:17
+46,13,NLCINDIA,Nlc India Limited,513683.0,-0.19,78.0,964702,Stocks in Downtrend,31/01/2023 12:10:17
+47,12,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.26,133.5,4264941,Stocks in Downtrend,31/01/2023 12:10:17
+48,3,RELIANCE,Reliance Industries Limited,500325.0,-0.34,2351.75,3833166,Stocks in Downtrend,31/01/2023 12:10:17
+49,4,GRASIM,Grasim Industries Limited,500300.0,-0.65,1588.2,541647,Stocks in Downtrend,31/01/2023 12:10:17
+50,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.73,2746.05,678508,Stocks in Downtrend,31/01/2023 12:10:17
+51,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.01,5900.5,1099888,Stocks in Downtrend,31/01/2023 12:10:17
+0,10,DLF,Dlf Limited,532868.0,2.04,360.35,2031029,PERFECT BEARISH,31/01/2023 12:12:09
+1,12,NMDC,Nmdc Limited,526371.0,1.96,124.8,1993401,PERFECT BEARISH,31/01/2023 12:12:09
+2,13,IDEA,Idea Cellular Limited,532822.0,1.47,6.9,43214648,PERFECT BEARISH,31/01/2023 12:12:09
+3,11,NTPC,Ntpc Limited,532555.0,1.01,170.55,11471107,PERFECT BEARISH,31/01/2023 12:12:09
+4,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.15,1345.85,1186536,PERFECT BEARISH,31/01/2023 12:12:09
+5,1,PAGEIND,Page Industries Limited,532827.0,-0.14,40184.4,5743,PERFECT BEARISH,31/01/2023 12:12:09
+6,8,HCLTECH,Hcl Technologies Limited,532281.0,-0.91,1124.45,1887455,PERFECT BEARISH,31/01/2023 12:12:09
+7,5,MPHASIS,Mphasis Limited,526299.0,-1.22,2091.0,140188,PERFECT BEARISH,31/01/2023 12:12:09
+8,4,TCS,Tata Consultancy Services Limited,532540.0,-1.28,3389.85,644890,PERFECT BEARISH,31/01/2023 12:12:09
+9,9,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.32,1037.8,1096260,PERFECT BEARISH,31/01/2023 12:12:09
+10,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.89,5907.95,1100806,PERFECT BEARISH,31/01/2023 12:12:09
+11,6,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-2.03,1516.5,86434,PERFECT BEARISH,31/01/2023 12:12:09
+12,3,COFORGE,Coforge (Niit Tech),532541.0,-2.39,4313.1,174744,PERFECT BEARISH,31/01/2023 12:12:09
+13,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.58,2632.75,2194891,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+14,3,INFY,Infosys Limited,500209.0,-0.92,1524.7,3274332,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+15,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.29,1217.5,560072,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+16,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.3,1038.05,1112651,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+17,1,TCS,Tata Consultancy Services Limited,532540.0,-1.35,3387.45,647726,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+18,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.48,579.25,1345604,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+19,7,MARICO,Marico Limited,531642.0,-1.77,495.3,673212,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:13:14
+20,3,KALYANKJIL,Kalyan Jewellers India Ltd,543278.0,11.19,116.75,4783040,Intraday Sell,31/01/2023 12:15:23
+21,1,EIDPARRY,Eid Parry India Limited,500125.0,7.9,523.0,525305,Intraday Sell,31/01/2023 12:15:23
+22,4,TRIDENT,Trident Limited,521064.0,7.23,34.1,13082204,Intraday Sell,31/01/2023 12:15:23
+23,2,ELGIEQUIP,Elgi Equipments Limited,522074.0,5.13,379.95,700944,Intraday Sell,31/01/2023 12:15:23
+24,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.22,623.8,2193511,Chanakya Bearish Scanner - Working,31/01/2023 12:16:29
+25,2,CIPLA,Cipla Limited,500087.0,-0.7,1027.2,1064023,Chanakya Bearish Scanner - Working,31/01/2023 12:16:29
+26,3,IPCALAB,Ipca Laboratories Limited,524494.0,-1.1,849.0,102936,Chanakya Bearish Scanner - Working,31/01/2023 12:16:29
+27,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.03,4317.4,257925,Chanakya Bearish Scanner - Working,31/01/2023 12:16:29
+28,1,ABBOTINDIA,Abbott India Limited,500488.0,-0.22,20939.9,4398,My-intraday-sell-setup-ADX,31/01/2023 12:17:34
+29,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,1.38,577.8,409568,Highly Bearish I-day,31/01/2023 12:19:47
+30,2,TVSMOTOR,Tvs Motor Company Limited,532343.0,-0.13,1032.4,575692,Bearish RSi-Stoc,31/01/2023 12:20:59
+31,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.29,1217.6,572543,Bearish RSi-Stoc,31/01/2023 12:20:59
+32,5,MELSTAR,Melstar Information Technologies Limited,532307.0,-1.96,2.5,3443,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:24:18
+33,2,BIKAJI,Bikaji Foods International Ltd,543653.0,-2.49,389.9,791129,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:24:18
+34,3,LAURUSLABS,Laurus Labs Limited,540222.0,-3.12,331.15,3767096,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:24:18
+35,4,STEELXIND,Steel Exchange India Ltd,534748.0,-4.74,13.05,3804031,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:24:18
+36,1,ASTEC,Astec Lifesciences Limited,533138.0,-7.62,1406.7,278406,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:24:18
+37,12,CUB,City Union Bank Limited,532210.0,3.88,158.15,1189423,Stocks in Downtrend,31/01/2023 12:25:18
+38,9,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.47,301.4,10839681,Stocks in Downtrend,31/01/2023 12:25:18
+39,10,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.1,226.15,2788804,Stocks in Downtrend,31/01/2023 12:25:18
+40,8,COCHINSHIP,Cochin Shipyard,540678.0,3.04,502.1,641899,Stocks in Downtrend,31/01/2023 12:25:18
+41,15,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,2.86,75.6,1061388,Stocks in Downtrend,31/01/2023 12:25:18
+42,11,JKTYRE,Jk Tyre & Industries Limited,530007.0,1.41,164.9,504428,Stocks in Downtrend,31/01/2023 12:25:18
+43,7,SBICARD,SBI Cards & Payment Services Ltd,543066.0,0.75,721.75,614941,Stocks in Downtrend,31/01/2023 12:25:18
+44,6,BHARTIARTL,Bharti Airtel Limited,532454.0,0.49,773.95,4350261,Stocks in Downtrend,31/01/2023 12:25:18
+45,16,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.29,51.25,2370166,Stocks in Downtrend,31/01/2023 12:25:18
+46,5,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.05,1344.5,1222644,Stocks in Downtrend,31/01/2023 12:25:18
+47,14,NLCINDIA,Nlc India Limited,513683.0,-0.06,78.1,1025490,Stocks in Downtrend,31/01/2023 12:25:18
+48,4,GRASIM,Grasim Industries Limited,500300.0,-0.5,1590.55,558757,Stocks in Downtrend,31/01/2023 12:25:18
+49,3,RELIANCE,Reliance Industries Limited,500325.0,-0.54,2346.9,4155692,Stocks in Downtrend,31/01/2023 12:25:18
+50,13,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,-0.75,132.85,4514682,Stocks in Downtrend,31/01/2023 12:25:18
+51,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.91,2741.15,719582,Stocks in Downtrend,31/01/2023 12:25:18
+52,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.97,5903.0,1210617,Stocks in Downtrend,31/01/2023 12:25:18
+0,10,DLF,Dlf Limited,532868.0,1.91,359.9,2122842,PERFECT BEARISH,31/01/2023 12:27:18
+1,12,NMDC,Nmdc Limited,526371.0,1.72,124.5,2120781,PERFECT BEARISH,31/01/2023 12:27:18
+2,13,IDEA,Idea Cellular Limited,532822.0,1.47,6.9,47105513,PERFECT BEARISH,31/01/2023 12:27:18
+3,11,NTPC,Ntpc Limited,532555.0,0.95,170.45,12319846,PERFECT BEARISH,31/01/2023 12:27:18
+4,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.0,1343.8,1229017,PERFECT BEARISH,31/01/2023 12:27:18
+5,1,PAGEIND,Page Industries Limited,532827.0,-0.44,40064.95,6459,PERFECT BEARISH,31/01/2023 12:27:18
+6,8,HCLTECH,Hcl Technologies Limited,532281.0,-1.25,1120.55,1983644,PERFECT BEARISH,31/01/2023 12:27:18
+7,9,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.61,1034.8,1196505,PERFECT BEARISH,31/01/2023 12:27:18
+8,5,MPHASIS,Mphasis Limited,526299.0,-1.69,2081.15,157214,PERFECT BEARISH,31/01/2023 12:27:18
+9,6,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.72,1521.35,92348,PERFECT BEARISH,31/01/2023 12:27:18
+10,4,TCS,Tata Consultancy Services Limited,532540.0,-1.88,3369.0,725382,PERFECT BEARISH,31/01/2023 12:27:18
+11,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.94,5905.0,1221368,PERFECT BEARISH,31/01/2023 12:27:18
+12,3,COFORGE,Coforge (Niit Tech),532541.0,-2.66,4301.25,184299,PERFECT BEARISH,31/01/2023 12:27:18
+13,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.82,2626.55,2306321,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+14,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.22,1218.4,578242,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+15,3,INFY,Infosys Limited,500209.0,-1.24,1519.75,3721300,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+16,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.49,1036.0,1204367,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+17,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.58,578.65,1399346,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+18,1,TCS,Tata Consultancy Services Limited,532540.0,-1.81,3371.65,728552,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+19,7,MARICO,Marico Limited,531642.0,-1.82,495.05,713166,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 12:28:42
+20,4,CONCOR,Container Corporation Of India Limited,531344.0,-0.18,624.1,2295509,Chanakya Bearish Scanner - Working,31/01/2023 12:32:02
+21,2,CIPLA,Cipla Limited,500087.0,-1.0,1024.1,1116995,Chanakya Bearish Scanner - Working,31/01/2023 12:32:02
+22,3,IPCALAB,Ipca Laboratories Limited,524494.0,-1.2,848.1,115758,Chanakya Bearish Scanner - Working,31/01/2023 12:32:02
+23,1,BRITANNIA,Britannia Industries Limited,500825.0,-1.93,4321.5,267154,Chanakya Bearish Scanner - Working,31/01/2023 12:32:02
+24,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,1.25,577.1,428932,Highly Bearish I-day,31/01/2023 12:35:14
+25,1,BOSCHLTD,Bosch Limited,500530.0,2.55,17013.55,4777,Volume Spike in 5 minutes,31/01/2023 12:38:19
+26,6,MELSTAR,Melstar Information Technologies Limited,532307.0,-1.96,2.5,3444,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:39:21
+27,4,ALPHAGEO,Alphageo (india) Limited,526397.0,-2.3,255.05,18790,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:39:21
+28,2,BIKAJI,Bikaji Foods International Ltd,543653.0,-2.54,389.7,798993,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:39:21
+29,3,LAURUSLABS,Laurus Labs Limited,540222.0,-3.07,331.3,3841087,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:39:21
+30,5,STEELXIND,Steel Exchange India Ltd,534748.0,-4.74,13.05,3842668,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:39:21
+31,1,ASTEC,Astec Lifesciences Limited,533138.0,-8.13,1398.9,286988,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 12:39:21
+32,13,CUB,City Union Bank Limited,532210.0,4.04,158.4,1286676,Stocks in Downtrend,31/01/2023 12:40:23
+33,9,COCHINSHIP,Cochin Shipyard,540678.0,3.59,504.8,655141,Stocks in Downtrend,31/01/2023 12:40:23
+34,10,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.43,301.3,10923741,Stocks in Downtrend,31/01/2023 12:40:23
+35,11,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.33,226.65,2914524,Stocks in Downtrend,31/01/2023 12:40:23
+36,16,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,2.93,75.65,1098797,Stocks in Downtrend,31/01/2023 12:40:23
+37,12,JKTYRE,Jk Tyre & Industries Limited,530007.0,1.57,165.15,520746,Stocks in Downtrend,31/01/2023 12:40:23
+38,8,SBICARD,SBI Cards & Payment Services Ltd,543066.0,0.82,722.25,636156,Stocks in Downtrend,31/01/2023 12:40:23
+39,7,BHARTIARTL,Bharti Airtel Limited,532454.0,0.58,774.65,4481307,Stocks in Downtrend,31/01/2023 12:40:23
+40,5,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.41,1349.3,1260693,Stocks in Downtrend,31/01/2023 12:40:23
+41,17,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.2,51.2,2986167,Stocks in Downtrend,31/01/2023 12:40:23
+42,14,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,0.07,133.95,4969494,Stocks in Downtrend,31/01/2023 12:40:23
+43,15,NLCINDIA,Nlc India Limited,513683.0,0.06,78.2,1075340,Stocks in Downtrend,31/01/2023 12:40:23
+44,3,RELIANCE,Reliance Industries Limited,500325.0,-0.32,2352.1,4324163,Stocks in Downtrend,31/01/2023 12:40:23
+45,6,ICICIGI,ICICI Lombard General Insurance Company Ltd,540716.0,-0.43,1128.7,509000,Stocks in Downtrend,31/01/2023 12:40:23
+46,4,GRASIM,Grasim Industries Limited,500300.0,-0.54,1590.0,630700,Stocks in Downtrend,31/01/2023 12:40:23
+47,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.87,2742.25,766249,Stocks in Downtrend,31/01/2023 12:40:23
+48,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-1.86,5910.0,1242937,Stocks in Downtrend,31/01/2023 12:40:23
+0,11,DLF,Dlf Limited,532868.0,1.63,358.9,2497377,PERFECT BEARISH,31/01/2023 13:14:11
+1,10,OBEROIRLTY,Oberoi Realty Limited,533273.0,1.61,816.55,405237,PERFECT BEARISH,31/01/2023 13:14:11
+2,14,IDEA,Idea Cellular Limited,532822.0,1.47,6.9,50048676,PERFECT BEARISH,31/01/2023 13:14:11
+3,12,NTPC,Ntpc Limited,532555.0,1.27,171.0,15061718,PERFECT BEARISH,31/01/2023 13:14:11
+4,13,NMDC,Nmdc Limited,526371.0,1.06,123.7,2884989,PERFECT BEARISH,31/01/2023 13:14:11
+5,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.16,1346.0,1346550,PERFECT BEARISH,31/01/2023 13:14:11
+6,1,PAGEIND,Page Industries Limited,532827.0,-0.4,40079.7,8294,PERFECT BEARISH,31/01/2023 13:14:11
+7,8,HCLTECH,Hcl Technologies Limited,532281.0,-0.9,1124.55,2265236,PERFECT BEARISH,31/01/2023 13:14:11
+8,9,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.67,1034.15,1492892,PERFECT BEARISH,31/01/2023 13:14:11
+9,5,MPHASIS,Mphasis Limited,526299.0,-1.71,2080.75,201839,PERFECT BEARISH,31/01/2023 13:14:11
+10,4,TCS,Tata Consultancy Services Limited,532540.0,-1.76,3373.25,920904,PERFECT BEARISH,31/01/2023 13:14:11
+11,6,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.8,1520.0,114608,PERFECT BEARISH,31/01/2023 13:14:11
+12,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.13,5893.65,1335812,PERFECT BEARISH,31/01/2023 13:14:11
+13,3,COFORGE,Coforge (Niit Tech),532541.0,-2.3,4317.0,197704,PERFECT BEARISH,31/01/2023 13:14:11
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-1.22,2616.0,2921885,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+15,3,INFY,Infosys Limited,500209.0,-1.23,1519.9,4346533,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+16,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.3,1217.4,918569,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+17,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.65,1034.35,1496586,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+18,7,MARICO,Marico Limited,531642.0,-1.71,495.65,996193,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+19,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.79,577.45,1632483,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+20,1,TCS,Tata Consultancy Services Limited,532540.0,-1.8,3372.0,925404,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:15:27
+21,1,SIEMENS,Siemens Limited,500550.0,0.67,2936.5,150558,Intraday Sell,31/01/2023 13:17:25
+22,3,IPCALAB,Ipca Laboratories Limited,524494.0,-0.58,853.4,129946,Chanakya Bearish Scanner - Working,31/01/2023 13:18:29
+23,2,CIPLA,Cipla Limited,500087.0,-0.79,1026.2,1340383,Chanakya Bearish Scanner - Working,31/01/2023 13:18:29
+24,1,BRITANNIA,Britannia Industries Limited,500825.0,-1.86,4325.0,312348,Chanakya Bearish Scanner - Working,31/01/2023 13:18:29
+25,1,SIEMENS,Siemens Limited,500550.0,0.48,2931.15,153061,My-intraday-sell-setup-ADX,31/01/2023 13:19:39
+26,2,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.99,1517.05,119060,My-intraday-sell-setup-ADX,31/01/2023 13:19:39
+27,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,1.2,576.8,456404,Highly Bearish I-day,31/01/2023 13:22:00
+28,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.13,1219.55,947207,Bearish RSi-Stoc,31/01/2023 13:23:16
+29,2,BANKBARODA,Bank Of Baroda,532134.0,5.6,167.8,23769803,Volume Spike in 5 minutes,31/01/2023 13:25:19
+30,1,GODREJPROP,Godrej Properties Limited,533150.0,1.99,1188.35,234054,Volume Spike in 5 minutes,31/01/2023 13:25:19
+31,5,ALPHAGEO,Alphageo (india) Limited,526397.0,-1.02,258.4,18925,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+32,7,TGBHOTELS,Tgb Banquets And Hotels Limited,532845.0,-1.9,10.3,36663,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+33,1,WHIRLPOOL,Whirlpool Of India Limited,500238.0,-2.15,1382.4,114768,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+34,3,BIKAJI,Bikaji Foods International Ltd,543653.0,-2.96,388.0,832341,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+35,4,LAURUSLABS,Laurus Labs Limited,540222.0,-3.0,331.55,4002852,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+36,8,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3533,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+37,6,STEELXIND,Steel Exchange India Ltd,534748.0,-4.38,13.1,4355646,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+38,2,ASTEC,Astec Lifesciences Limited,533138.0,-10.96,1355.8,320261,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:26:25
+39,15,CUB,City Union Bank Limited,532210.0,4.14,158.55,1489454,Stocks in Downtrend,31/01/2023 13:27:31
+40,13,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.62,227.3,3780864,Stocks in Downtrend,31/01/2023 13:27:31
+41,10,COCHINSHIP,Cochin Shipyard,540678.0,3.26,503.2,680089,Stocks in Downtrend,31/01/2023 13:27:31
+42,11,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.09,300.3,11126175,Stocks in Downtrend,31/01/2023 13:27:31
+43,18,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,3.06,75.75,1229268,Stocks in Downtrend,31/01/2023 13:27:31
+44,3,TITAN,Titan Company Limited,500114.0,2.12,2385.0,576158,Stocks in Downtrend,31/01/2023 13:27:31
+45,14,JKTYRE,Jk Tyre & Industries Limited,530007.0,1.75,165.45,585372,Stocks in Downtrend,31/01/2023 13:27:31
+46,12,GRANULES,Granules India Limited,532482.0,1.66,296.2,516045,Stocks in Downtrend,31/01/2023 13:27:31
+47,9,SBICARD,SBI Cards & Payment Services Ltd,543066.0,0.9,722.85,711156,Stocks in Downtrend,31/01/2023 13:27:31
+48,6,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.57,1351.45,1429171,Stocks in Downtrend,31/01/2023 13:27:31
+49,19,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.29,51.25,3530095,Stocks in Downtrend,31/01/2023 13:27:31
+50,8,BHARTIARTL,Bharti Airtel Limited,532454.0,0.17,771.5,4938985,Stocks in Downtrend,31/01/2023 13:27:31
+51,16,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,0.07,133.95,5625194,Stocks in Downtrend,31/01/2023 13:27:31
+52,17,NLCINDIA,Nlc India Limited,513683.0,-0.13,78.05,1337632,Stocks in Downtrend,31/01/2023 13:27:31
+53,4,RELIANCE,Reliance Industries Limited,500325.0,-0.21,2354.7,5186612,Stocks in Downtrend,31/01/2023 13:27:31
+54,5,GRASIM,Grasim Industries Limited,500300.0,-0.39,1592.3,840896,Stocks in Downtrend,31/01/2023 13:27:31
+55,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.75,2745.35,898483,Stocks in Downtrend,31/01/2023 13:27:31
+56,7,ICICIGI,ICICI Lombard General Insurance Company Ltd,540716.0,-1.01,1122.2,586370,Stocks in Downtrend,31/01/2023 13:27:31
+57,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.03,5899.65,1377634,Stocks in Downtrend,31/01/2023 13:27:31
+0,14,IDEA,Idea Cellular Limited,532822.0,2.21,6.95,50612378,PERFECT BEARISH,31/01/2023 13:29:37
+1,12,NTPC,Ntpc Limited,532555.0,1.63,171.6,15657129,PERFECT BEARISH,31/01/2023 13:29:37
+2,11,DLF,Dlf Limited,532868.0,1.57,358.7,2600178,PERFECT BEARISH,31/01/2023 13:29:37
+3,13,NMDC,Nmdc Limited,526371.0,1.31,124.0,3060784,PERFECT BEARISH,31/01/2023 13:29:37
+4,10,OBEROIRLTY,Oberoi Realty Limited,533273.0,0.97,811.4,434413,PERFECT BEARISH,31/01/2023 13:29:37
+5,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.5,1350.6,1434259,PERFECT BEARISH,31/01/2023 13:29:37
+6,1,PAGEIND,Page Industries Limited,532827.0,-0.38,40090.15,8770,PERFECT BEARISH,31/01/2023 13:29:37
+7,8,HCLTECH,Hcl Technologies Limited,532281.0,-0.51,1129.0,2496581,PERFECT BEARISH,31/01/2023 13:29:37
+8,5,MPHASIS,Mphasis Limited,526299.0,-1.27,2090.0,219690,PERFECT BEARISH,31/01/2023 13:29:37
+9,9,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.59,1035.0,1575425,PERFECT BEARISH,31/01/2023 13:29:37
+10,4,TCS,Tata Consultancy Services Limited,532540.0,-1.62,3378.0,993634,PERFECT BEARISH,31/01/2023 13:29:37
+11,6,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.87,1519.0,137268,PERFECT BEARISH,31/01/2023 13:29:37
+12,3,COFORGE,Coforge (Niit Tech),532541.0,-2.03,4328.95,206240,PERFECT BEARISH,31/01/2023 13:29:37
+13,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.04,5899.2,1388986,PERFECT BEARISH,31/01/2023 13:29:37
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.82,2626.4,3078873,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+15,3,INFY,Infosys Limited,500209.0,-1.0,1523.45,4526112,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+16,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.0,1221.15,972003,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+17,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.56,578.8,1707662,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+18,1,TCS,Tata Consultancy Services Limited,532540.0,-1.58,3379.45,996779,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+19,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.6,1034.9,1577699,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+20,7,MARICO,Marico Limited,531642.0,-1.63,496.05,1055908,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 13:30:52
+21,3,IPCALAB,Ipca Laboratories Limited,524494.0,-0.65,852.85,133419,Chanakya Bearish Scanner - Working,31/01/2023 13:34:10
+22,2,CIPLA,Cipla Limited,500087.0,-0.89,1025.2,1371759,Chanakya Bearish Scanner - Working,31/01/2023 13:34:10
+23,1,BRITANNIA,Britannia Industries Limited,500825.0,-1.81,4326.9,329052,Chanakya Bearish Scanner - Working,31/01/2023 13:34:10
+24,1,ABBOTINDIA,Abbott India Limited,500488.0,-0.45,20892.05,5696,My-intraday-sell-setup-ADX,31/01/2023 13:35:15
+25,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,1.04,575.85,463230,Highly Bearish I-day,31/01/2023 13:37:32
+26,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.21,1218.55,991216,Bearish RSi-Stoc,31/01/2023 13:38:34
+27,5,AMBUJACEM,Ambuja Cements Limited,500425.0,6.45,412.5,26836477,Volume Spike in 5 minutes,31/01/2023 13:40:39
+28,1,ADANIENT,Adani Enterprises Limited,512599.0,5.09,3040.0,7553019,Volume Spike in 5 minutes,31/01/2023 13:40:39
+29,2,COROMANDEL,Coromandel International Limited,506395.0,3.9,893.0,244271,Volume Spike in 5 minutes,31/01/2023 13:40:39
+30,4,LUPIN,Lupin Limited,500257.0,1.86,748.35,497570,Volume Spike in 5 minutes,31/01/2023 13:40:39
+31,3,MCDOWELL-N,United Spirits Limited,532432.0,0.14,766.9,1274300,Volume Spike in 5 minutes,31/01/2023 13:40:39
+32,5,ALPHAGEO,Alphageo (india) Limited,526397.0,-1.03,258.35,19074,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+33,1,WHIRLPOOL,Whirlpool Of India Limited,500238.0,-2.33,1379.8,125821,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+34,9,RMCL,Radha Madhav Corporation Limited,532692.0,-2.94,1.65,45951,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+35,4,LAURUSLABS,Laurus Labs Limited,540222.0,-3.06,331.35,4038349,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+36,3,BIKAJI,Bikaji Foods International Ltd,543653.0,-3.21,387.0,847519,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+37,8,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3497,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+38,7,BAGFILMS,B.a.g Films And Media Limited,532507.0,-4.26,4.5,191874,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+39,6,STEELXIND,Steel Exchange India Ltd,534748.0,-4.74,13.05,4571854,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+40,2,ASTEC,Astec Lifesciences Limited,533138.0,-10.03,1369.9,339151,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 13:41:41
+41,15,CUB,City Union Bank Limited,532210.0,4.11,158.5,1562869,Stocks in Downtrend,31/01/2023 13:42:41
+42,10,COCHINSHIP,Cochin Shipyard,540678.0,3.49,504.3,684834,Stocks in Downtrend,31/01/2023 13:42:41
+43,13,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.42,226.85,3895183,Stocks in Downtrend,31/01/2023 13:42:41
+44,11,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.19,300.6,11183122,Stocks in Downtrend,31/01/2023 13:42:41
+45,18,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,2.86,75.6,1280143,Stocks in Downtrend,31/01/2023 13:42:41
+46,3,TITAN,Titan Company Limited,500114.0,2.01,2382.5,620382,Stocks in Downtrend,31/01/2023 13:42:41
+47,14,JKTYRE,Jk Tyre & Industries Limited,530007.0,1.85,165.6,598982,Stocks in Downtrend,31/01/2023 13:42:41
+48,12,GRANULES,Granules India Limited,532482.0,1.6,296.0,522162,Stocks in Downtrend,31/01/2023 13:42:41
+49,9,SBICARD,SBI Cards & Payment Services Ltd,543066.0,1.17,724.8,726600,Stocks in Downtrend,31/01/2023 13:42:41
+50,6,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.53,1351.0,1522649,Stocks in Downtrend,31/01/2023 13:42:41
+51,17,NLCINDIA,Nlc India Limited,513683.0,0.32,78.4,1427155,Stocks in Downtrend,31/01/2023 13:42:41
+52,19,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.2,51.2,3704574,Stocks in Downtrend,31/01/2023 13:42:41
+53,5,GRASIM,Grasim Industries Limited,500300.0,0.09,1600.05,959181,Stocks in Downtrend,31/01/2023 13:42:41
+54,8,BHARTIARTL,Bharti Airtel Limited,532454.0,0.06,770.7,5021989,Stocks in Downtrend,31/01/2023 13:42:41
+55,16,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,0.04,133.9,5868015,Stocks in Downtrend,31/01/2023 13:42:41
+56,4,RELIANCE,Reliance Industries Limited,500325.0,-0.41,2350.05,5542378,Stocks in Downtrend,31/01/2023 13:42:41
+57,2,ASIANPAINT,Asian Paints Limited,500820.0,-0.77,2744.85,936335,Stocks in Downtrend,31/01/2023 13:42:41
+58,7,ICICIGI,ICICI Lombard General Insurance Company Ltd,540716.0,-1.09,1121.25,601817,Stocks in Downtrend,31/01/2023 13:42:41
+59,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.04,5899.1,1424535,Stocks in Downtrend,31/01/2023 13:42:41
+0,13,IDEA,Idea Cellular Limited,532822.0,2.94,7.0,70239133,PERFECT BEARISH,31/01/2023 14:45:29
+1,11,ITC,Itc Limited,500875.0,1.29,349.25,9852962,PERFECT BEARISH,31/01/2023 14:45:29
+2,12,NMDC,Nmdc Limited,526371.0,0.69,123.25,4307304,PERFECT BEARISH,31/01/2023 14:45:29
+3,10,DLF,Dlf Limited,532868.0,0.64,355.4,3326953,PERFECT BEARISH,31/01/2023 14:45:29
+4,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.22,1346.8,1702041,PERFECT BEARISH,31/01/2023 14:45:29
+5,1,PAGEIND,Page Industries Limited,532827.0,-0.51,40035.5,17051,PERFECT BEARISH,31/01/2023 14:45:29
+6,8,HCLTECH,Hcl Technologies Limited,532281.0,-1.13,1121.9,2926283,PERFECT BEARISH,31/01/2023 14:45:29
+7,5,MPHASIS,Mphasis Limited,526299.0,-1.61,2082.7,310750,PERFECT BEARISH,31/01/2023 14:45:29
+8,9,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.64,1034.45,2910394,PERFECT BEARISH,31/01/2023 14:45:29
+9,6,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-2.06,1516.05,215231,PERFECT BEARISH,31/01/2023 14:45:29
+10,3,COFORGE,Coforge (Niit Tech),532541.0,-2.09,4326.15,233246,PERFECT BEARISH,31/01/2023 14:45:29
+11,4,TCS,Tata Consultancy Services Limited,532540.0,-2.13,3360.5,1486238,PERFECT BEARISH,31/01/2023 14:45:29
+12,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.2,5889.5,1571639,PERFECT BEARISH,31/01/2023 14:45:29
+13,3,INFY,Infosys Limited,500209.0,-0.86,1525.6,6000486,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+14,7,MARICO,Marico Limited,531642.0,-1.13,498.55,1461034,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+15,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-1.28,2614.4,3949241,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+16,4,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.43,1215.85,1195541,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+17,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.55,1035.45,2927695,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+18,6,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.56,578.75,2019272,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+19,1,TCS,Tata Consultancy Services Limited,532540.0,-2.06,3362.85,1493800,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 14:46:33
+20,4,CONCOR,Container Corporation Of India Limited,531344.0,0.1,625.8,3184408,Chanakya Bearish Scanner - Working,31/01/2023 14:49:42
+21,3,IPCALAB,Ipca Laboratories Limited,524494.0,-0.69,852.45,141187,Chanakya Bearish Scanner - Working,31/01/2023 14:49:42
+22,2,CIPLA,Cipla Limited,500087.0,-0.94,1024.65,1876733,Chanakya Bearish Scanner - Working,31/01/2023 14:49:42
+23,1,BRITANNIA,Britannia Industries Limited,500825.0,-1.81,4327.2,392587,Chanakya Bearish Scanner - Working,31/01/2023 14:49:42
+24,1,DIXON,Dixon Technologies,540699.0,0.36,2689.5,889453,My-intraday-sell-setup-ADX,31/01/2023 14:50:44
+25,3,WIPRO,Wipro Limited,507685.0,-0.91,398.6,2922653,My-intraday-sell-setup-ADX,31/01/2023 14:50:44
+26,2,CIPLA,Cipla Limited,500087.0,-1.15,1022.55,1884998,My-intraday-sell-setup-ADX,31/01/2023 14:50:44
+27,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.24,568.6,542955,Highly Bearish I-day,31/01/2023 14:52:35
+28,1,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.35,1216.75,1239124,Bearish RSi-Stoc,31/01/2023 14:53:33
+29,5,CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,500085.0,7.38,311.2,2168257,Volume Spike in 5 minutes,31/01/2023 14:55:23
+30,4,M&M,Mahindra & Mahindra Limited,500520.0,3.63,1379.9,3552575,Volume Spike in 5 minutes,31/01/2023 14:55:23
+31,1,HONAUT,Honeywell Automation India Limited,517174.0,3.06,39205.5,6436,Volume Spike in 5 minutes,31/01/2023 14:55:23
+32,2,HEROMOTOCO,Hero Motocorp Limited,500182.0,2.1,2759.15,417127,Volume Spike in 5 minutes,31/01/2023 14:55:23
+33,3,LT,Larsen & Toubro Limited,500510.0,0.44,2122.2,3692649,Volume Spike in 5 minutes,31/01/2023 14:55:23
+34,4,AUROPHARMA,Aurobindo Pharma Limited,524804.0,-0.6,408.9,2148844,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+35,8,SHK,S H Kelkar And Company Limited,539450.0,-0.61,138.7,165415,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+36,9,ICICIPHARM,ICICI Prudential Healthcare ETF,543292.0,-0.74,79.11,12213,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+37,3,ISGEC,ISGEC Heavy Engineering  Ltd,533033.0,-0.88,435.95,61052,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+38,7,ALPHAGEO,Alphageo (india) Limited,526397.0,-1.07,258.25,20018,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+39,10,BRNL,Bharat Road Network,540700.0,-1.97,34.8,70942,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+40,5,BIKAJI,Bikaji Foods International Ltd,543653.0,-2.21,391.0,1169235,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+41,6,LAURUSLABS,Laurus Labs Limited,540222.0,-3.31,330.5,4527705,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+42,13,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3668,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+43,12,BAGFILMS,B.a.g Films And Media Limited,532507.0,-4.26,4.5,400101,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+44,1,BASF,Basf India Limited,500042.0,-4.61,2481.0,63406,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+45,11,STEELXIND,Steel Exchange India Ltd,534748.0,-4.74,13.05,5093576,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+46,2,ASTEC,Astec Lifesciences Limited,533138.0,-10.42,1364.0,408250,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 14:56:20
+47,12,COCHINSHIP,Cochin Shipyard,540678.0,4.16,507.55,845377,Stocks in Downtrend,31/01/2023 14:57:12
+48,17,CUB,City Union Bank Limited,532210.0,3.94,158.25,2114913,Stocks in Downtrend,31/01/2023 14:57:12
+49,15,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.28,226.55,4595638,Stocks in Downtrend,31/01/2023 14:57:12
+50,13,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.19,300.6,11487303,Stocks in Downtrend,31/01/2023 14:57:12
+51,21,LEMONTREE,Lemon Tree Hotels Ltd,541233.0,3.13,75.8,1547236,Stocks in Downtrend,31/01/2023 14:57:12
+52,19,PCBL,PCBL Ltd,506590.0,2.53,119.45,1373616,Stocks in Downtrend,31/01/2023 14:57:12
+53,4,TITAN,Titan Company Limited,500114.0,2.03,2382.9,856636,Stocks in Downtrend,31/01/2023 14:57:12
+54,16,JKTYRE,Jk Tyre & Industries Limited,530007.0,2.0,165.85,780982,Stocks in Downtrend,31/01/2023 14:57:12
+55,14,GRANULES,Granules India Limited,532482.0,1.87,296.8,632749,Stocks in Downtrend,31/01/2023 14:57:12
+56,18,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,1.64,136.05,8499820,Stocks in Downtrend,31/01/2023 14:57:12
+57,8,TRENT,Trent Limited,500251.0,1.62,1199.5,703567,Stocks in Downtrend,31/01/2023 14:57:12
+58,2,APOLLOHOSP,Apollo Hospitals Enterprise Limited,508869.0,0.97,4279.0,517106,Stocks in Downtrend,31/01/2023 14:57:12
+59,22,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,0.78,51.5,4700980,Stocks in Downtrend,31/01/2023 14:57:12
+60,11,SBICARD,SBI Cards & Payment Services Ltd,543066.0,0.76,721.85,988864,Stocks in Downtrend,31/01/2023 14:57:12
+61,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,0.24,1347.05,1733824,Stocks in Downtrend,31/01/2023 14:57:12
+62,20,NLCINDIA,Nlc India Limited,513683.0,0.06,78.2,1606966,Stocks in Downtrend,31/01/2023 14:57:12
+63,10,BHARTIARTL,Bharti Airtel Limited,532454.0,0.01,770.3,6182863,Stocks in Downtrend,31/01/2023 14:57:12
+64,6,GRASIM,Grasim Industries Limited,500300.0,-0.09,1597.1,1157096,Stocks in Downtrend,31/01/2023 14:57:12
+65,5,RELIANCE,Reliance Industries Limited,500325.0,-0.31,2352.5,7558628,Stocks in Downtrend,31/01/2023 14:57:12
+66,9,ICICIGI,ICICI Lombard General Insurance Company Ltd,540716.0,-0.41,1128.9,939073,Stocks in Downtrend,31/01/2023 14:57:12
+67,3,ASIANPAINT,Asian Paints Limited,500820.0,-1.2,2733.0,1168052,Stocks in Downtrend,31/01/2023 14:57:12
+68,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.11,5895.0,1597462,Stocks in Downtrend,31/01/2023 14:57:12
+0,13,ITC,Itc Limited,500875.0,1.84,351.15,12378021,PERFECT BEARISH,31/01/2023 15:17:23
+1,11,ZYDUSLIFE,Zydus Lifesciences Ltd,532321.0,0.86,431.65,354077,PERFECT BEARISH,31/01/2023 15:17:23
+2,12,DLF,Dlf Limited,532868.0,0.64,355.4,3896452,PERFECT BEARISH,31/01/2023 15:17:23
+3,14,NMDC,Nmdc Limited,526371.0,0.61,123.15,4889969,PERFECT BEARISH,31/01/2023 15:17:23
+4,8,HAVELLS,Havells India Limited,517354.0,0.35,1180.65,758951,PERFECT BEARISH,31/01/2023 15:17:23
+5,7,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.13,1342.1,1961042,PERFECT BEARISH,31/01/2023 15:17:23
+6,1,PAGEIND,Page Industries Limited,532827.0,-0.6,40000.05,21518,PERFECT BEARISH,31/01/2023 15:17:23
+7,3,COFORGE,Coforge (Niit Tech),532541.0,-0.82,4382.45,293409,PERFECT BEARISH,31/01/2023 15:17:23
+8,9,HCLTECH,Hcl Technologies Limited,532281.0,-1.15,1121.65,3743295,PERFECT BEARISH,31/01/2023 15:17:23
+9,10,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.42,1036.8,3823031,PERFECT BEARISH,31/01/2023 15:17:23
+10,6,TORNTPHARM,Torrent Pharmaceuticals Limited,500420.0,-1.76,1520.6,310575,PERFECT BEARISH,31/01/2023 15:17:23
+11,5,MPHASIS,Mphasis Limited,526299.0,-2.01,2074.2,379497,PERFECT BEARISH,31/01/2023 15:17:23
+12,4,TCS,Tata Consultancy Services Limited,532540.0,-2.14,3360.2,2156737,PERFECT BEARISH,31/01/2023 15:17:23
+13,2,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.24,5886.9,1754339,PERFECT BEARISH,31/01/2023 15:17:23
+14,2,HDFC,Housing Development Finance Corporation Limited,500010.0,-0.93,2623.5,4892904,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 15:18:24
+15,3,SBILIFE,SBI Life Insurance Company Ltd,540719.0,-1.14,1219.4,1500159,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 15:18:24
+16,6,MARICO,Marico Limited,531642.0,-1.33,497.55,1902460,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 15:18:24
+17,4,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.58,1035.1,3879644,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 15:18:24
+18,5,HDFCLIFE,HDFC Life Insurance Company Ltd,540777.0,-1.62,578.45,2592560,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 15:18:24
+19,1,TCS,Tata Consultancy Services Limited,532540.0,-2.08,3362.35,2198792,Bearish Engulifing-see after 3:15 PM for Next day trade,31/01/2023 15:18:24
+20,3,SHRIRAMFIN,Shriram Finance Ltd,511218.0,3.48,1287.15,1043574,Intraday Sell,31/01/2023 15:20:39
+21,4,TVSMOTOR,Tvs Motor Company Limited,532343.0,0.13,1035.0,1174693,Intraday Sell,31/01/2023 15:20:39
+22,2,OFSS,Oracle Financial Services Software Limited,532466.0,-0.38,3043.0,44712,Intraday Sell,31/01/2023 15:20:39
+23,1,ABBOTINDIA,Abbott India Limited,500488.0,-0.98,20780.55,8289,Intraday Sell,31/01/2023 15:20:39
+24,5,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715.0,-1.6,1034.9,4039088,Intraday Sell,31/01/2023 15:20:39
+25,6,CIPLA,Cipla Limited,500087.0,-1.71,1016.75,2424452,Intraday Sell,31/01/2023 15:20:39
+26,3,IPCALAB,Ipca Laboratories Limited,524494.0,-1.17,848.35,158696,Chanakya Bearish Scanner - Working,31/01/2023 15:21:40
+27,2,CIPLA,Cipla Limited,500087.0,-1.7,1016.85,2442978,Chanakya Bearish Scanner - Working,31/01/2023 15:21:40
+28,1,BRITANNIA,Britannia Industries Limited,500825.0,-2.0,4318.45,526119,Chanakya Bearish Scanner - Working,31/01/2023 15:21:40
+29,2,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.64,566.3,623892,My-intraday-sell-setup-ADX,31/01/2023 15:22:43
+30,1,ABBOTINDIA,Abbott India Limited,500488.0,-0.84,20808.95,8506,My-intraday-sell-setup-ADX,31/01/2023 15:22:43
+31,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.96,564.5,631623,Highly Bearish I-day,31/01/2023 15:24:55
+32,1,AMARAJABAT,Amara Raja Batteries Limited,500008.0,-0.93,564.65,635155,Bearish RSi-Stoc,31/01/2023 15:25:59
+33,14,CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,500085.0,8.4,314.15,3595001,Volume Spike in 5 minutes,31/01/2023 15:28:07
+34,12,GNFC,Gujarat Narmada Valley Fertilizers And Chemicals Limited,500670.0,4.76,552.75,988277,Volume Spike in 5 minutes,31/01/2023 15:28:07
+35,7,MGL,Mahanagar Gas Limited,539957.0,4.21,885.25,290413,Volume Spike in 5 minutes,31/01/2023 15:28:07
+36,16,DELTACORP,Delta Corp Limited,532848.0,4.12,197.0,4355508,Volume Spike in 5 minutes,31/01/2023 15:28:07
+37,17,RAIN,Rain Industries Limited,500339.0,4.06,169.0,1080468,Volume Spike in 5 minutes,31/01/2023 15:28:07
+38,2,POLYCAB,Polycab India Ltd,542652.0,4.01,2932.15,514302,Volume Spike in 5 minutes,31/01/2023 15:28:07
+39,8,VOLTAS,Voltas Limited,500575.0,3.68,803.5,1701614,Volume Spike in 5 minutes,31/01/2023 15:28:07
+40,5,CUMMINSIND,Cummins India Limited,500480.0,3.63,1440.65,734633,Volume Spike in 5 minutes,31/01/2023 15:28:07
+41,15,BSOFT,Birlasoft Ltd,532400.0,2.53,302.25,1698146,Volume Spike in 5 minutes,31/01/2023 15:28:07
+42,4,HEROMOTOCO,Hero Motocorp Limited,500182.0,2.47,2769.0,555783,Volume Spike in 5 minutes,31/01/2023 15:28:07
+43,13,ITC,Itc Limited,500875.0,2.45,353.25,15942190,Volume Spike in 5 minutes,31/01/2023 15:28:07
+44,6,METROPOLIS,Metropolis Healthcare Ltd,542650.0,2.28,1347.35,114937,Volume Spike in 5 minutes,31/01/2023 15:28:07
+45,9,IRCTC,Indian Railway Catering & Tourism Corporation Ltd,542830.0,2.1,638.0,1068008,Volume Spike in 5 minutes,31/01/2023 15:28:07
+46,1,PERSISTENT,Persistent Systems Limited,533179.0,1.76,4696.25,510681,Volume Spike in 5 minutes,31/01/2023 15:28:07
+47,3,ABB,Abb India Limited,500002.0,1.42,2854.75,223783,Volume Spike in 5 minutes,31/01/2023 15:28:07
+48,10,CONCOR,Container Corporation Of India Limited,531344.0,0.83,630.4,4028598,Volume Spike in 5 minutes,31/01/2023 15:28:07
+49,11,SYNGENE,Syngene International Limited,539268.0,-0.05,567.1,3105036,Volume Spike in 5 minutes,31/01/2023 15:28:07
+50,10,SHK,S H Kelkar And Company Limited,539450.0,-0.39,139.0,187552,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+51,7,AUROPHARMA,Aurobindo Pharma Limited,524804.0,-0.68,408.55,2633442,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+52,3,GLAXO,Glaxosmithkline Pharmaceuticals Limited,500660.0,-0.95,1245.75,50638,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+53,6,ISGEC,ISGEC Heavy Engineering  Ltd,533033.0,-1.09,435.0,69778,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+54,5,CIPLA,Cipla Limited,500087.0,-1.65,1017.35,2601886,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+55,14,KRITIKA,Kritika Wires Ltd,535116.0,-1.83,10.75,129492,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+56,9,ALPHAGEO,Alphageo (india) Limited,526397.0,-1.93,256.0,22327,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+57,12,BRNL,Bharat Road Network,540700.0,-2.82,34.5,84704,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+58,8,LAURUSLABS,Laurus Labs Limited,540222.0,-3.1,331.2,5206298,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+59,16,MELSTAR,Melstar Information Technologies Limited,532307.0,-3.92,2.45,3791,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+60,15,BAGFILMS,B.a.g Films And Media Limited,532507.0,-4.26,4.5,447893,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+61,4,GOCOLORS,Go Fashion (India) Ltd,543401.0,-4.58,1036.0,81679,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+62,13,STEELXIND,Steel Exchange India Ltd,534748.0,-4.74,13.05,5787139,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+63,11,HUBTOWN,Hubtown Limited,532799.0,-4.98,38.2,228211,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+64,1,BASF,Basf India Limited,500042.0,-6.05,2443.75,105435,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+65,2,ASTEC,Astec Lifesciences Limited,533138.0,-8.52,1393.0,429141,Stocks near support level - bearish (Parimal Wadiwala) EOD,31/01/2023 15:29:01
+66,20,CUB,City Union Bank Limited,532210.0,4.4,158.95,2640973,Stocks in Downtrend,31/01/2023 15:30:00
+67,19,JKTYRE,Jk Tyre & Industries Limited,530007.0,3.6,168.45,1081080,Stocks in Downtrend,31/01/2023 15:30:00
+68,17,ZEEL,Zee Entertainment Enterprises Limited,505537.0,3.49,227.0,5610893,Stocks in Downtrend,31/01/2023 15:30:00
+69,15,INDHOTEL,The Indian Hotels Company Limited,500850.0,3.16,300.5,12271413,Stocks in Downtrend,31/01/2023 15:30:00
+70,22,PCBL,PCBL Ltd,506590.0,3.0,120.0,1610353,Stocks in Downtrend,31/01/2023 15:30:00
+71,21,NYKAA,FSN E-Commerce Ventures Ltd,543384.0,2.35,137.0,10357214,Stocks in Downtrend,31/01/2023 15:30:00
+72,5,TITAN,Titan Company Limited,500114.0,1.9,2380.0,1202902,Stocks in Downtrend,31/01/2023 15:30:00
+73,16,GRANULES,Granules India Limited,532482.0,1.56,295.9,776647,Stocks in Downtrend,31/01/2023 15:30:00
+74,9,TRENT,Trent Limited,500251.0,1.44,1197.4,926519,Stocks in Downtrend,31/01/2023 15:30:00
+75,24,MSUMI,Motherson Sumi Wiring India Ltd,543498.0,1.27,51.75,5275496,Stocks in Downtrend,31/01/2023 15:30:00
+76,14,AARTIIND,Aarti Industries Limited,524208.0,1.18,537.75,513513,Stocks in Downtrend,31/01/2023 15:30:00
+77,12,SBICARD,SBI Cards & Payment Services Ltd,543066.0,0.94,723.15,1230674,Stocks in Downtrend,31/01/2023 15:30:00
+78,2,APOLLOHOSP,Apollo Hospitals Enterprise Limited,508869.0,0.34,4252.2,654401,Stocks in Downtrend,31/01/2023 15:30:00
+79,11,BHARTIARTL,Bharti Airtel Limited,532454.0,-0.02,770.05,8164716,Stocks in Downtrend,31/01/2023 15:30:00
+80,8,BAJAJFINSV,Bajaj Finserv Limited,532978.0,-0.12,1342.3,2142248,Stocks in Downtrend,31/01/2023 15:30:00
+81,23,NLCINDIA,Nlc India Limited,513683.0,-0.13,78.05,1777429,Stocks in Downtrend,31/01/2023 15:30:00
+82,6,RELIANCE,Reliance Industries Limited,500325.0,-0.19,2355.15,10033426,Stocks in Downtrend,31/01/2023 15:30:00
+83,10,ICICIGI,ICICI Lombard General Insurance Company Ltd,540716.0,-0.33,1129.9,1145846,Stocks in Downtrend,31/01/2023 15:30:00
+84,18,RALLIS,Rallis India Limited,500355.0,-0.33,209.15,511948,Stocks in Downtrend,31/01/2023 15:30:00
+85,7,GRASIM,Grasim Industries Limited,500300.0,-0.68,1587.65,1474835,Stocks in Downtrend,31/01/2023 15:30:00
+86,13,BERGEPAINT,Berger Paints (i) Limited,509480.0,-0.96,548.8,531394,Stocks in Downtrend,31/01/2023 15:30:00
+87,3,DMART,Avenue Supermarts,540376.0,-1.35,3498.6,510411,Stocks in Downtrend,31/01/2023 15:30:00
+88,4,ASIANPAINT,Asian Paints Limited,500820.0,-1.39,2727.65,1863815,Stocks in Downtrend,31/01/2023 15:30:00
+89,1,BAJFINANCE,Bajaj Finance Limited,500034.0,-2.28,5884.45,1929270,Stocks in Downtrend,31/01/2023 15:30:00
