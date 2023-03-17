@@ -1,0 +1,124 @@
+DEBUG:This message should appear on the console
+INFO:So should this
+WARNING:And this, too
+DEBUG:Starting new HTTPS connection (1): api.kite.trade:443
+DEBUG:https://api.kite.trade:443 "GET / HTTP/1.1" 200 None
+DEBUG:Starting new HTTPS connection (1): ant.aliceblueonline.com:443
+DEBUG:https://ant.aliceblueonline.com:443 "POST /rest/AliceBlueAPIService/api/customer/getAPIEncpkey HTTP/1.1" 200 None
+DEBUG:Starting new HTTPS connection (1): ant.aliceblueonline.com:443
+DEBUG:https://ant.aliceblueonline.com:443 "POST /rest/AliceBlueAPIService/api/customer/getUserSID HTTP/1.1" 200 None
+DEBUG:Running job Job(interval=1, unit=days, do=createshortstraddlebnf, args=(), kwargs={})
+DEBUG:https://api.kite.trade:443 "GET /quote?i=NFO%3ABANKNIFTY23MARFUT HTTP/1.1" 200 None
+DEBUG:Starting new HTTPS connection (1): ant.aliceblueonline.com:443
+DEBUG:https://ant.aliceblueonline.com:443 "POST /rest/AliceBlueAPIService/api/ScripDetails/getScripQuoteDetails HTTP/1.1" 200 None
+DEBUG:Starting new HTTPS connection (1): ant.aliceblueonline.com:443
+DEBUG:https://ant.aliceblueonline.com:443 "POST /rest/AliceBlueAPIService/api/ScripDetails/getScripQuoteDetails HTTP/1.1" 200 None
+DEBUG:Starting new HTTPS connection (1): ant.aliceblueonline.com:443
+DEBUG:https://ant.aliceblueonline.com:443 "POST /rest/AliceBlueAPIService/api/placeOrder/executePlaceOrder HTTP/1.1" 200 42
+INFO:{'stat': 'Ok', 'NOrdNo': '230228000281380'}
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:Verifying response
+DEBUG:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:Responder is issuer
+DEBUG:Verifying response
+DEBUG:Verifying response
+DEBUG:Responder is issuer
+DEBUG:Responder is issuer
+DEBUG:Caching OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Caching OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Caching OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Starting new HTTPS connection (1): ant.aliceblueonline.com:443
+DEBUG:https://ant.aliceblueonline.com:443 "POST /rest/AliceBlueAPIService/api/placeOrder/executePlaceOrder HTTP/1.1" 200 42
+INFO:{'stat': 'Ok', 'NOrdNo': '230228000281388'}
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:Verifying response
+DEBUG:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:Responder is issuer
+DEBUG:Verifying response
+DEBUG:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:Responder is issuer
+DEBUG:Verifying response
+DEBUG:Responder is issuer
+DEBUG:Caching OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Caching OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Caching OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:Peer did not staple an OCSP response
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:Peer did not staple an OCSP response
+DEBUG:Requesting OCSP data
+DEBUG:Trying http://r3.o.lencr.org
+DEBUG:Using cached OCSP response.
+DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+And this, too
+And this, too
+And this, too

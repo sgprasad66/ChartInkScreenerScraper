@@ -10,19 +10,26 @@ def GetDataFromChartink(payload):
 
     payload = {'scan_clause': payload}
     
-    with requests.Session() as s:
-        r = s.get(Charting_Link)
-        soup = BeautifulSoup(r.text, "html.parser")
-        csrf = soup.select_one("[name='csrf-token']")['content']
-        s.headers['x-csrf-token'] = csrf
-        #headers={}
-        s.headers['Content-Type']='application/x-www-form-urlencoded'
-        r = s.post(Charting_url, data=payload)
+    try:
 
-        df = pd.DataFrame()
-        for item in r.json()['data']:
-            df = df.append(item, ignore_index=True)
-    return df
+        with requests.Session() as s:
+            r = s.get(Charting_Link)
+            soup = BeautifulSoup(r.text, "html.parser")
+            csrf = soup.select_one("[name='csrf-token']")['content']
+            s.headers['x-csrf-token'] = csrf
+            #headers={}
+            s.headers['Content-Type']='application/x-www-form-urlencoded'
+            r = s.post(Charting_url, data=payload)
+
+            df = pd.DataFrame()
+            for item in r.json()['data']:
+                df = df.append(item, ignore_index=True)
+        return df
+    except requests.exceptions.HTTPError as e:
+        print(e)
+        print("some error in the connection")
+    except requests.exceptions.RequestException as e:
+        print(e)
 
 # Python code to remove whitespace
 from functools import reduce
@@ -119,24 +126,25 @@ def ChartInkScraper(textdirection):
                 print('No alert present')
             
             data = GetDataFromChartink(payloaddata)
+            if data is not None:
         
-            if data.empty == False:
-                data = data.sort_values(by='per_chg', ascending=False)
-            
-            data['ScreenerName'] = hypertext
-            data['TimeOfDay'] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-            #print(data.info())
-            if data.shape[1] != 2:
-                data['nsecode']=data['nsecode'].astype('string')
-        
-
-            if listOfDataFramesOuter.empty == True:
-                listOfDataFramesOuter = data
-            else:
                 if data.empty == False:
-                    listOfDataFramesOuter = pd.concat([listOfDataFramesOuter,data])
+                    data = data.sort_values(by='per_chg', ascending=False)
+                
+                data['ScreenerName'] = hypertext
+                data['TimeOfDay'] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                #print(data.info())
+                if data.shape[1] != 2:
+                    data['nsecode']=data['nsecode'].astype('string')
+            
 
-            browser.back()
+                if listOfDataFramesOuter.empty == True:
+                    listOfDataFramesOuter = data
+                else:
+                    if data.empty == False:
+                        listOfDataFramesOuter = pd.concat([listOfDataFramesOuter,data])
+
+                browser.back()
 
         formattedfilepath = CreateCsvFile(textdirection,starttime)
         listOfDataFramesOuter.to_csv(formattedfilepath)

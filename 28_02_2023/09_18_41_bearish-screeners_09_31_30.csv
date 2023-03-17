@@ -1,0 +1,61 @@
+,sr,nsecode,name,bsecode,per_chg,close,volume,ScreenerName,TimeOfDay
+1,2,COROMANDEL,Coromandel International Limited,506395,0.5,896.35,136,PERFECT BEARISH,28/02/2023 09:19:47
+5,6,INDHOTEL,The Indian Hotels Company Limited,500850,0.43,316.45,8987,PERFECT BEARISH,28/02/2023 09:19:47
+2,3,OBEROIRLTY,Oberoi Realty Limited,533273,0.42,856.95,151,PERFECT BEARISH,28/02/2023 09:19:47
+8,9,CUB,City Union Bank Limited,532210,0.37,135.5,1338,PERFECT BEARISH,28/02/2023 09:19:47
+7,8,NTPC,Ntpc Limited,532555,0.23,172.8,11187,PERFECT BEARISH,28/02/2023 09:19:47
+3,4,AXISBANK,Axis Bank Limited,532215,0.19,855.95,5070,PERFECT BEARISH,28/02/2023 09:19:47
+0,1,KOTAKBANK,Kotak Mahindra Bank Limited,500247,0.0,1725.95,2172,PERFECT BEARISH,28/02/2023 09:19:47
+6,7,PETRONET,Petronet Lng Limited,532522,0.0,223.35,6078,PERFECT BEARISH,28/02/2023 09:19:47
+9,10,GAIL,Gail (india) Limited,532155,0.0,104.15,39278,PERFECT BEARISH,28/02/2023 09:19:47
+4,5,ICICIBANK,Icici Bank Limited,532174,-0.18,854.9,33529,PERFECT BEARISH,28/02/2023 09:19:47
+0,1,MCX,Multi Commodity Exchange Of India Limited,534091,-0.04,1384.55,5129,Intraday Sell,28/02/2023 09:22:30
+3,4,WIPRO,Wipro Limited,507685,-0.13,389.85,191266,Intraday Sell,28/02/2023 09:22:30
+4,5,BIOCON,Biocon Limited,532523,-1.28,226.65,335336,Intraday Sell,28/02/2023 09:22:30
+2,3,CIPLA,Cipla Limited,500087,-2.17,929.55,107630,Intraday Sell,28/02/2023 09:22:30
+1,2,ADANIENT,Adani Enterprises Limited,512599,-3.93,1146.6,370288,Intraday Sell,28/02/2023 09:22:30
+0,1,CIPLA,Cipla Limited,500087,-2.24,928.95,197244,Chanakya Bearish Scanner - Working,28/02/2023 09:23:32
+7,8,GUJGASLTD,Gujarat Gas Limited,539336,-0.41,502.15,19714,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+0,1,HINDUNILVR,Hindustan Unilever Limited,500696,-0.42,2457.7,63074,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+10,11,GAIL,Gail (india) Limited,532155,-0.58,103.55,766745,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+4,5,HCLTECH,Hcl Technologies Limited,532281,-0.63,1077.1,177697,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+6,7,BERGEPAINT,Berger Paints (i) Limited,509480,-0.85,552.2,29397,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+1,2,SRF,Srf Limited,503806,-0.99,2170.25,15164,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+9,10,BIOCON,Biocon Limited,532523,-1.0,227.3,917756,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+2,3,PVR,Pvr Limited,532689,-1.31,1509.35,33485,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+5,6,CIPLA,Cipla Limited,500087,-1.77,933.35,248363,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+8,9,VEDL,Vedanta Limited,500295,-2.75,279.45,1239724,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+3,4,ADANIENT,Adani Enterprises Limited,512599,-4.66,1137.85,875345,My-intraday-sell-setup-ADX,28/02/2023 09:24:29
+0,1,ASIANPAINT,Asian Paints Limited,500820,-0.32,2741.0,49367,Sell 15 Min,28/02/2023 09:25:28
+1,2,HINDUNILVR,Hindustan Unilever Limited,500696,-0.33,2459.95,69568,Sell 15 Min,28/02/2023 09:25:28
+2,3,CHOLAFIN,Cholamandalam Investment And Finance Company Limited,511243,-0.39,759.2,30054,Sell 15 Min,28/02/2023 09:25:28
+5,6,GLENMARK,Glenmark Pharmaceuticals Limited,532296,-0.46,430.45,22989,Sell 15 Min,28/02/2023 09:25:28
+3,4,ADANIPORTS,Adani Ports And Special Economic Zone Limited,532921,-0.56,558.85,650395,Sell 15 Min,28/02/2023 09:25:28
+4,5,BERGEPAINT,Berger Paints (i) Limited,509480,-0.83,552.3,35368,Sell 15 Min,28/02/2023 09:25:28
+6,7,HINDALCO,Hindalco Industries Limited,500440,-0.92,408.0,546941,Sell 15 Min,28/02/2023 09:25:28
+7,8,VEDL,Vedanta Limited,500295,-3.41,277.55,1536612,Sell 15 Min,28/02/2023 09:25:28
+0,1,CIPLA,Cipla Limited,500087,-1.99,931.25,273358,Highly Bearish I-day,28/02/2023 09:26:25
+3,4,MANAPPURAM,Manappuram Finance Limited,531213,-0.05,102.15,151108,Bearish RSi-Stoc,28/02/2023 09:27:31
+2,3,RBLBANK,Rbl Bank Limited,540065,-0.23,152.0,239380,Bearish RSi-Stoc,28/02/2023 09:27:31
+1,2,VEDL,Vedanta Limited,500295,-2.92,278.95,2020533,Bearish RSi-Stoc,28/02/2023 09:27:31
+0,1,ADANIENT,Adani Enterprises Limited,512599,-5.77,1124.6,1209893,Bearish RSi-Stoc,28/02/2023 09:27:31
+11,12,ZEEL,Zee Entertainment Enterprises Limited,505537,3.94,190.15,3489249,Volume Spike in 5 minutes,28/02/2023 09:29:30
+5,6,M&M,Mahindra & Mahindra Limited,500520,2.08,1283.5,307614,Volume Spike in 5 minutes,28/02/2023 09:29:30
+12,13,RAIN,Rain Industries Limited,500339,1.91,154.4,975192,Volume Spike in 5 minutes,28/02/2023 09:29:30
+0,1,INDIAMART,Indiamart Intermesh Ltd,542726,1.23,4803.75,4005,Volume Spike in 5 minutes,28/02/2023 09:29:30
+8,9,CONCOR,Container Corporation Of India Limited,531344,1.2,597.35,63685,Volume Spike in 5 minutes,28/02/2023 09:29:30
+1,2,EICHERMOT,Eicher Motors Limited,505200,1.12,3166.2,49656,Volume Spike in 5 minutes,28/02/2023 09:29:30
+6,7,GODREJCP,Godrej Consumer Products Limited,532424,1.01,923.2,69049,Volume Spike in 5 minutes,28/02/2023 09:29:30
+2,3,HAL,Hindustan Aeronautics Ltd,541154,0.96,2598.0,110508,Volume Spike in 5 minutes,28/02/2023 09:29:30
+7,8,IRCTC,Indian Railway Catering & Tourism Corporation Ltd,542830,0.94,605.5,88569,Volume Spike in 5 minutes,28/02/2023 09:29:30
+4,5,MCX,Multi Commodity Exchange Of India Limited,534091,0.84,1396.85,16821,Volume Spike in 5 minutes,28/02/2023 09:29:30
+9,10,INDHOTEL,The Indian Hotels Company Limited,500850,0.67,317.2,394465,Volume Spike in 5 minutes,28/02/2023 09:29:30
+3,4,COLPAL,Colgate Palmolive (india) Limited,500830,0.57,1468.0,12540,Volume Spike in 5 minutes,28/02/2023 09:29:30
+10,11,POWERGRID,Power Grid Corporation Of India Limited,532898,0.09,219.4,1096762,Volume Spike in 5 minutes,28/02/2023 09:29:30
+6,7,IDFCFIRSTB,IDFC First Bank Ltd,539437,0.92,54.9,3680786,Stocks in Downtrend,28/02/2023 09:31:29
+4,5,IDFC,Idfc Limited,532659,0.81,75.05,674360,Stocks in Downtrend,28/02/2023 09:31:29
+3,4,BANKBARODA,Bank Of Baroda,532134,0.38,159.6,4439863,Stocks in Downtrend,28/02/2023 09:31:29
+1,2,CANBK,Canara Bank,532483,0.11,276.4,570138,Stocks in Downtrend,28/02/2023 09:31:29
+0,1,SBIN,State Bank Of India,500112,-0.49,525.1,791922,Stocks in Downtrend,28/02/2023 09:31:29
+2,3,BIOCON,Biocon Limited,532523,-1.28,226.65,1426719,Stocks in Downtrend,28/02/2023 09:31:29
+5,6,IBREALEST,Indiabulls Real Estate Limited,532832,-2.87,59.15,2952590,Stocks in Downtrend,28/02/2023 09:31:29

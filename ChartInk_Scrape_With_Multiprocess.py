@@ -40,6 +40,7 @@ import random
 import multiprocessing
 import time
 from datetime import datetime
+import schedule
 
 class WorkerProcess(multiprocessing.Process):
     def __init__(self, name):
@@ -51,15 +52,16 @@ class WorkerProcess(multiprocessing.Process):
 
 def worker(name: str) -> None:
     print(f'Started worker {name}')
-    #worker_time = random.choice(range(1, 6))
+    #worker_time = random.choice(range(1, 5))
     #time.sleep(worker_time)
     ChartInkScraper(name)
     print(f'{name} worker finished ')
 
-if __name__ == '__main__':
+
+def chartinkscrapeprocess():
     while True:
         processes = []
-        for i in range(5):
+        for i in range(4):
             process = WorkerProcess(name=screenmapper.get(str(i+1)))
             processes.append(process)
             process.start()
@@ -70,8 +72,23 @@ if __name__ == '__main__':
         if endtime.hour < 15 or endtime.hour >= 15 and endtime.minute <32:
             continue
         else:
-            break
+            pass #break
 
+if __name__ == '__main__':
+    
+    #schedule.every().day.at("19:26:00").do(chartinkscrapeprocess)
+
+    try:
+        #while True:
+     
+    # Checks whether a scheduled task
+    # is pending to run or not
+            #schedule.run_pending()
+            #time.sleep(1)
+        chartinkscrapeprocess()
+
+    except Exception as e:
+        pass
 
 
 ''' if __name__ == '__main__':

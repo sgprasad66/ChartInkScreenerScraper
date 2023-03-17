@@ -1,0 +1,571 @@
+03/16/2023 09:07:59 AM Alice_Blue_API.py...execution started now.....
+03/16/2023 09:07:59 AM Short Straddle Number -1
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM Short Straddle Number -2
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM Short Straddle Number -3
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM Short Straddle Number -4
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:07:59 AM **********************************************************
+03/16/2023 09:20:00 AM At The Money strike ---39100.0
+03/16/2023 09:20:00 AM CE  strike ---38600.0
+03/16/2023 09:20:00 AM PE strike ---39500.0
+03/16/2023 09:20:02 AM Order placed successfully, orderId = 230316000015703
+03/16/2023 09:20:02 AM order for BANKNIFTY2331638600CE - CE sell placed at 425.65 
+03/16/2023 09:20:05 AM Order placed successfully, orderId = 230316000015832
+03/16/2023 09:20:05 AM order for BANKNIFTY2331639500PE - PE sell placed at  557.65
+03/16/2023 09:20:52 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 0.0- LTPValue  - 10641.25 -FinalValue -  0.0 - Strike  -  38600.0 --- MTM - 0.0
+03/16/2023 09:20:52 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:20:52 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:20:52 AM *****-680.0*****
+03/16/2023 09:20:52 AM Capital deployed for the above MTM - 
+03/16/2023 09:20:52 AM 10641.25
+03/16/2023 09:20:52 AM Total stop loss amount for the day till now - 
+03/16/2023 09:20:52 AM -680.0
+03/16/2023 09:20:52 AM Total Profit amount for the day till now - - 
+03/16/2023 09:20:52 AM 0.0
+03/16/2023 09:21:54 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 0.0- LTPValue  - 10641.25 -FinalValue -  0.0 - Strike  -  38600.0 --- MTM - 0.0
+03/16/2023 09:21:54 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:21:54 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:21:54 AM *****-680.0*****
+03/16/2023 09:21:54 AM Capital deployed for the above MTM - 
+03/16/2023 09:21:54 AM 10641.25
+03/16/2023 09:21:54 AM Total stop loss amount for the day till now - 
+03/16/2023 09:21:54 AM -680.0
+03/16/2023 09:21:54 AM Total Profit amount for the day till now - - 
+03/16/2023 09:21:54 AM 0.0
+03/16/2023 09:22:57 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:22:57 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:22:57 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:22:57 AM *****-1961.0*****
+03/16/2023 09:22:57 AM Capital deployed for the above MTM - 
+03/16/2023 09:22:57 AM 0.0
+03/16/2023 09:22:57 AM Total stop loss amount for the day till now - 
+03/16/2023 09:22:57 AM -1961.0
+03/16/2023 09:22:57 AM Total Profit amount for the day till now - - 
+03/16/2023 09:22:57 AM 0.0
+03/16/2023 09:24:00 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:24:00 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:24:00 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:24:00 AM *****-1961.0*****
+03/16/2023 09:24:00 AM Capital deployed for the above MTM - 
+03/16/2023 09:24:00 AM 0.0
+03/16/2023 09:24:00 AM Total stop loss amount for the day till now - 
+03/16/2023 09:24:00 AM -1961.0
+03/16/2023 09:24:00 AM Total Profit amount for the day till now - - 
+03/16/2023 09:24:00 AM 0.0
+03/16/2023 09:25:03 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:25:03 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:25:03 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:25:03 AM *****-1961.0*****
+03/16/2023 09:25:03 AM Capital deployed for the above MTM - 
+03/16/2023 09:25:03 AM 0.0
+03/16/2023 09:25:03 AM Total stop loss amount for the day till now - 
+03/16/2023 09:25:03 AM -1961.0
+03/16/2023 09:25:03 AM Total Profit amount for the day till now - - 
+03/16/2023 09:25:03 AM 0.0
+03/16/2023 09:26:07 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:26:07 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:26:07 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:26:07 AM *****-1961.0*****
+03/16/2023 09:26:07 AM Capital deployed for the above MTM - 
+03/16/2023 09:26:07 AM 0.0
+03/16/2023 09:26:07 AM Total stop loss amount for the day till now - 
+03/16/2023 09:26:07 AM -1961.0
+03/16/2023 09:26:07 AM Total Profit amount for the day till now - - 
+03/16/2023 09:26:07 AM 0.0
+03/16/2023 09:27:11 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:27:11 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:27:11 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:27:11 AM *****-1961.0*****
+03/16/2023 09:27:11 AM Capital deployed for the above MTM - 
+03/16/2023 09:27:11 AM 0.0
+03/16/2023 09:27:11 AM Total stop loss amount for the day till now - 
+03/16/2023 09:27:11 AM -1961.0
+03/16/2023 09:27:11 AM Total Profit amount for the day till now - - 
+03/16/2023 09:27:11 AM 0.0
+03/16/2023 09:28:14 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:28:14 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:28:14 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:28:14 AM *****-1961.0*****
+03/16/2023 09:28:14 AM Capital deployed for the above MTM - 
+03/16/2023 09:28:14 AM 0.0
+03/16/2023 09:28:14 AM Total stop loss amount for the day till now - 
+03/16/2023 09:28:14 AM -1961.0
+03/16/2023 09:28:14 AM Total Profit amount for the day till now - - 
+03/16/2023 09:28:14 AM 0.0
+03/16/2023 09:29:18 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:29:18 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:29:18 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:29:18 AM *****-1961.0*****
+03/16/2023 09:29:18 AM Capital deployed for the above MTM - 
+03/16/2023 09:29:18 AM 0.0
+03/16/2023 09:29:18 AM Total stop loss amount for the day till now - 
+03/16/2023 09:29:18 AM -1961.0
+03/16/2023 09:29:18 AM Total Profit amount for the day till now - - 
+03/16/2023 09:29:18 AM 0.0
+03/16/2023 09:30:22 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:30:22 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:30:22 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:30:22 AM *****-1961.0*****
+03/16/2023 09:30:22 AM Capital deployed for the above MTM - 
+03/16/2023 09:30:22 AM 0.0
+03/16/2023 09:30:22 AM Total stop loss amount for the day till now - 
+03/16/2023 09:30:22 AM -1961.0
+03/16/2023 09:30:22 AM Total Profit amount for the day till now - - 
+03/16/2023 09:30:22 AM 0.0
+03/16/2023 09:31:25 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:31:25 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:31:25 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:31:25 AM *****-1961.0*****
+03/16/2023 09:31:25 AM Capital deployed for the above MTM - 
+03/16/2023 09:31:25 AM 0.0
+03/16/2023 09:31:25 AM Total stop loss amount for the day till now - 
+03/16/2023 09:31:25 AM -1961.0
+03/16/2023 09:31:25 AM Total Profit amount for the day till now - - 
+03/16/2023 09:31:25 AM 0.0
+03/16/2023 09:32:33 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:32:33 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:32:33 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:32:33 AM *****-1961.0*****
+03/16/2023 09:32:33 AM Capital deployed for the above MTM - 
+03/16/2023 09:32:33 AM 0.0
+03/16/2023 09:32:33 AM Total stop loss amount for the day till now - 
+03/16/2023 09:32:33 AM -1961.0
+03/16/2023 09:32:33 AM Total Profit amount for the day till now - - 
+03/16/2023 09:32:33 AM 0.0
+03/16/2023 09:33:38 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:33:38 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:33:38 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:33:38 AM *****-1961.0*****
+03/16/2023 09:33:38 AM Capital deployed for the above MTM - 
+03/16/2023 09:33:38 AM 0.0
+03/16/2023 09:33:38 AM Total stop loss amount for the day till now - 
+03/16/2023 09:33:38 AM -1961.0
+03/16/2023 09:33:38 AM Total Profit amount for the day till now - - 
+03/16/2023 09:33:38 AM 0.0
+03/16/2023 09:34:41 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:34:41 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:34:41 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:34:41 AM *****-1961.0*****
+03/16/2023 09:34:41 AM Capital deployed for the above MTM - 
+03/16/2023 09:34:41 AM 0.0
+03/16/2023 09:34:41 AM Total stop loss amount for the day till now - 
+03/16/2023 09:34:41 AM -1961.0
+03/16/2023 09:34:41 AM Total Profit amount for the day till now - - 
+03/16/2023 09:34:41 AM 0.0
+03/16/2023 09:35:44 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:35:44 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:35:44 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:35:44 AM *****-1961.0*****
+03/16/2023 09:35:44 AM Capital deployed for the above MTM - 
+03/16/2023 09:35:44 AM 0.0
+03/16/2023 09:35:44 AM Total stop loss amount for the day till now - 
+03/16/2023 09:35:44 AM -1961.0
+03/16/2023 09:35:44 AM Total Profit amount for the day till now - - 
+03/16/2023 09:35:44 AM 0.0
+03/16/2023 09:36:48 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:36:48 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:36:48 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:36:48 AM *****-1961.0*****
+03/16/2023 09:36:48 AM Capital deployed for the above MTM - 
+03/16/2023 09:36:48 AM 0.0
+03/16/2023 09:36:48 AM Total stop loss amount for the day till now - 
+03/16/2023 09:36:48 AM -1961.0
+03/16/2023 09:36:48 AM Total Profit amount for the day till now - - 
+03/16/2023 09:36:48 AM 0.0
+03/16/2023 09:37:51 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:37:51 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:37:51 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:37:51 AM *****-1961.0*****
+03/16/2023 09:37:51 AM Capital deployed for the above MTM - 
+03/16/2023 09:37:51 AM 0.0
+03/16/2023 09:37:51 AM Total stop loss amount for the day till now - 
+03/16/2023 09:37:51 AM -1961.0
+03/16/2023 09:37:51 AM Total Profit amount for the day till now - - 
+03/16/2023 09:37:51 AM 0.0
+03/16/2023 09:38:54 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:38:54 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:38:54 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:38:54 AM *****-1961.0*****
+03/16/2023 09:38:54 AM Capital deployed for the above MTM - 
+03/16/2023 09:38:54 AM 0.0
+03/16/2023 09:38:54 AM Total stop loss amount for the day till now - 
+03/16/2023 09:38:54 AM -1961.0
+03/16/2023 09:38:54 AM Total Profit amount for the day till now - - 
+03/16/2023 09:38:54 AM 0.0
+03/16/2023 09:40:02 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:40:02 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:40:02 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:40:02 AM *****-1961.0*****
+03/16/2023 09:40:03 AM Capital deployed for the above MTM - 
+03/16/2023 09:40:03 AM 0.0
+03/16/2023 09:40:03 AM Total stop loss amount for the day till now - 
+03/16/2023 09:40:03 AM -1961.0
+03/16/2023 09:40:04 AM Total Profit amount for the day till now - - 
+03/16/2023 09:40:04 AM 0.0
+03/16/2023 09:41:11 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:41:11 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:41:11 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:41:11 AM *****-1961.0*****
+03/16/2023 09:41:11 AM Capital deployed for the above MTM - 
+03/16/2023 09:41:11 AM 0.0
+03/16/2023 09:41:11 AM Total stop loss amount for the day till now - 
+03/16/2023 09:41:11 AM -1961.0
+03/16/2023 09:41:11 AM Total Profit amount for the day till now - - 
+03/16/2023 09:41:11 AM 0.0
+03/16/2023 09:42:17 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:42:17 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:42:17 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:42:17 AM *****-1961.0*****
+03/16/2023 09:42:17 AM Capital deployed for the above MTM - 
+03/16/2023 09:42:18 AM 0.0
+03/16/2023 09:42:18 AM Total stop loss amount for the day till now - 
+03/16/2023 09:42:18 AM -1961.0
+03/16/2023 09:42:18 AM Total Profit amount for the day till now - - 
+03/16/2023 09:42:18 AM 0.0
+03/16/2023 09:43:22 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:43:22 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:43:22 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:43:22 AM *****-1961.0*****
+03/16/2023 09:43:22 AM Capital deployed for the above MTM - 
+03/16/2023 09:43:22 AM 0.0
+03/16/2023 09:43:22 AM Total stop loss amount for the day till now - 
+03/16/2023 09:43:22 AM -1961.0
+03/16/2023 09:43:22 AM Total Profit amount for the day till now - - 
+03/16/2023 09:43:22 AM 0.0
+03/16/2023 09:44:25 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:44:25 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:44:25 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:44:25 AM *****-1961.0*****
+03/16/2023 09:44:25 AM Capital deployed for the above MTM - 
+03/16/2023 09:44:25 AM 0.0
+03/16/2023 09:44:25 AM Total stop loss amount for the day till now - 
+03/16/2023 09:44:25 AM -1961.0
+03/16/2023 09:44:25 AM Total Profit amount for the day till now - - 
+03/16/2023 09:44:25 AM 0.0
+03/16/2023 09:45:29 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:45:29 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:45:29 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:45:29 AM *****-1961.0*****
+03/16/2023 09:45:29 AM Capital deployed for the above MTM - 
+03/16/2023 09:45:29 AM 0.0
+03/16/2023 09:45:29 AM Total stop loss amount for the day till now - 
+03/16/2023 09:45:29 AM -1961.0
+03/16/2023 09:45:29 AM Total Profit amount for the day till now - - 
+03/16/2023 09:45:29 AM 0.0
+03/16/2023 09:46:34 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:46:34 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:46:34 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:46:34 AM *****-1961.0*****
+03/16/2023 09:46:34 AM Capital deployed for the above MTM - 
+03/16/2023 09:46:34 AM 0.0
+03/16/2023 09:46:34 AM Total stop loss amount for the day till now - 
+03/16/2023 09:46:34 AM -1961.0
+03/16/2023 09:46:34 AM Total Profit amount for the day till now - - 
+03/16/2023 09:46:34 AM 0.0
+03/16/2023 09:47:41 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:47:41 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:47:41 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:47:41 AM *****-1961.0*****
+03/16/2023 09:47:41 AM Capital deployed for the above MTM - 
+03/16/2023 09:47:41 AM 0.0
+03/16/2023 09:47:41 AM Total stop loss amount for the day till now - 
+03/16/2023 09:47:41 AM -1961.0
+03/16/2023 09:47:41 AM Total Profit amount for the day till now - - 
+03/16/2023 09:47:42 AM 0.0
+03/16/2023 09:48:49 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:48:49 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:48:49 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:48:49 AM *****-1961.0*****
+03/16/2023 09:48:49 AM Capital deployed for the above MTM - 
+03/16/2023 09:48:49 AM 0.0
+03/16/2023 09:48:49 AM Total stop loss amount for the day till now - 
+03/16/2023 09:48:49 AM -1961.0
+03/16/2023 09:48:49 AM Total Profit amount for the day till now - - 
+03/16/2023 09:48:49 AM 0.0
+03/16/2023 09:49:53 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:49:53 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:49:53 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:49:53 AM *****-1961.0*****
+03/16/2023 09:49:53 AM Capital deployed for the above MTM - 
+03/16/2023 09:49:53 AM 0.0
+03/16/2023 09:49:53 AM Total stop loss amount for the day till now - 
+03/16/2023 09:49:53 AM -1961.0
+03/16/2023 09:49:53 AM Total Profit amount for the day till now - - 
+03/16/2023 09:49:53 AM 0.0
+03/16/2023 09:50:01 AM At The Money strike ---38900.0
+03/16/2023 09:50:01 AM CE  strike ---38400.0
+03/16/2023 09:50:01 AM PE strike ---39300.0
+03/16/2023 09:50:05 AM Order placed successfully, orderId = 230316000071095
+03/16/2023 09:50:05 AM order for BANKNIFTY2331638400CE - CE sell placed at 398.10 
+03/16/2023 09:50:09 AM Order placed successfully, orderId = 230316000071210
+03/16/2023 09:50:10 AM order for BANKNIFTY2331639300PE - PE sell placed at  589.70
+03/16/2023 09:50:55 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:50:55 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:50:55 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:50:55 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 0.0- LTPValue  - 14742.500000000002 -FinalValue -  0.0 - Strike  -  39300.0 --- MTM - 0.0
+03/16/2023 09:50:55 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:50:55 AM *****-1961.0*****
+03/16/2023 09:50:55 AM Capital deployed for the above MTM - 
+03/16/2023 09:50:55 AM 24695.0
+03/16/2023 09:50:55 AM Total stop loss amount for the day till now - 
+03/16/2023 09:50:55 AM -1961.0
+03/16/2023 09:50:55 AM Total Profit amount for the day till now - - 
+03/16/2023 09:50:55 AM 0.0
+03/16/2023 09:51:58 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:51:58 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:51:58 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:51:58 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:51:58 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:51:58 AM *****-2561.0*****
+03/16/2023 09:51:58 AM Capital deployed for the above MTM - 
+03/16/2023 09:51:58 AM 9952.5
+03/16/2023 09:51:58 AM Total stop loss amount for the day till now - 
+03/16/2023 09:51:58 AM -2561.0
+03/16/2023 09:51:58 AM Total Profit amount for the day till now - - 
+03/16/2023 09:51:58 AM 0.0
+03/16/2023 09:53:00 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:53:00 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:53:00 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:53:00 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:53:00 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:53:00 AM *****-2561.0*****
+03/16/2023 09:53:00 AM Capital deployed for the above MTM - 
+03/16/2023 09:53:00 AM 9952.5
+03/16/2023 09:53:00 AM Total stop loss amount for the day till now - 
+03/16/2023 09:53:00 AM -2561.0
+03/16/2023 09:53:00 AM Total Profit amount for the day till now - - 
+03/16/2023 09:53:00 AM 0.0
+03/16/2023 09:54:04 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:54:04 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:54:04 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:54:04 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:54:04 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:54:04 AM *****-2561.0*****
+03/16/2023 09:54:04 AM Capital deployed for the above MTM - 
+03/16/2023 09:54:04 AM 9952.5
+03/16/2023 09:54:04 AM Total stop loss amount for the day till now - 
+03/16/2023 09:54:04 AM -2561.0
+03/16/2023 09:54:04 AM Total Profit amount for the day till now - - 
+03/16/2023 09:54:04 AM 0.0
+03/16/2023 09:55:08 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:55:08 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:55:08 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:55:08 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:55:08 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:55:08 AM *****-2561.0*****
+03/16/2023 09:55:08 AM Capital deployed for the above MTM - 
+03/16/2023 09:55:08 AM 9952.5
+03/16/2023 09:55:08 AM Total stop loss amount for the day till now - 
+03/16/2023 09:55:08 AM -2561.0
+03/16/2023 09:55:08 AM Total Profit amount for the day till now - - 
+03/16/2023 09:55:08 AM 0.0
+03/16/2023 09:56:11 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:56:11 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:56:11 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:56:11 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:56:11 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:56:11 AM *****-2561.0*****
+03/16/2023 09:56:11 AM Capital deployed for the above MTM - 
+03/16/2023 09:56:11 AM 9952.5
+03/16/2023 09:56:11 AM Total stop loss amount for the day till now - 
+03/16/2023 09:56:11 AM -2561.0
+03/16/2023 09:56:11 AM Total Profit amount for the day till now - - 
+03/16/2023 09:56:11 AM 0.0
+03/16/2023 09:57:17 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:57:17 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:57:17 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:57:17 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:57:17 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:57:17 AM *****-2561.0*****
+03/16/2023 09:57:17 AM Capital deployed for the above MTM - 
+03/16/2023 09:57:17 AM 9952.5
+03/16/2023 09:57:17 AM Total stop loss amount for the day till now - 
+03/16/2023 09:57:17 AM -2561.0
+03/16/2023 09:57:17 AM Total Profit amount for the day till now - - 
+03/16/2023 09:57:17 AM 0.0
+03/16/2023 09:58:20 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:58:20 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:58:20 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:58:20 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:58:20 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:58:20 AM *****-2561.0*****
+03/16/2023 09:58:20 AM Capital deployed for the above MTM - 
+03/16/2023 09:58:20 AM 9952.5
+03/16/2023 09:58:20 AM Total stop loss amount for the day till now - 
+03/16/2023 09:58:20 AM -2561.0
+03/16/2023 09:58:20 AM Total Profit amount for the day till now - - 
+03/16/2023 09:58:20 AM 0.0
+03/16/2023 09:59:23 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 09:59:23 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 09:59:23 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 09:59:23 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 09:59:23 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 09:59:23 AM *****-2561.0*****
+03/16/2023 09:59:23 AM Capital deployed for the above MTM - 
+03/16/2023 09:59:23 AM 9952.5
+03/16/2023 09:59:23 AM Total stop loss amount for the day till now - 
+03/16/2023 09:59:23 AM -2561.0
+03/16/2023 09:59:23 AM Total Profit amount for the day till now - - 
+03/16/2023 09:59:23 AM 0.0
+03/16/2023 10:00:27 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:00:27 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:00:27 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 10:00:27 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:00:27 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:00:27 AM *****-2561.0*****
+03/16/2023 10:00:27 AM Capital deployed for the above MTM - 
+03/16/2023 10:00:27 AM 9952.5
+03/16/2023 10:00:27 AM Total stop loss amount for the day till now - 
+03/16/2023 10:00:27 AM -2561.0
+03/16/2023 10:00:27 AM Total Profit amount for the day till now - - 
+03/16/2023 10:00:27 AM 0.0
+03/16/2023 10:01:30 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:01:31 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:01:31 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 10:01:31 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:01:31 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:01:31 AM *****-2561.0*****
+03/16/2023 10:01:31 AM Capital deployed for the above MTM - 
+03/16/2023 10:01:31 AM 9952.5
+03/16/2023 10:01:31 AM Total stop loss amount for the day till now - 
+03/16/2023 10:01:31 AM -2561.0
+03/16/2023 10:01:31 AM Total Profit amount for the day till now - - 
+03/16/2023 10:01:31 AM 0.0
+03/16/2023 10:02:35 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:02:35 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:02:35 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 10:02:35 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:02:36 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:02:36 AM *****-2561.0*****
+03/16/2023 10:02:36 AM Capital deployed for the above MTM - 
+03/16/2023 10:02:36 AM 9952.5
+03/16/2023 10:02:36 AM Total stop loss amount for the day till now - 
+03/16/2023 10:02:36 AM -2561.0
+03/16/2023 10:02:36 AM Total Profit amount for the day till now - - 
+03/16/2023 10:02:36 AM 0.0
+03/16/2023 10:03:41 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:03:41 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:03:41 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 0.0- LTPValue  - 9952.5 -FinalValue -  0.0 - Strike  -  38400.0 --- MTM - 0.0
+03/16/2023 10:03:41 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:03:41 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:03:41 AM *****-2561.0*****
+03/16/2023 10:03:41 AM Capital deployed for the above MTM - 
+03/16/2023 10:03:41 AM 9952.5
+03/16/2023 10:03:41 AM Total stop loss amount for the day till now - 
+03/16/2023 10:03:41 AM -2561.0
+03/16/2023 10:03:41 AM Total Profit amount for the day till now - - 
+03/16/2023 10:03:41 AM 0.0
+03/16/2023 10:04:45 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:04:45 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:04:45 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:04:45 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:04:45 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:04:46 AM *****-1105.0*****
+03/16/2023 10:04:46 AM Capital deployed for the above MTM - 
+03/16/2023 10:04:46 AM 0.0
+03/16/2023 10:04:46 AM Total stop loss amount for the day till now - 
+03/16/2023 10:04:47 AM -2561.0
+03/16/2023 10:04:47 AM Total Profit amount for the day till now - - 
+03/16/2023 10:04:47 AM 1456.0
+03/16/2023 10:05:50 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:05:50 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:05:50 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:05:50 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:05:50 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:05:50 AM *****-1105.0*****
+03/16/2023 10:05:50 AM Capital deployed for the above MTM - 
+03/16/2023 10:05:50 AM 0.0
+03/16/2023 10:05:50 AM Total stop loss amount for the day till now - 
+03/16/2023 10:05:50 AM -2561.0
+03/16/2023 10:05:50 AM Total Profit amount for the day till now - - 
+03/16/2023 10:05:50 AM 1456.0
+03/16/2023 10:06:54 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:06:54 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:06:54 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:06:54 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:06:54 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:06:54 AM *****-1105.0*****
+03/16/2023 10:06:54 AM Capital deployed for the above MTM - 
+03/16/2023 10:06:54 AM 0.0
+03/16/2023 10:06:54 AM Total stop loss amount for the day till now - 
+03/16/2023 10:06:54 AM -2561.0
+03/16/2023 10:06:54 AM Total Profit amount for the day till now - - 
+03/16/2023 10:06:54 AM 1456.0
+03/16/2023 10:07:57 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:07:57 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:07:57 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:07:57 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:07:57 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:07:57 AM *****-1105.0*****
+03/16/2023 10:07:57 AM Capital deployed for the above MTM - 
+03/16/2023 10:07:57 AM 0.0
+03/16/2023 10:07:57 AM Total stop loss amount for the day till now - 
+03/16/2023 10:07:57 AM -2561.0
+03/16/2023 10:07:57 AM Total Profit amount for the day till now - - 
+03/16/2023 10:07:57 AM 1456.0
+03/16/2023 10:09:00 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:09:00 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:09:00 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:09:00 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:09:00 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:09:00 AM *****-1105.0*****
+03/16/2023 10:09:00 AM Capital deployed for the above MTM - 
+03/16/2023 10:09:00 AM 0.0
+03/16/2023 10:09:00 AM Total stop loss amount for the day till now - 
+03/16/2023 10:09:00 AM -2561.0
+03/16/2023 10:09:00 AM Total Profit amount for the day till now - - 
+03/16/2023 10:09:00 AM 1456.0
+03/16/2023 10:10:03 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:10:03 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:10:03 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:10:03 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:10:03 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:10:03 AM *****-1105.0*****
+03/16/2023 10:10:03 AM Capital deployed for the above MTM - 
+03/16/2023 10:10:03 AM 0.0
+03/16/2023 10:10:03 AM Total stop loss amount for the day till now - 
+03/16/2023 10:10:03 AM -2561.0
+03/16/2023 10:10:03 AM Total Profit amount for the day till now - - 
+03/16/2023 10:10:03 AM 1456.0
+03/16/2023 10:11:05 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:11:05 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:11:05 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:11:05 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:11:05 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:11:05 AM *****-1105.0*****
+03/16/2023 10:11:05 AM Capital deployed for the above MTM - 
+03/16/2023 10:11:05 AM 0.0
+03/16/2023 10:11:05 AM Total stop loss amount for the day till now - 
+03/16/2023 10:11:05 AM -2561.0
+03/16/2023 10:11:05 AM Total Profit amount for the day till now - - 
+03/16/2023 10:11:05 AM 1456.0
+03/16/2023 10:12:09 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:12:09 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:12:09 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:12:09 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:12:09 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:12:09 AM *****-1105.0*****
+03/16/2023 10:12:09 AM Capital deployed for the above MTM - 
+03/16/2023 10:12:09 AM 0.0
+03/16/2023 10:12:09 AM Total stop loss amount for the day till now - 
+03/16/2023 10:12:09 AM -2561.0
+03/16/2023 10:12:09 AM Total Profit amount for the day till now - - 
+03/16/2023 10:12:09 AM 1456.0
+03/16/2023 10:13:12 AM Logging-- Stock - BANKNIFTY2331638600CE - LTP - 425.65 - Final Price - 476.9- LTPValue  - 10641.25 -FinalValue -  11922.5 - Strike  -  38600.0 --- MTM - -1281
+03/16/2023 10:13:12 AM Logging-- Stock - BANKNIFTY2331639500PE - LTP - 557.65 - Final Price - 584.85- LTPValue  - 13941.25 -FinalValue -  14621.25 - Strike  -  39500.0 --- MTM - -680
+03/16/2023 10:13:12 AM Logging-- Stock - BANKNIFTY2331638400CE - LTP - 398.1 - Final Price - 339.85- LTPValue  - 9952.5 -FinalValue -  8496.25 - Strike  -  38400.0 --- MTM - 1456
+03/16/2023 10:13:12 AM Logging-- Stock - BANKNIFTY2331639300PE - LTP - 589.7 - Final Price - 613.7- LTPValue  - 14742.500000000002 -FinalValue -  15342.500000000002 - Strike  -  39300.0 --- MTM - -600
+03/16/2023 10:13:12 AM Final MTM - Loss or Gain for the day#####
+03/16/2023 10:13:12 AM *****-1105.0*****
+03/16/2023 10:13:12 AM Capital deployed for the above MTM - 
+03/16/2023 10:13:12 AM 0.0
+03/16/2023 10:13:12 AM Total stop loss amount for the day till now - 
+03/16/2023 10:13:12 AM -2561.0
+03/16/2023 10:13:12 AM Total Profit amount for the day till now - - 
+03/16/2023 10:13:12 AM 1456.0

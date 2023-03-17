@@ -20,11 +20,11 @@ from alice_blue import *
 
 #Only Replace it with your credentails
 username    = "AB067538" 
-password    = "SpiritFav12#" 
+password    = "SpiritFav66*" 
 twoFA       = "243396"
 app_id      = "UDXXPjmSSFeqeac"
-api_secret  = "mtGhOxfTJPAuXXRsJmnugjLLhaoCPHcoliIGDyXcYmiOfxfJvQNFHUbzWYmRbDySBdDCFnArHGsicKfGAHXFLGyUgbLfyypFDiPZ"
-
+#api_secret  = "eYyYHWcDyOtLOxCOZcsTTfUujvEcuhgNJgryaQcufVaGXmIKsygsmiABDDGsBIbqHGaQQdFtYNLTSPcESmeTNLTJxbQGNikyFUDi"
+api_secret = 'A2oYu9unGxQeLyazBgNHz3rMsvEi2Bnvx2T0PCGJW60QNmf8HvuLtuzQdJzH9JxJmeLbHkkiNOBIdSmUOgSeRV0riIhZ9b61kDuf66tko7RFLNsvAdfyORAN382UzINg'
 
 #Generating Session ID
 session_id = AliceBlue.login_and_get_sessionID(username=username,password=password,twoFA=twoFA,app_id=app_id,api_secret=api_secret)
@@ -36,10 +36,10 @@ print(alice.get_balance()) # get balance / margin limits
 
 print(alice.get_scrip_info(alice.get_instrument_by_symbol("NSE", "INFY-EQ")))
 
-print(alice.get_scrip_info(alice.get_instrument_by_symbol("NFO", "BANKNIFTY22SEPFUT")))
+print(alice.get_scrip_info(alice.get_instrument_by_symbol("NFO", "BANKNIFTY23MARFUT")))
 
 #Getting Instrument of Crude Oil
-crude_oil_symbol = alice.get_instrument_by_symbol('MCX', 'CRUDEOIL22OCTFUT')
+crude_oil_symbol = alice.get_instrument_by_symbol('MCX', 'CRUDEOIL23MARFUT')
 crude_oil_symbol
 
 #Starting the Websocket and Subscribing to a Scrip
