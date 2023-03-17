@@ -1,0 +1,458 @@
+,sr,nsecode,name,bsecode,per_chg,close,volume,ScreenerName,TimeOfDay
+9,10,LICHSGFIN,Lic Housing Finance Limited,500253,-0.58,351.2,1051747,SELL OPEN=HIGH,23/02/2023 15:13:10
+3,4,INFY,Infosys Limited,500209,-0.84,1548.75,4184847,SELL OPEN=HIGH,23/02/2023 15:13:10
+10,11,CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,500085,-0.91,277.3,792014,SELL OPEN=HIGH,23/02/2023 15:13:10
+4,5,TRENT,Trent Limited,500251,-0.93,1331.3,285185,SELL OPEN=HIGH,23/02/2023 15:13:10
+6,7,MGL,Mahanagar Gas Limited,539957,-1.02,874.1,218637,SELL OPEN=HIGH,23/02/2023 15:13:10
+0,1,TITAN,Titan Company Limited,500114,-1.42,2397.1,1459604,SELL OPEN=HIGH,23/02/2023 15:13:10
+7,8,BHARATFORG,Bharat Forge Limited,500493,-1.43,829.85,2176633,SELL OPEN=HIGH,23/02/2023 15:13:10
+1,2,SRF,Srf Limited,503806,-1.49,2240.4,267097,SELL OPEN=HIGH,23/02/2023 15:13:10
+5,6,GODREJPROP,Godrej Properties Limited,533150,-1.59,1089.05,1386855,SELL OPEN=HIGH,23/02/2023 15:13:10
+2,3,ESCORTS,Escorts Limited,500495,-2.35,2038.8,234212,SELL OPEN=HIGH,23/02/2023 15:13:10
+11,12,GMRINFRA,Gmr Infrastructure Limited,532754,-2.6,37.5,8060456,SELL OPEN=HIGH,23/02/2023 15:13:10
+8,9,IRCTC,Indian Railway Catering & Tourism Corporation Ltd,542830,-2.66,602.85,1651660,SELL OPEN=HIGH,23/02/2023 15:13:10
+1,2,INFY,Infosys Limited,500209,-0.79,1549.4,4207945,My Intraday sell setup,23/02/2023 15:14:20
+0,1,ASIANPAINT,Asian Paints Limited,500820,-3.24,2705.5,1540101,My Intraday sell setup,23/02/2023 15:14:20
+2,3,ABFRL,Aditya Birla Fashion And Retail Limited,535755,-1.15,231.7,3555150,FULLY BEARISH WITH SELLING SEEN IN LAST 15MIN,23/02/2023 15:15:21
+1,2,BERGEPAINT,Berger Paints (i) Limited,509480,-1.34,558.95,583440,FULLY BEARISH WITH SELLING SEEN IN LAST 15MIN,23/02/2023 15:15:21
+0,1,IRCTC,Indian Railway Catering & Tourism Corporation Ltd,542830,-2.72,602.45,1686672,FULLY BEARISH WITH SELLING SEEN IN LAST 15MIN,23/02/2023 15:15:21
+178,179,VISESHINFO,Visesh Infotecnics Limited,532411,0.0,0.45,3334769,Day Short Trade,23/02/2023 15:18:18
+177,178,SANWARIA,Sanwaria Agro Oils Limited,519260,0.0,0.55,1288473,Day Short Trade,23/02/2023 15:18:18
+97,98,NXTDIGITAL,NxtDigital Ltd,500189,0.0,120.0,10956,Day Short Trade,23/02/2023 15:18:18
+174,175,SUPREMEENG,Supreme Engineering Ltd,535105,0.0,1.0,302160,Day Short Trade,23/02/2023 15:18:18
+168,169,SABTN,Sri Adhikari Brothers Television Network Limited,530943,0.0,1.7,651,Day Short Trade,23/02/2023 15:18:18
+164,165,PREMIER,Premier Limited,500540,0.0,2.6,3436,Day Short Trade,23/02/2023 15:18:18
+16,17,EBBETF0423,Bharat Bond ETF - April 2023,542908,-0.1,1218.01,2133,Day Short Trade,23/02/2023 15:18:18
+76,77,ICICI10GS,ICICI10GS,,-0.1,207.61,7,Day Short Trade,23/02/2023 15:18:18
+137,138,ABMINTLLTD,A B M International Ltd,,-0.14,34.45,927,Day Short Trade,23/02/2023 15:18:18
+125,126,ICICICOMMO,ICICICOMMO,,-0.2,55.09,87,Day Short Trade,23/02/2023 15:18:18
+31,32,LICNETFSEN,LIC Nomura MF ETF - SENSEX,539487,-0.32,649.0,10,Day Short Trade,23/02/2023 15:18:18
+48,49,WIPRO,Wipro Limited,507685,-0.32,393.9,2651568,Day Short Trade,23/02/2023 15:18:18
+138,139,JSWISPL,JSW Ispat Special Products Ltd,513446,-0.33,30.45,523527,Day Short Trade,23/02/2023 15:18:18
+93,94,IVP,Ivp Limited,507580,-0.46,129.95,2184,Day Short Trade,23/02/2023 15:18:18
+142,143,KOTAKMNC,Kotak Nifty MNC ETF,535460,-0.47,19.18,252,Day Short Trade,23/02/2023 15:18:18
+130,131,QGOLDHALF,Quantum Gold Fund ETF,590099,-0.52,47.7,6999,Day Short Trade,23/02/2023 15:18:18
+53,54,JAGSNPHARM,Jagsonpal Pharmaceuticals Limited,507789,-0.52,322.55,8104,Day Short Trade,23/02/2023 15:18:18
+114,115,SBIETFCON,SBI ETF Consumption,535386,-0.57,73.02,1196,Day Short Trade,23/02/2023 15:18:18
+87,88,ZUARI,Zuari Agro Chemicals Limited,534742,-0.58,137.6,27437,Day Short Trade,23/02/2023 15:18:18
+78,79,IDFNIFTYET,IDFNIFTYET,,-0.59,186.3,705,Day Short Trade,23/02/2023 15:18:18
+30,31,SMLISUZU,Sml Isuzu Limited,505192,-0.59,693.2,4185,Day Short Trade,23/02/2023 15:18:18
+134,135,HDFCQUAL,HDFCQUAL,,-0.62,38.34,2098,Day Short Trade,23/02/2023 15:18:18
+29,30,CGCL,Capri Global Capital Limited,531595,-0.64,696.0,95002,Day Short Trade,23/02/2023 15:18:18
+148,149,VISHWARAJ,Vishwaraj Sugar Industries Ltd,542852,-0.64,15.6,172124,Day Short Trade,23/02/2023 15:18:18
+74,75,SANDHAR,Sandhar Technologies Limited,541163,-0.65,223.0,12528,Day Short Trade,23/02/2023 15:18:18
+121,122,INDSWFTLAB,Ind-swift Laboratories Limited,532305,-0.69,64.55,30778,Day Short Trade,23/02/2023 15:18:18
+2,3,DRREDDY,Dr. Reddy's Laboratories Limited,500124,-0.71,4445.05,206002,Day Short Trade,23/02/2023 15:18:18
+141,142,SILLYMONKS,Silly Monks Entertainment Ltd,535043,-0.74,20.0,2906,Day Short Trade,23/02/2023 15:18:18
+94,95,CYBERTECH,Cybertech Systems And Software Limited,532173,-0.75,125.0,19264,Day Short Trade,23/02/2023 15:18:18
+37,38,NAZARA,Nazara Technologies Ltd,543280,-0.77,532.8,81671,Day Short Trade,23/02/2023 15:18:18
+56,57,HDFCNIFIT,HDFCNIFIT,,-0.78,306.4,139,Day Short Trade,23/02/2023 15:18:18
+14,15,INFY,Infosys Limited,500209,-0.84,1548.65,4314887,Day Short Trade,23/02/2023 15:18:18
+1,2,IVZINGOLD,Invesco India Gold ETF,533172,-0.95,4982.4,24,Day Short Trade,23/02/2023 15:18:18
+103,104,GTPL,GTPL Hathway,540602,-0.97,111.95,30094,Day Short Trade,23/02/2023 15:18:18
+85,86,NRBBEARING,Nrb Bearing Limited,530367,-0.98,141.5,36767,Day Short Trade,23/02/2023 15:18:18
+63,64,MANGLMCEM,Mangalam Cement Limited,502157,-1.09,272.05,10649,Day Short Trade,23/02/2023 15:18:18
+131,132,HBSL,HB Stockholdings Ltd,532216,-1.09,45.55,2255,Day Short Trade,23/02/2023 15:18:18
+62,63,HINDCOMPOS,Hindustan Composites Limited,509635,-1.2,275.9,1156,Day Short Trade,23/02/2023 15:18:18
+9,10,PIDILITIND,Pidilite Industries Limited,500331,-1.22,2266.65,304016,Day Short Trade,23/02/2023 15:18:18
+96,97,ANDHRSUGAR,The Andhra Sugars Limited,590062,-1.26,121.1,46531,Day Short Trade,23/02/2023 15:18:18
+4,5,NAVINFLUOR,Navin Fluorine International Limited,532504,-1.31,4178.6,83698,Day Short Trade,23/02/2023 15:18:18
+26,27,BHARTIARTL,Bharti Airtel Limited,532454,-1.32,761.95,3601381,Day Short Trade,23/02/2023 15:18:18
+80,81,RAIN,Rain Industries Limited,500339,-1.35,157.25,929003,Day Short Trade,23/02/2023 15:18:18
+66,67,NAHARCAP,Nahar Capital And Financial Services Limited,532952,-1.36,253.45,4988,Day Short Trade,23/02/2023 15:18:18
+44,45,BSE,BSE (Bombay stock exchange),20,-1.36,446.45,596001,Day Short Trade,23/02/2023 15:18:18
+145,146,HTMEDIA,Ht Media Limited,532662,-1.39,17.7,147821,Day Short Trade,23/02/2023 15:18:18
+105,106,RAILTEL,Railtel Corporation of India Ltd,543265,-1.44,109.8,586080,Day Short Trade,23/02/2023 15:18:18
+55,56,JINDALPHOT,Jindal Photo Limited,532624,-1.47,315.15,4552,Day Short Trade,23/02/2023 15:18:18
+51,52,LAOPALA,La Opala Rg Limited,526947,-1.48,353.5,60778,Day Short Trade,23/02/2023 15:18:18
+21,22,KAJARIACER,Kajaria Ceramics Limited,500233,-1.51,1044.15,459994,Day Short Trade,23/02/2023 15:18:18
+65,66,LXCHEM,Laxmi Organic Industries Ltd,543277,-1.54,256.5,204124,Day Short Trade,23/02/2023 15:18:18
+18,19,STYLAMIND,Stylam Industries Ltd,526951,-1.57,1084.0,25372,Day Short Trade,23/02/2023 15:18:18
+35,36,PRINCEPIPE,Prince Pipes & Fittings Ltd,542907,-1.6,563.0,153413,Day Short Trade,23/02/2023 15:18:18
+123,124,UMANGDAIRY,Umang Dairies Limited,500231,-1.6,58.45,2424,Day Short Trade,23/02/2023 15:18:18
+116,117,ADVANIHOTR,Advani Hotels & Resorts (india) Limited,523269,-1.6,70.75,31475,Day Short Trade,23/02/2023 15:18:18
+7,8,DIVISLAB,Divi's Laboratories Limited,532488,-1.64,2872.6,390156,Day Short Trade,23/02/2023 15:18:18
+41,42,RUSTOMJEE,Keystone Realtors Ltd,543669,-1.67,467.7,6783,Day Short Trade,23/02/2023 15:18:18
+113,114,BLISSGVS,Bliss Gvs Pharma Limited,506197,-1.7,75.3,109955,Day Short Trade,23/02/2023 15:18:18
+156,157,NILAINFRA,Nila Infrastructures Limited,530377,-1.71,5.75,232717,Day Short Trade,23/02/2023 15:18:18
+117,118,WATERBASE,Waterbase Ltd,523660,-1.72,68.45,21725,Day Short Trade,23/02/2023 15:18:18
+11,12,LT,Larsen & Toubro Limited,500510,-1.74,2156.65,1801115,Day Short Trade,23/02/2023 15:18:18
+50,51,CENTENKA,Century Enka Limited,500280,-1.75,362.4,60432,Day Short Trade,23/02/2023 15:18:18
+60,61,KIRIINDUS,Kiri Industries Limited,532967,-1.76,281.85,41750,Day Short Trade,23/02/2023 15:18:18
+91,92,MAXVIL,Max Ventures And Industries Limited,539940,-1.76,130.9,28055,Day Short Trade,23/02/2023 15:18:18
+13,14,HDFCAMC,HDFC Asset Management Company Ltd,541729,-1.8,1785.95,355798,Day Short Trade,23/02/2023 15:18:18
+52,53,HARSHA,Harsha Engineers International Ltd,543600,-1.8,343.75,247837,Day Short Trade,23/02/2023 15:18:18
+129,130,CTE,Cambridge Technology Enterprises Limited,532801,-1.8,51.8,5724,Day Short Trade,23/02/2023 15:18:18
+39,40,GNFC,Gujarat Narmada Valley Fertilizers And Chemicals Limited,500670,-1.82,524.2,629492,Day Short Trade,23/02/2023 15:18:18
+163,164,ROLTA,Rolta India Limited,500366,-1.85,2.65,98158,Day Short Trade,23/02/2023 15:18:18
+47,48,HARIOMPIPE,Hariom Pipe Industries Ltd,543517,-1.86,403.0,53507,Day Short Trade,23/02/2023 15:18:18
+106,107,PALASHSECU,Palash Securities,540648,-1.87,105.0,350,Day Short Trade,23/02/2023 15:18:18
+28,29,STYRENIX,Styrenix Performance Materials Ltd,506222,-1.87,743.0,7791,Day Short Trade,23/02/2023 15:18:18
+140,141,BCG,Brightcom Group Ltd,,-1.9,23.25,21482955,Day Short Trade,23/02/2023 15:18:18
+64,65,ORIENTELEC,Orient Electric Ltd,541301,-1.96,269.6,94056,Day Short Trade,23/02/2023 15:18:18
+120,121,SPIC,Southern Petrochemicals Industries Corporation  Limited,590030,-1.96,65.0,615422,Day Short Trade,23/02/2023 15:18:18
+68,69,SELMC,SEL Manufacturing Company Ltd,532886,-1.99,248.8,432,Day Short Trade,23/02/2023 15:18:18
+127,128,VINEETLAB,Vineet Laboratories Ltd,543298,-2.0,53.95,9769,Day Short Trade,23/02/2023 15:18:18
+146,147,21STCENMGM,Twenty First Century Management Services Ltd,526921,-2.01,17.05,3601,Day Short Trade,23/02/2023 15:18:18
+119,120,MITCON,Mitcon Consultancy & Engineering Services Ltd,515508,-2.03,65.2,4846,Day Short Trade,23/02/2023 15:18:18
+166,167,RNAVAL,Reliance Naval and Engineering,533107,-2.04,2.4,225632,Day Short Trade,23/02/2023 15:18:18
+84,85,DEVYANI,Devyani International Ltd,543330,-2.1,149.1,643535,Day Short Trade,23/02/2023 15:18:18
+72,73,CSBBANK,CSB Bank Ltd,542867,-2.11,229.7,121281,Day Short Trade,23/02/2023 15:18:18
+75,76,TNPL,Tamil Nadu Newsprint & Papers Limited,531426,-2.15,218.6,178017,Day Short Trade,23/02/2023 15:18:18
+126,127,CLEDUCATE,CL Educate,540403,-2.15,54.5,24557,Day Short Trade,23/02/2023 15:18:18
+15,16,ARMANFIN,Arman Financial Services Limited,531179,-2.17,1376.0,3620,Day Short Trade,23/02/2023 15:18:18
+101,102,SOUTHWEST,South West Pinnacle Exploration Ltd,535049,-2.21,112.7,23601,Day Short Trade,23/02/2023 15:18:18
+6,7,PIIND,Pi Industries Limited,523642,-2.21,3159.6,275691,Day Short Trade,23/02/2023 15:18:18
+115,116,KOTAKCONS,KOTAKCONS,,-2.25,71.31,11058,Day Short Trade,23/02/2023 15:18:18
+0,1,SHREECEM,Shree Cements Limited,500387,-2.26,25622.0,71219,Day Short Trade,23/02/2023 15:18:18
+42,43,SUMICHEM,Sumitomo Chemical India Ltd,542920,-2.26,451.55,383329,Day Short Trade,23/02/2023 15:18:18
+79,80,STARPAPER,Star Paper Mills Limited,516022,-2.3,163.45,28058,Day Short Trade,23/02/2023 15:18:18
+133,134,INOXGREEN,Inox Green Energy Services Ltd,543667,-2.31,42.35,394368,Day Short Trade,23/02/2023 15:18:18
+70,71,NAVA,Nava Ltd,513023,-2.31,243.3,688472,Day Short Trade,23/02/2023 15:18:18
+12,13,ESCORTS,Escorts Limited,500495,-2.32,2039.5,236568,Day Short Trade,23/02/2023 15:18:18
+90,91,WELENT,Welspun Enterprises Limited,532553,-2.33,132.0,109816,Day Short Trade,23/02/2023 15:18:18
+38,39,HLEGLAS,HLE Glascoat Ltd,522215,-2.37,529.0,26169,Day Short Trade,23/02/2023 15:18:18
+111,112,V2RETAIL,V2 Retail Limited,532867,-2.38,84.25,13456,Day Short Trade,23/02/2023 15:18:18
+99,100,HILTON,Hilton Metal Forging Limited,532847,-2.39,114.25,90893,Day Short Trade,23/02/2023 15:18:18
+23,24,ADORWELD,Ador Welding Limited,517041,-2.39,829.95,18102,Day Short Trade,23/02/2023 15:18:18
+86,87,PRECOT,Precot Meridian Limited,521184,-2.39,141.2,2722,Day Short Trade,23/02/2023 15:18:18
+67,68,ROSSELLIND,Rossell India Limited,533168,-2.41,253.0,10347,Day Short Trade,23/02/2023 15:18:18
+54,55,DALMIASUG,Dalmia Bharat Sugar And Industries Limited,500097,-2.42,316.7,87934,Day Short Trade,23/02/2023 15:18:18
+59,60,TRITURBINE,Triveni Turbine Limited,533655,-2.45,296.85,926538,Day Short Trade,23/02/2023 15:18:18
+22,23,MANORAMA,Manorama Industries Ltd,541974,-2.47,999.95,4192,Day Short Trade,23/02/2023 15:18:18
+5,6,SOLARINDS,Solar Industries India Limited,532725,-2.49,3860.0,39528,Day Short Trade,23/02/2023 15:18:18
+124,125,PAISALO,Paisalo Digital Ltd,532900,-2.51,58.3,726904,Day Short Trade,23/02/2023 15:18:18
+32,33,MOTILALOFS,Motilal Oswal Financial Services Limited,532892,-2.52,623.0,74305,Day Short Trade,23/02/2023 15:18:18
+34,35,CENTUM,Centum Electronics Limited,517544,-2.54,565.2,7519,Day Short Trade,23/02/2023 15:18:18
+92,93,STARTECK,Startech Finance Ltd,512381,-2.54,130.3,12838,Day Short Trade,23/02/2023 15:18:18
+46,47,TALBROAUTO,Talbros Automotive Components Limited,505160,-2.58,427.5,63373,Day Short Trade,23/02/2023 15:18:18
+33,34,IRCTC,Indian Railway Catering & Tourism Corporation Ltd,542830,-2.69,602.65,1707992,Day Short Trade,23/02/2023 15:18:18
+136,137,GMRINFRA,Gmr Infrastructure Limited,532754,-2.73,37.45,8297114,Day Short Trade,23/02/2023 15:18:18
+102,103,DCAL,Dishman Carbogen Amcis Ltd,540701,-2.77,112.35,1038849,Day Short Trade,23/02/2023 15:18:18
+73,74,GULPOLY,Gulshan Polyols Limited,,-2.78,227.25,34710,Day Short Trade,23/02/2023 15:18:18
+118,119,MODIRUBBER,Modi Rubber Ltd,500890,-2.86,68.0,7,Day Short Trade,23/02/2023 15:18:18
+167,168,GODHA,Godha Cabcon and Insulation Ltd,535079,-2.86,1.7,112690,Day Short Trade,23/02/2023 15:18:18
+82,83,ANMOL,Anmol India Ltd,542437,-2.91,155.05,119935,Day Short Trade,23/02/2023 15:18:18
+43,44,ELGIEQUIP,Elgi Equipments Limited,522074,-2.93,449.0,145271,Day Short Trade,23/02/2023 15:18:18
+61,62,MUTHOOTCAP,Muthoot Capital Services Limited,511766,-2.96,276.75,21450,Day Short Trade,23/02/2023 15:18:18
+147,148,CMICABLES,Cmi Limited,517330,-3.05,15.9,21436,Day Short Trade,23/02/2023 15:18:18
+109,110,NACLIND,NACL Industries Ltd,524709,-3.07,88.45,81835,Day Short Trade,23/02/2023 15:18:18
+112,113,DONEAR,Donear Industries Limited,512519,-3.18,80.7,60756,Day Short Trade,23/02/2023 15:18:18
+57,58,HIKAL,Hikal Limited,524735,-3.22,300.5,105071,Day Short Trade,23/02/2023 15:18:18
+162,163,SAMBHAAV,Sambhaav Media Limited,511630,-3.23,3.0,26043,Day Short Trade,23/02/2023 15:18:18
+8,9,ASIANPAINT,Asian Paints Limited,500820,-3.25,2705.05,1588419,Day Short Trade,23/02/2023 15:18:18
+95,96,BHAGERIA,Bhageria Industries Limited,530803,-3.41,124.45,15132,Day Short Trade,23/02/2023 15:18:18
+89,90,DCMNVL,DCM Nouvelle Ltd,542729,-3.43,132.15,49486,Day Short Trade,23/02/2023 15:18:18
+19,20,GRINFRA,G R Infraprojects Ltd,543317,-3.54,1066.1,94397,Day Short Trade,23/02/2023 15:18:18
+132,133,KHAITANLTD,Khaitan (india) Limited,590068,-3.74,45.1,173,Day Short Trade,23/02/2023 15:18:18
+108,109,JAIPURKURT,Nandani Creation Ltd,538375,-3.79,90.0,364,Day Short Trade,23/02/2023 15:18:18
+110,111,HINDCON,Hindcon Chemicals Ltd,535053,-3.9,84.95,9432,Day Short Trade,23/02/2023 15:18:18
+10,11,RATNAMANI,Ratnamani Metals & Tubes Limited,520111,-3.93,2185.4,35022,Day Short Trade,23/02/2023 15:18:18
+165,166,SPTL,Sintex Plastics Technology,540653,-4.0,2.4,727012,Day Short Trade,23/02/2023 15:18:18
+170,171,JPINFRATEC,Jaypee Infratech Limited,533207,-4.0,1.2,729554,Day Short Trade,23/02/2023 15:18:18
+169,170,SITINET,Siti Networks Limited,532795,-4.0,1.2,572845,Day Short Trade,23/02/2023 15:18:18
+122,123,TRU,TruCap Finance Ltd,540268,-4.04,60.5,629709,Day Short Trade,23/02/2023 15:18:18
+100,101,DEEPENR,Deep Energy Resources Ltd,532760,-4.2,114.1,13393,Day Short Trade,23/02/2023 15:18:18
+104,105,DCI,DC Infotech & Communication Ltd,535351,-4.26,110.0,936,Day Short Trade,23/02/2023 15:18:18
+157,158,FLFL,Future Lifestyle Fashions Limited,536507,-4.35,5.5,184770,Day Short Trade,23/02/2023 15:18:18
+159,160,MTEDUCARE,Mt Educare Limited,534312,-4.35,4.4,60844,Day Short Trade,23/02/2023 15:18:18
+172,173,SPENTEX,Spentex Industries Limited,521082,-4.55,1.05,24602,Day Short Trade,23/02/2023 15:18:18
+173,174,FEL,Future Enterprises Limited,523574,-4.55,1.05,631371,Day Short Trade,23/02/2023 15:18:18
+171,172,ROLLT,Rollatainers Limited,502448,-4.55,1.05,328097,Day Short Trade,23/02/2023 15:18:18
+155,156,ANDHRACEMT,Andhra Cements Limited,532141,-4.58,6.25,91989,Day Short Trade,23/02/2023 15:18:18
+69,70,ARVSMART,Arvind Smartspaces Limited,539301,-4.7,244.3,77794,Day Short Trade,23/02/2023 15:18:18
+158,159,JBFIND,Jbf Industries Limited,514034,-4.72,5.05,191103,Day Short Trade,23/02/2023 15:18:18
+71,72,ZENTEC,Zen Technologies Limited,533339,-4.88,235.6,1541435,Day Short Trade,23/02/2023 15:18:18
+128,129,MASKINVEST,Mask Investments Limited,,-4.97,52.6,149,Day Short Trade,23/02/2023 15:18:18
+154,155,CEREBRAINT,Cerebra Integrated Technologies Limited,532413,-4.97,8.6,1693360,Day Short Trade,23/02/2023 15:18:18
+98,99,PODDARHOUS,Poddar Housing & Development Ltd,523628,-4.97,118.55,10770,Day Short Trade,23/02/2023 15:18:18
+81,82,SKMEGGPROD,Skm Egg Products Export (india) Limited,532143,-4.99,156.0,256999,Day Short Trade,23/02/2023 15:18:18
+49,50,BSHSL,Bombay Super Hybrid Seeds Ltd,535077,-4.99,364.35,9230,Day Short Trade,23/02/2023 15:18:18
+83,84,ADANIPOWER,Adani Power Limited,533096,-4.99,154.35,22664851,Day Short Trade,23/02/2023 15:18:18
+175,176,FCONSUMER,Future Consumer Limited,533400,-5.0,0.95,14851027,Day Short Trade,23/02/2023 15:18:18
+45,46,FOCUS,Focus Lighting & Fixtures Ltd,538416,-5.0,443.0,17466,Day Short Trade,23/02/2023 15:18:18
+153,154,ANSALAPI,Ansal Properties & Infrastructure Limited,500013,-5.0,9.5,139086,Day Short Trade,23/02/2023 15:18:18
+40,41,ADANIGREEN,Adani Green Energy Ltd,541450,-5.0,512.1,217283,Day Short Trade,23/02/2023 15:18:18
+27,28,ADANITRANS,Adani Transmission Limited,539254,-5.0,749.75,44534,Day Short Trade,23/02/2023 15:18:18
+107,108,PANSARI,Pansari Developers Ltd,538381,-5.0,90.25,8057,Day Short Trade,23/02/2023 15:18:18
+25,26,ATGL,Adani Total Gas Ltd,542066,-5.0,791.35,49921,Day Short Trade,23/02/2023 15:18:18
+151,152,VISASTEEL,Visa Steel Limited,532721,-5.0,11.4,49083,Day Short Trade,23/02/2023 15:18:18
+139,140,KSHITIJPOL,Kshitij Polyline Ltd,535114,-5.01,25.6,91881,Day Short Trade,23/02/2023 15:18:18
+152,153,IEL,Indiabulls Enterprises Ltd,543715,-5.05,10.35,317306,Day Short Trade,23/02/2023 15:18:18
+24,25,LODHA,Macrotech Developers Ltd,543287,-5.11,805.6,306242,Day Short Trade,23/02/2023 15:18:18
+160,161,UMESLTD,Usha Martin Education & Solutions Limited,532398,-5.13,3.7,30343,Day Short Trade,23/02/2023 15:18:18
+176,177,MERCATOR,Mercator Limited,526235,-5.26,0.9,135221,Day Short Trade,23/02/2023 15:18:18
+135,136,IMAGICAA,Imagicaaworld Entertainment Ltd,539056,-5.32,38.3,948472,Day Short Trade,23/02/2023 15:18:18
+150,151,RAJMET,Rajnandini Metal Ltd,535113,-5.41,12.25,114861,Day Short Trade,23/02/2023 15:18:18
+143,144,ARCHIES,Archies Limited,532212,-5.69,19.05,44631,Day Short Trade,23/02/2023 15:18:18
+36,37,TEJASNET,Tejas Networks,540595,-5.94,562.0,856179,Day Short Trade,23/02/2023 15:18:18
+58,59,POKARNA,Pokarna Limited,532486,-6.39,298.7,51474,Day Short Trade,23/02/2023 15:18:18
+17,18,SHAILY,Shaily Engineering Plastics Ltd,501423,-8.34,1139.95,3881,Day Short Trade,23/02/2023 15:18:18
+3,4,EBANK,Edelweiss Exchange Traded Scheme - Banking,532599,-9.43,4202.11,15,Day Short Trade,23/02/2023 15:18:18
+144,145,SVPGLOB,SVP Global Ventures Ltd,505590,-9.82,17.9,2224337,Day Short Trade,23/02/2023 15:18:18
+77,78,GLOBAL,Global Education Ltd,538406,-9.99,195.1,142668,Day Short Trade,23/02/2023 15:18:18
+88,89,E2E,E2E Networks Ltd,535080,-9.99,136.9,12597,Day Short Trade,23/02/2023 15:18:18
+161,162,ZEELEARN,Zee Learn Limited,533287,-10.0,3.15,1236216,Day Short Trade,23/02/2023 15:18:18
+149,150,TIRUPATIFL,Tirupati Forge Ltd,535021,-10.0,12.6,4255216,Day Short Trade,23/02/2023 15:18:18
+20,21,KDDL,Kddl Limited,532054,-10.72,1051.1,64558,Day Short Trade,23/02/2023 15:18:18
+70,71,INDIANCARD,Indian Card Clothing Company Limited,509692,9.95,231.0,76618,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+29,30,ATFL,Agro Tech Foods Limited,500215,1.5,913.95,26746,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+90,91,PALREDTEC,Palred Technologies Limited,532521,1.24,146.7,13140,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+122,123,EASEMYTRIP,Easy Trip Planners Ltd,543272,0.96,47.45,19363028,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+59,60,IMFA,Indian Metals & Ferro Alloys Limited,533047,0.96,322.2,135022,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+114,115,BPL,Bpl Limited,500074,0.75,60.5,112221,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+98,99,GREAVESCOT,Greaves Cotton Limited,501455,0.31,130.6,771351,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+4,5,TCS,Tata Consultancy Services Limited,532540,0.27,3410.7,1270298,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+25,26,TECHM,Tech Mahindra Limited,532755,0.14,1127.25,2406364,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+103,104,MUNJALSHOW,Munjal Showa Limited,520043,0.11,90.65,34851,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+26,27,HCLTECH,Hcl Technologies Limited,532281,0.11,1093.8,1944503,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+49,50,JUBLINGREA,Jubilant Ingrevia Ltd,543271,0.09,456.95,190746,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+129,130,ICICITECH,ICICI Prudential IT ETF,543221,0.06,31.84,385829,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+126,127,CPSEETF,CPSE ETF*,538057,0.03,38.63,271029,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+131,132,KOTAKIT,Kotak IT ETF,535373,0.03,31.64,42794,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+125,126,NHPC,Nhpc Limited,533098,0.0,38.75,3476702,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+105,106,HPL,Hpl Electric & Power Limited,540136,0.0,84.85,116287,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+22,23,EBBETF0423,Bharat Bond ETF - April 2023,542908,-0.1,1218.01,4244,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+55,56,KIRLOSBROS,Kirloskar Brothers Limited,500241,-0.15,355.5,56673,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+130,131,ITBEES,Nippon India ETF Nifty IT,,-0.16,31.82,3070154,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+117,118,XCHANGING,Xchanging Solutions Limited,532616,-0.17,57.6,160151,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+0,1,BAJAJHLDNG,Bajaj Holdings & Investment Limited,500490,-0.18,6024.35,10446,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+108,109,WEBELSOLAR,Websol Energy System Limited,517498,-0.19,78.6,136043,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+7,8,SCHAEFFLER,Schaeffler India Ltd,505790,-0.19,2989.4,96555,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+73,74,COASTCORP,Coastal Corporation Ltd,501831,-0.21,210.65,12039,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+79,80,ICICINIFTY,ICICINIFTY,,-0.24,190.95,226861,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+48,49,INTELLECT,Intellect Design Arena Limited,538835,-0.28,458.35,259010,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+57,58,AEGISCHEM,Aegis Logistics Limited,500003,-0.28,350.1,542325,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+84,85,GICHSGFIN,Gic Housing Finance Limited,511676,-0.3,167.0,138799,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+78,79,NIFTYBEES,NIFTYBEES,,-0.3,191.93,3178481,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+106,107,MANINFRA,Man Infraconstruction Limited,533169,-0.31,81.5,321973,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+83,84,SETFNIF50,SBI ETF Nifty 50,590138,-0.32,181.4,347352,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+53,54,WIPRO,Wipro Limited,507685,-0.32,393.9,2817416,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+21,22,ENDURANCE,Endurance Technologies Limited,540153,-0.33,1321.55,16084,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+101,102,KOTAKNV20,Kotak NV 20 ETF - Dividend Payout Option,532598,-0.35,105.16,8579,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+43,44,EIDPARRY,Eid Parry India Limited,500125,-0.36,500.1,95008,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+6,7,OFSS,Oracle Financial Services Software Limited,532466,-0.41,3151.8,56754,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+112,113,HFCL,Himachal Futuristic Communications Limited,500183,-0.46,64.3,3157472,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+109,110,UFO,Ufo Moviez India Limited,539141,-0.51,78.05,44014,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+81,82,AXISNIFTY,AXISNIFTY,,-0.51,186.31,6800,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+11,12,RELIANCE,Reliance Industries Limited,500325,-0.51,2366.7,3763525,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+85,86,EPL,EPL Ltd,500135,-0.52,163.55,437687,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+38,39,VIPIND,Vip Industries Limited,507880,-0.56,662.15,83822,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+3,4,PFIZER,Pfizer Limited,500680,-0.57,3815.0,7091,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+94,95,ZUARI,Zuari Agro Chemicals Limited,534742,-0.58,137.6,41347,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+82,83,IDFNIFTYET,IDFNIFTYET,,-0.59,186.3,1410,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+72,73,SANDHAR,Sandhar Technologies Limited,541163,-0.65,223.0,16128,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+36,37,SMLISUZU,Sml Isuzu Limited,505192,-0.66,692.7,6164,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+80,81,KOTAKNIFTY,KOTAKNIFTY,,-0.67,187.1,22753,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+16,17,AMBER,Amber Enterprises India Ltd,540902,-0.68,1881.95,42650,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+37,38,UTIAMC,UTI Asset Management Company Ltd,543238,-0.69,669.75,63359,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+121,122,GOLDSHARE,UTI - Gold Exchange Traded Fund,590101,-0.73,47.9,73772,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+74,75,SAGCEM,Sagar Cements Limited,502090,-0.78,210.55,38854,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+18,19,INFY,Infosys Limited,500209,-0.84,1548.65,4314887,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+92,93,NRBBEARING,Nrb Bearing Limited,530367,-0.87,141.65,52152,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+10,11,AUTOAXLES,Automotive Axles Limited,505010,-0.88,2410.0,10015,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+56,57,BFUTILITIE,Bf Utilities Limited,532430,-0.88,353.7,116661,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+30,31,HAPPSTMNDS,Happiest Minds Technologies Ltd,543227,-0.9,868.4,254431,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+41,42,NAZARA,Nazara Technologies Ltd,543280,-0.92,532.0,91342,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+58,59,PRAJIND,Praj Industries Limited,522205,-0.95,349.55,268993,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+100,101,GTPL,GTPL Hathway,540602,-0.97,111.95,53978,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+110,111,TFCILTD,Tourism Finance Corporation Of India Limited,526650,-0.99,69.95,349968,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+113,114,TREJHARA,Trejhara Solutions Ltd,542233,-1.01,63.7,19938,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+54,55,JUBLINDS,Jubilant Industries Limited,533320,-1.05,372.0,4278,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+123,124,HBSL,HB Stockholdings Ltd,532216,-1.09,45.55,3567,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+20,21,BAJAJFINSV,Bajaj Finserv Limited,532978,-1.13,1345.6,1012984,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+128,129,AGROPHOS,Agro Phos India Ltd,538387,-1.17,33.75,57388,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+66,67,HINDCOMPOS,Hindustan Composites Limited,509635,-1.2,275.9,1828,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+31,32,HITECH,Hi-Tech Pipes Ltd,532601,-1.22,844.45,16016,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+12,13,PIDILITIND,Pidilite Industries Limited,500331,-1.22,2266.65,304955,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+1,2,NAVINFLUOR,Navin Fluorine International Limited,532504,-1.31,4178.6,89549,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+34,35,BHARTIARTL,Bharti Airtel Limited,532454,-1.32,761.95,3601381,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+8,9,TIMKEN,Timken India Limited,522113,-1.33,2986.05,22609,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+88,89,RAIN,Rain Industries Limited,500339,-1.35,157.25,999616,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+137,138,IFCI,Ifci Limited,500106,-1.36,10.9,4978387,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+50,51,BSE,BSE (Bombay stock exchange),20,-1.36,446.45,599270,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+23,24,TATACOMM,Tata Communications Limited,500483,-1.42,1203.25,154068,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+61,62,JINDALPHOT,Jindal Photo Limited,532624,-1.47,315.15,4878,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+45,46,PARAS,Paras Defence and Space Technologies Ltd,543367,-1.49,474.3,84765,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+27,28,KAJARIACER,Kajaria Ceramics Limited,500233,-1.51,1044.15,494849,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+77,78,MAANALU,Maan Aluminium Limited,532906,-1.51,192.1,36157,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+46,47,KEC,Kec International Limited,532714,-1.52,472.95,126525,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+67,68,LXCHEM,Laxmi Organic Industries Ltd,543277,-1.54,256.5,242092,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+76,77,PRICOLLTD,Pricol Ltd.,540293,-1.55,194.0,626648,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+17,18,ACC,Acc Limited,500410,-1.56,1724.8,634980,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+13,14,SRF,Srf Limited,503806,-1.58,2238.3,283213,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+132,133,JISLJALEQS,Jain Irrigation Systems Limited,500219,-1.59,27.8,1046516,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+64,65,KIRIINDUS,Kiri Industries Limited,532967,-1.62,282.25,52236,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+63,64,GRMOVER,GRM Overseas Ltd,531449,-1.65,298.0,13965,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+44,45,BRIGADE,Brigade Enterprises Limited,532929,-1.67,476.4,70525,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+111,112,WATERBASE,Waterbase Ltd,523660,-1.72,68.45,31979,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+15,16,LT,Larsen & Toubro Limited,500510,-1.74,2156.65,1801115,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+91,92,SAKSOFT,Saksoft Limited,590051,-1.75,142.75,358603,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+133,134,VAKRANGEE,Vakrangee Limited,511431,-1.76,22.3,2147293,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+97,98,MAXVIL,Max Ventures And Industries Limited,539940,-1.76,130.9,47975,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+119,120,CTE,Cambridge Technology Enterprises Limited,532801,-1.8,51.8,10295,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+35,36,STYRENIX,Styrenix Performance Materials Ltd,506222,-1.87,743.0,12295,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+102,103,PALASHSECU,Palash Securities,540648,-1.87,105.0,700,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+75,76,DBL,Dilip Buildcon Limited,540047,-1.93,198.5,223840,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+40,41,JBMA,Jbm Auto Limited,532605,-1.94,552.45,255592,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+116,117,DBREALTY,D B Realty Limited,533160,-1.97,59.75,339065,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+118,119,VINEETLAB,Vineet Laboratories Ltd,543298,-2.0,53.95,14165,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+39,40,TANLA,Tanla Solutions Limited,532790,-2.01,644.8,246291,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+47,48,RUSTOMJEE,Keystone Realtors Ltd,543669,-2.03,466.0,8546,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+89,90,DEVYANI,Devyani International Ltd,543330,-2.1,149.1,699668,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+71,72,CSBBANK,CSB Bank Ltd,542867,-2.11,229.7,146642,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+120,121,DOLATALGO,Dolat Algotech Ltd,505526,-2.13,50.65,133471,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+52,53,PGIL,Pearl Global Industries Limited,532808,-2.14,407.05,10129,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+19,20,ARMANFIN,Arman Financial Services Limited,531179,-2.17,1376.0,5061,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+5,6,PIIND,Pi Industries Limited,523642,-2.21,3159.6,280541,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+86,87,STARPAPER,Star Paper Mills Limited,516022,-2.3,163.45,37880,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+69,70,NAVA,Nava Ltd,513023,-2.31,243.3,784168,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+96,97,WELENT,Welspun Enterprises Limited,532553,-2.33,132.0,149054,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+135,136,GMRP&UI,GMR Power & Urban Infra Ltd,543490,-2.36,18.6,323543,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+42,43,HLEGLAS,HLE Glascoat Ltd,522215,-2.37,529.0,32107,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+99,100,HILTON,Hilton Metal Forging Limited,532847,-2.39,114.25,126772,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+93,94,PRECOT,Precot Meridian Limited,521184,-2.39,141.2,5211,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+60,61,DALMIASUG,Dalmia Bharat Sugar And Industries Limited,500097,-2.42,316.7,112735,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+28,29,MANORAMA,Manorama Industries Ltd,541974,-2.47,999.95,5502,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+68,69,APTUS,Aptus Value Housing Finance India Ltd,543335,-2.49,251.05,185075,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+2,3,SOLARINDS,Solar Industries India Limited,532725,-2.49,3860.0,45976,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+51,52,TALBROAUTO,Talbros Automotive Components Limited,505160,-2.58,427.5,86149,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+127,128,GMRINFRA,Gmr Infrastructure Limited,532754,-2.73,37.45,8975536,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+32,33,ADORWELD,Ador Welding Limited,517041,-2.75,826.9,26008,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+107,108,DONEAR,Donear Industries Limited,512519,-2.82,81.0,95550,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+65,66,MUTHOOTCAP,Muthoot Capital Services Limited,511766,-2.96,276.75,28903,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+104,105,PREMIERPOL,Premier Polyfilm Limited,514354,-2.98,86.3,13084,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+87,88,CLSEL,Chamanlal Setia Exports Ltd,530307,-3.0,158.2,165402,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+9,10,ASIANPAINT,Asian Paints Limited,500820,-3.25,2705.05,1588419,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+62,63,HIKAL,Hikal Limited,524735,-3.43,299.85,113006,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+124,125,KHAITANLTD,Khaitan (india) Limited,590068,-3.74,45.1,338,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+14,15,RATNAMANI,Ratnamani Metals & Tubes Limited,520111,-3.93,2185.4,45257,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+115,116,TRU,TruCap Finance Ltd,540268,-4.04,60.5,807771,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+33,34,LODHA,Macrotech Developers Ltd,543287,-5.11,805.6,331243,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+136,137,RAJMET,Rajnandini Metal Ltd,535113,-5.41,12.25,169460,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+134,135,ARCHIES,Archies Limited,532212,-5.69,19.05,66442,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+24,25,SHAILY,Shaily Engineering Plastics Ltd,501423,-8.34,1139.95,4563,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+95,96,E2E,E2E Networks Ltd,535080,-9.99,136.9,19482,Stocks near support level - bearish (Parimal Wadiwala) 15 minutes,23/02/2023 15:19:17
+5,6,POONAWALLA,Poonawalla Fincorp Ltd,524000,0.77,299.4,1576510,Shot Down,23/02/2023 15:20:12
+6,7,BSOFT,Birlasoft Ltd,532400,0.19,283.1,1662280,Shot Down,23/02/2023 15:20:12
+2,3,ICICIBANK,Icici Bank Limited,532174,0.08,839.9,11062429,Shot Down,23/02/2023 15:20:12
+8,9,POWERGRID,Power Grid Corporation Of India Limited,532898,-0.4,213.8,6662665,Shot Down,23/02/2023 15:20:12
+9,10,TATAPOWER,Tata Power Company Limited,500400,-0.54,201.2,9903205,Shot Down,23/02/2023 15:20:12
+7,8,ABFRL,Aditya Birla Fashion And Retail Limited,535755,-1.45,231.0,3680861,Shot Down,23/02/2023 15:20:12
+3,4,HDFCLIFE,HDFC Life Insurance Company Ltd,540777,-1.51,487.0,3852812,Shot Down,23/02/2023 15:20:12
+0,1,TITAN,Titan Company Limited,500114,-1.57,2393.4,1511584,Shot Down,23/02/2023 15:20:12
+4,5,DLF,Dlf Limited,532868,-1.61,343.0,3598224,Shot Down,23/02/2023 15:20:12
+1,2,LT,Larsen & Toubro Limited,500510,-1.71,2157.25,1827334,Shot Down,23/02/2023 15:20:12
+10,11,DWARKESH,Dwarikesh Sugar Industries Limited,532610,-3.01,85.35,1078073,Shot Down,23/02/2023 15:20:12
+89,90,AKASH,Akash Infraprojects Ltd,538409,1.92,29.15,21616,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+99,100,SHYAMTEL,Shyam Telecom Limited,517411,1.76,8.65,527,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+38,39,MANORG,Mangalam Organics Ltd,514418,1.51,428.2,6412,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+78,79,JMA,Jullundur Motor Agency (delhi) Limited,,1.3,66.15,97313,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+82,83,TTML,Tata Teleservices (maharashtra) Limited,532371,1.22,58.0,19669350,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+41,42,SULA,Sula Vineyards Ltd,543711,1.1,358.7,335967,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+72,73,WIPL,Western India Plywoods Ltd,538415,1.05,86.4,359,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+94,95,SEPC,SEPC Ltd,532945,1.04,14.55,2116488,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+69,70,SKIPPER,Skipper Limited,538562,0.94,91.45,292850,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+95,96,SADBHAV,Sadbhav Engineering Limited,532710,0.9,11.15,114423,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+21,22,THANGAMAYL,Thangamayil Jewellery Limited,533158,0.73,1010.0,3188,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+22,23,TATACHEM,Tata Chemicals Limited,500770,0.71,972.1,1027259,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+35,36,PONNIERODE,Ponni Sugars (erode) Limited,532460,0.67,453.95,34851,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+76,77,EMAMIREAL,Emami Realty Ltd,533218,0.66,68.65,29794,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+79,80,AUSOMENT,Ausom Enterprise Limited,509009,0.64,62.75,230,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+20,21,MFL,Meghmani Finechem Ltd,543332,0.6,1018.95,79023,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+80,81,PNBGILTS,Pnb Gilts Limited,532366,0.58,60.35,181915,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+55,56,SREEL,Sreeleathers Limited,535601,0.58,173.55,56758,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+29,30,DHUNINV,Dhunseri Investments Limited,533336,0.57,620.0,2298,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+84,85,IDFCFIRSTB,IDFC First Bank Ltd,539437,0.56,53.7,40425729,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+40,41,AARTIDRUGS,Aarti Drugs Limited,524348,0.48,365.95,94350,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+23,24,SUNPHARMA,Sun Pharmaceuticals Industries Limited,524715,0.36,972.05,2573639,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+51,52,VGUARD,V-guard Industries Limited,532953,0.35,242.25,131601,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+60,61,GREENPLY,Greenply Industries Limited,526797,0.35,141.5,55390,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+57,58,STLTECH,Sterlite Technologies Limited,532374,0.33,166.8,501279,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+6,7,TCS,Tata Consultancy Services Limited,532540,0.31,3412.15,1285942,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+5,6,NIFTYPSUBANK,NIFTYPSUBANK,,0.31,3641.55,0,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+93,94,SOUTHBANK,The South Indian Bank Limited,532218,0.3,16.7,9285094,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+70,71,GENUSPOWER,Genus Power Infrastructures Limited,530343,0.28,90.05,237603,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+59,60,REPL,Rudrabhishek Enterprises Ltd,535095,0.28,144.55,2626,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+26,27,RBL,Rane Brake Lining Limited,532987,0.2,683.5,9144,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+13,14,VINDHYATEL,Vindhya Telelinks Limited,517015,0.2,1608.0,7277,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+64,65,NV20BEES,Nippon India ETF NV20,,0.19,106.21,2679,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+52,53,TVTODAY,Tv Today Network Limited,532515,0.16,213.3,200734,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+17,18,TECHM,Tech Mahindra Limited,532755,0.16,1127.45,2415134,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+0,1,NIFTY50VALUE20,NIFTY50VALUE20,,0.15,9430.5,0,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+37,38,ANDHRAPAP,Andhra Paper Ltd,502330,0.13,429.75,34124,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+63,64,LOKESHMACH,Lokesh Machines Limited,532740,0.13,112.95,43371,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+46,47,JTLIND,JTL Industries Ltd,534600,0.13,315.0,253144,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+49,50,BSOFT,Birlasoft Ltd,532400,0.09,282.8,1682158,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+18,19,TVSMOTOR,Tvs Motor Company Limited,532343,0.08,1115.2,811837,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+1,2,NIFTYGROWSECT15,NIFTYGROWSECT15,,0.05,8739.15,0,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+30,31,KPRMILL,K.p.r. Mill Limited,532889,0.03,590.5,198721,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+66,67,TAINWALCHM,Tainwala Chemical And Plastic (i) Limited,507785,0.0,103.0,3420,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+85,86,OMAXAUTO,Omax Autos Limited,520021,0.0,51.75,15185,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+97,98,MOKSH,Moksh Ornaments Ltd,535041,0.0,9.8,137046,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+98,99,NAGAFERT,Nagarjuna Fertilizers And Chemicals Limited,539917,0.0,8.95,531919,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+102,103,VIKASECO,Vikas Ecotech Limited,530961,0.0,2.95,3146096,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+103,104,VIKASWSP,Vikas Wsp Ltd,519307,0.0,1.25,567071,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+105,106,GTLINFRA,Gtl Infrastructure Limited,532775,0.0,0.85,9818703,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+106,107,SANWARIA,Sanwaria Agro Oils Limited,519260,0.0,0.55,1857396,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+4,5,NIFTYDIVOPPS50,NIFTYDIVOPPS50,,-0.05,3918.35,0,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+9,10,HINDUNILVR,Hindustan Unilever Limited,500696,-0.08,2492.05,662321,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+53,54,ICICI10GS,ICICI10GS,,-0.1,207.61,12,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+87,88,NHPC,Nhpc Limited,533098,-0.13,38.7,3520530,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+83,84,MONQ50,Motilal Oswal Nasdaq Q 50 ETF,543437,-0.16,55.01,17528,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+36,37,ISGEC,ISGEC Heavy Engineering  Ltd,533033,-0.18,447.95,32982,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+7,8,EICHERMOT,Eicher Motors Limited,505200,-0.24,3241.85,496980,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+67,68,WORTH,Worth Peripherals Ltd,535008,-0.25,101.45,18173,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+71,72,HDFCGROWTH,HDFCGROWTH,,-0.27,87.12,1345,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+56,57,FINPIPE,Finolex Industries Limited,500940,-0.27,169.3,656305,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+42,43,AEGISCHEM,Aegis Logistics Limited,500003,-0.28,350.1,545098,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+19,20,ANGELONE,Angel One Ltd,,-0.28,1073.55,232552,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+33,34,IFBAGRO,Ifb Agro Industries Limited,507438,-0.29,477.55,2975,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+31,32,KSCL,Kaveri Seed Company Limited,532899,-0.29,524.5,40885,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+54,55,KAKATCEM,Kakatiya Cement Sugar & Industries Limited,500234,-0.29,186.1,7039,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+65,66,KOTAKNV20,Kotak NV 20 ETF - Dividend Payout Option,532598,-0.35,105.16,8579,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+44,45,APOLLOTYRE,Apollo Tyres Limited,500877,-0.35,327.5,1872619,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+3,4,BAJAJHLDNG,Bajaj Holdings & Investment Limited,500490,-0.35,6014.55,10592,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+14,15,BATAINDIA,Bata India Limited,500043,-0.52,1417.5,188360,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+15,16,ENDURANCE,Endurance Technologies Limited,540153,-0.52,1319.1,16169,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+45,46,TVSELECT,Tvs Electronics Limited,532513,-0.59,327.0,237884,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+58,59,GICRE,General Insurance Corporation of India,540755,-0.67,149.1,954587,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+47,48,SWELECTES,Swelect Energy Systems Limited,532051,-0.68,284.5,16529,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+74,75,SIKKO,Sikko Industries Ltd,538419,-0.69,86.05,9714,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+8,9,SUPREMEIND,Supreme Industries Limited,509930,-0.74,2709.35,104931,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+12,13,AMBER,Amber Enterprises India Ltd,540902,-0.78,1880.0,43113,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+25,26,CGCL,Capri Global Capital Limited,531595,-0.8,694.85,123136,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+91,92,NITCO,Nitco Limited,532722,-0.86,23.15,18287,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+16,17,PHOENIXLTD,The Phoenix Mills Limited,503100,-0.86,1290.2,489257,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+27,28,UTIAMC,UTI Asset Management Company Ltd,543238,-0.93,668.15,66109,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+62,63,KOPRAN,Kopran Limited,524280,-0.95,120.4,81394,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+43,44,PRAJIND,Praj Industries Limited,522205,-0.96,349.5,269298,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+39,40,AURIONPRO,Aurionpro Solutions Limited,532668,-0.97,372.8,38648,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+75,76,TFCILTD,Tourism Finance Corporation Of India Limited,526650,-0.99,69.95,350967,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+90,91,FLEXITUFF,Flexituff International Limited,533638,-1.09,27.2,20924,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+92,93,MBLINFRA,Mbl Infrastructures Limited,533152,-1.11,17.8,47886,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+32,33,ORIENTBELL,Orient Bell Limited,530365,-1.2,520.0,10934,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+100,101,GREENPOWER,Orient Green Power Company Limited,533263,-1.2,8.25,3388138,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+68,69,RBA,Restaurant Brands Asia Ltd,543248,-1.22,96.9,407135,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+88,89,NKIND,Nk Industries Limited,519494,-1.29,34.4,6512,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+11,12,DALBHARAT,Dalmia Bharat Limited,533309,-1.3,1888.05,364916,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+101,102,DCMFINSERV,DCM Financial Services Ltd,511611,-1.32,3.75,8978,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+61,62,RESPONIND,Responsive Industries Limited,505509,-1.51,123.7,6717,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+34,35,KEC,Kec International Limited,532714,-1.52,472.95,127536,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+73,74,TIMETECHNO,Time Technoplast Limited,532856,-1.6,86.3,656907,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+28,29,TANLA,Tanla Solutions Limited,532790,-1.9,645.5,247903,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+81,82,DBREALTY,D B Realty Limited,533160,-2.05,59.7,339466,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+24,25,RPGLIFE,Rpg Life Sciences Limited,532983,-2.05,845.0,22148,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+48,49,DYNPRO,Dynemic Products Ltd,532707,-2.33,283.45,15907,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+50,51,APTUS,Aptus Value Housing Finance India Ltd,543335,-2.49,251.05,185590,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+77,78,MODIRUBBER,Modi Rubber Ltd,500890,-2.86,68.0,14,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+2,3,CERA,Cera Sanitaryware Limited,532443,-3.36,6491.0,49952,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+96,97,TANTIACONS,Tantia Constructions Limited,532738,-3.51,11.0,6914,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+86,87,KHAITANLTD,Khaitan (india) Limited,590068,-3.74,45.1,338,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+10,11,RATNAMANI,Ratnamani Metals & Tubes Limited,520111,-3.82,2187.8,45508,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+104,105,MERCATOR,Mercator Limited,526235,-5.26,0.9,262769,Ichimoku Cloud Bottom Crossover,23/02/2023 15:21:08
+2,3,LICHSGFIN,Lic Housing Finance Limited,500253,-0.17,352.65,1333972,"Secondary Gap Up Opening, Open-High - SHORT Intraday",23/02/2023 15:22:10
+3,4,CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,500085,-0.86,277.45,857473,"Secondary Gap Up Opening, Open-High - SHORT Intraday",23/02/2023 15:22:10
+0,1,MGL,Mahanagar Gas Limited,539957,-0.96,874.65,239356,"Secondary Gap Up Opening, Open-High - SHORT Intraday",23/02/2023 15:22:10
+1,2,BHARATFORG,Bharat Forge Limited,500493,-1.35,830.55,2254130,"Secondary Gap Up Opening, Open-High - SHORT Intraday",23/02/2023 15:22:10
+0,1,ITC,Itc Limited,500875,0.96,387.55,17783407,Intraday bearish but longer time frame bullish,23/02/2023 15:23:51

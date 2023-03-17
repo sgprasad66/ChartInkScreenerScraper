@@ -7,6 +7,9 @@ from ChartInk_Scaper_FileWatcher_Processor import processnewfiles
 from ChartInk_Scrape_With_Multiprocess import screenmapper
 import requests
 
+
+
+
 def removefirstcolumn(dataframeinput):
     first_column = dataframeinput.columns[0]
     # Delete first
@@ -133,11 +136,7 @@ df_intraday_bullish.drop(['Unnamed: 0','sr','per_chg','close','bsecode','volume'
 grp_intraday_bullish =  df_intraday_bullish.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
 grp_intraday_bullish = grp_intraday_bullish[grp_intraday_bullish['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
 
-df_most_loved_screeners['OccurInDiffScreeners'] = df_bullish.groupby(by="nsecode")['nsecode'].transform('count')
-df_most_loved_screeners = df_most_loved_screeners.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
-df_most_loved_screeners.drop(['Unnamed: 0','sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
-grp_most_loved_screeners =  df_most_loved_screeners.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
-grp_most_loved_screeners = grp_most_loved_screeners[grp_most_loved_screeners['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
+
 
 if optionMktDirection == "bullish-screeners":
     df = grp_bullish
@@ -145,10 +144,10 @@ elif optionMktDirection == "intraday-bullish-screeners":
     df = grp_intraday_bullish
 elif optionMktDirection == "intraday-bearish-screeners":
     df = grp_intraday_bearish
-elif optionMktDirection == "bearish-screeners":
+else:# optionMktDirection == "bearish-screeners":
     df = grp_bearish
-else:
-    df = grp_most_loved_screeners
+''' else:
+    df = grp_most_loved_screeners '''
 
 placeholder = st.empty()
 
