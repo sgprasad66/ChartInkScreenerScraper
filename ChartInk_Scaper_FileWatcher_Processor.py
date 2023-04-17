@@ -2,22 +2,32 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from datetime import datetime
+import pandas as pd
 
 from kite_trade import *
 import schedule
-#maxitemcount=10
+import helper
+
+global file_dict
+
+config = helper.read_config()
+
+mongodbclient = config['MongoDBSettings']['mongodbclient']
+databasename = config['MongoDBSettings']['databasename']
+collectionname = config['MongoDBSettings']['collectionname']
+enctoken=config['KiteSettings']['enctoken']
+maxitemcount=config['ChartinkscraperSettings']['maxitemcount']
+
+maxitemcount = int(maxitemcount)
 tradedstocks=None
 
 class stockitem:
-    def __init__(self, instrument_token,order_id, last_price,quantity,ordertype,tphit,slhit,finalprice,producttype,strike,expiry):
+    def __init__(self, instrument_token,order_id, last_price,quantity,ordertype,tphit,slhit,finalprice,producttype,strike=None,expiry=None):
         self.instrument_token = instrument_token
         self.order_id= order_id
         self.last_price = last_price
         self.quantity =quantity
         self.ordertype = ordertype
-        ''' if self.last_price is not None and len(self.last_price) != 0:
-            self.tp_value=self.last_price+self.last_price*0.05
-            self.sl_value=self.last_price-self.last_price*0.025 '''
         self.tp_hit=False
         self.sl_hit=False
         self.final_price=0.0
@@ -32,67 +42,33 @@ class stockitem:
         self.final_value = self.quantity*self.final_price
         return self.final_value    
 
-
-import helper
-
-config = helper.read_config()
-
-mongodbclient = config['MongoDBSettings']['mongodbclient']
-databasename = config['MongoDBSettings']['databasename']
-collectionname = config['MongoDBSettings']['collectionname']
-enctoken=config['KiteSettings']['enctoken']
-maxitemcount=config['ChartinkscraperSettings']['maxitemcount']
-maxitemcount = int(maxitemcount)
-
-
 def removefirstcolumn(dataframeinput):
     first_column = dataframeinput.columns[0]
     # Delete first
     dataframeinput = dataframeinput.drop([first_column], axis=1)
     return dataframeinput
 
-global file_dict
-
 def updatedataframesandtradescrips():
+
+    stockcount_df=pd.DataFrame()
     for key ,value in file_dict.items():
         print("key=", key)
+        stockcount_df = getcountdataframe(key)
+        #tradeusingkite(grp_bullish,grp_bearish,df_bullish_intraday,df_bearish_intraday)
+        tradeusingkite(key,stockcount_df)
         print(value)
-    #pass
-    if 'bullish-screeners' in file_dict.keys():
-        df_bullish = file_dict['bullish-screeners']
+
+def getcountdataframe(key):
+
+    if key in file_dict.keys():
+        df_bullish = file_dict[key]
         df_bullish['OccurInDiffScreeners'] = df_bullish.groupby(by="nsecode")['nsecode'].transform('count')
         df_bullish = df_bullish.query(f'OccurInDiffScreeners >{maxitemcount}')
         df_bullish.drop(['sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
         grp_bullish =  df_bullish.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
         grp_bullish = grp_bullish[grp_bullish['OccurInDiffScreeners'] >maxitemcount].sort_values(['OccurInDiffScreeners'],ascending=False)
 
-    if 'bearish-screeners' in file_dict.keys():
-        df_bearish = file_dict['bearish-screeners']
-        df_bearish['OccurInDiffScreeners'] = df_bearish.groupby(by="nsecode")['nsecode'].transform('count')
-        df_bearish = df_bearish.query(f'OccurInDiffScreeners >{maxitemcount}')
-        df_bearish.drop(['sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
-        grp_bearish =  df_bearish.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
-        grp_bearish = grp_bearish[grp_bearish['OccurInDiffScreeners'] >maxitemcount].sort_values(['OccurInDiffScreeners'],ascending=False)
-        #grp_bullish.empty()
-
-    if 'intraday-bullish-screeners' in file_dict.keys():
-        df_bullish_intraday = file_dict['intraday-bullish-screeners']
-        df_bullish_intraday['OccurInDiffScreeners'] = df_bullish_intraday.groupby(by="nsecode")['nsecode'].transform('count')
-        df_bullish_intraday = df_bullish_intraday.query(f'OccurInDiffScreeners >{maxitemcount}')
-        df_bullish_intraday.drop(['sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
-        grp_bullish_intraday =  df_bullish_intraday.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
-        grp_bullish_intraday = grp_bullish_intraday[grp_bullish_intraday['OccurInDiffScreeners'] >maxitemcount].sort_values(['OccurInDiffScreeners'],ascending=False)
-
-    if 'intraday-bearish-screeners' in file_dict.keys():
-
-        df_bearish_intraday = file_dict['intraday-bearish-screeners']
-        df_bearish_intraday['OccurInDiffScreeners'] = df_bearish_intraday.groupby(by="nsecode")['nsecode'].transform('count')
-        df_bearish_intraday = df_bearish_intraday.query(f'OccurInDiffScreeners >{maxitemcount}')
-        df_bearish_intraday.drop(['sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
-        grp_bearish_intraday =  df_bearish_intraday.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
-        grp_bearish_intraday = grp_bearish_intraday[grp_bearish_intraday['OccurInDiffScreeners'] >maxitemcount].sort_values(['OccurInDiffScreeners'],ascending=False)
-
-    tradeusingkite(grp_bullish,grp_bearish,df_bullish_intraday,df_bearish_intraday)
+    return grp_bullish
 
 def getquantityfromltp(ltp,symbol):
     try :
@@ -115,14 +91,14 @@ def getquantityfromltp(ltp,symbol):
     except Exception as ex:
         pass
 
-def gettradedstocks():
+def gettradedstockscount():
     import pymongo
     import certifi
     import pandas as pd
 
     client = pymongo.MongoClient(mongodbclient,tlsCAFile=certifi.where())
     tradedstocks = pd.DataFrame(list(client[databasename][collectionname].find({})))
-    return tradedstocks
+    return len(tradedstocks)
 
 def insertordersexecuted(stockitm):
     import pymongo
@@ -136,184 +112,94 @@ def insertordersexecuted(stockitm):
 
     orders.append({"TradingSymbol":stockitm.instrument_token,"OrderId":stockitm.order_id,"Qty":stockitm.quantity,"Ltp":stockitm.last_price,"OrderType":stockitm.ordertype,
                     "TpHit":stockitm.tp_hit,"SlHit":stockitm.sl_hit,"FinalPrice":stockitm.final_price,"ProductType":stockitm.producttype,"TradedDate":stockitm.traded_date,
-                    "FinalTradedDate":stockitm.final_traded_date})
+                    "FinalTradedDate":stockitm.final_traded_date,"Strike":stockitm.strike,"Expiry":stockitm.expiry})
     x = client[databasename][collectionname].insert_many(orders)
 
-def tradeusingkite(bullish,bearish,intradaybullish,intradaybearish):
-    print(bullish['nsecode'])
-    print(bullish['OccurInDiffScreeners'])
+
+def tradeusingkite(key,topstockstotrade):
+    print(topstockstotrade['nsecode'])
+    print(topstockstotrade['OccurInDiffScreeners'])
     
     import pandas as pd
-
     kite = KiteApp(enctoken=enctoken)
-
-    #print(kite.quote(["NSE:NIFTY BANK", "NSE:ACC", "NFO:NIFTY22SEPFUT"]))
 
     stockitems=[]
     symbol = ""
-    df =  gettradedstocks()
-    if df is  None or len(df) <= 20 :
-        #maxitemcount:
-        for index in range(0,5):
-            if bullish.empty == False:
-                if index < bullish.shape[0] and bullish.iloc[index].empty == False:
-                    print(symbol)
-                    symbol= bullish.iloc[index]['nsecode']
+    product=""
+    order_type=""
+    product_type=""
+    transaction_type=None
 
+    match key:
+        case "bullish-screeners":
+            product = kite.PRODUCT_CNC
+            order_type= "BUY"
+            product_type="buy"
+            transaction_type = kite.TRANSACTION_TYPE_BUY
+        case "bearish-screeners":
+            product = kite.PRODUCT_CNC
+            order_type= "SELL"
+            product_type="sell"
+            transaction_type = kite.TRANSACTION_TYPE_SELL
+        case "intraday-bullish-screeners":
+            product = kite.PRODUCT_MIS
+            order_type= "BUY"
+            product_type="buy"
+            transaction_type = kite.TRANSACTION_TYPE_BUY
+        case "intraday-bearish-screeners":
+            product = kite.PRODUCT_MIS
+            order_type= "SELL"
+            product_type="sell"
+            transaction_type = kite.TRANSACTION_TYPE_SELL
+
+    df_count =  gettradedstockscount()
+    if df_count <= 25 :
+       for index in range(0,5):
+            if topstockstotrade.empty == False:
+                if index < topstockstotrade.shape[0] and topstockstotrade.iloc[index].empty == False:
+                    print(symbol)
+                    symbol= topstockstotrade.iloc[index]['nsecode']
                     symbol="NSE:"+symbol
                     ltp = kite.ltp(symbol)
                     
                     if ltp != None and len(ltp) > 0:
                         qty = getquantityfromltp(ltp,symbol)
-                        stockitembullish = stockitem(symbol,0,ltp[symbol]['last_price'],qty,'BUY',False,False,0.0,'buy',0,None)
+                        stockitemtoinsert = stockitem(symbol,0,ltp[symbol]['last_price'],qty,order_type,False,False,0.0,product_type,0,None)
                     else:
-                         stockitembullish = stockitem(symbol,0,0.0,1,'BUY',False,False,0.0,'buy',0,None)    
+                         stockitemtoinsert = stockitem(symbol,0,0.0,1,order_type,False,False,0.0,product_type,0,None)    
                     # Place Order
-                    order = kite.place_order(variety=kite.VARIETY_REGULAR,
-                                    exchange=kite.EXCHANGE_NSE,
-                                    tradingsymbol=symbol.split(':')[1],
-                                    transaction_type=kite.TRANSACTION_TYPE_BUY,
-                                    quantity=qty,
-                                    product=kite.PRODUCT_CNC,
-                                    order_type=kite.ORDER_TYPE_MARKET,
-                                    price=None,
-                                    validity=None,
-                                    disclosed_quantity=None,
-                                    trigger_price=None,
-                                    squareoff=None,
-                                    stoploss=None,
-                                    trailing_stoploss=None,
-                                    tag="chartinkscraper")
-                    #print("###########  Order_id       ###########==="+ order['data']+"  "+ order['error_type'])
-                    if order['status'] == 'success':
-                        stockitembullish.order_id = order['data']['order_id']
-                    else:
-                        stockitembullish.order_id = 0
-                    insertordersexecuted(stockitembullish)
-                    stockitems.append(stockitembullish)
-                    print(order)
-            if bearish.empty == False:
-                if index < bearish.shape[0] and bearish.iloc[index].empty == False:
-                    print(symbol)
-                    symbol= bearish.iloc[index]['nsecode']
-                    symbol="NSE:"+symbol
-
-                    ltp = kite.ltp(symbol)
+                    stockitemtoinsert.order_id = kite_place_order(symbol,transaction_type,qty,product)
                     
-                    if ltp != None and len(ltp) > 0:
-                        qty = getquantityfromltp(ltp,symbol)
-                        stockitembearish = stockitem(symbol,0,ltp[symbol]['last_price'],qty,'SELL',False,False,0.0,'sell',0,None)
-                    else:
-                        stockitembearish = stockitem(symbol,0,0.0,1,'SELL',False,False,0.0,'sell',0,None)
-                        
+                    insertordersexecuted(stockitemtoinsert)
+                    stockitems.append(stockitemtoinsert)
+                    print(stockitemtoinsert.order_id)
+            
+def kite_place_order(symbol,transaction_type,qty,product):
 
-                    # Place Order
-                    order = kite.place_order(variety=kite.VARIETY_REGULAR,
-                                    exchange=kite.EXCHANGE_NSE,
-                                    tradingsymbol=symbol.split(':')[1],
-                                    transaction_type=kite.TRANSACTION_TYPE_SELL,
-                                    quantity=qty,
-                                    product=kite.PRODUCT_CNC,
-                                    order_type=kite.ORDER_TYPE_MARKET,
-                                    price=None,
-                                    validity=None,
-                                    disclosed_quantity=None,
-                                    trigger_price=None,
-                                    squareoff=None,
-                                    stoploss=None,
-                                    trailing_stoploss=None,
-                                    tag="chartinkscraper")
-                    #print("###########  Order_id       ###########==="+ order['data']+"  "+ order['error_type'])
-                    if order['status'] == 'success':
-                        stockitembearish.order_id = order['data']['order_id']
-                    else:
-                        stockitembearish.order_id = 0
-                    insertordersexecuted(stockitembearish)
-                    stockitems.append(stockitembearish)
-                    print(order)
+    kite = KiteApp(enctoken=enctoken)
+    try:
 
-            if intradaybearish.empty     == False:
-                if index < intradaybearish.shape[0] and intradaybearish.iloc[index].empty == False:
-                    print(symbol)
-                    symbol= intradaybearish.iloc[index]['nsecode']
-                    symbol="NSE:"+symbol
-
-                    ltp = kite.ltp(symbol)
-                    
-                    if ltp != None and len(ltp) > 0:
-                        qty = getquantityfromltp(ltp,symbol)
-                        stockitemintradaybearish = stockitem(symbol,0,ltp[symbol]['last_price'],qty,'SELL',False,False,0.0,'intradaysell',0,None)
-                        
-                    else:
-                        stockitemintradaybearish = stockitem(symbol,0,0.0,1,'SELL',False,False,0.0,'intradaysell',0,None)
-
-        # Place Order
-                    order = kite.place_order(variety=kite.VARIETY_REGULAR,
-                                    exchange=kite.EXCHANGE_NSE,
-                                    tradingsymbol=symbol.split(':')[1],
-                                    transaction_type=kite.TRANSACTION_TYPE_SELL,
-                                    quantity=qty,
-                                    product=kite.PRODUCT_MIS,
-                                    order_type=kite.ORDER_TYPE_MARKET,
-                                    price=None,
-                                    validity=None,
-                                    disclosed_quantity=None,
-                                    trigger_price=None,
-                                    squareoff=None,
-                                    stoploss=None,
-                                    trailing_stoploss=None,
-                                    tag="chartinkscraper")
-                    #print("###########  Order_id       ###########==="+ order['data']+"  "+ order['error_type'])
-                    if order['status'] == 'success':
-                        stockitemintradaybearish.order_id = order['data']['order_id']
-                    else:
-                        stockitemintradaybearish.order_id = 0
-                    insertordersexecuted(stockitemintradaybearish)
-                    stockitems.append(stockitemintradaybearish)
-                    print(order)
-
-            if intradaybullish.empty == False:
-                if index < intradaybullish.shape[0] and intradaybullish.iloc[index].empty == False:
-                    print(symbol)
-                    symbol= intradaybullish.iloc[index]['nsecode']
-                    symbol="NSE:"+symbol
-
-                    ltp = kite.ltp(symbol)
-                    
-                    if ltp != None and len(ltp) > 0:
-                        if symbol == 'NSE:MASKINVEST' :
-
-                            stockitemintradaybullish = stockitem(symbol,0,0.0,1,'BUY',False,False,0.0,'intradaybuy',0,None)
-                        else:
-                            qty = getquantityfromltp(ltp,symbol)
-                            stockitemintradaybullish = stockitem(symbol,0,ltp[symbol]['last_price'],qty,'BUY',False,False,0.0,'intradaybuy',0,None)
-                    else:
-                        stockitemintradaybullish = stockitem(symbol,0,0.0,1,'BUY',False,False,0.0,'intradaybuy',0,None)
-
-        # Place Order
-                    order = kite.place_order(variety=kite.VARIETY_REGULAR,
-                                    exchange=kite.EXCHANGE_NSE,
-                                    tradingsymbol=symbol.split(':')[1],
-                                    transaction_type=kite.TRANSACTION_TYPE_BUY,
-                                    quantity=qty,
-                                    product=kite.PRODUCT_MIS,
-                                    order_type=kite.ORDER_TYPE_MARKET,
-                                    price=None,
-                                    validity=None,
-                                    disclosed_quantity=None,
-                                    trigger_price=None,
-                                    squareoff=None,
-                                    stoploss=None,
-                                    trailing_stoploss=None,
-                                    tag="chartinkscraper")
-                    #print("###########  Order_id       ###########==="+ order['data']+"  "+ order['error_type'])
-                    if order['status'] == 'success':
-                        stockitemintradaybullish.order_id = order['data']['order_id']
-                    else:
-                        stockitemintradaybullish.order_id = 0
-                    insertordersexecuted(stockitemintradaybullish)
-                    stockitems.append(stockitemintradaybullish)
-                    print(order)
+        order = kite.place_order(variety=kite.VARIETY_REGULAR,   
+                exchange=kite.EXCHANGE_NSE, 
+                tradingsymbol=symbol.split(':')[1], 
+                transaction_type=transaction_type,
+                quantity=qty,   
+                product=product,   
+                order_type=kite.ORDER_TYPE_MARKET,   
+                price=None, 
+                validity=None,  
+                disclosed_quantity=None,    
+                trigger_price=None, 
+                squareoff=None, 
+                stoploss=None,  
+                trailing_stoploss=None, 
+                tag="chartinkscraper")      
+        if order is not None and order['status'] == 'success':
+            return order['data']['order_id']
+        else:
+            return 0
+    except Exception as e:
+        print(e.message)
 
 
 def processnewfiles():
@@ -355,10 +241,9 @@ def processnewfiles():
 
 
 class Watcher:
+
     DIRECTORY_TO_WATCH = "D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"+datetime.now().strftime("%d_%m_%Y")+"\\"
     
-    #DIRECTORY_TO_WATCH = "D:/Python_Trader_Code/24_12_2022/"
-
     def __init__(self):
         self.observer = Observer()
 
@@ -401,8 +286,6 @@ def startfilewatcher():
         pass
 
 if __name__ == '__main__':
-
-    #schedule.every().day.at("18:13").do(startfilewatcher)
     startfilewatcher()
 
     

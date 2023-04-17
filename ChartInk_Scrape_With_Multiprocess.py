@@ -3,7 +3,7 @@ import time
 from multiprocessing import Pool
 from chartink_through_python import GetDataFromChartink
 from chartink_through_python import ChartInkScraper
-
+import logging
 
 screenmapper={
     '1': 'bullish-screeners',
@@ -51,11 +51,12 @@ class WorkerProcess(multiprocessing.Process):
         worker(self.name)
 
 def worker(name: str) -> None:
-    print(f'Started worker {name}')
+    #print(f'Started worker {name}')
+    logging.info('Inside worker of workerprocess')
     #worker_time = random.choice(range(1, 5))
     #time.sleep(worker_time)
     ChartInkScraper(name)
-    print(f'{name} worker finished ')
+    #print(f'{name} worker finished ')
 
 
 def chartinkscrapeprocess():
@@ -74,9 +75,10 @@ def chartinkscrapeprocess():
         else:
             pass #break
 
-if __name__ == '__main__':
+''' if __name__ == '__main__':
     
     #schedule.every().day.at("19:26:00").do(chartinkscrapeprocess)
+    logging.basicConfig(filename=r"D:\scraper\output.log",level=logging.DEBUG)
 
     try:
         #while True:
@@ -85,13 +87,25 @@ if __name__ == '__main__':
     # is pending to run or not
             #schedule.run_pending()
             #time.sleep(1)
+        logging.info("Inside Main of ChartInk_With_Multiprocess.py")
         chartinkscrapeprocess()
 
     except Exception as e:
         pass
+ '''
 
-
-''' if __name__ == '__main__':
+if __name__ == '__main__':
+    logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
     while True:
-        for index in range(0,5):
-            ChartInkScraper(screenmapper.get(str(index+1))) '''
+        #logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
+        try:
+            for index in range(0,4):
+                ChartInkScraper(screenmapper.get(str(index+1)))
+
+            endtime=datetime.now()
+            if endtime.hour < 15 or endtime.hour >= 15 and endtime.minute <32:
+                continue
+            else:
+                break
+        except Exception as e:
+            pass

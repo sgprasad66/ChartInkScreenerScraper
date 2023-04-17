@@ -1051,3 +1051,27 @@ DEBUG:Requesting OCSP data
 DEBUG:Trying http://r3.o.lencr.org
 DEBUG:Using cached OCSP response.
 DEBUG:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:This message should appear on the console
+INFO:So should this
+WARNING:And this, too
+DEBUG:Starting new HTTPS connection (1): api.kite.trade:443
+DEBUG:https://api.kite.trade:443 "GET / HTTP/1.1" 200 None
+DEBUG:https://api.kite.trade:443 "GET /quote?i=NFO%3ABANKNIFTY23APRFUT HTTP/1.1" 200 None
+DEBUG:This message should appear on the console
+INFO:So should this
+WARNING:And this, too
+DEBUG:Starting new HTTPS connection (1): api.kite.trade:443
+DEBUG:https://api.kite.trade:443 "GET / HTTP/1.1" 200 None
+DEBUG:https://api.kite.trade:443 "GET /quote?i=NFO%3ABANKNIFTY27APRFUT HTTP/1.1" 200 30
+DEBUG:This message should appear on the console
+INFO:So should this
+WARNING:And this, too
+DEBUG:Starting new HTTPS connection (1): api.kite.trade:443
+DEBUG:https://api.kite.trade:443 "GET / HTTP/1.1" 200 None
+DEBUG:https://api.kite.trade:443 "GET /quote?i=NFO%3ABANKNIFTY25MAYFUT HTTP/1.1" 200 30
+DEBUG:This message should appear on the console
+INFO:So should this
+WARNING:And this, too
+DEBUG:Starting new HTTPS connection (1): api.kite.trade:443
+DEBUG:https://api.kite.trade:443 "GET / HTTP/1.1" 200 None
+DEBUG:https://api.kite.trade:443 "GET /quote?i=NFO%3ABANKNIFTY29MARFUT HTTP/1.1" 200 30

@@ -8,6 +8,8 @@ import schedule
 from kite_trade import *
 from ChartInk_Scaper_FileWatcher_Processor import stockitem
 import helper
+import numpy as np
+import pandas as pd
 
 global alice
 config = helper.read_config()
@@ -55,6 +57,13 @@ def get_alice():
     print(alice.get_session_id())
     return alice
 
+import pymongo
+import certifi
+import datetime
+global client
+global orders
+
+client = pymongo.MongoClient(mongodbclient,tlsCAFile=certifi.where())
 kite = get_kite()
 instrumentsList = None
 alice = get_alice()
@@ -119,14 +128,6 @@ def place_order_aliceblue(i,q,b_or_s = "BUY"):
         logging.info('Order placement failed: %s', e.message)
     
 def insertordersexecuted(stockitm):
-    import pymongo
-    import certifi
-    import datetime
-    global client
-    global orders
-    global alice
-
-    client = pymongo.MongoClient(mongodbclient,tlsCAFile=certifi.where())
     orders=[]
 
     orders.append({"TradingSymbol":stockitm.instrument_token,"OrderId":stockitm.order_id,"Qty":stockitm.quantity,"Ltp":stockitm.last_price,"OrderType":stockitm.ordertype,
@@ -136,51 +137,80 @@ def insertordersexecuted(stockitm):
     x = client[databasename][collectionname].insert_many(orders)
 
 def createshortstraddlebnf():
-    # Find ATM Strike of Nifty
-    #atm_strike = round(getCMP('NSE:NIFTY 50'), -2)
+
+    from datetime import timedelta
     global alice
-    atm_strike = round(getCMP('NFO:BANKNIFTY23MARFUT'), -2)
+    from datetime import datetime
+    from datetime import date
+    try:
+        atm_strike = round(getCMP('NFO:BANKNIFTY23APRFUT'), -2)
+    except Exception as e:
+        logging.info(f"getCMP call failed ---->",e.message)
+
     logging.info(f"At The Money strike ---{str(atm_strike)}")
-    strike_ce=atm_strike-500
+    strike_ce=atm_strike-100
+    #strike_ce=atm_strike-500
     logging.info(f"CE  strike ---{str(strike_ce)}")
-    strike_pe = atm_strike+400
+    #strike_pe = atm_strike+400
+    strike_pe = atm_strike
     logging.info(f"PE strike ---{str(strike_pe)}")
 
-    next_thursday_expiry = datetime.today() + relativedelta(weekday=TH(1))
+    try:
+        next_thursday_expiry = date.today() + relativedelta(weekday=TH(1))
+        #next_thursday_expiry = next_thursday_expiry+timedelta(days=-1)
 
-    ce = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.date().strftime("%Y-%m-%d"), is_fut=False,strike=strike_ce, is_CE=True)
-    pe = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.date().strftime("%Y-%m-%d"), is_fut=False,strike=strike_pe, is_CE=False)
+        ce = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.strftime("%Y-%m-%d"), is_fut=False,strike=strike_ce, is_CE=True)
+        #pe = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.strftime("%Y-%m-%d"), is_fut=False,strike=strike_pe, is_CE=False)
 
-    symbol_ce = alice.get_scrip_info(ce)
-    symbol_pe = alice.get_scrip_info(pe)
+        symbol_ce = alice.get_scrip_info(ce)
+        #symbol_pe = alice.get_scrip_info(pe)
 
-    ins = alice.get_instrument_by_symbol(symbol=symbol_ce['TSymbl'],exchange='NFO')
+        ins = alice.get_instrument_by_symbol(symbol=symbol_ce['TSymbl'],exchange='NFO')
 
-    ce_order = place_order_aliceblue(ins,25,'SELL')
+        ce_order = place_order_aliceblue(ins,25,'SELL')
+    except Exception as e:
+        logging.info('Alice Blue API calls failed')
+        logging.info(e)
+    
     print(f"order for {symbol_ce['TSymbl']} - CE sell placed at {str(symbol_ce['LTP'])} ")
     logging.info(f"order for {symbol_ce['TSymbl']} - CE sell placed at {str(symbol_ce['LTP'])} ")
-    stockitembullish = stockitem(symbol_ce['TSymbl'],ce_order,float(symbol_ce['LTP']),25,'SELL',False,False,0.0,'sell',strike_ce,next_thursday_expiry)   
-    insertordersexecuted(stockitembullish)
 
-    ins = alice.get_instrument_by_symbol(symbol=symbol_pe['TSymbl'],exchange='NFO')
-    pe_order = place_order_aliceblue(ins,25,'SELL')
+    try:
+        next_thursday_expiry = datetime.combine(next_thursday_expiry,datetime.min.time())
+        stockitembullish = stockitem(symbol_ce['TSymbl'],ce_order,float(symbol_ce['LTP']),25,'SELL',False,False,0.0,'sell',strike_ce,next_thursday_expiry)   
+        insertordersexecuted(stockitembullish)
 
-    print(f"order for {symbol_pe['TSymbl']} - PE sell placed at  {str(symbol_pe['LTP'])}")
-    logging.info(f"order for {symbol_pe['TSymbl']} - PE sell placed at  {str(symbol_pe['LTP'])}")
-    stockitembearish = stockitem(symbol_pe['TSymbl'],pe_order,float(symbol_pe['LTP']),25,'SELL',False,False,0.0,'sell',strike_pe,next_thursday_expiry)
-    insertordersexecuted(stockitembearish)
+        #ins = alice.get_instrument_by_symbol(symbol=symbol_pe['TSymbl'],exchange='NFO')
+        #pe_order = place_order_aliceblue(ins,25,'SELL')
+
+        #print(f"order for {symbol_pe['TSymbl']} - PE sell placed at  {str(symbol_pe['LTP'])}")
+        #logging.info(f"order for {symbol_pe['TSymbl']} - PE sell placed at  {str(symbol_pe['LTP'])}")
+        #stockitembearish = stockitem(symbol_pe['TSymbl'],pe_order,float(symbol_pe['LTP']),25,'SELL',False,False,0.0,'sell',strike_pe,next_thursday_expiry)
+        #insertordersexecuted(stockitembearish)
+    except Exception as e:
+        logging.info('Exception occured at the MongoDB end-Insert call failed-')
+        logging.info(e)
+
+    logging.info("**********************************************************")
+    logging.info("Short Straddle Created")
+    logging.info("**********************************************************")
 
 def getlasttradedprice(strike,expiry,is_ce):
 
     global alice
+    from datetime import timedelta
     call=True
     if is_ce != 'CE':
         call= False
 
-    next_thursday_expiry = datetime.today() + relativedelta(weekday=TH(1))
-    ce = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.date().strftime("%Y-%m-%d"), is_fut=False,strike=strike, is_CE=call)
+    #next_thursday_expiry = datetime.today() + relativedelta(weekday=TH(1))
+    #next_thursday_expiry = next_thursday_expiry+timedelta(days=-1)
+    ce = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=expiry, is_fut=False,strike=strike, is_CE=call)
     symbol_ce = alice.get_scrip_info(ce)
-    return symbol_ce['Ltp']
+    if not symbol_ce['stat'] == 'Not_ok':
+        return symbol_ce['Ltp']
+    else:
+        return 0.0
 
 def updatecombinedpremiums():
     global alice
@@ -224,13 +254,11 @@ def checkslhit(ce,pe,key):
     #TODO:code to update the record to slhit=true in the mongodb database.
 def calculate_mtm():
     import pandas as pd
-    import pymongo
-    import certifi
-    client = pymongo.MongoClient(mongodbclient,tlsCAFile=certifi.where())
 
     coll = client[databasename][collectionname]
     querystring='{TradingSymbol:{"$regex": "BANKNIFTY"}}'
     listoftrades = pd.DataFrame(list(coll.find({}))) 
+
     if listoftrades is not None and not listoftrades.empty:
         listoftrades = listoftrades[['BANKNIFTY' in x for x in listoftrades['TradingSymbol']]]
         listoftrades['FinalValue'] = listoftrades['FinalPrice']*listoftrades['Qty']
@@ -240,6 +268,7 @@ def calculate_mtm():
         capitaldeployed=0.0
         totallossamount=0.0
         totalprofitamount=0.0
+        trading_price=0.0
         for index,row in listoftrades.iterrows():
             #only consider sell calls and sell puts for now
             if  (row['ProductType'] == 'sell' or row['ProductType'] == 'intradaysell') :
@@ -248,7 +277,10 @@ def calculate_mtm():
                 elif row['SlHit'] == True:
                     row['Mtm'] = int(row['LtpValue'])-int(row['FinalValue'])
                 else:
-                    row['Mtm'] =0.0
+                    is_ce = row['TradingSymbol'][-2:]
+                    trading_price = getlasttradedprice(row['Strike'],row['Expiry'].date().strftime("%Y-%m-%d"),is_ce)
+                    trading_price= float(trading_price)
+                    row['Mtm'] = int(row['Ltp']*row['Qty']) - int(trading_price*row['Qty'])
             ''' else:
                 if row['TpHit'] == True:
                     row['Mtm'] = int(row['FinalValue'])-int(row['LtpValue'])
@@ -257,8 +289,7 @@ def calculate_mtm():
                 else:
                     row['Mtm'] =0.0 '''
 
-            str1 = f" Stock - {row['TradingSymbol']} - LTP - {row['Ltp']} - Final Price - {row['FinalPrice']}- LTPValue  - {row['LtpValue']} -FinalValue -  {row['FinalValue']} - Strike  -  {row['Strike']} --- MTM - {row['Mtm']}"
-            print(str1)
+            str1 = f" Stock - {row['TradingSymbol']} - LTP - {row['Ltp']} - Final Price - {row['FinalPrice']}- LTPValue - {row['LtpValue']} -FinalValue -  {row['FinalValue']} - Strike  -  {row['Strike']} - Trading Price   -  {trading_price} --- MTM - {row['Mtm']}"
             logging.info("Logging--"+str1)
             mtm= mtm+row['Mtm']
             if row['SlHit'] == False and row['TpHit'] == False:
@@ -269,8 +300,9 @@ def calculate_mtm():
                 totalprofitamount=totalprofitamount+row['Mtm']
         print("Final MTM - Loss or Gain for the day#####")
         logging.info("Final MTM - Loss or Gain for the day#####")
-        print("*****"+str(mtm)+"*****")
-        logging.info("*****"+str(mtm)+"*****")
+        mtmvalue = mtm    #*25.0
+        print("*****"+str(mtmvalue)+"*****")
+        logging.info("*****"+str(mtmvalue)+"*****")
         
         print("Capital deployed for the above MTM - ")
         logging.info("Capital deployed for the above MTM - ")
@@ -284,100 +316,68 @@ def calculate_mtm():
         logging.info("Total Profit amount for the day till now - - ")
         print(str(totalprofitamount))
         logging.info(str(totalprofitamount))
-        #print(listoftrades)
-        #logging.log()
+        
+        return listoftrades
 
-
-def check_sl_pt():
-    global listoftrades
-    print("Inside check_sl_pt of scheduled_squareoff_positions.py.........")
+def get_traded_records(tradeddate):
+    #global listoftrades
+    print("Inside get_traded_records of Alice_Blue_API.py.........")
     import pandas as pd
-    import datetime
-    import pymongo
-    import certifi
-    client = pymongo.MongoClient(mongodbclient,tlsCAFile=certifi.where())
-    mtmlossprofit=0.0
-
-    coll = client[databasename][collectionname]
-    querystring='{TradingSymbol:{"$regex": "BANKNIFTY"}}'
+    listoftrades = pd.DataFrame()
+ 
+    coll = client[databasename][tradeddate]
     listoftrades = pd.DataFrame(list(coll.find({}))) 
 
-    if listoftrades is not None and not listoftrades.empty:
-        listoftrades = listoftrades[['BANKNIFTY' in x for x in listoftrades['TradingSymbol']]]
+    return listoftrades
 
-        #print(listoftrades.head(5))
+def check_sl_pt():
+    mtmlossprofit=0.0
+    listoftrades = None
+    coll = client[databasename][collectionname]
+    trading_price=0.0
+
+    listoftrades = get_traded_records(collectionname)
+    for index,row in listoftrades.iterrows():
+        #first update the Last Traded Price from real-time stock market
         
-        for index,row in listoftrades.iterrows():
-            if row['SlHit'] == False and row['TpHit'] == False:
-                tradingsymbol = row['TradingSymbol']
-                sl_val=0.0
-                tp_val=0.0
-                trading_price=0.0
-                traded_price =  row['Ltp']
+        if 'BANKNIFTY' in row['TradingSymbol']:
+            is_ce = row['TradingSymbol'][-2:]
+            trading_price = getlasttradedprice(row['Strike'],row['Expiry'].date().strftime("%Y-%m-%d"),is_ce)
+        else:
+            ltp = kite.ltp(row['TradingSymbol'])
+            if ltp != None and len(ltp) > 0:
+                trading_price = ltp[row['TradingSymbol']]['last_price']
                 
-                is_ce = row['TradingSymbol'][-2:]
-                trading_price = getlasttradedprice(row['Strike'],row['Expiry'].date().strftime("%Y-%m-%d"),is_ce)
-                trading_price= float(trading_price)
-                
-                if row['OrderType'] == 'SELL':
-                    sl_val = (traded_price + traded_price*.04)
-                    tp_val = (traded_price - traded_price*.1)
-                else:
-                    sl_val = (traded_price - traded_price*.04)
-                    tp_val = (traded_price + traded_price*.1)
+        trading_price= float(trading_price)
+        if row['SlHit'] == True or row['TpHit'] == True:
+            mtmlossprofit = mtmlossprofit+(row['Ltp']*row['Qty']-trading_price*row['Qty'])
+            continue
+        else:
+            coll.update_one({"_id":row['_id']},{"$set":{"FinalPrice":trading_price}})
 
-                if row['OrderType'] == 'SELL':
-                    if trading_price <= tp_val or trading_price >= sl_val:
-                        #for kite order placement uncomment below
+        if row['SlHit'] == False and row['TpHit'] == False:
+            tradingsymbol = row['TradingSymbol']
+            sl_val=0.0
+            tp_val=0.0
+            traded_price =  row['Ltp']
+                       
+            if row['OrderType'] == 'SELL':
+                sl_val = (traded_price + traded_price*.5)
+                tp_val = (traded_price - traded_price*.75)
+            else:
+                sl_val = (traded_price - traded_price*.5)
+                tp_val = (traded_price + traded_price*.75)
 
-                        '''                 order = kite.place_order(variety=kite.VARIETY_REGULAR,
-                                                exchange=kite.EXCHANGE_NSE,
-                                                tradingsymbol=row['TradingSymbol'],
-                                                transaction_type=kite.TRANSACTION_TYPE_BUY,
-                                                quantity=row['Qty'],
-                                                product=kite.PRODUCT_MIS,
-                                                order_type=kite.ORDER_TYPE_MARKET,
-                                                price=trading_price,
-                                                validity=None,
-                                                disclosed_quantity=None,
-                                                trigger_price=None,
-                                                squareoff=None,
-                                                stoploss=None,
-                                                trailing_stoploss=None,
-                                                tag="ChartInkScraper") '''
-                        
-                        #for Alice Blue order placement
-                        #ins = alice.get_instrument_by_symbol(symbol= row['TradingSymbol'],exchange='NFO')
+            if row['OrderType'] == 'SELL':
+                if trading_price <= tp_val or trading_price >= sl_val:
+                    #for kite order placement uncomment below
 
-                        #ce_order_sl = place_order_aliceblue(ins,25,'BUY')
-                        #print(ce_order_sl)
-                        #logging.info(ce_order_sl)
-                        #print(f"Stop Loss Order for {row['TradingSymbol']} - CE buy placed at -{trading_price}")
-                        #logging.info(f" Stop Loss Order for {row['TradingSymbol']} - CE buy placed at -{trading_price}")
-
-                        coll.update_one({"_id":row['_id']},{"$set":{"FinalPrice":trading_price}})
-                        coll.update_one({"_id":row['_id']},{"$set":{"FinalTradedDate":datetime.datetime.now()}})
-                        if trading_price <= tp_val:
-                            coll.update_one({"_id":row['_id']},{"$set":{"TpHit":True}})
-                            mtmlossprofit = mtmlossprofit+(traded_price*row['Qty']-trading_price*row['Qty'])
-                        else:
-                            coll.update_one({"_id":row['_id']},{"$set":{"SlHit":True}})
-                            mtmlossprofit = mtmlossprofit+(trading_price*row['Qty']-traded_price*row['Qty'])
-
-                else:
-                    #commented below for now since we are dealing with short straddle banknifty right now
-                    ''' if trading_price >= tp_val or trading_price <= sl_val:
-                        producttype=None
-                        if row['ProductType'] == 'buy' :
-                            productype = kite.PRODUCT_CNC
-                        else:
-                            productype = kite.PRODUCT_MIS
-                        order = kite.place_order(variety=kite.VARIETY_REGULAR,
+                    '''                 order = kite.place_order(variety=kite.VARIETY_REGULAR,
                                             exchange=kite.EXCHANGE_NSE,
                                             tradingsymbol=row['TradingSymbol'],
-                                            transaction_type=kite.TRANSACTION_TYPE_SELL,
+                                            transaction_type=kite.TRANSACTION_TYPE_BUY,
                                             quantity=row['Qty'],
-                                            product= productype,
+                                            product=kite.PRODUCT_MIS,
                                             order_type=kite.ORDER_TYPE_MARKET,
                                             price=trading_price,
                                             validity=None,
@@ -386,43 +386,72 @@ def check_sl_pt():
                                             squareoff=None,
                                             stoploss=None,
                                             trailing_stoploss=None,
-                                            tag="ChartInkScraper")
-                        coll.update_one({"_id":row['_id']},{"$set":{"FinalPrice":trading_price}})
-                        coll.update_one({"_id":row['_id']},{"$set":{"FinalTradedDate":datetime.datetime.now()}})
-                        if trading_price <= sl_val:
-                            coll.update_one({"_id":row['_id']},{"$set":{"SlHit": True}})
-                            mtmlossprofit = mtmlossprofit+(traded_price*row['Qty']- trading_price*row['Qty'])
-                        else:
-                            coll.update_one({"_id":row['_id']},{"$set":{"TpHit": True}})
-                            mtmlossprofit = mtmlossprofit+ (trading_price*row['Qty']-traded_price*row['Qty']) '''
+                                            tag="ChartInkScraper") '''
+                    
+                    #for Alice Blue order placement
+                    #ins = alice.get_instrument_by_symbol(symbol= row['TradingSymbol'],exchange='NFO')
+
+                    #ce_order_sl = place_order_aliceblue(ins,25,'BUY')
+                    #print(ce_order_sl)
+                    
                     coll.update_one({"_id":row['_id']},{"$set":{"FinalPrice":trading_price}})
-                            
-            print("ID-"+str(row['_id']) +"  " +"Trading Symbol - "+ row['TradingSymbol'])
+                    coll.update_one({"_id":row['_id']},{"$set":{"FinalTradedDate":datetime.datetime.now()}})
+                    if trading_price <= tp_val:
+                        coll.update_one({"_id":row['_id']},{"$set":{"TpHit":True}})
+                    else:
+                        coll.update_one({"_id":row['_id']},{"$set":{"SlHit":True}})
+                mtmlossprofit = mtmlossprofit+(traded_price*row['Qty']-trading_price*row['Qty'])
+            else:
+                #commented below for now since we are dealing with short straddle banknifty right now
+                ''' if trading_price >= tp_val or trading_price <= sl_val:
+                    producttype=None
+                    if row['ProductType'] == 'buy' :
+                        productype = kite.PRODUCT_CNC
+                    else:
+                        productype = kite.PRODUCT_MIS
+                    order = kite.place_order(variety=kite.VARIETY_REGULAR,
+                                        exchange=kite.EXCHANGE_NSE,
+                                        tradingsymbol=row['TradingSymbol'],
+                                        transaction_type=kite.TRANSACTION_TYPE_SELL,
+                                        quantity=row['Qty'],
+                                        product= productype,
+                                        order_type=kite.ORDER_TYPE_MARKET,
+                                        price=trading_price,
+                                        validity=None,
+                                        disclosed_quantity=None,
+                                        trigger_price=None,
+                                        squareoff=None,
+                                        stoploss=None,
+                                        trailing_stoploss=None,
+                                        tag="ChartInkScraper")
+                    coll.update_one({"_id":row['_id']},{"$set":{"FinalPrice":trading_price}})
+                    coll.update_one({"_id":row['_id']},{"$set":{"FinalTradedDate":datetime.datetime.now()}})
+                    if trading_price <= sl_val:
+                        coll.update_one({"_id":row['_id']},{"$set":{"SlHit": True}})
+                        mtmlossprofit = mtmlossprofit+(traded_price*row['Qty']- trading_price*row['Qty'])
+                    else:
+                        coll.update_one({"_id":row['_id']},{"$set":{"TpHit": True}})
+                        mtmlossprofit = mtmlossprofit+ (trading_price*row['Qty']-traded_price*row['Qty']) '''
+                #coll.update_one({"_id":row['_id']},{"$set":{"FinalPrice":trading_price}})
+                        
+        print("ID-"+str(row['_id']) +"  " +"Trading Symbol - "+ row['TradingSymbol'])
 
     print("The      MTM   amount =="+str(mtmlossprofit))
 
-    #print("Stop loss and Profit Taking loop")
-    
 if __name__ == '__main__':
+#def short_straddle_main():
     try:
         logging.info('Alice_Blue_API.py...execution started now.....')
-        logging.info("Short Straddle Number -1")
+
+        schedule.every().day.at("13:16").do(createshortstraddlebnf)
+
+        schedule.every().day.at("13:25").do(createshortstraddlebnf)
+
+        schedule.every().day.at("13:30").do(createshortstraddlebnf)
+
+        schedule.every().day.at("13:20").do(createshortstraddlebnf)
         logging.info("**********************************************************")
-        schedule.every().day.at("09:20").do(createshortstraddlebnf)
-        logging.info("**********************************************************")
-        logging.info("Short Straddle Number -2")
-        logging.info("**********************************************************")
-        schedule.every().day.at("09:50").do(createshortstraddlebnf)
-        logging.info("**********************************************************")
-        logging.info("Short Straddle Number -3")
-        logging.info("**********************************************************")
-        schedule.every().day.at("10:15").do(createshortstraddlebnf)
-        logging.info("**********************************************************")
-        logging.info("Short Straddle Number -4")
-        logging.info("**********************************************************")
-        schedule.every().day.at("10:45").do(createshortstraddlebnf)
-        logging.info("**********************************************************")
-        schedule.every(2).minutes.do(check_sl_pt)
+        schedule.every(1).minutes.do(check_sl_pt)
         schedule.every(1).minutes.do(calculate_mtm)
 
         while True:        
@@ -433,9 +462,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         logging.info('Logged out of the program using keyboard interrupt....')
 
-        #code for the most loved screeners
-''' df_most_loved_screeners['OccurInDiffScreeners'] = df_bullish.groupby(by="nsecode")['nsecode'].transform('count')
-df_most_loved_screeners = df_most_loved_screeners.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
-df_most_loved_screeners.drop(['Unnamed: 0','sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
-grp_most_loved_screeners =  df_most_loved_screeners.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
-grp_most_loved_screeners = grp_most_loved_screeners[grp_most_loved_screeners['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False) '''
+  
