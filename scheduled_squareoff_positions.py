@@ -28,7 +28,6 @@ def initialize():
     global kite
     
     client = pymongo.MongoClient(mongodbclient,tlsCAFile=certifi.where())
-    #enctoken =  "AF5py89+I7oOsT2cXsIuSPLNpXYCuJzaQ6LMwElxZm5T2xmVIWeICoCeSj4Cf/4Baoge0LxFEUPNaohA3nFFW3xKvF+TePjUR/Aqpwn9tb/Rkten3DwlPA=="
     kite = KiteApp(enctoken=enctoken)
 
 def updateslhitcolumn():
@@ -189,22 +188,15 @@ def check_sl_pt():
 
     print("Stop loss and Profit Taking loop")
     
-# Task scheduling
-
 schedule.every(1).minutes.do(check_sl_pt)
 schedule.every(1).minutes.do(calculate_mtm)
 
-# Loop so that the scheduling task
-# keeps on running all time.
 while True:
     initialize()
     #updateslhitcolumn()
     schedule.run_pending()
     time.sleep(1)
 
-''' if __name__ == "__main__":    
-    initialize()
-    check_sl_pt()
-    calculate_mtm() '''
+
 
 

@@ -1,9 +1,9 @@
-
 def GetDataFromChartink(payload):
 
     import requests
     from bs4 import BeautifulSoup
     import pandas as pd
+    import logging
     
     Charting_Link = "https://chartink.com/screener/"
     Charting_url = 'https://chartink.com/screener/process'
@@ -26,10 +26,13 @@ def GetDataFromChartink(payload):
                 df = df.append(item, ignore_index=True)
         return df
     except requests.exceptions.HTTPError as e:
-        print(e)
-        print("some error in the connection")
+        #print(e)
+        logging.info(e)
+        #print("some error in the connection")
+        logging.info("Error in network connection")
     except requests.exceptions.RequestException as e:
-        print(e)
+        #print(e)
+        logging.info(e)
 
 # Python code to remove whitespace
 from functools import reduce
@@ -51,13 +54,13 @@ def removespaces(txt):
 # Using re.sub()
 
 
-def CreateCsvFile(textdirection,starttime):
+def CreateCsvFile(marketdirection,starttime):
     from pathlib import Path
     from datetime import datetime
     
     today = datetime.now().strftime("%d_%m_%Y")
     endtime=datetime.now().strftime("%H_%M_%S")
-    filename = today+"\\"+starttime+"_"+textdirection+"_"+endtime+".csv"
+    filename = today+"\\"+starttime+"_"+marketdirection+"_"+endtime+".csv"
     output_file = Path(filename)
        
     output_file.parent.mkdir(exist_ok=True, parents=True)
@@ -65,7 +68,7 @@ def CreateCsvFile(textdirection,starttime):
     
 
 
-def ChartInkScraper(textdirection):
+def ChartInkScraper(marketdirection):
 
     import pandas as pd
     from datetime import datetime
@@ -76,6 +79,7 @@ def ChartInkScraper(textdirection):
     from selenium.webdriver.common.keys import Keys
     from selenium.webdriver import DesiredCapabilities as dc
     import pyperclip
+    import logging
 
 
     chrome_driver_path = r"C:\chromedriver.exe"
@@ -86,7 +90,7 @@ def ChartInkScraper(textdirection):
     #browser.get("https://chartink.com/screeners/bearish-screeners")
     #browser.get("https://chartink.com/screeners/intraday-bearish-screeners")
     #browser.get("https://chartink.com/screeners/intraday-bullish-screeners")
-    browser.get("https://chartink.com/screeners/"+textdirection)
+    browser.get("https://chartink.com/screeners/"+marketdirection)
 
     listOfDataFramesOuter = pd.DataFrame()
     try:
@@ -96,6 +100,7 @@ def ChartInkScraper(textdirection):
         elements = num_rows.find_elements(By.TAG_NAME, 'tr')
         listofhyperlinks=[]
         screenercount=0
+        logging.info("Inside ChartInkScraper")
         for e in elements:
             linktext = e.text.split('\n')[0]
             listofhyperlinks.append(linktext)
@@ -106,8 +111,10 @@ def ChartInkScraper(textdirection):
             element = WebDriverWait(browser, 1).until(EC.presence_of_element_located((By.XPATH, "//div[@class='atlas-heading']"))) 
     
             screenercount=screenercount+1
-            print(screenercount)
-            print("--"+hypertext)
+            #print(screenercount)
+            logging.info(screenercount)
+            #print("--"+hypertext)
+            logging.info("--"+hypertext)
             # Get all the elements available with tag name 'i'
             elements = element.find_elements(By.TAG_NAME, 'i')
             for e in elements:
@@ -123,7 +130,8 @@ def ChartInkScraper(textdirection):
             try:
                 browser.switch_to.alert.dismiss()
             except Exception:
-                print('No alert present')
+                #print('No alert present')
+                logging.info("No alert present")
             
             data = GetDataFromChartink(payloaddata)
             if data is not None:
@@ -146,7 +154,7 @@ def ChartInkScraper(textdirection):
 
                 browser.back()
 
-        formattedfilepath = CreateCsvFile(textdirection,starttime)
+        formattedfilepath = CreateCsvFile(marketdirection,starttime)
         listOfDataFramesOuter.to_csv(formattedfilepath)
     finally:
         browser.quit()
