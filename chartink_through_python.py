@@ -4,6 +4,9 @@ def GetDataFromChartink(payload):
     from bs4 import BeautifulSoup
     import pandas as pd
     import logging
+    from win10toast import ToastNotifier
+    #toast = ToastNotifier()
+    #toast.show_toast("Hello, World!")
     
     Charting_Link = "https://chartink.com/screener/"
     Charting_url = 'https://chartink.com/screener/process'
@@ -93,6 +96,7 @@ def ChartInkScraper(marketdirection):
     browser.get("https://chartink.com/screeners/"+marketdirection)
 
     listOfDataFramesOuter = pd.DataFrame()
+    
     try:
 
         starttime=datetime.now().strftime("%H_%M_%S")
@@ -113,6 +117,8 @@ def ChartInkScraper(marketdirection):
             screenercount=screenercount+1
             #print(screenercount)
             logging.info(screenercount)
+            #toast = toast.ToastNotifier()
+            #toast.show_toast(screenercount)
             #print("--"+hypertext)
             logging.info("--"+hypertext)
             # Get all the elements available with tag name 'i'
@@ -145,7 +151,7 @@ def ChartInkScraper(marketdirection):
                 if data.shape[1] != 2:
                     data['nsecode']=data['nsecode'].astype('string')
             
-
+                #toast.show_toast(data)
                 if listOfDataFramesOuter.empty == True:
                     listOfDataFramesOuter = data
                 else:

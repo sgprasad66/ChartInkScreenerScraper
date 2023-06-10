@@ -5,7 +5,7 @@ import numpy as np
 #import sys
 
 backdays=5
-optionMaxOccurence=20
+optionMaxOccurence=15
 df_bull=pd.DataFrame()
 df_bear=pd.DataFrame()
 df_intrabull=pd.DataFrame()
@@ -25,7 +25,9 @@ def processnewfiles(processdate):
     import pandas as pd
     global file_dict
 
-    all_files = glob.glob("D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"+processdate+"\*.csv")
+    #all_files = glob.glob("D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"+processdate+"\*.csv")
+    all_files = glob.glob("Z:\ChartInk_Scraped_Files\\"+processdate+"\*.csv")
+
     
     for i,filename in enumerate(all_files, start=0):
         file1 = filename.split('\\')[-1]
@@ -46,11 +48,16 @@ def process(days):
     global file_dict
     dates=[]
     file_dict={}
-    df1=None 
-    df2=None
-    df3=None
-    df4=None
-    path = "D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"
+    #df1=None 
+    #df2=None
+    #df3=None
+    #df4=None
+    df1=pd.DataFrame()
+    df2=pd.DataFrame()
+    df3=pd.DataFrame()
+    df4=pd.DataFrame()
+    #path = "D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"
+    path="Z:\ChartInk_Scraped_Files\\"
     todayfolder = datetime.datetime.today().strftime("%d_%m_%Y")
     if backdays <= 1:
         dates.append(todayfolder)
@@ -64,14 +71,15 @@ def process(days):
         if os.path.exists(path+date):
             processnewfiles(date)
 
-    if 'bullish-screeners' in file_dict.keys():
-        df1=file_dict['bullish-screeners']
-    if 'bearish-screeners' in file_dict.keys():
-        df2=file_dict['bearish-screeners']
-    if 'intraday-bullish-screeners' in file_dict.keys():
-        df3=file_dict['intraday-bullish-screeners']
-    if 'intraday-bearish-screeners' in file_dict.keys():
-        df4=file_dict['intraday-bearish-screeners']
+            if 'bullish-screeners' in file_dict.keys():
+                df1=file_dict['bullish-screeners']
+            if 'bearish-screeners' in file_dict.keys():
+                df2=file_dict['bearish-screeners']
+            if 'intraday-bullish-screeners' in file_dict.keys():
+                df3=file_dict['intraday-bullish-screeners']
+            if 'intraday-bearish-screeners' in file_dict.keys():
+                df4=file_dict['intraday-bearish-screeners']
+
     return df1,df2,df3,df4
 #backdays=4  
 
@@ -88,20 +96,25 @@ def oncombochange():
     df_intrabear=pd.DataFrame()
 
     bullish,bearish,intradaybullish,intradaybearish=process(backdays)
-    df_bull = convertdataframe(bullish)
-    df_bear = convertdataframe(bearish)
-    df_intrabull = convertdataframe(intradaybullish)
-    df_intrabear = convertdataframe(intradaybearish)
+    if bullish.empty == False:
+        df_bull = convertdataframe(bullish)
+    if bearish.empty == False:
+        df_bear = convertdataframe(bearish)
+    if intradaybullish.empty == False:
+        df_intrabull = convertdataframe(intradaybullish)
+    if intradaybearish.empty == False:
+        df_intrabear = convertdataframe(intradaybearish)
+    
 
 def convertdataframe(df):
-    if df is not None :
-        if ~df.empty :
-            df['OccurInDiffScreeners'] = df.groupby(by="nsecode")['nsecode'].transform('count')
-            df = df.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
-            df.drop(['sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
-            grp_bullish =  df.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
-            grp_bullish = grp_bullish[grp_bullish['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
-            return   grp_bullish
+    #if df is not None :
+    if df.empty == False:
+        df['OccurInDiffScreeners'] = df.groupby(by="nsecode")['nsecode'].transform('count')
+        df = df.query(f'OccurInDiffScreeners >{optionMaxOccurence}')
+        df.drop(['sr','per_chg','close','bsecode','volume'],axis=1,inplace=True)
+        grp_bullish =  df.groupby("nsecode",as_index=False)['OccurInDiffScreeners'].max() 
+        grp_bullish = grp_bullish[grp_bullish['OccurInDiffScreeners'] >optionMaxOccurence].sort_values(['OccurInDiffScreeners'],ascending=False)
+        return   grp_bullish
 
 
 
@@ -194,12 +207,16 @@ while True:
     event, values = window.read(timeout=2000)
     if event == sg.TIMEOUT_EVENT:
         #print(event, values)
-        if ~df_bull.empty :
+        
+        if ~df_bull.empty:
             window['-TABLE-BULL-'].update(values=df_bull.values.tolist())
+    
         if ~df_bear.empty:
             window['-TABLE-BEAR-'].update(values=df_bear.values.tolist())
+    
         if ~df_intrabull.empty:
             window['-TABLE-INTRABULL-'].update(values=df_intrabull.values.tolist())
+    
         if ~df_intrabear.empty:
             window['-TABLE-INTRABEAR-'].update(values=df_intrabear.values.tolist())
         
@@ -209,7 +226,7 @@ while True:
     elif event == '-GETDATA-':
         backdays=values['-COMBOBOX-']
         oncombochange()
-        if ~df_bull.empty :
+        if ~df_bull.empty:
             window['-TABLE-BULL-'].update(values=df_bull.values.tolist())
         if ~df_bear.empty:
             window['-TABLE-BEAR-'].update(values=df_bear.values.tolist())

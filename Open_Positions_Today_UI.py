@@ -48,6 +48,7 @@ NUM_DATAPOINTS=10800
 xList=[]
 yList=[]
 
+telegram_count=0
 matplotlib.use("TkAgg")
 
 def draw_figure(canvas, figure):
@@ -84,6 +85,21 @@ def animate(i):
     a.xaxis.set_major_locator(ticker.NullLocator())
     a.yaxis.set_major_locator(ticker.NullLocator())
 
+import requests
+TelegramBotCredential = '6106136909:AAEWKu4Xk1QtoIjMnoZzblRdc5SZdcntOTY'
+ReceiverTelegramID='5416986599'
+
+def send_to_telegram(message):
+
+    apiURL = f'https://api.telegram.org/bot{TelegramBotCredential}/sendMessage'
+
+    try:
+        response = requests.post(apiURL, json={'chat_id': ReceiverTelegramID, 'text': message})
+        print(response.text)
+    except Exception as e:
+        print(e)
+
+send_to_telegram("Hello from Python!")
 def delete_figure_agg(figure_agg):
     figure_agg.get_tk_widget().forget()
     try:
@@ -93,7 +109,7 @@ def delete_figure_agg(figure_agg):
 
 # ------ Make the Table Data ------
 #data = get_traded_records(datetime.today().strftime("%d_%m_%Y"))
-data = get_traded_records('06_04_2023')
+data = get_traded_records('03_05_2023')
 if data.empty is True:
     sg.popup_no_frame("No records for the day")
 else:
@@ -111,7 +127,7 @@ else:
  
     # ------ Window Layout ------
 
-    frame_layout = [[sg.T('Choose either of the chechboxes to only view them-:')],
+    frame_layout = [[sg.T('Choose either of the chechboxes to only view BankNifty and/or Stock(cash) Positions-:')],
                     [sg.Image(checked, key=('-IMAGE-', 1), metadata=True, enable_events=True),sg.Text("BankNifty"),
                      sg.Image(unchecked, key=('-IMAGE-', 2), metadata=False, enable_events=True),sg.Text("Cash Stocks")]]
     
@@ -121,7 +137,8 @@ else:
                      enable_events=True,
                      key="-COMBOBOX-",font="Helvetica 12",
                      metadata=[]),
-                     sg.Text('Total Records found ===>'),sg.Text(key='-COUNT-')]],
+                     sg.Text('Total Records found ===>'),sg.Text(key='-COUNT-')],
+                     sg.Image(unchecked, key=('-CUMULATIVE-'), metadata=False, enable_events=True),sg.Text("Selected Date P&L or Cumulative P&L")],
                     [sg.Table(values=traded_data.values.tolist(), headings = headings,auto_size_columns=True,
                         display_row_numbers=False,
                         justification='center',
@@ -162,7 +179,7 @@ while True:
     from datetime import datetime
     import matplotlib.ticker as ticker
     event, values = window.read(timeout=1000)
-
+    telegram_count +=1
     if event == sg.TIMEOUT_EVENT:
         import pandas as pd
       
@@ -179,7 +196,7 @@ while True:
         
         if tradeddate == '':
             tradeddate=datetime.today().strftime("%d_%m_%Y")
-        df = get_traded_records(tradeddate)
+        df = get_traded_records(tradeddate,window['-CUMULATIVE-'].metadata)
 
         if df.empty is True:
             #sg.popup_non_blocking("No records found for the day")
@@ -231,7 +248,8 @@ while True:
             #time_mtm_dict[time_component] = randint(-2000, 5000)
             time_mtm_dict[time_component] = mtm
             window['-MTM-'].update((format(mtm,'.2f')))
-           
+            if telegram_count % 90 == 0:
+                send_to_telegram(format(mtm,'.2f'))
             window['-TABLE-'].update(values=df.values.tolist())
             window['-TABLE-'].update(row_colors=listOfTuples)
             window['-CANVAS-'].update()
@@ -297,5 +315,10 @@ while True:
         text_key = ('-TEXT-', event[1])
         window[cbox_key].metadata = not window[cbox_key].metadata
         window[cbox_key].update(checked if window[cbox_key].metadata else unchecked)
+    
+    if event == '-CUMULATIVE-':
+        window['-CUMULATIVE-'].metadata = not window['-CUMULATIVE-'].metadata
+        window['-CUMULATIVE-'].update(checked if window['-CUMULATIVE-'].metadata else unchecked)
+
 
 window.close()
