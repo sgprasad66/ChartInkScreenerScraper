@@ -93,7 +93,7 @@ def insertordersexecuted(stockitm):
 def createshortstraddlebnf():
     # Find ATM Strike of Nifty
     #atm_strike = round(getCMP('NSE:NIFTY 50'), -2)
-    atm_strike = round(getCMP('NFO:BANKNIFTY23MARFUT'), -2)
+    atm_strike = round(getCMP('NFO:BANKNIFTY23JUNFUT'), -2)
 
     next_thursday_expiry = datetime.today() + relativedelta(weekday=TH(1))
 
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     schedule.every().day.at("09:20").do(createshortstraddlebnf)
     schedule.every().day.at("09:50").do(createshortstraddlebnf)
     schedule.every().day.at("10:10").do(createshortstraddlebnf)
-    schedule.every().day.at("10:45").do(createshortstraddlebnf)
+    schedule.every().day.at("12:14").do(createshortstraddlebnf)
 
     while True:
      

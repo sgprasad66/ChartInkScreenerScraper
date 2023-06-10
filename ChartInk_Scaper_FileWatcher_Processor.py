@@ -81,8 +81,8 @@ def getquantityfromltp(ltp,symbol):
         else:
             if ltp[symbol]['last_price'] != 0.0:
                 qty=1
-                if ltp[symbol]['last_price'] <= 10000.00:
-                    return int(10000/ltp[symbol]['last_price'])
+                if ltp[symbol]['last_price'] <= 2000.00:
+                    return int(2000/ltp[symbol]['last_price'])
                 else:
                     return qty
             else:
@@ -153,7 +153,7 @@ def tradeusingkite(key,topstockstotrade):
             transaction_type = kite.TRANSACTION_TYPE_SELL
 
     df_count =  gettradedstockscount()
-    if df_count <= 25 :
+    if df_count <= 200:
        for index in range(0,5):
             if topstockstotrade.empty == False:
                 if index < topstockstotrade.shape[0] and topstockstotrade.iloc[index].empty == False:
