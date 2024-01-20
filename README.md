@@ -18,21 +18,25 @@ Few screenshots from the scripts developed using PySimpleGUI framework.![intrada
 
 Now using the newly added files create strategies  using Finvasia API which are free unlike Zerodha.
 
-Particularly supports a strategy where we place  calls/puts and sell  one call/put which is roughly equal to the bought calls/puts.
+Particularly supports a strategy where we place two buy  calls/puts and sell  one call/put which is roughly equal to the bought calls/puts.
 
 For example:
 If the Nifty (or Banknifty or any other stock) is at say 21,622 we consider the ATM as 21600. 
+
 Leg-1: Buy 2 quantities of 21600 CALL trading at say 250 premium.
-Leg-2: Sell 1 quantity of say 21300 CALL trading at say 512 premium.
+
+Leg-2: Sell 1 quantity of deep ITM call,say 21300 CALL trading at say 512 premium.
 
 The thought process is like so: Since we are buying ATM Calls if the index/stock goes up significantly the ATM calls will gain value faster than the deep ITM CALL
-which we have sold. So the 21600 CALLs would say double while the 21300 CALL would have say moved up by 60-70% only. This difference in premia is what we try to cash
-and exit our positions programmatically. Say when this difference is two thousand rupees in our favour exit both the legs.
+which we have sold. So the 21600 CALLs would say, double while the 21300 CALL would have say moved up by 60-70% only. This difference in premia is what we try to cash in
+and exit our positions programmatically. Say, when this difference is two thousand rupees in our favour exit both the legs.
+
 Same holds true for a bearish market.Buy 2 ITM PUTS and sell one deep ITM PUT.Again the mechanism comes into play and when our fixed target is reached exit both the legs.
 But remember to exit on the Loss side also.
+
 This seems to work very well for individual stocks. Like yesterday OFSS stock went up by 7-8% intraday. The above strategy ended up with Rs.22000 -Rs.25000 difference.
 Automatically exiting the positions has not been implemented yet, will check-in shortly.
 
-This should gell well with the chartink screen scraper.The screen scraper generates four bins - positional/medium term bullish,intraday bullish,positional/medium term bearish
-and intraday bearish. Use those bins generated automatically to create the above startegy and automate the exits accordingly. This should give you significant profits.
+This should gell well with the chartink screen scraper.The screen scraper generates  stocks in four bins - positional/medium term bullish,intraday bullish,positional/medium term bearish and intraday bearish. Use those bins generated automatically to create the above startegy and automate the exits accordingly. This should give you significant profits.
+
 Please try out the above startegy and let me know the results.
