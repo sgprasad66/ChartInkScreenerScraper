@@ -286,6 +286,21 @@ def startfilewatcher():
         pass
 
 if __name__ == '__main__':
-    startfilewatcher()
+    try:
+        #logging.info('Alice_Blue_API.py...execution started now.....')
+
+        schedule.every().day.at("10:48").do(startfilewatcher)
+
+        #logging.info("**********************************************************")
+        
+        while True:        
+        # Checks whether a scheduled task
+        # is pending to run or not
+            schedule.run_pending()
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print('Logged out of the program using keyboard interrupt....')
+
+    #startfilewatcher()
 
     

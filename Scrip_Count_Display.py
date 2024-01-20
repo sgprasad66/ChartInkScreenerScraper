@@ -25,8 +25,8 @@ def processnewfiles(processdate):
     import pandas as pd
     global file_dict
 
-    #all_files = glob.glob("D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"+processdate+"\*.csv")
-    all_files = glob.glob("Z:\ChartInk_Scraped_Files\\"+processdate+"\*.csv")
+    all_files = glob.glob("D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"+processdate+"\*.csv")
+    #all_files = glob.glob("Z:\ChartInk_Scraped_Files\\"+processdate+"\*.csv")
 
     
     for i,filename in enumerate(all_files, start=0):
@@ -56,8 +56,8 @@ def process(days):
     df2=pd.DataFrame()
     df3=pd.DataFrame()
     df4=pd.DataFrame()
-    #path = "D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"
-    path="Z:\ChartInk_Scraped_Files\\"
+    path = "D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"
+    #path="Z:\ChartInk_Scraped_Files\\"
     todayfolder = datetime.datetime.today().strftime("%d_%m_%Y")
     if backdays <= 1:
         dates.append(todayfolder)

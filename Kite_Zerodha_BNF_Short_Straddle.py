@@ -121,11 +121,11 @@ def createshortstraddlebnf():
     insertordersexecuted(stockitembearish)
 
 if __name__ == '__main__':
-    atm_strike = round(getCMP('NFO:BANKNIFTY29MARFUT'), -2)
-    schedule.every().day.at("09:20").do(createshortstraddlebnf)
+    atm_strike = round(getCMP('NFO:BANKNIFTY08NOVFUT'), -2)
+    schedule.every().day.at("09:40").do(createshortstraddlebnf)
     schedule.every().day.at("09:50").do(createshortstraddlebnf)
     schedule.every().day.at("10:10").do(createshortstraddlebnf)
-    schedule.every().day.at("12:14").do(createshortstraddlebnf)
+    schedule.every().day.at("10:30").do(createshortstraddlebnf)
 
     while True:
      

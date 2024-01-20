@@ -95,7 +95,7 @@ def chartinkscrapeprocess():
  '''
 
 if __name__ == '__main__':
-    logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
+    #logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
     while True:
         #logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
         try:

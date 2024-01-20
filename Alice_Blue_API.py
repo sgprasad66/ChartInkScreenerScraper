@@ -26,13 +26,12 @@ log_filename_path =config['Logger']['LogFilePath']
 log_file_Name=config['Logger']['LogFileName']
 
 bnfshortstraddle_dict={'0930':None,'1030':None,'1130':None,'1230':None}
-
 class bankniftystraddleitem:
-    def __init__(self, inst_ce,ce_ltp,inst_pe,ltp_pe,):
+    def __init__(self, inst_ce,ce_ltp,inst_pe,pe_ltp,):
         self.inst_ce = inst_ce
         self.ce_ltp= ce_ltp
         self.inst_pe = inst_pe
-        self.ltp_pe =ltp_pe
+        self.ltp_pe =pe_ltp
         self.current_combinedpremium=0.0
         self.combpremiumatorderplacement=0.0
         self.current_ce_ltp=0.0
@@ -41,10 +40,33 @@ class bankniftystraddleitem:
 
     def getcombinedpremium(self):
         self.combpremiumatorderplacement = self.ce_ltp+self.ltp_pe
-        return self.combinedpremium    
+        return self.combpremiumatorderplacement    
+    
     def getcurrentcombinedpremium(self):
         self.current_combinedpremium = self.current_ce_ltp+self.current_pe_ltp
         return self.current_combinedpremium
+
+    def setlatesttradingprice(self,ce_price,pe_price):
+        self.current_ce_ltp=ce_price
+        self.current_pe_ltp = pe_price
+        #getcurrentcombinedpremium()
+    
+    def getdifferencebetweenpremiums(self):
+        diff = self.current_ce_ltp-self.current_pe_ltp
+        ''' if (diff >60):
+            return trendbullish
+        else:
+            return trendbearish '''
+        
+    def getcelegdiffinpremiun(self):
+        diff = self.current_ce_ltp-self.ce_ltp
+        return diff
+
+    def getpelegdiffinpremium(self):
+        diff = self.current_pe_ltp-self.pe_ltp
+        return diff
+
+    
 
 def get_kite():
     logging.basicConfig(filename=log_filename_path+'//'+log_file_Name,format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
@@ -139,11 +161,16 @@ def insertordersexecuted(stockitm):
 def createshortstraddlebnf():
 
     from datetime import timedelta
+    from dateutil.relativedelta import relativedelta, WE
+
     global alice
     from datetime import datetime
     from datetime import date
+
+    
     try:
-        atm_strike = round(getCMP('NFO:BANKNIFTY23APRFUT'), -2)
+        #atm_strike = round(getCMP('NFO:BANKNIFTY30NOV23F'), -2)
+        atm_strike=46200
     except Exception as e:
         logging.info(f"getCMP call failed ---->",e.message)
 
@@ -152,18 +179,18 @@ def createshortstraddlebnf():
     #strike_ce=atm_strike-500
     logging.info(f"CE  strike ---{str(strike_ce)}")
     #strike_pe = atm_strike+400
-    strike_pe = atm_strike
+    strike_pe = atm_strike-100
     logging.info(f"PE strike ---{str(strike_pe)}")
 
     try:
-        next_thursday_expiry = date.today() + relativedelta(weekday=TH(1))
+        next_thursday_expiry = date.today() + relativedelta(weekday=TH(+1))
         #next_thursday_expiry = next_thursday_expiry+timedelta(days=-1)
 
         ce = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.strftime("%Y-%m-%d"), is_fut=False,strike=strike_ce, is_CE=True)
-        #pe = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.strftime("%Y-%m-%d"), is_fut=False,strike=strike_pe, is_CE=False)
+        pe = alice.get_instrument_for_fno(exch="NFO",symbol='BANKNIFTY', expiry_date=next_thursday_expiry.strftime("%Y-%m-%d"), is_fut=False,strike=strike_pe, is_CE=False)
 
         symbol_ce = alice.get_scrip_info(ce)
-        #symbol_pe = alice.get_scrip_info(pe)
+        symbol_pe = alice.get_scrip_info(pe)
 
         ins = alice.get_instrument_by_symbol(symbol=symbol_ce['TSymbl'],exchange='NFO')
 
@@ -180,13 +207,13 @@ def createshortstraddlebnf():
         stockitembullish = stockitem(symbol_ce['TSymbl'],ce_order,float(symbol_ce['LTP']),25,'SELL',False,False,0.0,'sell',strike_ce,next_thursday_expiry)   
         insertordersexecuted(stockitembullish)
 
-        #ins = alice.get_instrument_by_symbol(symbol=symbol_pe['TSymbl'],exchange='NFO')
-        #pe_order = place_order_aliceblue(ins,25,'SELL')
+        ins = alice.get_instrument_by_symbol(symbol=symbol_pe['TSymbl'],exchange='NFO')
+        pe_order = place_order_aliceblue(ins,25,'SELL')
 
         #print(f"order for {symbol_pe['TSymbl']} - PE sell placed at  {str(symbol_pe['LTP'])}")
         #logging.info(f"order for {symbol_pe['TSymbl']} - PE sell placed at  {str(symbol_pe['LTP'])}")
-        #stockitembearish = stockitem(symbol_pe['TSymbl'],pe_order,float(symbol_pe['LTP']),25,'SELL',False,False,0.0,'sell',strike_pe,next_thursday_expiry)
-        #insertordersexecuted(stockitembearish)
+        stockitembearish = stockitem(symbol_pe['TSymbl'],pe_order,float(symbol_pe['LTP']),25,'SELL',False,False,0.0,'sell',strike_pe,next_thursday_expiry)
+        insertordersexecuted(stockitembearish)
     except Exception as e:
         logging.info('Exception occured at the MongoDB end-Insert call failed-')
         logging.info(e)
@@ -200,7 +227,7 @@ def getlasttradedprice(strike,expiry,is_ce):
     global alice
     from datetime import timedelta
     call=True
-    if is_ce != 'CE':
+    if is_ce != 'C' and is_ce != 'c':
         call= False
 
     #next_thursday_expiry = datetime.today() + relativedelta(weekday=TH(1))
@@ -319,7 +346,7 @@ def calculate_mtm():
         
         return listoftrades
 
-def get_traded_records(tradeddate):
+def get_traded_records(tradeddate,is_cumulative):
     #global listoftrades
     print("Inside get_traded_records of Alice_Blue_API.py.........")
     import pandas as pd
@@ -336,12 +363,12 @@ def check_sl_pt():
     coll = client[databasename][collectionname]
     trading_price=0.0
 
-    listoftrades = get_traded_records(collectionname)
+    listoftrades = get_traded_records(collectionname,True)
     for index,row in listoftrades.iterrows():
         #first update the Last Traded Price from real-time stock market
         
         if 'BANKNIFTY' in row['TradingSymbol']:
-            is_ce = row['TradingSymbol'][-2:]
+            is_ce = row['TradingSymbol'][-6]
             trading_price = getlasttradedprice(row['Strike'],row['Expiry'].date().strftime("%Y-%m-%d"),is_ce)
         else:
             ltp = kite.ltp(row['TradingSymbol'])
@@ -362,11 +389,11 @@ def check_sl_pt():
             traded_price =  row['Ltp']
                        
             if row['OrderType'] == 'SELL':
-                sl_val = (traded_price + traded_price*.5)
-                tp_val = (traded_price - traded_price*.75)
+                sl_val = (traded_price + traded_price*.2)
+                tp_val = (traded_price - traded_price*.3)
             else:
-                sl_val = (traded_price - traded_price*.5)
-                tp_val = (traded_price + traded_price*.75)
+                sl_val = (traded_price - traded_price*.2)
+                tp_val = (traded_price + traded_price*.3)
 
             if row['OrderType'] == 'SELL':
                 if trading_price <= tp_val or trading_price >= sl_val:
@@ -442,14 +469,15 @@ if __name__ == '__main__':
 #def short_straddle_main():
     try:
         logging.info('Alice_Blue_API.py...execution started now.....')
+        alice.get_contract_master("NFO")
 
-        schedule.every().day.at("13:16").do(createshortstraddlebnf)
+        schedule.every().day.at("13:38").do(createshortstraddlebnf)
 
-        schedule.every().day.at("13:25").do(createshortstraddlebnf)
+        schedule.every().day.at("10:30").do(createshortstraddlebnf)
 
-        schedule.every().day.at("13:30").do(createshortstraddlebnf)
+        schedule.every().day.at("09:50").do(createshortstraddlebnf)
 
-        schedule.every().day.at("13:20").do(createshortstraddlebnf)
+        #schedule.every().day.at("10:00").do(createshortstraddlebnf)
         logging.info("**********************************************************")
         schedule.every(1).minutes.do(check_sl_pt)
         schedule.every(1).minutes.do(calculate_mtm)
