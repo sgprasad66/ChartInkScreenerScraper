@@ -27,6 +27,9 @@ Leg-1: Buy 2 quantities of 21600 CALL trading at say 250 premium.
 
 Leg-2: Sell 1 quantity of deep ITM call,say 21300 CALL trading at say 512 premium.
 
+The main idea is the premium bought should be roughly equivalent to the premium sold.In the above example 250*2=500 which is roughly equivalent to 512.Hence
+the loss would not too significant but the profits would be good.
+
 The thought process is like so: Since we are buying ATM Calls if the index/stock goes up significantly the ATM calls will gain value faster than the deep ITM CALL
 which we have sold. So the 21600 CALLs would say, double while the 21300 CALL would have say moved up by 60-70% only. This difference in premia is what we try to cash in
 and exit our positions programmatically. Say, when this difference is two thousand rupees in our favour exit both the legs.
