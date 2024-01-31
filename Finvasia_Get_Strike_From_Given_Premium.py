@@ -34,11 +34,11 @@ api = ShoonyaApiPy()
 
 def init():
     
-    user        = "FA136660"
-    pwd         = "Sgprasad12@"
-    vc          = "FA136660_U"
-    app_key     = "acf591571dae1737ac28495698e2eaf1"
-    token       = "54F7Y5B2H5N32W36TYFOJUD6W67U2W4V"
+    user        = "Username"
+    pwd         = "Password"
+    vc          = "%%%%%%%%"
+    app_key     = "%%%%%%%%%%%%%%%%%"
+    token       = "%%%%%%%%%%%%"
     global fno_scrips
     time.sleep(2)
     while True:
