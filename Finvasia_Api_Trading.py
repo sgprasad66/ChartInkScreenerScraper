@@ -2,11 +2,11 @@
     from NorenRestApiPy.NorenApi import  NorenApi
     import pyotp
 
-    user        = "FA136660"
-    pwd         = "SpiritFav66*"
-    vc          = "FA136660_U"
-    app_key     = "f3fc8d474408bb1095ee5939ab91d1ca"
-    token       = "G343QP74S42M3C33EV3F4K5363B7V6M4"
+    user        = ""
+    pwd         = "*"
+    vc          = ""
+    app_key     = ""
+    token       = ""
 
     class ShoonyaApiPy(NorenApi):
         def __init__(self):
@@ -94,11 +94,11 @@ api = ShoonyaApiPy()
 
 def init():
     
-    user        = "FA136660"
-    pwd         = "SpiritWas12#"
-    vc          = "FA136660_U"
-    app_key     = "f3fc8d474408bb1095ee5939ab91d1ca"
-    token       = "G343QP74S42M3C33EV3F4K5363B7V6M4"
+    user        = ""
+    pwd         = ""
+    vc          = ""
+    app_key     = ""
+    token       = ""
     global fno_scrips
 #app_key     = # broker.get_appkey().rstrip("\n") ##your app key
     time.sleep(2)
