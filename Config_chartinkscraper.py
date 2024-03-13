@@ -6,7 +6,7 @@ config_file = configparser.ConfigParser()
 # ADD SECTION
 config_file.add_section("MongoDBSettings")
 # ADD SETTINGS TO SECTION
-config_file.set("MongoDBSettings", "mongodbclient", "mongodb+srv://TradingUser:@cluster0.tosvjw6.mongodb.net/?retryWrites=true&w=majority")
+config_file.set("MongoDBSettings", "mongodbclient", "")
 config_file.set("MongoDBSettings", "databasename", "ChartInkTradeLog")
 config_file.set("MongoDBSettings", "collectionname", "19_01_2024")
 config_file.set("MongoDBSettings", "deletecollectionname", "19_01_2024")
@@ -17,7 +17,7 @@ config_file.set("KiteSettings", "enctoken", "")
 
 #Add alice Blue settings
 config_file.add_section("AliceBlueSettings")
-config_file.set("AliceBlueSettings", "username", "AB067538")
+config_file.set("AliceBlueSettings", "username", "")
 config_file.set("AliceBlueSettings", "apikey", "")
 
 config_file.set("AliceBlueSettings", "password", "19_01_2024")
