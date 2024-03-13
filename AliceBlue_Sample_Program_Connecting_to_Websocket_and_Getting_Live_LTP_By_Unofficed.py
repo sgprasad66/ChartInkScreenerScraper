@@ -19,12 +19,12 @@ from alice_blue import *
 #Follow https://unofficed.com/how-to-activate-the-api-in-alice-blue-for-automated-trading/ for generating api_ID and api_Secret 
 
 #Only Replace it with your credentails
-username    = "AB067538" 
-password    = "SpiritFav66*" 
-twoFA       = "243396"
-app_id      = "UDXXPjmSSFeqeac"
-#api_secret  = "eYyYHWcDyOtLOxCOZcsTTfUujvEcuhgNJgryaQcufVaGXmIKsygsmiABDDGsBIbqHGaQQdFtYNLTSPcESmeTNLTJxbQGNikyFUDi"
-api_secret = 'A2oYu9unGxQeLyazBgNHz3rMsvEi2Bnvx2T0PCGJW60QNmf8HvuLtuzQdJzH9JxJmeLbHkkiNOBIdSmUOgSeRV0riIhZ9b61kDuf66tko7RFLNsvAdfyORAN382UzINg'
+username    = "" 
+password    = "*" 
+twoFA       = ""
+app_id      = ""
+#api_secret  = ""
+api_secret = ''
 
 #Generating Session ID
 session_id = AliceBlue.login_and_get_sessionID(username=username,password=password,twoFA=twoFA,app_id=app_id,api_secret=api_secret)
