@@ -1,87 +1,33 @@
 import PySimpleGUI as sg
 import pandas as pd
 import numpy as np
-#from datetime import datetime
-#import sys
+import seaborn as sns
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
+from Utils import process, processnewfiles, convertdataframe
 
 backdays=5
-optionMaxOccurence=15
+optionMaxOccurence=5
 df_bull=pd.DataFrame()
 df_bear=pd.DataFrame()
 df_intrabull=pd.DataFrame()
 df_intrabear=pd.DataFrame()
 
+df_global = pd.DataFrame()
 
-def removefirstcolumn(dataframeinput):
-    first_column = dataframeinput.columns[0]
-    # Delete first
-    dataframeinput = dataframeinput.drop([first_column], axis=1)
-    return dataframeinput
-
-def processnewfiles(processdate):
-    import glob
-    import numpy as np
-    import os
-    import pandas as pd
-    global file_dict
-
-    #all_files = glob.glob("D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"+processdate+"\*.csv")
-    all_files = glob.glob("Z:\ChartInk_Scraped_Files\\"+processdate+"\*.csv")
-
+def create_seaborn_plot():
+    matrix = np.random.randint(20, size=(10, 10))
+    figure = Figure(figsize=(3, 3))
     
-    for i,filename in enumerate(all_files, start=0):
-        file1 = filename.split('\\')[-1]
-        file = file1.split('_')[3]
-        key = file
-        df = pd.read_csv(filename)
-        df = removefirstcolumn(df)
-        if file_dict.get(key) is None:
-            file_dict[key]= pd.DataFrame()
-        file_dict[key] = pd.concat([file_dict.get(key),df])
+    ax = figure.subplots()
+    ax.cla()
+    sns.heatmap(matrix, square=True, cbar=False, ax=ax)
+    return figure
 
-def process(days):
-    import glob
-    import numpy as np
-    import os
-    import pandas as pd
-    import datetime
-    global file_dict
-    dates=[]
-    file_dict={}
-    #df1=None 
-    #df2=None
-    #df3=None
-    #df4=None
-    df1=pd.DataFrame()
-    df2=pd.DataFrame()
-    df3=pd.DataFrame()
-    df4=pd.DataFrame()
-    #path = "D:\\FilesFromRoopesh\\OptionsPakshiResampling\\ChartInkScreenerScraper\\"
-    path="Z:\ChartInk_Scraped_Files\\"
-    todayfolder = datetime.datetime.today().strftime("%d_%m_%Y")
-    if backdays <= 1:
-        dates.append(todayfolder)
-    else:
-        for index in range(0,backdays):
-            prev_day = datetime.datetime.today() - datetime.timedelta(days=index)
-            dates.append(prev_day.strftime("%d_%m_%Y"))
 
-    print(dates)
-    for date in dates:
-        if os.path.exists(path+date):
-            processnewfiles(date)
 
-            if 'bullish-screeners' in file_dict.keys():
-                df1=file_dict['bullish-screeners']
-            if 'bearish-screeners' in file_dict.keys():
-                df2=file_dict['bearish-screeners']
-            if 'intraday-bullish-screeners' in file_dict.keys():
-                df3=file_dict['intraday-bullish-screeners']
-            if 'intraday-bearish-screeners' in file_dict.keys():
-                df4=file_dict['intraday-bearish-screeners']
 
-    return df1,df2,df3,df4
-#backdays=4  
+
 
 
 def oncombochange():
@@ -96,14 +42,14 @@ def oncombochange():
     df_intrabear=pd.DataFrame()
 
     bullish,bearish,intradaybullish,intradaybearish=process(backdays)
-    if bullish.empty == False:
+    ''' if bullish.empty == False:
         df_bull = convertdataframe(bullish)
     if bearish.empty == False:
         df_bear = convertdataframe(bearish)
     if intradaybullish.empty == False:
         df_intrabull = convertdataframe(intradaybullish)
     if intradaybearish.empty == False:
-        df_intrabear = convertdataframe(intradaybearish)
+        df_intrabear = convertdataframe(intradaybearish) '''
     
 
 def convertdataframe(df):
@@ -119,13 +65,15 @@ def convertdataframe(df):
 
 
 
+
 Dateslist = [day for day in np.arange(1,60,1)]
 
 layouttop = [[sg.Text('How many days of BackTracked Data to Display:'),sg.Combo(values=Dateslist,
                      size=(20, 7),
                      enable_events=True,
                      key="-COMBOBOX-",font="Helvetica 12",
-                     metadata=[]),sg.Button("Get Data",key='-GETDATA-'),sg.Button("Graphical View",key='-GETDATAGRAPH-')
+                     metadata=[]),sg.Button("Get Data",key='-GETDATA-'),sg.Button("Graphical View",key='-GETDATAGRAPH-'),
+                     [sg.Canvas(size=(300, 300), key="-CANVAS-")]
                      ]]
 
 layouttoprow = [sg.Text("Bullish Scrips    ======>  "),sg.Table(values=df_bull.values.tolist(), headings=['NseCode','NumberOfOccurencesinScreeners'],auto_size_columns=False,
@@ -244,7 +192,12 @@ while True:
 
     if event == '-GETDATAGRAPH-':
         if ~df_bull.empty :
-            window['-CANVAS1-'].update(values=df_bull.value_counts().plot.bar())
+            fig = create_seaborn_plot()
+            canvas_elem = sg.Canvas(size=(300, 300), key="-CANVAS-")
+            canvas = FigureCanvasTkAgg(fig, canvas_elem.Widget)
+            canvas.draw()
+            window["-CANVAS-"].Widget.pack(fill="both", expand=True)
+            #window['-CANVAS1-'].update(values=df_bull.value_counts().plot.bar())
     if event == 'Edit Me':
         sg.execute_editor(__file__)
     elif event == 'Version':

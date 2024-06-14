@@ -4,6 +4,7 @@ from multiprocessing import Pool
 from chartink_through_python import GetDataFromChartink
 from chartink_through_python import ChartInkScraper
 import logging
+from datetime import datetime, time
 
 screenmapper={
     '1': 'bullish-screeners',
@@ -12,29 +13,6 @@ screenmapper={
     '4': 'intraday-bullish-screeners',
     '5': 'top-loved-screeners'
 }
-
-''' def worker(name: str) -> None:
-
-    print(f'Started worker {name}')
-
-    #worker_time = random.choice(range(1, 5))
-
-    #time.sleep(worker_time)
-    ChartInkScraper(name)
-
-    print(f'{name} worker finished')
-
-if __name__ == '__main__':
-
-    process_names = [screenmapper.get(str(i+1)) for i in range(5)]
-
-    pool = Pool(processes=4)
-
-    pool.map(worker, process_names)
-
-    pool.terminate() '''
-
-    # worker_thread_subclass.py
 
 import random
 import multiprocessing
@@ -95,17 +73,26 @@ def chartinkscrapeprocess():
  '''
 
 if __name__ == '__main__':
-    logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
+   #logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
     while True:
         #logging.basicConfig(filename=r"D:\scraper\output.log",format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=20)
         try:
             for index in range(0,4):
                 ChartInkScraper(screenmapper.get(str(index+1)))
 
-            endtime=datetime.now()
-            if endtime.hour < 15 or endtime.hour >= 15 and endtime.minute <32:
+            # Get the current time
+            current_time = datetime.now().time()
+
+            # Define the start and end times
+            start_time = time(9, 15)
+            end_time = time(15, 30)
+
+            # Check if the current time is between start_time and end_time
+            if start_time <= current_time <= end_time:
+                #logging.info("Current time is between 9:15 AM and 3:30 PM.")
                 continue
             else:
+                print("Markets open only between 9:15 AM and 3:30 PM.")
                 break
         except Exception as e:
-            pass
+            logging.error("Encountered some Error")

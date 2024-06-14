@@ -57,13 +57,16 @@ def removespaces(txt):
 # Using re.sub()
 
 
-def CreateCsvFile(marketdirection,starttime):
+def CreateCsvFile(marketdirection,starttime,ohlc_data):
     from pathlib import Path
     from datetime import datetime
     
     today = datetime.now().strftime("%d_%m_%Y")
     endtime=datetime.now().strftime("%H_%M_%S")
-    filename = today+"\\"+starttime+"_"+marketdirection+"_"+endtime+".csv"
+    if ohlc_data == True:
+        filename = today+"\\ohlc_data\\"+starttime+"_"+marketdirection+"_"+endtime+".csv"
+    else:
+        filename = today+"\\"+starttime+"_"+marketdirection+"_"+endtime+".csv"
     output_file = Path(filename)
        
     output_file.parent.mkdir(exist_ok=True, parents=True)
@@ -83,24 +86,31 @@ def ChartInkScraper(marketdirection):
     from selenium.webdriver import DesiredCapabilities as dc
     import pyperclip
     import logging
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    #from webdriver_manager.chrome import ChromeDriverManager
 
 
-    chrome_driver_path = r"C:\chromedriver.exe"
-    browser = webdriver.Chrome(chrome_driver_path)
+    from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service
+    service = Service(r"C:\\chromedriver.exe")
+    options = webdriver.ChromeOptions()
+
+    #uncomment below to run chrome in headless mode
+    #options.add_argument("--headless=new")
+    
+    driver = webdriver.Chrome(service=service, options=options)
+
+
     dc.CHROME["unexpectedAlertBehaviour"] = "accept"
-
-    #browser.get("https://chartink.com/screeners/bullish-screeners")
-    #browser.get("https://chartink.com/screeners/bearish-screeners")
-    #browser.get("https://chartink.com/screeners/intraday-bearish-screeners")
-    #browser.get("https://chartink.com/screeners/intraday-bullish-screeners")
-    browser.get("https://chartink.com/screeners/"+marketdirection)
-
+    driver.get("https://chartink.com/screeners/"+marketdirection)
     listOfDataFramesOuter = pd.DataFrame()
     
     try:
 
         starttime=datetime.now().strftime("%H_%M_%S")
-        num_rows = WebDriverWait(browser, 1).until(EC.presence_of_element_located((By.XPATH, "//table[@class='table table-striped']")))
+        num_rows = WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.XPATH, "//table[@class='table table-striped']")))
         elements = num_rows.find_elements(By.TAG_NAME, 'tr')
         listofhyperlinks=[]
         screenercount=0
@@ -110,9 +120,9 @@ def ChartInkScraper(marketdirection):
             listofhyperlinks.append(linktext)
         
         for hypertext in listofhyperlinks:
-            element = WebDriverWait(browser, 1).until(EC.presence_of_element_located((By.LINK_TEXT, hypertext)))
+            element = WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.LINK_TEXT, hypertext)))
             element.click()
-            element = WebDriverWait(browser, 1).until(EC.presence_of_element_located((By.XPATH, "//div[@class='atlas-heading']"))) 
+            element = WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.XPATH, "//div[@class='atlas-heading']"))) 
     
             screenercount=screenercount+1
             #print(screenercount)
@@ -134,7 +144,7 @@ def ChartInkScraper(marketdirection):
             payloaddata = removespaces(payloaddata)
 
             try:
-                browser.switch_to.alert.dismiss()
+                driver.switch_to.alert.dismiss()
             except Exception:
                 #print('No alert present')
                 logging.info("No alert present")
@@ -158,11 +168,11 @@ def ChartInkScraper(marketdirection):
                     if data.empty == False:
                         listOfDataFramesOuter = pd.concat([listOfDataFramesOuter,data])
 
-                browser.back()
+                driver.back()
 
-        formattedfilepath = CreateCsvFile(marketdirection,starttime)
+        formattedfilepath = CreateCsvFile(marketdirection,starttime,False)
         listOfDataFramesOuter.to_csv(formattedfilepath)
     finally:
-        browser.quit()
+        driver.quit()
 
 
