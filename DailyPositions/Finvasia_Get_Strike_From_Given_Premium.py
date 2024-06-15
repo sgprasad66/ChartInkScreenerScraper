@@ -100,9 +100,9 @@ class finvasia_trading_helper:
         self.thread_update.start()
 
         self.api = ShoonyaApiPy()
-        user = "FA136660"
-        pwd = "Afterlife12@"
-        vc = "FA136660_U"
+        user = ""
+        pwd = ""
+        vc = ""
         app_key = "acf591571dae1737ac28495698e2eaf1"
         token = "54F7Y5B2H5N32W36TYFOJUD6W67U2W4V"
         global fno_scrips
