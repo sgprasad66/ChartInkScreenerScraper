@@ -20,8 +20,8 @@ config_file.set("KiteSettings", "enctoken", "EVUQ36oEiejNsDMVtNDLBxG/xuBbaJbAKh+
 
 #Add alice Blue settings
 config_file.add_section("AliceBlueSettings")
-config_file.set("AliceBlueSettings", "username", "AB067538")
-config_file.set("AliceBlueSettings", "apikey", "Cr2dG4mpQaal3M5MMlAkSaa6ziJOXOq7JLle6IUWi8MFMy3QkKd1oXKUcW1bDfA4I733GfexzTg4GaKQXT8rrDPZg5LDn8Ll2sJRbRtdMuWUIrOtkTTi33RuLfxMQ0lc")
+config_file.set("AliceBlueSettings", "username", "")
+config_file.set("AliceBlueSettings", "apikey", "")
 
 config_file.set("AliceBlueSettings", "password", "14_06_2024")
 config_file.set("AliceBlueSettings", "appsecret", "14_06_2024")

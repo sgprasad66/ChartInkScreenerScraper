@@ -209,6 +209,8 @@ def createshortstraddlebnf():
     from datetime import timedelta
     from dateutil.relativedelta import relativedelta, WE
 
+    from dateutil.relativedelta import relativedelta, WE
+
     global alice
     from datetime import datetime
     from datetime import date
@@ -249,6 +251,7 @@ def createshortstraddlebnf():
         )
 
         symbol_ce = alice.get_scrip_info(ce)
+        symbol_pe = alice.get_scrip_info(pe)
         symbol_pe = alice.get_scrip_info(pe)
 
         ins = alice.get_instrument_by_symbol(symbol=symbol_ce["TSymbl"], exchange="NFO")
@@ -634,9 +637,11 @@ if __name__ == "__main__":
         alice.get_contract_master("NFO")
 
         schedule.every().day.at("13:38").do(createshortstraddlebnf)
+        schedule.every().day.at("13:38").do(createshortstraddlebnf)
 
         schedule.every().day.at("10:26").do(createshortstraddlebnf)
 
+        schedule.every().day.at("09:50").do(createshortstraddlebnf)
         schedule.every().day.at("09:50").do(createshortstraddlebnf)
 
         # schedule.every().day.at("10:00").do(createshortstraddlebnf)

@@ -6,9 +6,9 @@ user_id = ""       # Login Id
 password = ""      # Login password
 twofa = ""         # Login Pin or TOTP
 
-user_id = 'HC9926'
-password= 'Murthy12#'
-twofa='885470'
+user_id = ''
+password= ''
+twofa=''
 
 #enctoken = get_enctoken(user_id, password, twofa)
 #kite = KiteApp(enctoken=enctoken)

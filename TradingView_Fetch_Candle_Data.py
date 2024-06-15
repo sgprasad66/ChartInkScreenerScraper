@@ -310,7 +310,7 @@ class TvDatafeed:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    tv = TvDatafeed('sgprasad66','Afterlife123')
+    tv = TvDatafeed('','')
     print(tv.get_hist("CRUDEOIL", "MCX", fut_contract=1))
     print(tv.get_hist("NIFTY", "NSE", fut_contract=1))
     print(tv.get_hist("BANKNIFTY", "NSE", fut_contract=1))

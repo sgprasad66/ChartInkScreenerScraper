@@ -11,7 +11,7 @@ def initialize():
     import certifi
     global client
 
-    client = pymongo.MongoClient("mongodb+srv://TradingUser:Akshara66*@cluster0.tosvjw6.mongodb.net/?retryWrites=true&w=majority",tlsCAFile=certifi.where())
+    client = pymongo.MongoClient("mongodb+srv://?retryWrites=true&w=majority",tlsCAFile=certifi.where())
     #enctoken = "zIHb6tJAjlPNKlWePko2v4RKCp8G9kKll4X5KTeGx16/xMjPb2pieapxQUxdmxZ8NaPiZhv3LQscrvFfpHb5wujmx3H+TNRW430TliWs/NHlwo10Vd+ywQ=="
 
 
