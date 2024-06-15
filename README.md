@@ -89,3 +89,58 @@ Let me know if this helps run the code and best of luck.
 
 Let me know if there are any other issues.
 
+For placing F and O segment trades run "Finvasia_Get_Strike_From_Given_Premium.py" to place orders before market opens.
+
+I have listed a backlog of tasks planned for the coming days, includes enhancements and refactoring/restruccturing of existing code.Any one interested
+in contributing in this effort please feel free change the code ,code new strategies for example- calendar spreads,diagonal calendar spreads,covered calls,
+commodity trades or even forex trades. I would love to collaborate with anyone offering coding support or by way of domain knowledge support to enhance 
+the strategies,do get in touch with me.
+
+1.F&O stocks if they are in the ban list-How to handle the situation.
+
+2. Whenever the connection to internet is disrupted how to regenerate the websocket token connections that were already established when the trading had happened earlier.
+
+3.Whenever we go for deep ITM call/put options,if the strike has no or low volume should we change the chosen strikes.
+
+4.Include token-for index and stock calls/puts -in the Mongo database.
+
+5.Include logic for trailing stop-loss and target. When any one leg hits SL or TP, take care of SLs and TPs for the other associated legs for that trade.
+
+6.Include logic for trading in calendar spreads-at the start of the months- both for NIFTY and BANKNIFTY.
+
+7.Handle the case for including Short Straddle according to the day of the week. Mon - MidcapIndex, Tue - FINNIFTY, Wed - BANKNIFTY, Thurs - Nifty. Preferably these should be traded @.10.00am and Exited by 2.00pm or max 3pm.
+
+8.Code for Ratio spreads( 1 ATM Buy and 2 OTM Sell both for Call/Put with matching premia so we stay fully hedged.),Delta-neutral strategy for BANKNIFTY,strategies for super bullish/bearish scenarios.
+
+9.Include option for manual intervention. Supposing a two-legged strategy is performing poorly,neither hitting SL or TP, have a mechanism thro UI to show the trades and option to exit a single leg or liquidate the complete trade.Here we also need to have an option where the user can say liquidate all trades for the day and not take any further trades for the day.
+
+10.Logging using default logger,remove all print statements.
+
+11.Refactor the code so that it supports Dependency Injection,Repository Pattern-protect against underlying database changes, put the secrets,keys,username.pwds etc in the environment and retrieve it from there and other industry best practices???Based on bandwidth and availability of personnel??Low priority.
+
+12.Include buzzing stocks, toast of the season shares in the analysis pipeline and take appropriate actions.Basically listen to the social media viral news and include in your analysis both on the up and down side.
+
+13.Pick up the analyst recommendations live from TV and evaluate with our criteria and place matching trades appropriately.Explore Speech-to-text transcoding li braries in the market and translation from hindi to English services. Utilize Named-Entity-Recognition,NER for identifying the stocks from the generated text and analyse the sentiment and extract the trading recommendation and act accordingly.
+
+14.Intoduce ML and RL based algorithms in the processing pipeline mix.Employ the PPO - with RLHF algo - the current buzz in the market.
+
+15.Intruduce a scoring mechanism - similar to CIBIL score - taking into account all the features concerned and assign appropriate weights before arriving at a score for the individual stocks and based on the score arrived at take a trade -either buy/sell/no-trade. Something on the lines of CIBIL. Remember,If the CIBIL is below 750,no loans offered by the private/public sector banks.
+
+16.Debate on a good Interprocess mechanism,like PIPES,Multiprocessing Queues,SOCKETS for real time communication between two python programs or scripts.Identify the best 
+practice for our scenario.
+
+17.Explore options to convert the python scripts/programs to serverless functions/AWS Lambdas/GCP-based mechanisms to put them on the cloud freeing our personal laptops. 
+
+18.Provide a common UI interface integrating all the scripts,configurations,dependencies etc so the user does not have to run scripts separately and remember all the configuration changes to be carried out each day at the start of the trading session.-Partially done?
+
+19.How to package together all the scripts,packages,programs for easy or one-click deployment. Explore Docker for the same.Kubernetes??
+
+20.Have all the scripts write to a common log file that could be used for run-time diagnostics to identify issues occuring while running the programs.
+
+21.Use relative paths for all file related operation.Remove all hard-coded paths and use relative path.
+
+22.Provide support for other broker APIs like Zerodha,Alice Blue, Fyers etc.
+
+23.Move some common funtionality to a single file like Utilities or Utilities folder and group the common files there. Come up with a logical-functional folder structure and segragate the files into them as appropriate.Partially done?
+
+
