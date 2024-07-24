@@ -143,4 +143,9 @@ practice for our scenario.
 
 23.Move some common funtionality to a single file like Utilities or Utilities folder and group the common files there. Come up with a logical-functional folder structure and segragate the files into them as appropriate.Partially done?
 
+Here is the screenshot of the portfolio dashboard for post-trade analysis and feedback incorporation using Power BI
+
+![image](https://github.com/user-attachments/assets/c05160c4-85ad-4098-b04c-4d9c90fc4f36)
+
+
 
