@@ -94,7 +94,7 @@ optionMaxOccurence=30
 result='bearish-screeners'
 
 optionMaxOccurence = st.selectbox(
-    'Maximum occurence of the stocks in screeners',
+    'Maximum occurrence of the stocks in screeners',
      [5,40,35,30,25,20,15,10])
 
 actions = {'A': 'bullish-screeners', 'B': 'intraday-bullish-screeners', 'C': 'bearish-screeners', 'D':'intraday-bearish-screeners'}
